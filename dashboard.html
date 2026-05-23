@@ -352,6 +352,35 @@
     margin: 1px 2px;
     white-space: nowrap;
   }
+  .tags-toggle {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    cursor: pointer;
+    padding: 3px 9px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: inherit;
+    white-space: nowrap;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .tags-toggle:hover, .tags-toggle.active { color: var(--accent); border-color: var(--accent); }
+  .tags-popover {
+    display: none;
+    position: fixed;
+    margin: 0;
+    padding: 10px 12px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    box-shadow: 0 6px 24px rgba(0,0,0,0.6);
+    max-width: 260px;
+    z-index: 1000;
+  }
+  .tags-popover.show { display: block; }
+  .tags-popover .stock-tag { margin: 3px 4px 3px 0; font-size: 11px; }
   .table-scroll {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
@@ -454,7 +483,7 @@
 
 <script>
 // Data embedded inline for local file access
-let DATA = {"lastUpdated":"2026-05-22","categories":{"launch-spacecraft":{"name":"Launch + Spacecraft","description":"Rocket launch providers, lunar landers, satellite buses, and space infrastructure companies","tickers":["RKLB","LUNR","RDW","YSS","VOYG","FLY"]},"satellite-data":{"name":"Satellite + Space Data","description":"Satellite internet, Earth observation, defense imagery, and space data-as-a-service","tickers":["ASTS","IRDM","PL","BKSY","SPIR","AMZN"]},"ai-networking":{"name":"AI + Networking","description":"Optical networking, lasers, transceivers, AI compute, and data center infrastructure","tickers":["LITE","COHR","AAOI","AVGO","MRVL","ANET","NVDA"]},"defense-drones":{"name":"Defense + Drones","description":"Military drones, autonomous combat aircraft, defense primes, and eVTOL","tickers":["KTOS","RTX","LHX","ONDS","ACHR","RCAT","PDYN","UMAC","DPRO","AVAV","LMT"]},"rf-telecom":{"name":"RF + Telecom","description":"RF chips, signal processors, connectivity semiconductors, and telecom infrastructure","tickers":["QRVO","ADI","STM","NOK"]},"materials-aerospace":{"name":"Materials + Aerospace","description":"Rare earths, specialty metals, composites, and precision materials for rockets and satellites","tickers":["MP","FCX","ATI","HXL","AA","TECK","PKE","CRS","GLW","MTRN"]}},"stocks":{"RKLB":{"name":"Rocket Lab USA","sector":"Aerospace","price":131.16,"change":-2.1,"marketCap":"$75.9B","pe":"N/A","rating":"2/5","tags":["space"]},"LUNR":{"name":"Intuitive Machines","sector":"Aerospace","price":34.24,"change":5.3,"marketCap":"$5.5B","pe":"N/A","rating":"4/5","tags":["space"]},"RDW":{"name":"Redwire Corporation","sector":"Aerospace","price":15.35,"change":1.8,"marketCap":"$3.0B","pe":"N/A","rating":"3/5","tags":["space"]},"YSS":{"name":"York Space Systems","sector":"Aerospace","price":28.13,"change":-17.0,"marketCap":"$3.7B","pe":"N/A","rating":"2/5","tags":["space"]},"VOYG":{"name":"Voyager Technologies","sector":"Aerospace","price":42.60,"change":3.2,"marketCap":"$2.4B","pe":"N/A","rating":"3/5","tags":["space"]},"FLY":{"name":"Firefly Aerospace","sector":"Aerospace","price":49.16,"change":-5.5,"marketCap":"$6.87B","pe":"N/A","rating":"2/5","tags":["space"]},"ASTS":{"name":"AST SpaceMobile","sector":"Telecom/Space","price":107.00,"change":4.5,"marketCap":"$41.4B","pe":"N/A","rating":"3/5","tags":["space"]},"IRDM":{"name":"Iridium Communications","sector":"Telecom/Space","price":48.42,"change":0.5,"marketCap":"$5.1B","pe":"46","rating":"2/5","tags":["space"]},"PL":{"name":"Planet Labs","sector":"Aerospace/Data","price":44.88,"change":8.2,"marketCap":"$15.5B","pe":"N/A","rating":"3/5","tags":["space"]},"BKSY":{"name":"BlackSky Technology","sector":"Aerospace/Data","price":44.67,"change":6.1,"marketCap":"$1.3B","pe":"N/A","rating":"4/5","tags":["space"]},"SPIR":{"name":"Spire Global","sector":"Aerospace/Data","price":18.11,"change":-2.0,"marketCap":"$400-700M","pe":"N/A","rating":"2.5/5","tags":["space"]},"AMZN":{"name":"Amazon (Project Kuiper)","sector":"Tech/Space","price":259.18,"change":1.2,"marketCap":"$2.85T","pe":"35","rating":"1.5/5","tags":["space"]},"LITE":{"name":"Lumentum Holdings","sector":"Semiconductors","price":960.00,"change":3.5,"marketCap":"$75.5B","pe":"N/A","rating":"3/5","tags":["space"]},"COHR":{"name":"Coherent Corp","sector":"Semiconductors","price":377.57,"change":2.8,"marketCap":"$74B","pe":"N/A","rating":"3/5","tags":["space"]},"AAOI":{"name":"Applied Optoelectronics","sector":"Semiconductors","price":176.81,"change":12.5,"marketCap":"$15B","pe":"N/A","rating":"4/5","tags":["space"]},"AVGO":{"name":"Broadcom","sector":"Semiconductors","price":420.00,"change":1.5,"marketCap":"$1.96T","pe":"30","rating":"1/5","tags":["space"]},"MRVL":{"name":"Marvell Technology","sector":"Semiconductors","price":190.69,"change":2.1,"marketCap":"$167B","pe":"55","rating":"2/5","tags":["space"]},"ANET":{"name":"Arista Networks","sector":"Networking","price":153.77,"change":1.8,"marketCap":"$190B","pe":"45","rating":"2/5","tags":["space"]},"NVDA":{"name":"NVIDIA","sector":"Semiconductors","price":223.47,"change":1.0,"marketCap":"$5.34T","pe":"40","rating":"1/5","tags":["space"]},"KTOS":{"name":"Kratos Defense","sector":"Defense","price":55.82,"change":-3.2,"marketCap":"$10.5B","pe":"N/A","rating":"4/5","tags":["space"]},"RTX":{"name":"RTX Corporation","sector":"Defense","price":174.56,"change":0.8,"marketCap":"$235B","pe":"22","rating":"2/5","tags":["space"]},"LHX":{"name":"L3Harris Technologies","sector":"Defense","price":307.13,"change":1.2,"marketCap":"$57.2B","pe":"25","rating":"2.5/5","tags":["space"]},"ONDS":{"name":"Ondas Inc","sector":"Defense/Drones","price":9.18,"change":15.0,"marketCap":"$4.56B","pe":"N/A","rating":"4/5","tags":["space"]},"ACHR":{"name":"Archer Aviation","sector":"Aerospace/eVTOL","price":6.10,"change":-2.5,"marketCap":"$4.65B","pe":"N/A","rating":"3/5","tags":["space"]},"RCAT":{"name":"Red Cat Holdings","sector":"Defense/Drones","price":9.38,"change":4.2,"marketCap":"$1.15B","pe":"N/A","rating":"3.5/5","tags":["space"]},"PDYN":{"name":"Palladyne AI","sector":"Defense/AI","price":6.18,"change":5.0,"marketCap":"$305M","pe":"N/A","rating":"3.5/5","tags":["space"]},"UMAC":{"name":"Unusual Machines","sector":"Defense/Drones","price":14.97,"change":3.0,"marketCap":"$760M","pe":"N/A","rating":"3/5","tags":["space"]},"DPRO":{"name":"Draganfly","sector":"Defense/Drones","price":6.31,"change":1.5,"marketCap":"$215M","pe":"N/A","rating":"2.5/5","tags":["space"]},"AVAV":{"name":"AeroVironment","sector":"Defense/Drones","price":169.44,"change":-8.5,"marketCap":"$10.2B","pe":"N/A","rating":"3.5/5","tags":["space"]},"LMT":{"name":"Lockheed Martin","sector":"Defense","price":522.59,"change":0.5,"marketCap":"$120.5B","pe":"24","rating":"1.5/5","tags":["space"]},"QRVO":{"name":"Qorvo","sector":"Semiconductors","price":97.74,"change":-1.5,"marketCap":"$8.6B","pe":"14","rating":"2/5","tags":["space"]},"ADI":{"name":"Analog Devices","sector":"Semiconductors","price":217.00,"change":2.5,"marketCap":"$187.1B","pe":"28","rating":"3/5","tags":["space"]},"STM":{"name":"STMicroelectronics","sector":"Semiconductors","price":30.00,"change":-5.0,"marketCap":"$55B","pe":"N/A","rating":"4/5","tags":["space"]},"NOK":{"name":"Nokia","sector":"Telecom","price":15.72,"change":5.0,"marketCap":"$19B","pe":"20","rating":"3.5/5","tags":["space"]},"MP":{"name":"MP Materials","sector":"Materials","price":67.43,"change":3.0,"marketCap":"$12B","pe":"N/A","rating":"3/5","tags":["space"]},"FCX":{"name":"Freeport-McMoRan","sector":"Materials","price":62.00,"change":1.0,"marketCap":"$90B","pe":"15","rating":"2/5","tags":["space"]},"ATI":{"name":"ATI Inc","sector":"Materials","price":149.40,"change":2.0,"marketCap":"$20.2B","pe":"34","rating":"3/5","tags":["space"]},"HXL":{"name":"Hexcel","sector":"Materials","price":79.21,"change":0.5,"marketCap":"$6.0B","pe":"25","rating":"2.5/5","tags":["space"]},"AA":{"name":"Alcoa","sector":"Materials","price":70.00,"change":0.8,"marketCap":"$18B","pe":"12","rating":"1.5/5","tags":["space"]},"TECK":{"name":"Teck Resources","sector":"Materials","price":59.00,"change":2.0,"marketCap":"$28.8B","pe":"14","rating":"2/5","tags":["space"]},"PKE":{"name":"Park Aerospace","sector":"Materials","price":25.00,"change":0.2,"marketCap":"$525M","pe":"20","rating":"2/5","tags":["space"]},"CRS":{"name":"Carpenter Technology","sector":"Materials","price":420.00,"change":3.5,"marketCap":"$21.23B","pe":"30","rating":"3.5/5","tags":["space"]},"GLW":{"name":"Corning","sector":"Materials/Tech","price":66.00,"change":1.5,"marketCap":"$165B","pe":"30","rating":"2/5","tags":["space"]},"MTRN":{"name":"Materion","sector":"Materials","price":133.00,"change":2.0,"marketCap":"$2.74B","pe":"25","rating":"2.5/5","tags":["space"]}}};
+let DATA = {"lastUpdated":"2026-05-22","categories":{"launch-spacecraft":{"name":"Launch + Spacecraft","description":"Rocket launch providers, lunar landers, satellite buses, and space infrastructure companies","tickers":["RKLB","LUNR","RDW","YSS","VOYG","FLY"]},"satellite-data":{"name":"Satellite + Space Data","description":"Satellite internet, Earth observation, defense imagery, and space data-as-a-service","tickers":["ASTS","IRDM","PL","BKSY","SPIR","AMZN"]},"ai-networking":{"name":"AI + Networking","description":"Optical networking, lasers, transceivers, AI compute, and data center infrastructure","tickers":["LITE","COHR","AAOI","AVGO","MRVL","ANET","NVDA","POET","KEEL"]},"defense-drones":{"name":"Defense + Drones","description":"Military drones, autonomous combat aircraft, defense primes, and eVTOL","tickers":["KTOS","RTX","LHX","ONDS","ACHR","RCAT","PDYN","UMAC","DPRO","AVAV","LMT"]},"rf-telecom":{"name":"RF + Telecom","description":"RF chips, signal processors, connectivity semiconductors, and telecom infrastructure","tickers":["QRVO","ADI","STM","NOK","LAES"]},"materials-aerospace":{"name":"Materials + Aerospace","description":"Rare earths, specialty metals, composites, and precision materials for rockets and satellites","tickers":["MP","FCX","ATI","HXL","AA","TECK","PKE","CRS","GLW","MTRN","TEL"]}},"stocks":{"RKLB":{"name":"Rocket Lab USA","sector":"Aerospace","price":131.16,"change":-2.1,"marketCap":"$75.9B","pe":"N/A","rating":"2/5","tags":["space"]},"LUNR":{"name":"Intuitive Machines","sector":"Aerospace","price":34.24,"change":5.3,"marketCap":"$5.5B","pe":"N/A","rating":"4/5","tags":["space"]},"RDW":{"name":"Redwire Corporation","sector":"Aerospace","price":15.35,"change":1.8,"marketCap":"$3.0B","pe":"N/A","rating":"3/5","tags":["space"]},"YSS":{"name":"York Space Systems","sector":"Aerospace","price":28.13,"change":-17.0,"marketCap":"$3.7B","pe":"N/A","rating":"2/5","tags":["space"]},"VOYG":{"name":"Voyager Technologies","sector":"Aerospace","price":42.6,"change":3.2,"marketCap":"$2.4B","pe":"N/A","rating":"3/5","tags":["space"]},"FLY":{"name":"Firefly Aerospace","sector":"Aerospace","price":49.16,"change":-5.5,"marketCap":"$6.87B","pe":"N/A","rating":"2/5","tags":["space"]},"ASTS":{"name":"AST SpaceMobile","sector":"Telecom/Space","price":107.0,"change":4.5,"marketCap":"$41.4B","pe":"N/A","rating":"3/5","tags":["space"]},"IRDM":{"name":"Iridium Communications","sector":"Telecom/Space","price":48.42,"change":0.5,"marketCap":"$5.1B","pe":"46","rating":"2/5","tags":["space"]},"PL":{"name":"Planet Labs","sector":"Aerospace/Data","price":44.88,"change":8.2,"marketCap":"$15.5B","pe":"N/A","rating":"3/5","tags":["space"]},"BKSY":{"name":"BlackSky Technology","sector":"Aerospace/Data","price":44.67,"change":6.1,"marketCap":"$1.3B","pe":"N/A","rating":"4/5","tags":["space"]},"SPIR":{"name":"Spire Global","sector":"Aerospace/Data","price":18.11,"change":-2.0,"marketCap":"$400-700M","pe":"N/A","rating":"2.5/5","tags":["space"]},"AMZN":{"name":"Amazon (Project Kuiper)","sector":"Tech/Space","price":259.18,"change":1.2,"marketCap":"$2.85T","pe":"35","rating":"1.5/5","tags":["space"]},"LITE":{"name":"Lumentum Holdings","sector":"Semiconductors","price":960.0,"change":3.5,"marketCap":"$75.5B","pe":"N/A","rating":"3/5","tags":["space"]},"COHR":{"name":"Coherent Corp","sector":"Semiconductors","price":377.57,"change":2.8,"marketCap":"$74B","pe":"N/A","rating":"3/5","tags":["space"]},"AAOI":{"name":"Applied Optoelectronics","sector":"Semiconductors","price":176.81,"change":12.5,"marketCap":"$15B","pe":"N/A","rating":"4/5","tags":["space"]},"AVGO":{"name":"Broadcom","sector":"Semiconductors","price":420.0,"change":1.5,"marketCap":"$1.96T","pe":"30","rating":"1/5","tags":["space"]},"MRVL":{"name":"Marvell Technology","sector":"Semiconductors","price":190.69,"change":2.1,"marketCap":"$167B","pe":"55","rating":"2/5","tags":["space"]},"ANET":{"name":"Arista Networks","sector":"Networking","price":153.77,"change":1.8,"marketCap":"$190B","pe":"45","rating":"2/5","tags":["space"]},"NVDA":{"name":"NVIDIA","sector":"Semiconductors","price":223.47,"change":1.0,"marketCap":"$5.34T","pe":"40","rating":"1/5","tags":["space"]},"KTOS":{"name":"Kratos Defense","sector":"Defense","price":55.82,"change":-3.2,"marketCap":"$10.5B","pe":"N/A","rating":"4/5","tags":["space"]},"RTX":{"name":"RTX Corporation","sector":"Defense","price":174.56,"change":0.8,"marketCap":"$235B","pe":"22","rating":"2/5","tags":["space"]},"LHX":{"name":"L3Harris Technologies","sector":"Defense","price":307.13,"change":1.2,"marketCap":"$57.2B","pe":"25","rating":"2.5/5","tags":["space"]},"ONDS":{"name":"Ondas Inc","sector":"Defense/Drones","price":9.18,"change":15.0,"marketCap":"$4.56B","pe":"N/A","rating":"4/5","tags":["space"]},"ACHR":{"name":"Archer Aviation","sector":"Aerospace/eVTOL","price":6.1,"change":-2.5,"marketCap":"$4.65B","pe":"N/A","rating":"3/5","tags":["space"]},"RCAT":{"name":"Red Cat Holdings","sector":"Defense/Drones","price":9.38,"change":4.2,"marketCap":"$1.15B","pe":"N/A","rating":"3.5/5","tags":["space"]},"PDYN":{"name":"Palladyne AI","sector":"Defense/AI","price":6.18,"change":5.0,"marketCap":"$305M","pe":"N/A","rating":"3.5/5","tags":["space"]},"UMAC":{"name":"Unusual Machines","sector":"Defense/Drones","price":14.97,"change":3.0,"marketCap":"$760M","pe":"N/A","rating":"3/5","tags":["space"]},"DPRO":{"name":"Draganfly","sector":"Defense/Drones","price":6.31,"change":1.5,"marketCap":"$215M","pe":"N/A","rating":"2.5/5","tags":["space"]},"AVAV":{"name":"AeroVironment","sector":"Defense/Drones","price":169.44,"change":-8.5,"marketCap":"$10.2B","pe":"N/A","rating":"3.5/5","tags":["space"]},"LMT":{"name":"Lockheed Martin","sector":"Defense","price":522.59,"change":0.5,"marketCap":"$120.5B","pe":"24","rating":"1.5/5","tags":["space"]},"QRVO":{"name":"Qorvo","sector":"Semiconductors","price":97.74,"change":-1.5,"marketCap":"$8.6B","pe":"14","rating":"2/5","tags":["space"]},"ADI":{"name":"Analog Devices","sector":"Semiconductors","price":217.0,"change":2.5,"marketCap":"$187.1B","pe":"28","rating":"3/5","tags":["space"]},"STM":{"name":"STMicroelectronics","sector":"Semiconductors","price":30.0,"change":-5.0,"marketCap":"$55B","pe":"N/A","rating":"4/5","tags":["space"]},"NOK":{"name":"Nokia","sector":"Telecom","price":15.72,"change":5.0,"marketCap":"$19B","pe":"20","rating":"3.5/5","tags":["space"]},"MP":{"name":"MP Materials","sector":"Materials","price":67.43,"change":3.0,"marketCap":"$12B","pe":"N/A","rating":"3/5","tags":["space"]},"FCX":{"name":"Freeport-McMoRan","sector":"Materials","price":62.0,"change":1.0,"marketCap":"$90B","pe":"15","rating":"2/5","tags":["space"]},"ATI":{"name":"ATI Inc","sector":"Materials","price":149.4,"change":2.0,"marketCap":"$20.2B","pe":"34","rating":"3/5","tags":["space"]},"HXL":{"name":"Hexcel","sector":"Materials","price":79.21,"change":0.5,"marketCap":"$6.0B","pe":"25","rating":"2.5/5","tags":["space"]},"AA":{"name":"Alcoa","sector":"Materials","price":70.0,"change":0.8,"marketCap":"$18B","pe":"12","rating":"1.5/5","tags":["space"]},"TECK":{"name":"Teck Resources","sector":"Materials","price":59.0,"change":2.0,"marketCap":"$28.8B","pe":"14","rating":"2/5","tags":["space"]},"PKE":{"name":"Park Aerospace","sector":"Materials","price":25.0,"change":0.2,"marketCap":"$525M","pe":"20","rating":"2/5","tags":["space"]},"CRS":{"name":"Carpenter Technology","sector":"Materials","price":420.0,"change":3.5,"marketCap":"$21.23B","pe":"30","rating":"3.5/5","tags":["space"]},"GLW":{"name":"Corning","sector":"Materials/Tech","price":66.0,"change":1.5,"marketCap":"$165B","pe":"30","rating":"2/5","tags":["space"]},"MTRN":{"name":"Materion","sector":"Materials","price":133.0,"change":2.0,"marketCap":"$2.74B","pe":"25","rating":"2.5/5","tags":["space"]},"POET":{"name":"POET Technologies","sector":"Semiconductors","price":14.71,"change":-0.7,"marketCap":"$1.5B","pe":"N/A","rating":"3.5/5","tags":["space","ai","photonics"]},"TEL":{"name":"TE Connectivity","sector":"Industrial/Connectors","price":206.69,"change":1.2,"marketCap":"$60.3B","pe":"22","rating":"1.5/5","tags":["space","ai","connectors"]},"KEEL":{"name":"Keel Infrastructure","sector":"AI Infrastructure","price":4.77,"change":3.5,"marketCap":"$3B","pe":"N/A","rating":"2.5/5","tags":["ai","data-center"]},"LAES":{"name":"SEALSQ Corp","sector":"Semiconductors/Security","price":3.37,"change":5.8,"marketCap":"$733M","pe":"N/A","rating":"3.5/5","tags":["ai","quantum","cybersecurity"]}}};
 
 function loadData() {
   render();
@@ -467,10 +496,10 @@ function render() {
   const stocks = Object.keys(DATA.stocks || {});
   const sectors = [...new Set(Object.values(DATA.stocks || {}).map(s => s.sector).filter(Boolean))];
 
-  // Collect all unique tags
+  // Collect all unique tags (including synthetic rating-4 / rating-5 tags)
   const allTags = {};
   Object.values(DATA.stocks || {}).forEach(s => {
-    (s.tags || []).forEach(tag => { allTags[tag] = (allTags[tag] || 0) + 1; });
+    effectiveTags(s).forEach(tag => { allTags[tag] = (allTags[tag] || 0) + 1; });
   });
   const tagList = Object.keys(allTags).sort();
 
@@ -509,30 +538,35 @@ function render() {
 
   // Render tag cards
   const tagsGrid = document.getElementById('tagsGrid');
-  // Build a map of tag -> list of tickers
+  // Build a map of tag -> list of tickers (using effective tags)
   const tagTickers = {};
   Object.entries(DATA.stocks || {}).forEach(([t, s]) => {
-    (s.tags || []).forEach(tag => {
+    effectiveTags(s).forEach(tag => {
       if (!tagTickers[tag]) tagTickers[tag] = [];
       tagTickers[tag].push(t);
     });
   });
-  tagsGrid.innerHTML = tagList.map(tag => {
-    const tickers = (tagTickers[tag] || []).map(t => {
-      const ratingNum = parseRating(DATA.stocks[t]?.rating);
-      const cls = ratingNum >= 4 ? 'ticker-chip top-rated' : 'ticker-chip';
-      return `<a href="stocks/${t}.html" class="${cls}" onclick="event.stopPropagation()">${t}</a>`;
+  tagsGrid.innerHTML = tagList
+    .filter(tag => (tagTickers[tag] || []).length > 0)
+    .map(tag => {
+      const tickers = (tagTickers[tag] || []).map(t => {
+        const ratingNum = parseRating(DATA.stocks[t]?.rating);
+        const cls = ratingNum >= 4 ? 'ticker-chip top-rated' : 'ticker-chip';
+        return `<a href="stocks/${t}.html" class="${cls}" onclick="event.stopPropagation()">${t}</a>`;
+      }).join('');
+      const activeCls = currentTagFilter === tag ? ' active' : '';
+      return `<div class="tag-card${activeCls}" data-tag="${tag}" onclick="setTagFilter('${tag}')">
+        <h3>${tagLabel(tag)} <span class="tag-card-count">${allTags[tag]} stocks</span></h3>
+        <div class="tickers">${tickers}</div>
+      </div>`;
     }).join('');
-    const activeCls = currentTagFilter === tag ? ' active' : '';
-    return `<div class="tag-card${activeCls}" onclick="setTagFilter('${tag}')">
-      <h3>${tag} <span class="tag-card-count">${allTags[tag]} stocks</span></h3>
-      <div class="tickers">${tickers}</div>
-    </div>`;
-  }).join('');
 
-  // Filter pills
-  const pillsHtml = ['All', ...cats.map(c => DATA.categories[c].name)].map((name, i) =>
-    `<span class="filter-pill${i === 0 && currentCatFilter === 'all' ? ' active' : (currentCatFilter === cats[i-1] ? ' active' : '')}" data-cat="${i === 0 ? 'all' : cats[i-1]}" onclick="setFilter(this)">${name}</span>`
+  // Filter pills: All + each non-empty tag (with friendly labels)
+  const pillTags = tagList.filter(t => (tagTickers[t] || []).length > 0);
+  const pillDefs = [{value: '', label: 'All'}, ...pillTags.map(t => ({value: t, label: tagPillLabel(t)}))];
+  const currentQ = document.getElementById('searchInput').value;
+  const pillsHtml = pillDefs.map(p =>
+    `<span class="filter-pill${p.value === currentQ ? ' active' : ''}" data-value="${p.value}" onclick="setPillFilter('${p.value}')">${p.label}</span>`
   ).join('');
   document.getElementById('filterPills').innerHTML = pillsHtml;
 
@@ -550,8 +584,16 @@ function render() {
       const text = card.textContent.toLowerCase();
       card.style.display = (!q || text.includes(q)) ? '' : 'none';
     });
+    syncPillActive();
     applyFilters();
   };
+}
+
+function syncPillActive() {
+  const v = document.getElementById('searchInput').value;
+  document.querySelectorAll('.filter-pill').forEach(p => {
+    p.classList.toggle('active', p.dataset.value === v);
+  });
 }
 
 let currentCatFilter = 'all';
@@ -566,23 +608,26 @@ function toggleSection(id, icon) {
 function setTagFilter(tag) {
   currentTagFilter = currentTagFilter === tag ? null : tag;
   document.querySelectorAll('.tag-card').forEach(c => {
-    c.classList.toggle('active', c.querySelector('h3')?.textContent.startsWith(currentTagFilter));
+    c.classList.toggle('active', c.dataset.tag === currentTagFilter);
   });
   applyFilters();
 }
 
 function filterByCategory(catKey) {
   currentCatFilter = catKey;
-  document.querySelectorAll('.filter-pill').forEach(p => {
-    p.classList.toggle('active', p.dataset.cat === catKey);
-  });
   applyFilters();
 }
 
-function setFilter(el) {
-  currentCatFilter = el.dataset.cat;
-  document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
-  el.classList.add('active');
+function setPillFilter(value) {
+  const input = document.getElementById('searchInput');
+  input.value = value;
+  if (value === '') {
+    currentCatFilter = 'all';
+    currentTagFilter = null;
+    document.querySelectorAll('.tag-card').forEach(c => c.classList.remove('active'));
+    document.querySelectorAll('.category-card, .tag-card').forEach(c => c.style.display = '');
+  }
+  syncPillActive();
   applyFilters();
 }
 
@@ -594,7 +639,7 @@ function applyFilters() {
     tickers = tickers.filter(t => allowed.has(t));
   }
   if (currentTagFilter) {
-    tickers = tickers.filter(t => (DATA.stocks[t].tags || []).includes(currentTagFilter));
+    tickers = tickers.filter(t => effectiveTags(DATA.stocks[t]).includes(currentTagFilter));
   }
   if (q) {
     tickers = tickers.filter(t => {
@@ -602,7 +647,7 @@ function applyFilters() {
       return t.toLowerCase().includes(q) ||
         (s.name || '').toLowerCase().includes(q) ||
         (s.sector || '').toLowerCase().includes(q) ||
-        (s.tags || []).some(tag => tag.toLowerCase().includes(q));
+        effectiveTags(s).some(tag => tag.toLowerCase().includes(q));
     });
   }
   renderTable(tickers);
@@ -617,6 +662,26 @@ function parseRating(r) {
   if (!r) return 0;
   const m = String(r).match(/([\d.]+)/);
   return m ? parseFloat(m[1]) : 0;
+}
+
+function effectiveTags(stock) {
+  const tags = [...(stock.tags || [])];
+  const r = parseRating(stock.rating);
+  if (r >= 5) tags.push('rating-5');
+  else if (r >= 4) tags.push('rating-4');
+  return tags;
+}
+
+function tagLabel(tag) {
+  if (tag === 'rating-4') return 'Rating 4';
+  if (tag === 'rating-5') return 'Rating 5';
+  return tag;
+}
+
+function tagPillLabel(tag) {
+  if (tag === 'rating-4') return 'Rating 4';
+  if (tag === 'rating-5') return 'Rating 5';
+  return '#' + tag;
 }
 
 function parseMktCap(mc) {
@@ -685,7 +750,7 @@ const columns = [
   { key:'weekly5', label:'5-Week', get: (t,s)=>sparkData[t]?.weekly||[], sort:(a,b)=>{const sa=a.reduce((x,y)=>x+y,0),sb=b.reduce((x,y)=>x+y,0);return sa-sb;} },
   { key:'marketCap', label:'Market Cap', get: (t,s)=>s.marketCap||'', sort:(a,b)=>parseMktCap(a)-parseMktCap(b) },
   { key:'pe', label:'P/E', get: (t,s)=>s.pe||'', sort:(a,b)=>{const na=parseFloat(a)||999,nb=parseFloat(b)||999;return na-nb;} },
-  { key:'tags', label:'Tags', get: (t,s)=>(s.tags||[]).join(','), sort:(a,b)=>a.localeCompare(b) }
+  { key:'tags', label:'Tags', get: (t,s)=>effectiveTags(s).join(','), sort:(a,b)=>a.localeCompare(b) }
 ];
 
 function sortTickers(tickers, colIdx, dir) {
@@ -736,7 +801,11 @@ function renderTable(tickers) {
     const wTotalCls = wTotal >= 0 ? 'positive' : 'negative';
     const dSign = dTotal >= 0 ? '+' : '';
     const wSign = wTotal >= 0 ? '+' : '';
-    const tagsHtml = (s.tags||[]).map(tg => `<span class="stock-tag">${tg}</span>`).join('');
+    const tags = effectiveTags(s);
+    const tagPills = tags.map(tg => `<span class="stock-tag">${tagLabel(tg)}</span>`).join('');
+    const tagsCell = tags.length
+      ? `<button class="tags-toggle" onclick="toggleTagPop(this, 'tagpop-${t}')" aria-label="Show tags">🏷&nbsp;${tags.length}</button><div id="tagpop-${t}" class="tags-popover">${tagPills}</div>`
+      : '—';
     return `<tr>
       <td><a href="stocks/${t}.html">${t}</a></td>
       <td>${s.name || '—'}</td>
@@ -748,7 +817,7 @@ function renderTable(tickers) {
       <td style="padding:4px 8px;white-space:nowrap">${miniBarSvg(sd.weekly, 60, 22)} <span class="${wTotalCls}" style="font-size:11px;font-weight:600">${wSign}${wTotal}%</span></td>
       <td>${s.marketCap || '—'}</td>
       <td>${s.pe || '—'}</td>
-      <td>${tagsHtml}</td>
+      <td>${tagsCell}</td>
     </tr>`;
   }).join('');
 
@@ -760,6 +829,37 @@ function renderTable(tickers) {
       </table>
     </div>`;
 }
+
+function closeAllTagPops() {
+  document.querySelectorAll('.tags-popover.show').forEach(p => p.classList.remove('show'));
+  document.querySelectorAll('.tags-toggle.active').forEach(b => b.classList.remove('active'));
+}
+
+function toggleTagPop(btn, popId) {
+  const pop = document.getElementById(popId);
+  const wasOpen = pop.classList.contains('show');
+  closeAllTagPops();
+  if (wasOpen) return;
+  pop.classList.add('show');
+  btn.classList.add('active');
+  const popW = pop.offsetWidth, popH = pop.offsetHeight;
+  const rect = btn.getBoundingClientRect();
+  const vw = window.innerWidth, vh = window.innerHeight;
+  let top = rect.bottom + 6;
+  if (top + popH > vh - 8) top = Math.max(8, rect.top - popH - 6);
+  let left = rect.right - popW;
+  if (left < 8) left = 8;
+  if (left + popW > vw - 8) left = vw - popW - 8;
+  pop.style.top = top + 'px';
+  pop.style.left = left + 'px';
+}
+
+document.addEventListener('click', e => {
+  if (!e.target.closest('.tags-toggle') && !e.target.closest('.tags-popover')) closeAllTagPops();
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeAllTagPops(); });
+window.addEventListener('resize', closeAllTagPops);
+document.addEventListener('scroll', closeAllTagPops, true);
 
 loadData();
 </script>

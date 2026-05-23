@@ -13,6 +13,8 @@ Companies providing the optical, silicon, and networking infrastructure powering
 | MRVL | Marvell Technology | Data center interconnects, custom AI silicon, electro-optics | 4/5 | [View](../stocks/MRVL.html) |
 | ANET | Arista Networks | AI data center switching and networking platforms | 4/5 | [View](../stocks/ANET.html) |
 | NVDA | NVIDIA | GPU-based AI compute — training and inference at scale | 5/5 | [View](../stocks/NVDA.html) |
+| POET | POET Technologies | Optical Interposer platform for 800G/1.6T AI interconnects | 3.5/5 | [View](../stocks/POET.html) |
+| KEEL | Keel Infrastructure | AI data center and energy infrastructure (ex-Bitfarms) | 2.5/5 | [View](../stocks/KEEL.html) |
 
 ## Theme Overview
 

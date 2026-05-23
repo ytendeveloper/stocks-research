@@ -10,6 +10,7 @@ Companies designing RF semiconductors, analog signal processing chips, and telec
 | ADI | Analog Devices | High-performance signal processing and analog/mixed-signal ICs | 3/5 | [View](../stocks/ADI.html) |
 | STM | STMicroelectronics | Connectivity and power chips — potential Starlink supplier | 4/5 | [View](../stocks/STM.html) |
 | NOK | Nokia | AI-RAN telecom infrastructure and network modernization | 3/5 | [View](../stocks/NOK.html) |
+| LAES | SEALSQ Corp | Post-quantum secure semiconductors and cryptographic hardware | 3.5/5 | [View](../stocks/LAES.html) |
 
 ## Theme Overview
 

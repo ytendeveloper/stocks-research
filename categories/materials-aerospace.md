@@ -16,6 +16,7 @@ Companies supplying critical materials — rare earths, specialty metals, compos
 | CRS | Carpenter Technology | Specialty alloys for rocket engines and turbine components | 4/5 | [View](../stocks/CRS.html) |
 | GLW | Corning | Specialty glass and optical materials for aerospace and telecom | 3/5 | [View](../stocks/GLW.html) |
 | MTRN | Materion | Precision advanced materials for aerospace and defense | 3/5 | [View](../stocks/MTRN.html) |
+| TEL | TE Connectivity | Connectors and sensors for aerospace, defense, and industrial | 1.5/5 | [View](../stocks/TEL.html) |
 
 ## Theme Overview
 
