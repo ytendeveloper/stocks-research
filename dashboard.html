@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stocks Research Dashboard</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d27;
+    --surface2: #242836;
+    --border: #2e3347;
+    --text: #e4e6f0;
+    --text-dim: #8b8fa8;
+    --accent: #6c9fff;
+    --green: #34d399;
+    --red: #f87171;
+    --orange: #fbbf24;
+    --purple: #a78bfa;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+  .header {
+    background: linear-gradient(135deg, #1a1d27 0%, #242836 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 28px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header h1 {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+  .header h1 span { color: var(--accent); }
+  .header-meta {
+    color: var(--text-dim);
+    font-size: 13px;
+  }
+  .stats-bar {
+    display: flex;
+    gap: 24px;
+    padding: 20px 40px;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface);
+  }
+  .stat-card {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 24px;
+    min-width: 160px;
+  }
+  .stat-card .label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-dim);
+    margin-bottom: 6px;
+  }
+  .stat-card .value {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .main { padding: 32px 40px; }
+  .section-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .section-title .badge {
+    background: var(--accent);
+    color: #0f1117;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 20px;
+  }
+  .section-title .collapse-icon {
+    cursor: pointer;
+    color: var(--text-dim);
+    font-size: 14px;
+    transition: color 0.15s, transform 0.2s;
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+    order: -1;
+  }
+  .section-title .collapse-icon:hover {
+    color: var(--accent);
+  }
+  .section-title .collapse-icon.collapsed {
+    transform: rotate(-90deg);
+  }
+  .collapsible {
+    transition: max-height 0.3s ease, opacity 0.25s ease;
+    max-height: 2000px;
+    opacity: 1;
+    padding-top: 4px;
+  }
+  .collapsible.hidden {
+    max-height: 0;
+    opacity: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+    padding-top: 0;
+  }
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+  .category-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+    transition: border-color 0.2s, transform 0.15s;
+    cursor: pointer;
+  }
+  .category-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+  }
+  .category-card h3 {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+  .category-card .desc {
+    font-size: 13px;
+    color: var(--text-dim);
+    margin-bottom: 14px;
+    line-height: 1.5;
+  }
+  .category-card .tickers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .ticker-chip {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--accent);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.15s;
+  }
+  .ticker-chip:hover {
+    background: var(--border);
+  }
+  .ticker-chip.top-rated {
+    background: rgba(52,211,153,0.12);
+    border-color: rgba(52,211,153,0.35);
+    color: var(--green);
+    box-shadow: 0 0 6px rgba(52,211,153,0.1);
+  }
+  .ticker-chip.top-rated:hover {
+    background: rgba(52,211,153,0.22);
+  }
+  .rating-cell { font-weight: 600; }
+  .rating-high { color: var(--green); }
+  .rating-med { color: var(--orange); }
+  .rating-low { color: var(--text-dim); }
+  .stocks-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .stocks-table th {
+    text-align: left;
+    padding: 12px 16px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-dim);
+    background: var(--surface2);
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.15s;
+  }
+  .stocks-table th:hover { color: var(--accent); }
+  .stocks-table th .sort-arrow { margin-left: 4px; font-size: 10px; opacity: 0.4; }
+  .stocks-table th.sorted .sort-arrow { opacity: 1; color: var(--accent); }
+  .stocks-table td {
+    padding: 12px 16px;
+    font-size: 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  .stocks-table tr:last-child td { border-bottom: none; }
+  .stocks-table tr:hover td { background: rgba(108,159,255,0.04); }
+  .stocks-table a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .stocks-table a:hover { text-decoration: underline; }
+  .positive { color: var(--green); }
+  .negative { color: var(--red); }
+  .search-bar {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 16px;
+    color: var(--text);
+    font-size: 14px;
+    width: 300px;
+    outline: none;
+    margin-bottom: 20px;
+  }
+  .search-bar::placeholder { color: var(--text-dim); }
+  .search-bar:focus { border-color: var(--accent); }
+  .empty-state {
+    text-align: center;
+    padding: 80px 40px;
+    color: var(--text-dim);
+  }
+  .empty-state h2 { font-size: 22px; margin-bottom: 10px; color: var(--text); }
+  .empty-state p { font-size: 15px; line-height: 1.6; max-width: 500px; margin: 0 auto; }
+  .filter-pills {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .filter-pill {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .filter-pill:hover, .filter-pill.active {
+    background: var(--accent);
+    color: #0f1117;
+    border-color: var(--accent);
+  }
+  .tags-section { margin-bottom: 40px; }
+  .tags-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .tag-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+    transition: border-color 0.2s, transform 0.15s;
+    cursor: pointer;
+  }
+  .tag-card:hover {
+    border-color: var(--purple);
+    transform: translateY(-2px);
+  }
+  .tag-card.active {
+    border-color: var(--purple);
+    box-shadow: 0 0 12px rgba(167,139,250,0.15);
+  }
+  .tag-card h3 {
+    font-size: 16px;
+    margin-bottom: 6px;
+    color: var(--purple);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .tag-card h3 .tag-card-count {
+    background: rgba(167,139,250,0.15);
+    color: var(--purple);
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 20px;
+  }
+  .tag-card .tickers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .tag-card .ticker-chip {
+    color: var(--purple);
+    border-color: rgba(167,139,250,0.25);
+  }
+  .tag-card .ticker-chip:hover {
+    background: rgba(167,139,250,0.15);
+  }
+  .tag-card .ticker-chip.top-rated {
+    background: rgba(52,211,153,0.12);
+    border-color: rgba(52,211,153,0.35);
+    color: var(--green);
+    box-shadow: 0 0 6px rgba(52,211,153,0.1);
+  }
+  .tag-card .ticker-chip.top-rated:hover {
+    background: rgba(52,211,153,0.22);
+  }
+  .tags-wrap { display: flex; flex-wrap: wrap; gap: 8px; display: none; }
+  .tag-pill {
+    background: rgba(167,139,250,0.1);
+    border: 1px solid rgba(167,139,250,0.25);
+    color: var(--purple);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .tag-pill:hover, .tag-pill.active {
+    background: var(--purple);
+    color: #0f1117;
+    border-color: var(--purple);
+  }
+  .tag-pill .tag-count {
+    background: rgba(255,255,255,0.15);
+    font-size: 10px;
+    padding: 1px 6px;
+    border-radius: 10px;
+    margin-left: 6px;
+  }
+  .tag-pill.active .tag-count { background: rgba(0,0,0,0.2); }
+  .stock-tag {
+    display: inline-block;
+    background: rgba(167,139,250,0.1);
+    border: 1px solid rgba(167,139,250,0.2);
+    color: var(--purple);
+    font-size: 10px;
+    font-weight: 600;
+    padding: 1px 7px;
+    border-radius: 4px;
+    margin: 1px 2px;
+    white-space: nowrap;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><span>&#9679;</span> Stocks Research Dashboard</h1>
+  <div class="header-meta">Last updated: <span id="lastUpdated">—</span></div>
+</div>
+
+<div class="stats-bar">
+  <div class="stat-card">
+    <div class="label">Categories</div>
+    <div class="value" id="catCount">0</div>
+  </div>
+  <div class="stat-card">
+    <div class="label">Total Stocks</div>
+    <div class="value" id="stockCount">0</div>
+  </div>
+  <div class="stat-card">
+    <div class="label">Sectors Covered</div>
+    <div class="value" id="sectorCount">0</div>
+  </div>
+  <div class="stat-card">
+    <div class="label">Tags</div>
+    <div class="value" id="tagCount">0</div>
+  </div>
+</div>
+
+<div class="main">
+  <!-- Categories Section -->
+  <div class="section-title"><span class="collapse-icon" id="catCollapseIcon" onclick="toggleSection('categories', this)">▼</span> Categories <span class="badge" id="catBadge">0</span></div>
+  <div id="categoriesCollapsible" class="collapsible">
+    <div id="categoriesGrid" class="categories-grid"></div>
+  </div>
+
+  <!-- Tags Section -->
+  <div class="tags-section">
+    <div class="section-title"><span class="collapse-icon" id="tagCollapseIcon" onclick="toggleSection('tags', this)">▼</span> Tags <span class="badge" id="tagBadge">0</span></div>
+    <div id="tagsCollapsible" class="collapsible">
+      <div class="tags-grid" id="tagsGrid"></div>
+    </div>
+  </div>
+
+  <!-- All Stocks Section -->
+  <div class="section-title" style="margin-top:16px;">All Stocks <span class="badge" id="stockBadge">0</span></div>
+  <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap;">
+    <input type="text" class="search-bar" id="searchInput" placeholder="Search by ticker, name, sector, or tag...">
+    <div class="filter-pills" id="filterPills"></div>
+  </div>
+  <div id="stocksTableWrap"></div>
+
+  <div id="emptyState" class="empty-state" style="display:none;">
+    <h2>No Stocks Yet</h2>
+    <p>Tell the research agent which stocks and categories to add. Each stock gets a detailed research page and appears here on the dashboard.</p>
+  </div>
+</div>
+
+<script>
+// Data embedded inline for local file access
+let DATA = {"lastUpdated":"2026-05-22","categories":{"launch-spacecraft":{"name":"Launch + Spacecraft","description":"Rocket launch providers, lunar landers, satellite buses, and space infrastructure companies","tickers":["RKLB","LUNR","RDW","YSS","VOYG","FLY"]},"satellite-data":{"name":"Satellite + Space Data","description":"Satellite internet, Earth observation, defense imagery, and space data-as-a-service","tickers":["ASTS","IRDM","PL","BKSY","SPIR","AMZN"]},"ai-networking":{"name":"AI + Networking","description":"Optical networking, lasers, transceivers, AI compute, and data center infrastructure","tickers":["LITE","COHR","AAOI","AVGO","MRVL","ANET","NVDA"]},"defense-drones":{"name":"Defense + Drones","description":"Military drones, autonomous combat aircraft, defense primes, and eVTOL","tickers":["KTOS","RTX","LHX","ONDS","ACHR","RCAT","PDYN","UMAC","DPRO","AVAV","LMT"]},"rf-telecom":{"name":"RF + Telecom","description":"RF chips, signal processors, connectivity semiconductors, and telecom infrastructure","tickers":["QRVO","ADI","STM","NOK"]},"materials-aerospace":{"name":"Materials + Aerospace","description":"Rare earths, specialty metals, composites, and precision materials for rockets and satellites","tickers":["MP","FCX","ATI","HXL","AA","TECK","PKE","CRS","GLW","MTRN"]}},"stocks":{"RKLB":{"name":"Rocket Lab USA","sector":"Aerospace","price":131.16,"change":-2.1,"marketCap":"$75.9B","pe":"N/A","rating":"2/5","tags":["space"]},"LUNR":{"name":"Intuitive Machines","sector":"Aerospace","price":34.24,"change":5.3,"marketCap":"$5.5B","pe":"N/A","rating":"4/5","tags":["space"]},"RDW":{"name":"Redwire Corporation","sector":"Aerospace","price":15.35,"change":1.8,"marketCap":"$3.0B","pe":"N/A","rating":"3/5","tags":["space"]},"YSS":{"name":"York Space Systems","sector":"Aerospace","price":28.13,"change":-17.0,"marketCap":"$3.7B","pe":"N/A","rating":"2/5","tags":["space"]},"VOYG":{"name":"Voyager Technologies","sector":"Aerospace","price":42.60,"change":3.2,"marketCap":"$2.4B","pe":"N/A","rating":"3/5","tags":["space"]},"FLY":{"name":"Firefly Aerospace","sector":"Aerospace","price":49.16,"change":-5.5,"marketCap":"$6.87B","pe":"N/A","rating":"2/5","tags":["space"]},"ASTS":{"name":"AST SpaceMobile","sector":"Telecom/Space","price":107.00,"change":4.5,"marketCap":"$41.4B","pe":"N/A","rating":"3/5","tags":["space"]},"IRDM":{"name":"Iridium Communications","sector":"Telecom/Space","price":48.42,"change":0.5,"marketCap":"$5.1B","pe":"46","rating":"2/5","tags":["space"]},"PL":{"name":"Planet Labs","sector":"Aerospace/Data","price":44.88,"change":8.2,"marketCap":"$15.5B","pe":"N/A","rating":"3/5","tags":["space"]},"BKSY":{"name":"BlackSky Technology","sector":"Aerospace/Data","price":44.67,"change":6.1,"marketCap":"$1.3B","pe":"N/A","rating":"4/5","tags":["space"]},"SPIR":{"name":"Spire Global","sector":"Aerospace/Data","price":18.11,"change":-2.0,"marketCap":"$400-700M","pe":"N/A","rating":"2.5/5","tags":["space"]},"AMZN":{"name":"Amazon (Project Kuiper)","sector":"Tech/Space","price":259.18,"change":1.2,"marketCap":"$2.85T","pe":"35","rating":"1.5/5","tags":["space"]},"LITE":{"name":"Lumentum Holdings","sector":"Semiconductors","price":960.00,"change":3.5,"marketCap":"$75.5B","pe":"N/A","rating":"3/5","tags":["space"]},"COHR":{"name":"Coherent Corp","sector":"Semiconductors","price":377.57,"change":2.8,"marketCap":"$74B","pe":"N/A","rating":"3/5","tags":["space"]},"AAOI":{"name":"Applied Optoelectronics","sector":"Semiconductors","price":176.81,"change":12.5,"marketCap":"$15B","pe":"N/A","rating":"4/5","tags":["space"]},"AVGO":{"name":"Broadcom","sector":"Semiconductors","price":420.00,"change":1.5,"marketCap":"$1.96T","pe":"30","rating":"1/5","tags":["space"]},"MRVL":{"name":"Marvell Technology","sector":"Semiconductors","price":190.69,"change":2.1,"marketCap":"$167B","pe":"55","rating":"2/5","tags":["space"]},"ANET":{"name":"Arista Networks","sector":"Networking","price":153.77,"change":1.8,"marketCap":"$190B","pe":"45","rating":"2/5","tags":["space"]},"NVDA":{"name":"NVIDIA","sector":"Semiconductors","price":223.47,"change":1.0,"marketCap":"$5.34T","pe":"40","rating":"1/5","tags":["space"]},"KTOS":{"name":"Kratos Defense","sector":"Defense","price":55.82,"change":-3.2,"marketCap":"$10.5B","pe":"N/A","rating":"4/5","tags":["space"]},"RTX":{"name":"RTX Corporation","sector":"Defense","price":174.56,"change":0.8,"marketCap":"$235B","pe":"22","rating":"2/5","tags":["space"]},"LHX":{"name":"L3Harris Technologies","sector":"Defense","price":307.13,"change":1.2,"marketCap":"$57.2B","pe":"25","rating":"2.5/5","tags":["space"]},"ONDS":{"name":"Ondas Inc","sector":"Defense/Drones","price":9.18,"change":15.0,"marketCap":"$4.56B","pe":"N/A","rating":"4/5","tags":["space"]},"ACHR":{"name":"Archer Aviation","sector":"Aerospace/eVTOL","price":6.10,"change":-2.5,"marketCap":"$4.65B","pe":"N/A","rating":"3/5","tags":["space"]},"RCAT":{"name":"Red Cat Holdings","sector":"Defense/Drones","price":9.38,"change":4.2,"marketCap":"$1.15B","pe":"N/A","rating":"3.5/5","tags":["space"]},"PDYN":{"name":"Palladyne AI","sector":"Defense/AI","price":6.18,"change":5.0,"marketCap":"$305M","pe":"N/A","rating":"3.5/5","tags":["space"]},"UMAC":{"name":"Unusual Machines","sector":"Defense/Drones","price":14.97,"change":3.0,"marketCap":"$760M","pe":"N/A","rating":"3/5","tags":["space"]},"DPRO":{"name":"Draganfly","sector":"Defense/Drones","price":6.31,"change":1.5,"marketCap":"$215M","pe":"N/A","rating":"2.5/5","tags":["space"]},"AVAV":{"name":"AeroVironment","sector":"Defense/Drones","price":169.44,"change":-8.5,"marketCap":"$10.2B","pe":"N/A","rating":"3.5/5","tags":["space"]},"LMT":{"name":"Lockheed Martin","sector":"Defense","price":522.59,"change":0.5,"marketCap":"$120.5B","pe":"24","rating":"1.5/5","tags":["space"]},"QRVO":{"name":"Qorvo","sector":"Semiconductors","price":97.74,"change":-1.5,"marketCap":"$8.6B","pe":"14","rating":"2/5","tags":["space"]},"ADI":{"name":"Analog Devices","sector":"Semiconductors","price":217.00,"change":2.5,"marketCap":"$187.1B","pe":"28","rating":"3/5","tags":["space"]},"STM":{"name":"STMicroelectronics","sector":"Semiconductors","price":30.00,"change":-5.0,"marketCap":"$55B","pe":"N/A","rating":"4/5","tags":["space"]},"NOK":{"name":"Nokia","sector":"Telecom","price":15.72,"change":5.0,"marketCap":"$19B","pe":"20","rating":"3.5/5","tags":["space"]},"MP":{"name":"MP Materials","sector":"Materials","price":67.43,"change":3.0,"marketCap":"$12B","pe":"N/A","rating":"3/5","tags":["space"]},"FCX":{"name":"Freeport-McMoRan","sector":"Materials","price":62.00,"change":1.0,"marketCap":"$90B","pe":"15","rating":"2/5","tags":["space"]},"ATI":{"name":"ATI Inc","sector":"Materials","price":149.40,"change":2.0,"marketCap":"$20.2B","pe":"34","rating":"3/5","tags":["space"]},"HXL":{"name":"Hexcel","sector":"Materials","price":79.21,"change":0.5,"marketCap":"$6.0B","pe":"25","rating":"2.5/5","tags":["space"]},"AA":{"name":"Alcoa","sector":"Materials","price":70.00,"change":0.8,"marketCap":"$18B","pe":"12","rating":"1.5/5","tags":["space"]},"TECK":{"name":"Teck Resources","sector":"Materials","price":59.00,"change":2.0,"marketCap":"$28.8B","pe":"14","rating":"2/5","tags":["space"]},"PKE":{"name":"Park Aerospace","sector":"Materials","price":25.00,"change":0.2,"marketCap":"$525M","pe":"20","rating":"2/5","tags":["space"]},"CRS":{"name":"Carpenter Technology","sector":"Materials","price":420.00,"change":3.5,"marketCap":"$21.23B","pe":"30","rating":"3.5/5","tags":["space"]},"GLW":{"name":"Corning","sector":"Materials/Tech","price":66.00,"change":1.5,"marketCap":"$165B","pe":"30","rating":"2/5","tags":["space"]},"MTRN":{"name":"Materion","sector":"Materials","price":133.00,"change":2.0,"marketCap":"$2.74B","pe":"25","rating":"2.5/5","tags":["space"]}}};
+
+function loadData() {
+  render();
+}
+
+function render() {
+  document.getElementById('lastUpdated').textContent = DATA.lastUpdated || '—';
+
+  const cats = Object.keys(DATA.categories || {});
+  const stocks = Object.keys(DATA.stocks || {});
+  const sectors = [...new Set(Object.values(DATA.stocks || {}).map(s => s.sector).filter(Boolean))];
+
+  // Collect all unique tags
+  const allTags = {};
+  Object.values(DATA.stocks || {}).forEach(s => {
+    (s.tags || []).forEach(tag => { allTags[tag] = (allTags[tag] || 0) + 1; });
+  });
+  const tagList = Object.keys(allTags).sort();
+
+  document.getElementById('catCount').textContent = cats.length;
+  document.getElementById('stockCount').textContent = stocks.length;
+  document.getElementById('sectorCount').textContent = sectors.length;
+  document.getElementById('tagCount').textContent = tagList.length;
+  document.getElementById('catBadge').textContent = cats.length;
+  document.getElementById('stockBadge').textContent = stocks.length;
+  document.getElementById('tagBadge').textContent = tagList.length;
+
+  if (stocks.length === 0) {
+    document.getElementById('emptyState').style.display = '';
+    document.getElementById('stocksTableWrap').innerHTML = '';
+    document.getElementById('categoriesGrid').innerHTML = '';
+    document.getElementById('filterPills').innerHTML = '';
+    return;
+  }
+  document.getElementById('emptyState').style.display = 'none';
+
+  // Render category cards (highlight 4+ rated tickers)
+  const catGrid = document.getElementById('categoriesGrid');
+  catGrid.innerHTML = cats.map(catKey => {
+    const cat = DATA.categories[catKey];
+    const tickers = (cat.tickers || []).map(t => {
+      const ratingNum = parseRating(DATA.stocks[t]?.rating);
+      const cls = ratingNum >= 4 ? 'ticker-chip top-rated' : 'ticker-chip';
+      return `<a href="stocks/${t}.html" class="${cls}">${t}</a>`;
+    }).join('');
+    return `<div class="category-card" onclick="filterByCategory('${catKey}')">
+      <h3>${cat.name}</h3>
+      <div class="desc">${cat.description || ''}</div>
+      <div class="tickers">${tickers}</div>
+    </div>`;
+  }).join('');
+
+  // Render tag cards
+  const tagsGrid = document.getElementById('tagsGrid');
+  // Build a map of tag -> list of tickers
+  const tagTickers = {};
+  Object.entries(DATA.stocks || {}).forEach(([t, s]) => {
+    (s.tags || []).forEach(tag => {
+      if (!tagTickers[tag]) tagTickers[tag] = [];
+      tagTickers[tag].push(t);
+    });
+  });
+  tagsGrid.innerHTML = tagList.map(tag => {
+    const tickers = (tagTickers[tag] || []).map(t => {
+      const ratingNum = parseRating(DATA.stocks[t]?.rating);
+      const cls = ratingNum >= 4 ? 'ticker-chip top-rated' : 'ticker-chip';
+      return `<a href="stocks/${t}.html" class="${cls}" onclick="event.stopPropagation()">${t}</a>`;
+    }).join('');
+    const activeCls = currentTagFilter === tag ? ' active' : '';
+    return `<div class="tag-card${activeCls}" onclick="setTagFilter('${tag}')">
+      <h3>${tag} <span class="tag-card-count">${allTags[tag]} stocks</span></h3>
+      <div class="tickers">${tickers}</div>
+    </div>`;
+  }).join('');
+
+  // Filter pills
+  const pillsHtml = ['All', ...cats.map(c => DATA.categories[c].name)].map((name, i) =>
+    `<span class="filter-pill${i === 0 && currentCatFilter === 'all' ? ' active' : (currentCatFilter === cats[i-1] ? ' active' : '')}" data-cat="${i === 0 ? 'all' : cats[i-1]}" onclick="setFilter(this)">${name}</span>`
+  ).join('');
+  document.getElementById('filterPills').innerHTML = pillsHtml;
+
+  applyFilters();
+
+  document.getElementById('searchInput').oninput = function() {
+    const q = this.value.toLowerCase();
+    // Filter category cards
+    document.querySelectorAll('.category-card').forEach(card => {
+      const text = card.textContent.toLowerCase();
+      card.style.display = (!q || text.includes(q)) ? '' : 'none';
+    });
+    // Filter tag cards
+    document.querySelectorAll('.tag-card').forEach(card => {
+      const text = card.textContent.toLowerCase();
+      card.style.display = (!q || text.includes(q)) ? '' : 'none';
+    });
+    applyFilters();
+  };
+}
+
+let currentCatFilter = 'all';
+let currentTagFilter = null;
+
+function toggleSection(id, icon) {
+  const el = document.getElementById(id + 'Collapsible');
+  const isHidden = el.classList.toggle('hidden');
+  icon.classList.toggle('collapsed', isHidden);
+}
+
+function setTagFilter(tag) {
+  currentTagFilter = currentTagFilter === tag ? null : tag;
+  document.querySelectorAll('.tag-card').forEach(c => {
+    c.classList.toggle('active', c.querySelector('h3')?.textContent.startsWith(currentTagFilter));
+  });
+  applyFilters();
+}
+
+function filterByCategory(catKey) {
+  currentCatFilter = catKey;
+  document.querySelectorAll('.filter-pill').forEach(p => {
+    p.classList.toggle('active', p.dataset.cat === catKey);
+  });
+  applyFilters();
+}
+
+function setFilter(el) {
+  currentCatFilter = el.dataset.cat;
+  document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+  el.classList.add('active');
+  applyFilters();
+}
+
+function applyFilters() {
+  const q = document.getElementById('searchInput').value.toLowerCase();
+  let tickers = Object.keys(DATA.stocks);
+  if (currentCatFilter !== 'all') {
+    const allowed = new Set(DATA.categories[currentCatFilter]?.tickers || []);
+    tickers = tickers.filter(t => allowed.has(t));
+  }
+  if (currentTagFilter) {
+    tickers = tickers.filter(t => (DATA.stocks[t].tags || []).includes(currentTagFilter));
+  }
+  if (q) {
+    tickers = tickers.filter(t => {
+      const s = DATA.stocks[t];
+      return t.toLowerCase().includes(q) ||
+        (s.name || '').toLowerCase().includes(q) ||
+        (s.sector || '').toLowerCase().includes(q) ||
+        (s.tags || []).some(tag => tag.toLowerCase().includes(q));
+    });
+  }
+  renderTable(tickers);
+}
+
+// --- Sorting state ---
+let sortCol = null;
+let sortDir = 'desc';
+let lastRenderedTickers = [];
+
+function parseRating(r) {
+  if (!r) return 0;
+  const m = String(r).match(/([\d.]+)/);
+  return m ? parseFloat(m[1]) : 0;
+}
+
+function parseMktCap(mc) {
+  if (!mc) return 0;
+  const s = String(mc).replace(/[$,]/g,'');
+  const m = s.match(/([\d.]+)\s*(T|B|M|K)?/i);
+  if (!m) return 0;
+  const v = parseFloat(m[1]);
+  const u = (m[2]||'').toUpperCase();
+  if (u==='T') return v*1e12; if (u==='B') return v*1e9; if (u==='M') return v*1e6; if (u==='K') return v*1e3;
+  return v;
+}
+
+// --- Seeded PRNG for deterministic mock sparkline data ---
+function seedHash(str) {
+  let h = 0;
+  for (let i = 0; i < str.length; i++) { h = ((h << 5) - h + str.charCodeAt(i)) | 0; }
+  return h;
+}
+function seededRandom(seed) {
+  let s = seed;
+  return function() { s = (s * 16807 + 12345) & 0x7fffffff; return (s / 0x7fffffff); };
+}
+function genChanges(ticker, count, bias, mag) {
+  const rng = seededRandom(Math.abs(seedHash(ticker + count)));
+  return Array.from({length: count}, () => {
+    const v = (rng() - 0.45 + bias * 0.15) * mag;
+    return Math.round(v * 100) / 100;
+  });
+}
+// Pre-generate sparkline data for each stock
+const sparkData = {};
+for (const t of Object.keys(DATA.stocks)) {
+  const bias = (DATA.stocks[t].change || 0) > 0 ? 0.3 : -0.3;
+  sparkData[t] = {
+    daily: genChanges(t + 'd', 5, bias, 5),
+    weekly: genChanges(t + 'w', 5, bias, 10)
+  };
+}
+
+// --- Mini SVG bar chart renderer ---
+function miniBarSvg(values, w, h) {
+  const n = values.length;
+  const maxAbs = Math.max(...values.map(Math.abs), 0.5);
+  const barW = Math.floor((w - (n - 1) * 2) / n);
+  const mid = h / 2;
+  const bars = values.map((v, i) => {
+    const barH = Math.max(1, Math.abs(v) / maxAbs * (mid - 1));
+    const x = i * (barW + 2);
+    const color = v >= 0 ? '#34d399' : '#f87171';
+    const y = v >= 0 ? mid - barH : mid;
+    return `<rect x="${x}" y="${y}" width="${barW}" height="${barH}" rx="1" fill="${color}" opacity="0.85"/>`;
+  }).join('');
+  const zeroLine = `<line x1="0" y1="${mid}" x2="${w}" y2="${mid}" stroke="#2e3347" stroke-width="0.5"/>`;
+  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" style="vertical-align:middle;display:inline-block">${zeroLine}${bars}</svg>`;
+}
+
+const columns = [
+  { key:'ticker', label:'Ticker', get: (t,s)=>t, sort:(a,b)=>a.localeCompare(b) },
+  { key:'name', label:'Company', get: (t,s)=>s.name||'', sort:(a,b)=>a.localeCompare(b) },
+  { key:'rating', label:'Rating', get: (t,s)=>s.rating||'', sort:(a,b)=>parseRating(a)-parseRating(b) },
+  { key:'sector', label:'Sector', get: (t,s)=>s.sector||'', sort:(a,b)=>a.localeCompare(b) },
+  { key:'price', label:'Price', get: (t,s)=>s.price||0, sort:(a,b)=>a-b },
+  { key:'change', label:'Change', get: (t,s)=>s.change||0, sort:(a,b)=>a-b },
+  { key:'daily5', label:'5-Day', get: (t,s)=>sparkData[t]?.daily||[], sort:(a,b)=>{const sa=a.reduce((x,y)=>x+y,0),sb=b.reduce((x,y)=>x+y,0);return sa-sb;} },
+  { key:'weekly5', label:'5-Week', get: (t,s)=>sparkData[t]?.weekly||[], sort:(a,b)=>{const sa=a.reduce((x,y)=>x+y,0),sb=b.reduce((x,y)=>x+y,0);return sa-sb;} },
+  { key:'marketCap', label:'Market Cap', get: (t,s)=>s.marketCap||'', sort:(a,b)=>parseMktCap(a)-parseMktCap(b) },
+  { key:'pe', label:'P/E', get: (t,s)=>s.pe||'', sort:(a,b)=>{const na=parseFloat(a)||999,nb=parseFloat(b)||999;return na-nb;} },
+  { key:'tags', label:'Tags', get: (t,s)=>(s.tags||[]).join(','), sort:(a,b)=>a.localeCompare(b) }
+];
+
+function sortTickers(tickers, colIdx, dir) {
+  const col = columns[colIdx];
+  return [...tickers].sort((a,b) => {
+    const va = col.get(a, DATA.stocks[a]);
+    const vb = col.get(b, DATA.stocks[b]);
+    const r = col.sort(va, vb);
+    return dir === 'asc' ? r : -r;
+  });
+}
+
+function onHeaderClick(colIdx) {
+  if (sortCol === colIdx) {
+    sortDir = sortDir === 'asc' ? 'desc' : 'asc';
+  } else {
+    sortCol = colIdx;
+    sortDir = colIdx === 0 || colIdx === 1 || colIdx === 3 ? 'asc' : 'desc';
+  }
+  renderTable(lastRenderedTickers);
+}
+
+function renderTable(tickers) {
+  lastRenderedTickers = tickers;
+  if (tickers.length === 0) {
+    document.getElementById('stocksTableWrap').innerHTML = '<p style="color:var(--text-dim);padding:20px;">No stocks match the filter.</p>';
+    return;
+  }
+
+  const sorted = sortCol !== null ? sortTickers(tickers, sortCol, sortDir) : tickers;
+
+  const ths = columns.map((col,i) => {
+    const arrow = sortCol === i ? (sortDir === 'asc' ? '▲' : '▼') : '▲';
+    const cls = sortCol === i ? ' class="sorted"' : '';
+    return `<th${cls} onclick="onHeaderClick(${i})">${col.label} <span class="sort-arrow">${arrow}</span></th>`;
+  }).join('');
+
+  const rows = sorted.map(t => {
+    const s = DATA.stocks[t];
+    const changeClass = (s.change || 0) >= 0 ? 'positive' : 'negative';
+    const changePrefix = (s.change || 0) >= 0 ? '+' : '';
+    const rn = parseRating(s.rating);
+    const rc = rn >= 4 ? 'rating-high' : rn >= 3 ? 'rating-med' : 'rating-low';
+    const sd = sparkData[t] || {daily:[],weekly:[]};
+    const dTotal = sd.daily.reduce((a,b)=>a+b,0).toFixed(1);
+    const wTotal = sd.weekly.reduce((a,b)=>a+b,0).toFixed(1);
+    const dTotalCls = dTotal >= 0 ? 'positive' : 'negative';
+    const wTotalCls = wTotal >= 0 ? 'positive' : 'negative';
+    const dSign = dTotal >= 0 ? '+' : '';
+    const wSign = wTotal >= 0 ? '+' : '';
+    const tagsHtml = (s.tags||[]).map(tg => `<span class="stock-tag">${tg}</span>`).join('');
+    return `<tr>
+      <td><a href="stocks/${t}.html">${t}</a></td>
+      <td>${s.name || '—'}</td>
+      <td class="rating-cell ${rc}">${s.rating || '—'}</td>
+      <td>${s.sector || '—'}</td>
+      <td>${s.price ? '$' + s.price : '—'}</td>
+      <td class="${changeClass}">${s.change != null ? changePrefix + s.change + '%' : '—'}</td>
+      <td style="padding:4px 8px;white-space:nowrap">${miniBarSvg(sd.daily, 60, 22)} <span class="${dTotalCls}" style="font-size:11px;font-weight:600">${dSign}${dTotal}%</span></td>
+      <td style="padding:4px 8px;white-space:nowrap">${miniBarSvg(sd.weekly, 60, 22)} <span class="${wTotalCls}" style="font-size:11px;font-weight:600">${wSign}${wTotal}%</span></td>
+      <td>${s.marketCap || '—'}</td>
+      <td>${s.pe || '—'}</td>
+      <td>${tagsHtml}</td>
+    </tr>`;
+  }).join('');
+
+  document.getElementById('stocksTableWrap').innerHTML = `
+    <table class="stocks-table">
+      <thead><tr>${ths}</tr></thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+}
+
+loadData();
+</script>
+</body>
+</html>
