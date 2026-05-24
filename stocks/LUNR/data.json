@@ -1,0 +1,141 @@
+{
+  "ticker": "LUNR",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Intuitive Machines",
+    "exchange": "",
+    "sector": "Aerospace",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Premier lunar economy company. Near-monopoly on NASA lunar delivery.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Launch + Spacecraft"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 38.26,
+    "change": 4.02,
+    "changePct": 11.74,
+    "volume": 14742700,
+    "avgVolume": 12307700,
+    "dayHigh": 38.34,
+    "dayLow": 35.23,
+    "fiftyTwoWeekHigh": 38.55,
+    "fiftyTwoWeekLow": 7.78,
+    "marketCap": "$6.1B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 38.26,
+        "change": 11.74,
+        "volume": 14742700
+      },
+      {
+        "date": "2026-05-21",
+        "close": 34.24,
+        "change": 1.69,
+        "volume": 10787300
+      },
+      {
+        "date": "2026-05-20",
+        "close": 33.67,
+        "change": 3.73,
+        "volume": 12919800
+      },
+      {
+        "date": "2026-05-19",
+        "close": 32.46,
+        "change": -3.36,
+        "volume": 11575100
+      },
+      {
+        "date": "2026-05-18",
+        "close": 33.59,
+        "change": -0.89,
+        "volume": 18866500
+      }
+    ],
+    "fiveDayChangePct": 12.89,
+    "fiveWeekChangePct": 38.72,
+    "fiveDayChanges": [
+      -0.89,
+      -3.36,
+      3.73,
+      1.69,
+      11.74
+    ],
+    "fiveWeekChanges": [
+      -7.43,
+      0.35,
+      13.08,
+      16.98,
+      12.89
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$500M+ TTM",
+    "revenueGrowth": null,
+    "pe": "N/A",
+    "profitable": false,
+    "backlog": "$1.1B"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 4.0,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Premier lunar economy company. Near-monopoly on NASA lunar delivery. Revenue tripling, profitability inflection, reasonable cap.",
+    "bullCase": [
+      "$800M Lanteris acquisition",
+      "Goonhilly ground station",
+      "NASA Artemis monopoly",
+      "first adj. EBITDA+"
+    ],
+    "bearCase": [
+      "NASA budget risk",
+      "lunar mission failure",
+      "aggressive M&A"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "rating-4",
+      "mid-cap",
+      "unprofitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=LUNR"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

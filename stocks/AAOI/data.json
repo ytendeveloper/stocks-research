@@ -1,0 +1,141 @@
+{
+  "ticker": "AAOI",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Applied Optoelectronics",
+    "exchange": "",
+    "sector": "Semiconductors",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Transceivers applicable to satellite ground stations and high-speed optical links.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "AI + Networking"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 181.49,
+    "change": 4.68,
+    "changePct": 2.65,
+    "volume": 10254600,
+    "avgVolume": 11748230,
+    "dayHigh": 182.46,
+    "dayLow": 166.66,
+    "fiftyTwoWeekHigh": 233.67,
+    "fiftyTwoWeekLow": 15.06,
+    "marketCap": "$14.6B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 181.49,
+        "change": 2.65,
+        "volume": 10254600
+      },
+      {
+        "date": "2026-05-21",
+        "close": 176.81,
+        "change": 6.99,
+        "volume": 9868900
+      },
+      {
+        "date": "2026-05-20",
+        "close": 165.26,
+        "change": -3.54,
+        "volume": 9784600
+      },
+      {
+        "date": "2026-05-19",
+        "close": 171.33,
+        "change": -1.11,
+        "volume": 8980000
+      },
+      {
+        "date": "2026-05-18",
+        "close": 173.26,
+        "change": -8.98,
+        "volume": 13219100
+      }
+    ],
+    "fiveDayChangePct": -4.66,
+    "fiveWeekChangePct": 13.84,
+    "fiveDayChanges": [
+      -8.98,
+      -1.11,
+      -3.54,
+      6.99,
+      2.65
+    ],
+    "fiveWeekChanges": [
+      1.73,
+      13.16,
+      -18.84,
+      27.81,
+      -4.66
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$455.7M FY25",
+    "revenueGrowth": 0.828,
+    "pe": "N/A",
+    "profitable": false,
+    "backlog": "$324M AI"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 4.0,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Transceivers applicable to satellite ground stations and high-speed optical links. Highest torque in AI optics, smallest cap, tripling revenue.",
+    "bullCase": [
+      "800G shipping",
+      "1.6T ramp",
+      "in-house laser vertical integration",
+      "$1.1B+ FY26 target"
+    ],
+    "bearCase": [
+      "441% YTD gain",
+      "customer concentration",
+      "FCF burn"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "rating-4",
+      "large-cap",
+      "unprofitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=AAOI"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

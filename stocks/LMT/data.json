@@ -1,0 +1,141 @@
+{
+  "ticker": "LMT",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Lockheed Martin",
+    "exchange": "",
+    "sector": "Defense",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Largest defense contractor. Builds military satellites, missile defense, hypersonics.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Defense + Drones"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 533.24,
+    "change": 10.45,
+    "changePct": 2.0,
+    "volume": 1050600,
+    "avgVolume": 1378080,
+    "dayHigh": 534.27,
+    "dayLow": 524.0,
+    "fiftyTwoWeekHigh": 692.0,
+    "fiftyTwoWeekLow": 410.11,
+    "marketCap": "$122.9B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 533.24,
+        "change": 2.0,
+        "volume": 1050600
+      },
+      {
+        "date": "2026-05-21",
+        "close": 522.79,
+        "change": 0.04,
+        "volume": 1639700
+      },
+      {
+        "date": "2026-05-20",
+        "close": 522.59,
+        "change": -0.77,
+        "volume": 1018900
+      },
+      {
+        "date": "2026-05-19",
+        "close": 526.63,
+        "change": -0.32,
+        "volume": 1107600
+      },
+      {
+        "date": "2026-05-18",
+        "close": 528.31,
+        "change": 2.38,
+        "volume": 1382800
+      }
+    ],
+    "fiveDayChangePct": 3.34,
+    "fiveWeekChangePct": -9.95,
+    "fiveDayChanges": [
+      2.38,
+      -0.32,
+      -0.77,
+      0.04,
+      2.0
+    ],
+    "fiveWeekChanges": [
+      -13.3,
+      -0.13,
+      -1.22,
+      1.88,
+      3.34
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$75B TTM",
+    "revenueGrowth": 0.056,
+    "pe": "24",
+    "profitable": true,
+    "backlog": "N/A"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 1.5,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Largest defense contractor. Builds military satellites, missile defense, hypersonics. Defense anchor, income play, not growth.",
+    "bullCase": [
+      "F-35",
+      "THAAD",
+      "military satellites",
+      "hypersonics",
+      "dividend"
+    ],
+    "bearCase": [
+      "Margin compression",
+      "25% off highs",
+      "F-35 sustainment costs"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "large-cap",
+      "profitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=LMT"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

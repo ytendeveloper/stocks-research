@@ -1,0 +1,139 @@
+{
+  "ticker": "AVGO",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Broadcom",
+    "exchange": "",
+    "sector": "Semiconductors",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Networking silicon foundational for satellite ground ops and data processing.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "AI + Networking"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 414.14,
+    "change": -0.43,
+    "changePct": -0.1,
+    "volume": 14062100,
+    "avgVolume": 18613525,
+    "dayHigh": 419.99,
+    "dayLow": 410.21,
+    "fiftyTwoWeekHigh": 442.36,
+    "fiftyTwoWeekLow": 231.13,
+    "marketCap": "$1.96T",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 414.14,
+        "change": -0.1,
+        "volume": 14062100
+      },
+      {
+        "date": "2026-05-21",
+        "close": 414.57,
+        "change": -0.76,
+        "volume": 16865300
+      },
+      {
+        "date": "2026-05-20",
+        "close": 417.76,
+        "change": 1.63,
+        "volume": 16312600
+      },
+      {
+        "date": "2026-05-19",
+        "close": 411.07,
+        "change": -2.29,
+        "volume": 20652100
+      },
+      {
+        "date": "2026-05-18",
+        "close": 420.71,
+        "change": -1.05,
+        "volume": 17863300
+      }
+    ],
+    "fiveDayChangePct": -2.6,
+    "fiveWeekChangePct": 1.87,
+    "fiveDayChanges": [
+      -1.05,
+      -2.29,
+      1.63,
+      -0.76,
+      -0.1
+    ],
+    "fiveWeekChanges": [
+      3.99,
+      -0.35,
+      2.07,
+      -1.12,
+      -2.6
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$68.28B TTM",
+    "revenueGrowth": 0.65,
+    "pe": "30",
+    "profitable": true,
+    "backlog": "$73B AI"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 1.0,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Networking silicon foundational for satellite ground ops and data processing. Exceptional company, wrong market cap for multi-bagger.",
+    "bullCase": [
+      "OpenAI custom silicon",
+      "$73B AI backlog",
+      "VMware integration"
+    ],
+    "bearCase": [
+      "$2T cap",
+      "AI cycle",
+      "antitrust"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "mega-cap",
+      "profitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=AVGO"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

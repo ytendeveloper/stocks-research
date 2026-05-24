@@ -1,0 +1,143 @@
+{
+  "ticker": "LAES",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "SEALSQ Corp",
+    "exchange": "",
+    "sector": "Semiconductors/Security",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Post-quantum cryptography essential for satellite and defense comms security",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "RF + Telecom"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 3.38,
+    "change": 0.11,
+    "changePct": 3.36,
+    "volume": 31293300,
+    "avgVolume": 11973885,
+    "dayHigh": 3.56,
+    "dayLow": 3.25,
+    "fiftyTwoWeekHigh": 8.71,
+    "fiftyTwoWeekLow": 1.99,
+    "marketCap": "$753M",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 3.38,
+        "change": 3.36,
+        "volume": 31293300
+      },
+      {
+        "date": "2026-05-21",
+        "close": 3.27,
+        "change": 14.74,
+        "volume": 35480800
+      },
+      {
+        "date": "2026-05-20",
+        "close": 2.85,
+        "change": 5.17,
+        "volume": 8623800
+      },
+      {
+        "date": "2026-05-19",
+        "close": 2.71,
+        "change": -2.87,
+        "volume": 9101700
+      },
+      {
+        "date": "2026-05-18",
+        "close": 2.79,
+        "change": -2.79,
+        "volume": 10598900
+      }
+    ],
+    "fiveDayChangePct": 17.77,
+    "fiveWeekChangePct": 25.19,
+    "fiveDayChanges": [
+      -2.79,
+      -2.87,
+      5.17,
+      14.74,
+      3.36
+    ],
+    "fiveWeekChanges": [
+      9.26,
+      -2.71,
+      1.74,
+      -1.71,
+      17.77
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$18.3M FY2025",
+    "revenueGrowth": 0.66,
+    "pe": "N/A",
+    "profitable": false,
+    "backlog": null
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 3.5,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Post-quantum cryptography essential for satellite and defense comms security Strong secular tailwind from post-quantum mandates, pipeline 10x revenue, small cap for genuine multi-bagger potential",
+    "bullCase": [
+      "Post-quantum chips (QS7001, QVault TPM)",
+      "$200M+ pipeline (10x revenue)",
+      "Q1 2026 up 200% YoY",
+      "2029 migration deadline",
+      "IC'ALPS acquisition",
+      "WISeRobot AI security"
+    ],
+    "bearCase": [
+      "Small revenue base ($18M)",
+      "Adoption timeline uncertain",
+      "Dependent on regulatory push",
+      "High volatility ($1.99-$8.71 range)"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "small-cap",
+      "unprofitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=LAES"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

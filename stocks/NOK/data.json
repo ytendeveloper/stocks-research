@@ -1,0 +1,140 @@
+{
+  "ticker": "NOK",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Nokia",
+    "exchange": "",
+    "sector": "Telecom",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Deployed 4G on the Moon. NTN roadmap for space-based 5G/6G connectivity.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "RF + Telecom"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 15.47,
+    "change": 1.29,
+    "changePct": 9.1,
+    "volume": 127394200,
+    "avgVolume": 118870420,
+    "dayHigh": 15.78,
+    "dayLow": 14.58,
+    "fiftyTwoWeekHigh": 15.78,
+    "fiftyTwoWeekLow": 4.0,
+    "marketCap": "$86.4B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 15.47,
+        "change": 9.1,
+        "volume": 127394200
+      },
+      {
+        "date": "2026-05-21",
+        "close": 14.18,
+        "change": 4.11,
+        "volume": 63920600
+      },
+      {
+        "date": "2026-05-20",
+        "close": 13.62,
+        "change": -0.37,
+        "volume": 79252100
+      },
+      {
+        "date": "2026-05-19",
+        "close": 13.67,
+        "change": -0.51,
+        "volume": 82613300
+      },
+      {
+        "date": "2026-05-18",
+        "close": 13.74,
+        "change": -1.51,
+        "volume": 91726800
+      }
+    ],
+    "fiveDayChangePct": 10.9,
+    "fiveWeekChangePct": 50.05,
+    "fiveDayChanges": [
+      -1.51,
+      -0.51,
+      -0.37,
+      4.11,
+      9.1
+    ],
+    "fiveWeekChanges": [
+      1.45,
+      27.15,
+      -3.61,
+      8.81,
+      10.9
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$19.2B TTM",
+    "revenueGrowth": 0.04,
+    "pe": "20",
+    "profitable": true,
+    "backlog": "N/A"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 3.5,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Deployed 4G on the Moon. NTN roadmap for space-based 5G/6G connectivity. Unique Moon deployment, AI-RAN transformation.",
+    "bullCase": [
+      "Moon 4G deployment",
+      "AI-RAN CAGR raised to 27%",
+      "EUR1B AI/cloud Q1 orders",
+      "NTN satellite-5G"
+    ],
+    "bearCase": [
+      "119% YTD run",
+      "core telecom mature",
+      "AI-RAN commercialization risk"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "large-cap",
+      "profitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=NOK"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

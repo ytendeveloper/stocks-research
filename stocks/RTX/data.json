@@ -1,0 +1,138 @@
+{
+  "ticker": "RTX",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "RTX Corporation",
+    "exchange": "",
+    "sector": "Defense",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Missile systems, radar, space sensors, satellite systems.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Defense + Drones"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 177.01,
+    "change": 1.76,
+    "changePct": 1.0,
+    "volume": 4315400,
+    "avgVolume": 5718180,
+    "dayHigh": 177.6,
+    "dayLow": 175.26,
+    "fiftyTwoWeekHigh": 214.5,
+    "fiftyTwoWeekLow": 130.9,
+    "marketCap": "$238.4B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 177.01,
+        "change": 1.0,
+        "volume": 4315400
+      },
+      {
+        "date": "2026-05-21",
+        "close": 175.25,
+        "change": 0.65,
+        "volume": 3596300
+      },
+      {
+        "date": "2026-05-20",
+        "close": 174.12,
+        "change": 0.21,
+        "volume": 6634800
+      },
+      {
+        "date": "2026-05-19",
+        "close": 173.77,
+        "change": -0.83,
+        "volume": 5578600
+      },
+      {
+        "date": "2026-05-18",
+        "close": 175.22,
+        "change": 2.79,
+        "volume": 5627400
+      }
+    ],
+    "fiveDayChangePct": 3.84,
+    "fiveWeekChangePct": -9.51,
+    "fiveDayChanges": [
+      2.79,
+      -0.83,
+      0.21,
+      0.65,
+      1.0
+    ],
+    "fiveWeekChanges": [
+      -11.28,
+      -0.15,
+      1.21,
+      -2.79,
+      3.84
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$88.6B TTM",
+    "revenueGrowth": 0.09,
+    "pe": "22",
+    "profitable": true,
+    "backlog": "N/A"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 2.0,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Missile systems, radar, space sensors, satellite systems. Defense anchor, not multi-bagger.",
+    "bullCase": [
+      "Munitions +40%",
+      "global rearmament cycle",
+      "commercial aftermarket"
+    ],
+    "bearCase": [
+      "Mega-cap",
+      "Pratt & Whitney GTF issues"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "mega-cap",
+      "profitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=RTX"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

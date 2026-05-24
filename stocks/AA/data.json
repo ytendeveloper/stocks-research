@@ -1,0 +1,138 @@
+{
+  "ticker": "AA",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Alcoa",
+    "exchange": "",
+    "sector": "Materials",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Aluminum alloys for spacecraft construction and space station modules.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Materials + Aerospace"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 71.38,
+    "change": 5.11,
+    "changePct": 7.71,
+    "volume": 6938000,
+    "avgVolume": 4119480,
+    "dayHigh": 72.85,
+    "dayLow": 67.32,
+    "fiftyTwoWeekHigh": 75.7,
+    "fiftyTwoWeekLow": 25.83,
+    "marketCap": "$18.8B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 71.38,
+        "change": 7.71,
+        "volume": 6938000
+      },
+      {
+        "date": "2026-05-21",
+        "close": 66.27,
+        "change": 3.32,
+        "volume": 3294500
+      },
+      {
+        "date": "2026-05-20",
+        "close": 64.14,
+        "change": 0.33,
+        "volume": 4023700
+      },
+      {
+        "date": "2026-05-19",
+        "close": 63.93,
+        "change": 2.3,
+        "volume": 4432100
+      },
+      {
+        "date": "2026-05-18",
+        "close": 62.49,
+        "change": 0.1,
+        "volume": 3691500
+      }
+    ],
+    "fiveDayChangePct": 14.34,
+    "fiveWeekChangePct": 8.95,
+    "fiveDayChanges": [
+      0.1,
+      2.3,
+      0.33,
+      3.32,
+      7.71
+    ],
+    "fiveWeekChanges": [
+      0.59,
+      -5.12,
+      0.88,
+      -1.03,
+      14.34
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$13B TTM",
+    "revenueGrowth": null,
+    "pe": "12",
+    "profitable": true,
+    "backlog": "N/A"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 1.5,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Aluminum alloys for spacecraft construction and space station modules. Commodity at cycle highs.",
+    "bullCase": [
+      "Aluminum prices elevated",
+      "dual alumina/aluminum ops"
+    ],
+    "bearCase": [
+      "Commodity cyclicality",
+      "184% run",
+      "China overcapacity"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "large-cap",
+      "profitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=AA"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

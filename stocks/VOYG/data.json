@@ -1,0 +1,139 @@
+{
+  "ticker": "VOYG",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Voyager Technologies",
+    "exchange": "",
+    "sector": "Aerospace",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Building commercial successor to ISS. Most ambitious space infrastructure play.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Launch + Spacecraft"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 44.64,
+    "change": 4.54,
+    "changePct": 11.32,
+    "volume": 3032700,
+    "avgVolume": 2130885,
+    "dayHigh": 45.3,
+    "dayLow": 41.11,
+    "fiftyTwoWeekHigh": 73.95,
+    "fiftyTwoWeekLow": 17.41,
+    "marketCap": "$2.6B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 44.64,
+        "change": 11.32,
+        "volume": 3032700
+      },
+      {
+        "date": "2026-05-21",
+        "close": 40.1,
+        "change": 0.43,
+        "volume": 1512200
+      },
+      {
+        "date": "2026-05-20",
+        "close": 39.93,
+        "change": 6.28,
+        "volume": 2733800
+      },
+      {
+        "date": "2026-05-19",
+        "close": 37.57,
+        "change": -2.11,
+        "volume": 2534800
+      },
+      {
+        "date": "2026-05-18",
+        "close": 38.38,
+        "change": 11.44,
+        "volume": 3622900
+      }
+    ],
+    "fiveDayChangePct": 29.62,
+    "fiveWeekChangePct": 42.57,
+    "fiveDayChanges": [
+      11.44,
+      -2.11,
+      6.28,
+      0.43,
+      11.32
+    ],
+    "fiveWeekChanges": [
+      -8.4,
+      -7.25,
+      11.8,
+      15.8,
+      29.62
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$167M TTM",
+    "revenueGrowth": -0.53,
+    "pe": "N/A",
+    "profitable": false,
+    "backlog": "$275M"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 3.0,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Building commercial successor to ISS. Most ambitious space infrastructure play. Generational opportunity if Starlab works. Smallest cap in group.",
+    "bullCase": [
+      "Starlab commercial space station (ISS successor)",
+      "DARPA Otter",
+      "raised guidance"
+    ],
+    "bearCase": [
+      "Multi-billion dev program",
+      "$127M annual burn",
+      "ISS retirement timeline"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "mid-cap",
+      "unprofitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=VOYG"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "ticker": "CRS",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Carpenter Technology",
+    "exchange": "",
+    "sector": "Materials",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Directly in rocket engine supply chain. NASA partnership for next-gen propulsion alloys.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Materials + Aerospace"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 434.12,
+    "change": -4.2,
+    "changePct": -0.96,
+    "volume": 545400,
+    "avgVolume": 647715,
+    "dayHigh": 442.86,
+    "dayLow": 431.13,
+    "fiftyTwoWeekHigh": 475.69,
+    "fiftyTwoWeekLow": 228.0,
+    "marketCap": "$21.6B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 434.12,
+        "change": -0.96,
+        "volume": 545400
+      },
+      {
+        "date": "2026-05-21",
+        "close": 438.32,
+        "change": 3.86,
+        "volume": 679900
+      },
+      {
+        "date": "2026-05-20",
+        "close": 422.01,
+        "change": 3.85,
+        "volume": 502400
+      },
+      {
+        "date": "2026-05-19",
+        "close": 406.37,
+        "change": 0.52,
+        "volume": 638600
+      },
+      {
+        "date": "2026-05-18",
+        "close": 404.26,
+        "change": -1.14,
+        "volume": 429000
+      }
+    ],
+    "fiveDayChangePct": 6.16,
+    "fiveWeekChangePct": -2.55,
+    "fiveDayChanges": [
+      -1.14,
+      0.52,
+      3.85,
+      3.86,
+      -0.96
+    ],
+    "fiveWeekChanges": [
+      -4.09,
+      0.5,
+      -0.36,
+      -4.42,
+      6.16
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$3.03B TTM",
+    "revenueGrowth": 0.04,
+    "pe": "30",
+    "profitable": true,
+    "backlog": "N/A"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 3.5,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Directly in rocket engine supply chain. NASA partnership for next-gen propulsion alloys. Best materials play for space propulsion.",
+    "bullCase": [
+      "NASA GRX-810 rocket engine alloy",
+      "90%+ jet engine certification",
+      "additive manufacturing"
+    ],
+    "bearCase": [
+      "High valuation",
+      "aerospace cycle dependency"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "large-cap",
+      "profitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=CRS"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

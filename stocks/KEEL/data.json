@@ -1,0 +1,142 @@
+{
+  "ticker": "KEEL",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Keel Infrastructure",
+    "exchange": "",
+    "sector": "AI Infrastructure",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "N/A - AI compute infrastructure play",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "AI + Networking"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 4.81,
+    "change": 0.17,
+    "changePct": 3.66,
+    "volume": 39814200,
+    "avgVolume": 34888355,
+    "dayHigh": 5.03,
+    "dayLow": 4.57,
+    "fiftyTwoWeekHigh": 6.6,
+    "fiftyTwoWeekLow": 0.7,
+    "marketCap": "$2.9B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 4.81,
+        "change": 3.66,
+        "volume": 39814200
+      },
+      {
+        "date": "2026-05-21",
+        "close": 4.64,
+        "change": 9.69,
+        "volume": 39518000
+      },
+      {
+        "date": "2026-05-20",
+        "close": 4.23,
+        "change": 0.48,
+        "volume": 27432700
+      },
+      {
+        "date": "2026-05-19",
+        "close": 4.21,
+        "change": 0.72,
+        "volume": 26568000
+      },
+      {
+        "date": "2026-05-18",
+        "close": 4.18,
+        "change": -4.78,
+        "volume": 42810200
+      }
+    ],
+    "fiveDayChangePct": 9.57,
+    "fiveWeekChangePct": 67.01,
+    "fiveDayChanges": [
+      -4.78,
+      0.72,
+      0.48,
+      9.69,
+      3.66
+    ],
+    "fiveWeekChanges": [
+      14.24,
+      -6.08,
+      28.48,
+      10.58,
+      9.57
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "~$275M TTM",
+    "revenueGrowth": null,
+    "pe": "N/A",
+    "profitable": false,
+    "backlog": null
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 2.5,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "N/A - AI compute infrastructure play Interesting pivot with real assets but unproven in AI data centers",
+    "bullCase": [
+      "Rebranded from Bitfarms Apr 2026",
+      "AI data center pivot",
+      "HC Wainwright $5.50 PT",
+      "First colo deal expected Q3 2026",
+      "Existing power/land assets"
+    ],
+    "bearCase": [
+      "Negative gross margins",
+      "No signed AI customers",
+      "Beta 3.9 volatility",
+      "Heavy competition"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "mid-cap",
+      "unprofitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=KEEL"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "ticker": "ACHR",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Archer Aviation",
+    "exchange": "",
+    "sector": "Aerospace/eVTOL",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "eVTOL with defense applications for troop transport, logistics, ISR.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Defense + Drones"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 6.36,
+    "change": 0.24,
+    "changePct": 3.92,
+    "volume": 79231800,
+    "avgVolume": 46200785,
+    "dayHigh": 6.43,
+    "dayLow": 6.14,
+    "fiftyTwoWeekHigh": 14.62,
+    "fiftyTwoWeekLow": 4.8,
+    "marketCap": "$4.9B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 6.36,
+        "change": 3.92,
+        "volume": 79231800
+      },
+      {
+        "date": "2026-05-21",
+        "close": 6.12,
+        "change": 5.88,
+        "volume": 64120200
+      },
+      {
+        "date": "2026-05-20",
+        "close": 5.78,
+        "change": -2.2,
+        "volume": 47082400
+      },
+      {
+        "date": "2026-05-19",
+        "close": 5.91,
+        "change": -0.17,
+        "volume": 49584400
+      },
+      {
+        "date": "2026-05-18",
+        "close": 5.92,
+        "change": -2.15,
+        "volume": 57973400
+      }
+    ],
+    "fiveDayChangePct": 5.12,
+    "fiveWeekChangePct": 4.09,
+    "fiveDayChanges": [
+      -2.15,
+      -0.17,
+      -2.2,
+      5.88,
+      3.92
+    ],
+    "fiveWeekChanges": [
+      -6.71,
+      2.98,
+      10.39,
+      -6.64,
+      5.12
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "~$1.6M Q1",
+    "revenueGrowth": null,
+    "pe": "N/A",
+    "profitable": false,
+    "backlog": "N/A"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 3.0,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "eVTOL with defense applications for troop transport, logistics, ISR. Binary bet on eVTOL becoming real.",
+    "bullCase": [
+      "First eVTOL in FAA Phase 4",
+      "UAE RTC program",
+      "$1.78B cash",
+      "defense crossover"
+    ],
+    "bearCase": [
+      "Pre-revenue at $4.65B",
+      "~$180M/quarter burn",
+      "eVTOL unproven"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "mid-cap",
+      "unprofitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=ACHR"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

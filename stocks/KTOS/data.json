@@ -1,0 +1,141 @@
+{
+  "ticker": "KTOS",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Kratos Defense",
+    "exchange": "",
+    "sector": "Defense",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Autonomous drones, hypersonic systems, satellite communications, rocket motors.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Defense + Drones"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 56.18,
+    "change": 1.51,
+    "changePct": 2.76,
+    "volume": 2938100,
+    "avgVolume": 4221275,
+    "dayHigh": 56.75,
+    "dayLow": 54.46,
+    "fiftyTwoWeekHigh": 134.0,
+    "fiftyTwoWeekLow": 35.88,
+    "marketCap": "$10.5B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 56.18,
+        "change": 2.76,
+        "volume": 2938100
+      },
+      {
+        "date": "2026-05-21",
+        "close": 54.67,
+        "change": -2.06,
+        "volume": 2815000
+      },
+      {
+        "date": "2026-05-20",
+        "close": 55.82,
+        "change": 4.39,
+        "volume": 3929400
+      },
+      {
+        "date": "2026-05-19",
+        "close": 53.47,
+        "change": -1.38,
+        "volume": 2749700
+      },
+      {
+        "date": "2026-05-18",
+        "close": 54.22,
+        "change": 4.09,
+        "volume": 3734700
+      }
+    ],
+    "fiveDayChangePct": 7.85,
+    "fiveWeekChangePct": -20.86,
+    "fiveDayChanges": [
+      4.09,
+      -1.38,
+      4.39,
+      -2.06,
+      2.76
+    ],
+    "fiveWeekChanges": [
+      -13.71,
+      1.29,
+      -6.7,
+      -10.02,
+      7.85
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$1.3B TTM",
+    "revenueGrowth": 0.226,
+    "pe": "N/A",
+    "profitable": true,
+    "backlog": "$2.01B"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 4.0,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Autonomous drones, hypersonic systems, satellite communications, rocket motors. CCA revolution leader, attractive entry at 58% off highs.",
+    "bullCase": [
+      "CCA Valkyrie USMC",
+      "15-20 XQ-58s in 2026",
+      "$156B defense bill",
+      "hypersonics"
+    ],
+    "bearCase": [
+      "58% off highs",
+      "production ramp execution",
+      "budget risk"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "rating-4",
+      "large-cap",
+      "unprofitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=KTOS"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

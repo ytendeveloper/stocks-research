@@ -1,0 +1,138 @@
+{
+  "ticker": "GLW",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Corning",
+    "exchange": "",
+    "sector": "Materials/Tech",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Specialty glass and optical fabrication for satellite optical systems and ground stations.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Materials + Aerospace"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 194.05,
+    "change": 2.16,
+    "changePct": 1.13,
+    "volume": 9609400,
+    "avgVolume": 15804760,
+    "dayHigh": 194.98,
+    "dayLow": 189.34,
+    "fiftyTwoWeekHigh": 211.79,
+    "fiftyTwoWeekLow": 48.62,
+    "marketCap": "$167.0B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 194.05,
+        "change": 1.13,
+        "volume": 9609400
+      },
+      {
+        "date": "2026-05-21",
+        "close": 191.89,
+        "change": 6.2,
+        "volume": 14408200
+      },
+      {
+        "date": "2026-05-20",
+        "close": 180.69,
+        "change": 2.76,
+        "volume": 13838300
+      },
+      {
+        "date": "2026-05-19",
+        "close": 175.83,
+        "change": -1.52,
+        "volume": 11507700
+      },
+      {
+        "date": "2026-05-18",
+        "close": 178.55,
+        "change": -6.91,
+        "volume": 16929200
+      }
+    ],
+    "fiveDayChangePct": 1.17,
+    "fiveWeekChangePct": 18.05,
+    "fiveDayChanges": [
+      -6.91,
+      -1.52,
+      2.76,
+      6.2,
+      1.13
+    ],
+    "fiveWeekChanges": [
+      7.0,
+      -10.02,
+      18.12,
+      2.61,
+      1.17
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$16.32B TTM",
+    "revenueGrowth": 0.19,
+    "pe": "30",
+    "profitable": true,
+    "backlog": "N/A"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 2.0,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Specialty glass and optical fabrication for satellite optical systems and ground stations. AI optical story, space secondary.",
+    "bullCase": [
+      "NVIDIA partnership",
+      "Meta $6B optical deal",
+      "targeting $30B by 2028"
+    ],
+    "bearCase": [
+      "$165B cap",
+      "AI spending slowdown"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "large-cap",
+      "profitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=GLW"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

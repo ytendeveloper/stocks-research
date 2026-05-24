@@ -1,0 +1,141 @@
+{
+  "ticker": "ONDS",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Ondas Inc",
+    "exchange": "",
+    "sector": "Defense/Drones",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Autonomous drone systems for border defense, counter-UAS, military ISR.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Defense + Drones"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 9.06,
+    "change": -0.12,
+    "changePct": -1.31,
+    "volume": 58991200,
+    "avgVolume": 64386670,
+    "dayHigh": 9.56,
+    "dayLow": 9.06,
+    "fiftyTwoWeekHigh": 15.28,
+    "fiftyTwoWeekLow": 0.89,
+    "marketCap": "$4.5B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 9.06,
+        "change": -1.31,
+        "volume": 58991200
+      },
+      {
+        "date": "2026-05-21",
+        "close": 9.18,
+        "change": -1.92,
+        "volume": 56296500
+      },
+      {
+        "date": "2026-05-20",
+        "close": 9.36,
+        "change": 2.58,
+        "volume": 43365700
+      },
+      {
+        "date": "2026-05-19",
+        "close": 9.12,
+        "change": -5.93,
+        "volume": 56079800
+      },
+      {
+        "date": "2026-05-18",
+        "close": 9.7,
+        "change": -8.66,
+        "volume": 78884300
+      }
+    ],
+    "fiveDayChangePct": -14.69,
+    "fiveWeekChangePct": -9.4,
+    "fiveDayChanges": [
+      -8.66,
+      -5.93,
+      2.58,
+      -1.92,
+      -1.31
+    ],
+    "fiveWeekChanges": [
+      5.5,
+      -2.18,
+      -12.21,
+      17.22,
+      -14.69
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$96.6M TTM",
+    "revenueGrowth": 0.65,
+    "pe": "N/A",
+    "profitable": false,
+    "backlog": "N/A"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 4.0,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Autonomous drone systems for border defense, counter-UAS, military ISR. Explosive trajectory, high risk/high reward.",
+    "bullCase": [
+      "Autonomous border defense program",
+      "counter-UAS airports",
+      "Blue UAS list",
+      "$390M+ FY26 guide"
+    ],
+    "bearCase": [
+      "Revenue was <$10M a year ago",
+      "10x growth sustainability",
+      "profitability unclear"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "rating-4",
+      "mid-cap",
+      "unprofitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=ONDS"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

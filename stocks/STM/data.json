@@ -1,0 +1,140 @@
+{
+  "ticker": "STM",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "STMicroelectronics",
+    "exchange": "",
+    "sector": "Semiconductors",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "THE Starlink chip backbone. 90% LEO satellite semiconductor market share.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "RF + Telecom"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 66.86,
+    "change": 1.2,
+    "changePct": 1.83,
+    "volume": 7675800,
+    "avgVolume": 11513360,
+    "dayHigh": 68.14,
+    "dayLow": 66.18,
+    "fiftyTwoWeekHigh": 68.14,
+    "fiftyTwoWeekLow": 21.11,
+    "marketCap": "$59.4B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 66.86,
+        "change": 1.83,
+        "volume": 7675800
+      },
+      {
+        "date": "2026-05-21",
+        "close": 65.66,
+        "change": 1.12,
+        "volume": 7627000
+      },
+      {
+        "date": "2026-05-20",
+        "close": 64.93,
+        "change": 6.04,
+        "volume": 10873200
+      },
+      {
+        "date": "2026-05-19",
+        "close": 61.23,
+        "change": 0.44,
+        "volume": 10720900
+      },
+      {
+        "date": "2026-05-18",
+        "close": 60.96,
+        "change": -0.73,
+        "volume": 13919700
+      }
+    ],
+    "fiveDayChangePct": 8.87,
+    "fiveWeekChangePct": 51.2,
+    "fiveDayChanges": [
+      -0.73,
+      0.44,
+      6.04,
+      1.12,
+      1.83
+    ],
+    "fiveWeekChanges": [
+      14.13,
+      10.46,
+      6.13,
+      3.79,
+      8.87
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$11.8B TTM",
+    "revenueGrowth": 0.23,
+    "pe": "N/A",
+    "profitable": true,
+    "backlog": "N/A"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 4.0,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "THE Starlink chip backbone. 90% LEO satellite semiconductor market share. Hidden Starlink play. Massively underappreciated space exposure.",
+    "bullCase": [
+      "90% LEO chip share",
+      "7.5B Starlink chips",
+      "$3B space rev target 2026-2028",
+      "$1B space rev in 2026"
+    ],
+    "bearCase": [
+      "Auto/industrial margin pressure",
+      "heavy capex ($2.0-2.2B)"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "rating-4",
+      "large-cap",
+      "unprofitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=STM"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

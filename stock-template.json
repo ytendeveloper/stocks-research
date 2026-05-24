@@ -1,0 +1,188 @@
+{
+  "ticker": "RKLB",
+  "schemaVersion": "1.0",
+
+  "static": {
+    "name": "Rocket Lab USA",
+    "exchange": "NASDAQ",
+    "sector": "Aerospace",
+    "industry": "Space Launch & Spacecraft",
+    "country": "USA",
+    "headquarters": "Long Beach, CA",
+    "founded": 2006,
+    "ipoDate": "2021-08-25",
+    "ceo": "Peter Beck",
+    "employees": 1700,
+    "website": "https://www.rocketlabusa.com",
+    "description": "End-to-end space company providing launch services, spacecraft, and space systems.",
+    "businessSegments": ["Launch Services", "Space Systems"],
+    "tags": ["space", "launch", "spacecraft"],
+    "themes": ["Space Economy"]
+  },
+
+  "userNotes": [
+    {
+      "date": "2026-05-20",
+      "note": "Watching for Neutron first flight. Position size: 2% of portfolio.",
+      "tags": ["watching", "position"],
+      "action": "hold",
+      "images": []
+    },
+    {
+      "date": "2026-05-15",
+      "note": "Strong earnings reaction; saving the chart for reference.",
+      "tags": ["earnings"],
+      "action": "hold",
+      "images": [
+        { "path": "stocks/RKLB/images/2026-05-15-price-reaction.png", "caption": "Intraday move after Q1 print", "kind": "screenshot" },
+        { "path": "https://example.com/news-tweet.png",                "caption": "CEO tweet on Neutron progress", "kind": "screenshot" }
+      ]
+    }
+  ],
+
+  "daily": {
+    "asOf": "2026-05-23T16:00:00Z",
+    "price": 131.16,
+    "change": -2.10,
+    "changePct": -1.57,
+    "volume": 12345678,
+    "avgVolume": 9876543,
+    "dayHigh": 134.20,
+    "dayLow": 130.50,
+    "fiftyTwoWeekHigh": 150.00,
+    "fiftyTwoWeekLow": 35.00,
+    "marketCap": "$75.9B",
+    "history": [
+      { "date": "2026-05-22", "close": 133.91, "change": 1.50, "volume": 10500000 },
+      { "date": "2026-05-21", "close": 131.93, "change": -0.80, "volume": 9800000 }
+    ]
+  },
+
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-05-08",
+      "revenue": "$123.4M",
+      "revenueYoY": 0.71,
+      "grossMargin": 0.30,
+      "operatingIncome": "-$45M",
+      "netIncome": "-$50M",
+      "eps": -0.10,
+      "epsEstimate": -0.12,
+      "freeCashFlow": "-$30M",
+      "cashOnHand": "$485M",
+      "backlog": "$1.05B",
+      "guidance": "Q2 revenue $150-160M",
+      "notes": "Launch Services beat, Space Systems missed on Globalstar timing slip."
+    }
+  ],
+
+  "annual": [
+    {
+      "year": 2025,
+      "revenue": "$436M",
+      "revenueYoY": 0.78,
+      "grossMargin": 0.28,
+      "operatingIncome": "-$180M",
+      "netIncome": "-$190M",
+      "eps": -0.40,
+      "freeCashFlow": "-$80M",
+      "cashOnHand": "$500M",
+      "totalDebt": "$355M"
+    }
+  ],
+
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 3.5,
+    "scoreScale": "1-5",
+    "conviction": "medium",
+    "stance": "constructive",
+    "thesis": "Asymmetric upside if Neutron achieves cadence; Launch + Space Systems creates a vertically integrated moat unique among new-space players.",
+    "bullCase": [
+      "Neutron first flight (H2 2026) opens medium-lift TAM",
+      "Space Systems backlog $1B+ with HASTE hypersonic contracts",
+      "Vertical integration improves margins vs SpaceX-dependent peers"
+    ],
+    "bearCase": [
+      "Neutron schedule slips have historically been frequent",
+      "Cash burn accelerating; may need raise in 12-18 months",
+      "Globalstar concentration in Space Systems backlog"
+    ],
+    "catalysts": [
+      { "date": "2026-Q3", "event": "Neutron first launch attempt", "impact": "high" },
+      { "date": "2026-08", "event": "Q2 earnings", "impact": "medium" }
+    ],
+    "risks": [
+      { "risk": "Neutron technical/schedule failure", "severity": "high" },
+      { "risk": "Dilutive equity raise", "severity": "medium" }
+    ],
+    "valuation": {
+      "method": "EV / forward revenue multiple",
+      "fairValueLow": 110,
+      "fairValueHigh": 165,
+      "currency": "USD",
+      "confidence": "medium"
+    },
+    "notes": [
+      {
+        "date": "2026-05-22",
+        "type": "earnings",
+        "note": "Q1 beat on revenue, EPS slightly better than consensus. Backlog grew 12% QoQ.",
+        "images": [
+          { "path": "stocks/RKLB/images/2026-05-22-q1-revenue-trend.png", "caption": "Quarterly revenue trend through Q1 2026", "kind": "chart" }
+        ]
+      },
+      {
+        "date": "2026-03-10",
+        "type": "thesis",
+        "note": "Initiating coverage at 3.5/5. Constructive on Neutron optionality.",
+        "images": []
+      }
+    ],
+    "derivedTags": ["rating-4", "large-cap", "unprofitable"]
+  },
+
+  "news": [
+    {
+      "date": "2026-05-22",
+      "headline": "Rocket Lab beats Q1 revenue estimates, raises guidance",
+      "source": "Bloomberg",
+      "url": "https://example.com/article-id",
+      "sentiment": "positive",
+      "summary": "Rocket Lab reported Q1 revenue of $123M vs $118M expected. Raised Q2 guidance."
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "Neutron static fire test scheduled for July",
+      "source": "Reuters",
+      "url": "https://example.com/article-id",
+      "sentiment": "neutral",
+      "summary": "Company confirmed Neutron stage-2 static fire on schedule for July 2026."
+    }
+  ],
+
+  "ownership": {
+    "asOf": "2026-03-31",
+    "institutionalPct": 0.62,
+    "insiderPct": 0.10,
+    "shortInterest": 0.08,
+    "topHolders": [
+      { "name": "Vanguard", "pct": 0.085 },
+      { "name": "BlackRock", "pct": 0.072 }
+    ]
+  },
+
+  "links": {
+    "investorRelations": "https://investors.rocketlabusa.com",
+    "secFilings": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=RKLB",
+    "earningsCallTranscripts": "",
+    "researchPage": "stocks/RKLB.html"
+  },
+
+  "meta": {
+    "createdAt": "2026-01-15",
+    "updatedAt": "2026-05-23",
+    "dataSources": ["manual", "yfinance", "claude-analysis"]
+  }
+}

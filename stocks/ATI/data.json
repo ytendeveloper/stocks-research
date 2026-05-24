@@ -1,0 +1,139 @@
+{
+  "ticker": "ATI",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "ATI Inc",
+    "exchange": "",
+    "sector": "Materials",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Titanium alloys for rocket engines, spacecraft structures, satellite bus.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Materials + Aerospace"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 162.29,
+    "change": 1.88,
+    "changePct": 1.17,
+    "volume": 1681700,
+    "avgVolume": 1793995,
+    "dayHigh": 164.37,
+    "dayLow": 159.11,
+    "fiftyTwoWeekHigh": 171.11,
+    "fiftyTwoWeekLow": 70.42,
+    "marketCap": "$22.1B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 162.29,
+        "change": 1.17,
+        "volume": 1681700
+      },
+      {
+        "date": "2026-05-21",
+        "close": 160.41,
+        "change": 4.35,
+        "volume": 1561400
+      },
+      {
+        "date": "2026-05-20",
+        "close": 153.73,
+        "change": 2.19,
+        "volume": 1673700
+      },
+      {
+        "date": "2026-05-19",
+        "close": 150.44,
+        "change": 0.55,
+        "volume": 1749100
+      },
+      {
+        "date": "2026-05-18",
+        "close": 149.62,
+        "change": -2.98,
+        "volume": 1686000
+      }
+    ],
+    "fiveDayChangePct": 5.23,
+    "fiveWeekChangePct": -1.44,
+    "fiveDayChanges": [
+      -2.98,
+      0.55,
+      2.19,
+      4.35,
+      1.17
+    ],
+    "fiveWeekChanges": [
+      -6.32,
+      0.65,
+      2.02,
+      -2.63,
+      5.23
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$4.58B TTM",
+    "revenueGrowth": null,
+    "pe": "34",
+    "profitable": true,
+    "backlog": "N/A"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 3.0,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Titanium alloys for rocket engines, spacecraft structures, satellite bus. Strong A&D franchise, titanium for rockets.",
+    "bullCase": [
+      "$1B Airbus titanium contract",
+      "A&D = 69% revenue",
+      "record EBITDA trajectory"
+    ],
+    "bearCase": [
+      "Aerospace cycle",
+      "Boeing issues",
+      "34x PE"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "large-cap",
+      "profitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=ATI"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

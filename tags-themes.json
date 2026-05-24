@@ -1,0 +1,82 @@
+{
+  "tags": [
+    {
+      "name": "space",
+      "description": "Direct space industry exposure (launch, spacecraft, satellite, ground)",
+      "type": "static"
+    },
+    {
+      "name": "launch",
+      "description": "Rocket launch providers and propulsion",
+      "type": "static"
+    },
+    {
+      "name": "sat",
+      "description": "Satellite manufacturing, operation, or constellations",
+      "type": "static"
+    },
+    {
+      "name": "spacecraft",
+      "description": "Lunar landers, orbital vehicles, space habitats",
+      "type": "static"
+    },
+ 
+    {
+      "name": "defense",
+      "description": "Defense primes, military systems, contractors",
+      "type": "static"
+    },
+    {
+      "name": "drones",
+      "description": "Drones, UAVs, autonomous combat aircraft",
+      "type": "static"
+    },
+
+    {
+      "name": "ai",
+      "description": "AI compute, models, or AI-native applications",
+      "type": "static"
+    },
+    {
+      "name": "nw",
+      "description": "Optical networking, switches, data-center fabric",
+      "type": "static"
+    },
+    {
+      "name": "semis",
+      "description": "Chip designers, fabs, RF/analog/optical semis",
+      "type": "static"
+    },
+    {
+      "name": "telecom",
+      "description": "Telecom carriers and infrastructure",
+      "type": "static"
+    },
+    {
+      "name": "materials",
+      "description": "Rare earths, specialty metals, composites, alloys",
+      "type": "static"
+    }
+
+
+ 
+
+    
+  ],
+  "themes": [
+    {
+      "name": "Space Economy",
+      "description": "Companies whose value is tied to commercial space growth",
+      "tags": "space launch sat spacecraft "
+    },
+  
+    {
+      "name": "AI Infrastructure",
+      "description": "The picks-and-shovels of the AI buildout",
+      "tags": "ai nw semis"
+    }
+  
+
+
+  ]
+}

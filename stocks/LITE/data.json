@@ -1,0 +1,138 @@
+{
+  "ticker": "LITE",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Lumentum Holdings",
+    "exchange": "",
+    "sector": "Semiconductors",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Lasers and optics for inter-satellite laser links and free-space optical comms.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "AI + Networking"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 946.9,
+    "change": -17.6,
+    "changePct": -1.82,
+    "volume": 3059900,
+    "avgVolume": 6267170,
+    "dayHigh": 971.05,
+    "dayLow": 934.85,
+    "fiftyTwoWeekHigh": 1085.68,
+    "fiftyTwoWeekLow": 71.04,
+    "marketCap": "$73.7B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 946.9,
+        "change": -1.82,
+        "volume": 3059900
+      },
+      {
+        "date": "2026-05-21",
+        "close": 964.5,
+        "change": 11.11,
+        "volume": 5781900
+      },
+      {
+        "date": "2026-05-20",
+        "close": 868.07,
+        "change": -2.47,
+        "volume": 5195000
+      },
+      {
+        "date": "2026-05-19",
+        "close": 890.09,
+        "change": 0.58,
+        "volume": 5025800
+      },
+      {
+        "date": "2026-05-18",
+        "close": 884.98,
+        "change": -8.83,
+        "volume": 7197500
+      }
+    ],
+    "fiveDayChangePct": -2.45,
+    "fiveWeekChangePct": 5.91,
+    "fiveDayChanges": [
+      -8.83,
+      0.58,
+      -2.47,
+      11.11,
+      -1.82
+    ],
+    "fiveWeekChanges": [
+      -1.39,
+      7.75,
+      -4.86,
+      7.4,
+      -2.45
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "~$3.5B+ annualized",
+    "revenueGrowth": null,
+    "pe": "N/A",
+    "profitable": true,
+    "backlog": "$400M+ OCS"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 3.0,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Lasers and optics for inter-satellite laser links and free-space optical comms. OCS leader but $75B cap limits upside.",
+    "bullCase": [
+      "NVIDIA $2B investment",
+      "OCS backlog >$400M",
+      "CPO multi-hundred-million orders"
+    ],
+    "bearCase": [
+      "Already surged from ~$40",
+      "NVIDIA concentration"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "large-cap",
+      "unprofitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=LITE"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

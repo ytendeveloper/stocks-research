@@ -1,0 +1,140 @@
+{
+  "ticker": "RCAT",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Red Cat Holdings",
+    "exchange": "",
+    "sector": "Defense/Drones",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Pure-play tactical military drone maker. Black Widow for Army ISR.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Defense + Drones"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 9.41,
+    "change": 0.38,
+    "changePct": 4.21,
+    "volume": 9391400,
+    "avgVolume": 10094855,
+    "dayHigh": 9.59,
+    "dayLow": 9.1,
+    "fiftyTwoWeekHigh": 18.78,
+    "fiftyTwoWeekLow": 5.71,
+    "marketCap": "$1.4B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 9.41,
+        "change": 4.21,
+        "volume": 9391400
+      },
+      {
+        "date": "2026-05-21",
+        "close": 9.03,
+        "change": 1.01,
+        "volume": 6346800
+      },
+      {
+        "date": "2026-05-20",
+        "close": 8.94,
+        "change": 4.56,
+        "volume": 7514700
+      },
+      {
+        "date": "2026-05-19",
+        "close": 8.55,
+        "change": -4.26,
+        "volume": 9750600
+      },
+      {
+        "date": "2026-05-18",
+        "close": 8.93,
+        "change": -5.9,
+        "volume": 11044900
+      }
+    ],
+    "fiveDayChangePct": -0.84,
+    "fiveWeekChangePct": -26.02,
+    "fiveDayChanges": [
+      -5.9,
+      -4.26,
+      4.56,
+      1.01,
+      4.21
+    ],
+    "fiveWeekChanges": [
+      -7.23,
+      -4.83,
+      -7.66,
+      -8.49,
+      -0.84
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$40.7M FY25",
+    "revenueGrowth": 8.49,
+    "pe": "N/A",
+    "profitable": false,
+    "backlog": "N/A"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 3.5,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Pure-play tactical military drone maker. Black Widow for Army ISR. Real contracts, explosive growth, small cap.",
+    "bullCase": [
+      "$35M Army SRR (Black Widow)",
+      "NATO NSPA catalogue",
+      "500+ units/month",
+      "EDGE 130"
+    ],
+    "bearCase": [
+      "$225M dilutive raise",
+      "concentrated contract risk",
+      "early margins"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "small-cap",
+      "unprofitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=RCAT"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

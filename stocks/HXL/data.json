@@ -1,0 +1,138 @@
+{
+  "ticker": "HXL",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Hexcel",
+    "exchange": "",
+    "sector": "Materials",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Carbon fiber composites for rocket fairings, satellite structures, payload adapters.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Materials + Aerospace"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 86.19,
+    "change": 1.43,
+    "changePct": 1.69,
+    "volume": 817400,
+    "avgVolume": 974590,
+    "dayHigh": 86.89,
+    "dayLow": 83.69,
+    "fiftyTwoWeekHigh": 98.26,
+    "fiftyTwoWeekLow": 51.52,
+    "marketCap": "$6.5B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 86.19,
+        "change": 1.69,
+        "volume": 817400
+      },
+      {
+        "date": "2026-05-21",
+        "close": 84.76,
+        "change": -1.24,
+        "volume": 1151000
+      },
+      {
+        "date": "2026-05-20",
+        "close": 85.82,
+        "change": -2.81,
+        "volume": 1781300
+      },
+      {
+        "date": "2026-05-19",
+        "close": 88.3,
+        "change": -1.1,
+        "volume": 880100
+      },
+      {
+        "date": "2026-05-18",
+        "close": 89.28,
+        "change": 0.71,
+        "volume": 908200
+      }
+    ],
+    "fiveDayChangePct": -2.77,
+    "fiveWeekChangePct": -2.71,
+    "fiveDayChanges": [
+      0.71,
+      -1.1,
+      -2.81,
+      -1.24,
+      1.69
+    ],
+    "fiveWeekChanges": [
+      0.71,
+      3.18,
+      3.55,
+      -7.0,
+      -2.77
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$1.9B TTM",
+    "revenueGrowth": null,
+    "pe": "25",
+    "profitable": true,
+    "backlog": "N/A"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 2.5,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Carbon fiber composites for rocket fairings, satellite structures, payload adapters. Oligopoly protection, steady compounder.",
+    "bullCase": [
+      "Carbon fiber for rocket fairings/sats",
+      "oligopoly (3 producers)",
+      "multi-decade cycle"
+    ],
+    "bearCase": [
+      "Slow aerospace build rates",
+      "modest growth"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "mid-cap",
+      "profitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=HXL"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "ticker": "ASTS",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "AST SpaceMobile",
+    "exchange": "",
+    "sector": "Telecom/Space",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Pure-play satellite-to-phone. Most direct space connectivity bet.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Satellite + Space Data"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 105.86,
+    "change": 9.63,
+    "changePct": 10.01,
+    "volume": 30559500,
+    "avgVolume": 21065085,
+    "dayHigh": 107.59,
+    "dayLow": 98.41,
+    "fiftyTwoWeekHigh": 129.89,
+    "fiftyTwoWeekLow": 22.47,
+    "marketCap": "$31.6B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 105.86,
+        "change": 10.01,
+        "volume": 30559500
+      },
+      {
+        "date": "2026-05-21",
+        "close": 96.23,
+        "change": 7.42,
+        "volume": 24819900
+      },
+      {
+        "date": "2026-05-20",
+        "close": 89.58,
+        "change": 1.68,
+        "volume": 20010000
+      },
+      {
+        "date": "2026-05-19",
+        "close": 88.1,
+        "change": 1.46,
+        "volume": 21663600
+      },
+      {
+        "date": "2026-05-18",
+        "close": 86.83,
+        "change": 3.78,
+        "volume": 25080400
+      }
+    ],
+    "fiveDayChangePct": 26.52,
+    "fiveWeekChangePct": 23.77,
+    "fiveDayChanges": [
+      3.78,
+      1.46,
+      1.68,
+      7.42,
+      10.01
+    ],
+    "fiveWeekChanges": [
+      -10.67,
+      -7.21,
+      5.87,
+      11.49,
+      26.52
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$70.9M FY25",
+    "revenueGrowth": -1.8,
+    "pe": "N/A",
+    "profitable": false,
+    "backlog": "$1.2B"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 3.0,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Pure-play satellite-to-phone. Most direct space connectivity bet. Enormous TAM but enormous valuation.",
+    "bullCase": [
+      "45-60 sats by EOY 2026",
+      "FCC commercial auth",
+      "60 MNO partners",
+      "3B+ subscribers"
+    ],
+    "bearCase": [
+      "$191M/quarter burn",
+      "$41B on $71M rev",
+      "Starlink D2C competition"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "large-cap",
+      "unprofitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=ASTS"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

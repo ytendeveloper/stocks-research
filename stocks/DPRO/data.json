@@ -1,0 +1,139 @@
+{
+  "ticker": "DPRO",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Draganfly",
+    "exchange": "",
+    "sector": "Defense/Drones",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "ISR and tactical drones for military.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Defense + Drones"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 6.42,
+    "change": 0.18,
+    "changePct": 2.88,
+    "volume": 2357600,
+    "avgVolume": 1453730,
+    "dayHigh": 6.65,
+    "dayLow": 6.19,
+    "fiftyTwoWeekHigh": 14.4,
+    "fiftyTwoWeekLow": 1.69,
+    "marketCap": "$234M",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 6.42,
+        "change": 2.88,
+        "volume": 2357600
+      },
+      {
+        "date": "2026-05-21",
+        "close": 6.24,
+        "change": 13.87,
+        "volume": 2690500
+      },
+      {
+        "date": "2026-05-20",
+        "close": 5.48,
+        "change": 3.98,
+        "volume": 1659400
+      },
+      {
+        "date": "2026-05-19",
+        "close": 5.27,
+        "change": 0.0,
+        "volume": 1087800
+      },
+      {
+        "date": "2026-05-18",
+        "close": 5.27,
+        "change": -1.31,
+        "volume": 1086300
+      }
+    ],
+    "fiveDayChangePct": 20.22,
+    "fiveWeekChangePct": 8.08,
+    "fiveDayChanges": [
+      -1.31,
+      0.0,
+      3.98,
+      13.87,
+      2.88
+    ],
+    "fiveWeekChanges": [
+      -1.18,
+      -9.54,
+      3.2,
+      -2.55,
+      20.22
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$7.7M FY25",
+    "revenueGrowth": 0.49,
+    "pe": "N/A",
+    "profitable": false,
+    "backlog": "N/A"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 2.5,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "ISR and tactical drones for military. Right thesis, wrong pace.",
+    "bullCase": [
+      "AFSOC Flex FPV drones",
+      "$147M cash",
+      "analyst target $14+"
+    ],
+    "bearCase": [
+      "Growth lags peers (49% vs 800%+)",
+      "tiny revenue",
+      "Canadian ITAR"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "small-cap",
+      "unprofitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=DPRO"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

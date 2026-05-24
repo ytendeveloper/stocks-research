@@ -1,0 +1,139 @@
+{
+  "ticker": "MRVL",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Marvell Technology",
+    "exchange": "",
+    "sector": "Semiconductors",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "MGS subsidiary for A&D ASICs; edge computing for satellite ground infrastructure.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "AI + Networking"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 196.33,
+    "change": 5.64,
+    "changePct": 2.96,
+    "volume": 19768800,
+    "avgVolume": 23494460,
+    "dayHigh": 198.4,
+    "dayLow": 192.22,
+    "fiftyTwoWeekHigh": 198.4,
+    "fiftyTwoWeekLow": 58.61,
+    "marketCap": "$171.9B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 196.33,
+        "change": 2.96,
+        "volume": 19768800
+      },
+      {
+        "date": "2026-05-21",
+        "close": 190.69,
+        "change": 2.08,
+        "volume": 21506100
+      },
+      {
+        "date": "2026-05-20",
+        "close": 186.8,
+        "change": 5.97,
+        "volume": 29808100
+      },
+      {
+        "date": "2026-05-19",
+        "close": 176.27,
+        "change": 4.35,
+        "volume": 25003300
+      },
+      {
+        "date": "2026-05-18",
+        "close": 168.93,
+        "change": -4.5,
+        "volume": 24439000
+      }
+    ],
+    "fiveDayChangePct": 10.99,
+    "fiveWeekChangePct": 40.55,
+    "fiveDayChanges": [
+      -4.5,
+      4.35,
+      5.97,
+      2.08,
+      2.96
+    ],
+    "fiveWeekChanges": [
+      17.62,
+      0.39,
+      3.14,
+      3.97,
+      10.99
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$8.195B FY26",
+    "revenueGrowth": 0.42,
+    "pe": "55",
+    "profitable": true,
+    "backlog": "N/A"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 2.0,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "MGS subsidiary for A&D ASICs; edge computing for satellite ground infrastructure. Well-positioned but too large for multi-bagger.",
+    "bullCase": [
+      "NVIDIA $2B NVLink Fusion",
+      "custom XPU",
+      "AI-RAN for 5G/6G"
+    ],
+    "bearCase": [
+      "Customer concentration",
+      "in-house silicon risk",
+      "$167B cap"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "large-cap",
+      "profitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=MRVL"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "ticker": "FCX",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Freeport-McMoRan",
+    "exchange": "",
+    "sector": "Materials",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Copper for satellite wiring, ground stations, launch pad electrical, data centers.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Materials + Aerospace"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 61.99,
+    "change": -0.32,
+    "changePct": -0.51,
+    "volume": 7856200,
+    "avgVolume": 14040650,
+    "dayHigh": 62.71,
+    "dayLow": 61.51,
+    "fiftyTwoWeekHigh": 70.97,
+    "fiftyTwoWeekLow": 35.15,
+    "marketCap": "$89.1B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 61.99,
+        "change": -0.51,
+        "volume": 7856200
+      },
+      {
+        "date": "2026-05-21",
+        "close": 62.31,
+        "change": 2.37,
+        "volume": 10184500
+      },
+      {
+        "date": "2026-05-20",
+        "close": 60.87,
+        "change": 3.7,
+        "volume": 12015900
+      },
+      {
+        "date": "2026-05-19",
+        "close": 58.7,
+        "change": -2.98,
+        "volume": 12142700
+      },
+      {
+        "date": "2026-05-18",
+        "close": 60.5,
+        "change": -3.98,
+        "volume": 14798200
+      }
+    ],
+    "fiveDayChangePct": -1.62,
+    "fiveWeekChangePct": -11.71,
+    "fiveDayChanges": [
+      -3.98,
+      -2.98,
+      3.7,
+      2.37,
+      -0.51
+    ],
+    "fiveWeekChanges": [
+      -13.05,
+      -7.37,
+      9.02,
+      2.21,
+      -1.62
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$24B+ TTM",
+    "revenueGrowth": 0.09,
+    "pe": "15",
+    "profitable": true,
+    "backlog": "N/A"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 2.0,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Copper for satellite wiring, ground stations, launch pad electrical, data centers. Commodity play after 184% run.",
+    "bullCase": [
+      "Copper structural deficit",
+      "copper at $5.78/lb",
+      "Grasberg mine"
+    ],
+    "bearCase": [
+      "$90B cap",
+      "copper cyclicality",
+      "geopolitical"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "large-cap",
+      "profitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=FCX"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

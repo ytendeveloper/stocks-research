@@ -1,0 +1,140 @@
+{
+  "ticker": "PL",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Planet Labs",
+    "exchange": "",
+    "sector": "Aerospace/Data",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Largest fleet of Earth observation satellites. Core space data economy.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Satellite + Space Data"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 44.35,
+    "change": 1.87,
+    "changePct": 4.4,
+    "volume": 9784600,
+    "avgVolume": 8908140,
+    "dayHigh": 45.27,
+    "dayLow": 43.1,
+    "fiftyTwoWeekHigh": 45.78,
+    "fiftyTwoWeekLow": 3.66,
+    "marketCap": "$15.8B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 44.35,
+        "change": 4.4,
+        "volume": 9784600
+      },
+      {
+        "date": "2026-05-21",
+        "close": 42.48,
+        "change": -0.42,
+        "volume": 7459700
+      },
+      {
+        "date": "2026-05-20",
+        "close": 42.66,
+        "change": 2.57,
+        "volume": 8141400
+      },
+      {
+        "date": "2026-05-19",
+        "close": 41.59,
+        "change": -0.05,
+        "volume": 8774500
+      },
+      {
+        "date": "2026-05-18",
+        "close": 41.61,
+        "change": -0.02,
+        "volume": 11439500
+      }
+    ],
+    "fiveDayChangePct": 6.56,
+    "fiveWeekChangePct": 15.25,
+    "fiveDayChanges": [
+      -0.02,
+      -0.05,
+      2.57,
+      -0.42,
+      4.4
+    ],
+    "fiveWeekChanges": [
+      -7.9,
+      4.12,
+      5.8,
+      6.61,
+      6.56
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$308M FY26",
+    "revenueGrowth": 0.26,
+    "pe": "N/A",
+    "profitable": false,
+    "backlog": "$900M+"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 3.0,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Largest fleet of Earth observation satellites. Core space data economy. Best EO company but stretched valuation.",
+    "bullCase": [
+      "$900M backlog",
+      "defense rev +50%",
+      "Swedish Armed Forces contract",
+      "first adj. EBITDA+"
+    ],
+    "bearCase": [
+      "~50x P/S",
+      "extreme volatility ($3.47-$45.78)",
+      "GAAP losses"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "large-cap",
+      "unprofitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=PL"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

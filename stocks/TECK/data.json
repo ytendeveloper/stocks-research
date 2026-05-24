@@ -1,0 +1,138 @@
+{
+  "ticker": "TECK",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Teck Resources",
+    "exchange": "",
+    "sector": "Materials",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Critical minerals (germanium for IR optics, indium for solar cells) used in satellites.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Materials + Aerospace"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 62.66,
+    "change": -0.34,
+    "changePct": -0.54,
+    "volume": 2956700,
+    "avgVolume": 3055380,
+    "dayHigh": 63.31,
+    "dayLow": 61.86,
+    "fiftyTwoWeekHigh": 67.67,
+    "fiftyTwoWeekLow": 30.98,
+    "marketCap": "$30.7B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 62.66,
+        "change": -0.54,
+        "volume": 2956700
+      },
+      {
+        "date": "2026-05-21",
+        "close": 63.0,
+        "change": 2.91,
+        "volume": 3150500
+      },
+      {
+        "date": "2026-05-20",
+        "close": 61.22,
+        "change": 3.1,
+        "volume": 3213800
+      },
+      {
+        "date": "2026-05-19",
+        "close": 59.38,
+        "change": -1.43,
+        "volume": 3927700
+      },
+      {
+        "date": "2026-05-18",
+        "close": 60.24,
+        "change": -1.81,
+        "volume": 2799400
+      }
+    ],
+    "fiveDayChangePct": 2.14,
+    "fiveWeekChangePct": 5.52,
+    "fiveDayChanges": [
+      -1.81,
+      -1.43,
+      3.1,
+      2.91,
+      -0.54
+    ],
+    "fiveWeekChanges": [
+      1.33,
+      -3.69,
+      11.94,
+      -5.43,
+      2.14
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$7.69B TTM",
+    "revenueGrowth": 0.72,
+    "pe": "14",
+    "profitable": true,
+    "backlog": "N/A"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 2.0,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Critical minerals (germanium for IR optics, indium for solar cells) used in satellites. Critical minerals but not differentiated for space.",
+    "bullCase": [
+      "Anglo Teck merger",
+      "germanium/indium production",
+      "record copper 70,300t Q1"
+    ],
+    "bearCase": [
+      "Merger execution",
+      "copper dependency"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "large-cap",
+      "profitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=TECK"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "ticker": "ANET",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Arista Networks",
+    "exchange": "",
+    "sector": "Networking",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "High-performance networking for ground-based satellite data processing centers.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "AI + Networking"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 154.03,
+    "change": 5.44,
+    "changePct": 3.66,
+    "volume": 10554600,
+    "avgVolume": 12631935,
+    "dayHigh": 154.39,
+    "dayLow": 149.0,
+    "fiftyTwoWeekHigh": 179.8,
+    "fiftyTwoWeekLow": 83.86,
+    "marketCap": "$193.9B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 154.03,
+        "change": 3.66,
+        "volume": 10554600
+      },
+      {
+        "date": "2026-05-21",
+        "close": 148.59,
+        "change": 5.77,
+        "volume": 11620600
+      },
+      {
+        "date": "2026-05-20",
+        "close": 140.49,
+        "change": -0.77,
+        "volume": 9617000
+      },
+      {
+        "date": "2026-05-19",
+        "close": 141.58,
+        "change": -0.09,
+        "volume": 8800800
+      },
+      {
+        "date": "2026-05-18",
+        "close": 141.71,
+        "change": -0.18,
+        "volume": 8634500
+      }
+    ],
+    "fiveDayChangePct": 8.49,
+    "fiveWeekChangePct": -6.21,
+    "fiveDayChanges": [
+      -0.18,
+      -0.09,
+      -0.77,
+      5.77,
+      3.66
+    ],
+    "fiveWeekChanges": [
+      7.72,
+      -2.38,
+      -17.91,
+      0.14,
+      8.49
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$9.01B FY25",
+    "revenueGrowth": 0.286,
+    "pe": "45",
+    "profitable": true,
+    "backlog": "N/A"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 2.0,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "High-performance networking for ground-based satellite data processing centers. Best-in-class but premium valuation.",
+    "bullCase": [
+      "AI networking rev doubling to $3.25B",
+      "XPO 12.8 Tbps",
+      "NVLink Fusion"
+    ],
+    "bearCase": [
+      "$190B cap",
+      "customer concentration",
+      "insider selling"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "large-cap",
+      "profitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=ANET"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

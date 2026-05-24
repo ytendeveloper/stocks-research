@@ -1,0 +1,154 @@
+{
+  "lists": [
+    "monitoring",
+    "bought",
+    "sold",
+    "inactive"
+  ],
+  "tickers": {
+    "AA": [
+      "monitoring"
+    ],
+    "AAOI": [
+      "monitoring"
+    ],
+    "ACHR": [
+      "monitoring"
+    ],
+    "ADI": [
+      "monitoring"
+    ],
+    "AMZN": [
+      "monitoring"
+    ],
+    "ANET": [
+      "monitoring"
+    ],
+    "ASTS": [
+      "monitoring"
+    ],
+    "ATI": [
+      "monitoring"
+    ],
+    "AVAV": [
+      "monitoring"
+    ],
+    "AVGO": [
+      "monitoring"
+    ],
+    "BKSY": [
+      "monitoring"
+    ],
+    "COHR": [
+      "monitoring"
+    ],
+    "CRS": [
+      "monitoring"
+    ],
+    "DPRO": [
+      "monitoring"
+    ],
+    "FCX": [
+      "monitoring"
+    ],
+    "FLY": [
+      "monitoring"
+    ],
+    "GLW": [
+      "monitoring"
+    ],
+    "HXL": [
+      "monitoring"
+    ],
+    "IRDM": [
+      "monitoring"
+    ],
+    "KEEL": [
+      "monitoring"
+    ],
+    "KTOS": [
+      "monitoring"
+    ],
+    "LAES": [
+      "monitoring"
+    ],
+    "LHX": [
+      "monitoring"
+    ],
+    "LITE": [
+      "monitoring"
+    ],
+    "LMT": [
+      "monitoring"
+    ],
+    "LUNR": [
+      "monitoring"
+    ],
+    "MP": [
+      "monitoring"
+    ],
+    "MRVL": [
+      "monitoring"
+    ],
+    "MTRN": [
+      "monitoring"
+    ],
+    "NOK": [
+      "monitoring"
+    ],
+    "NVDA": [
+      "monitoring"
+    ],
+    "ONDS": [
+      "monitoring"
+    ],
+    "PDYN": [
+      "monitoring"
+    ],
+    "PKE": [
+      "monitoring"
+    ],
+    "PL": [
+      "monitoring"
+    ],
+    "POET": [
+      "monitoring"
+    ],
+    "QRVO": [
+      "monitoring"
+    ],
+    "RCAT": [
+      "monitoring"
+    ],
+    "RDW": [
+      "monitoring"
+    ],
+    "RKLB": [
+      "monitoring"
+    ],
+    "RTX": [
+      "monitoring"
+    ],
+    "SPIR": [
+      "monitoring"
+    ],
+    "STM": [
+      "monitoring"
+    ],
+    "TECK": [
+      "monitoring"
+    ],
+    "TEL": [
+      "monitoring"
+    ],
+    "UMAC": [
+      "monitoring"
+    ],
+    "VOYG": [
+      "monitoring"
+    ],
+    "YSS": [
+      "monitoring"
+    ]
+  }
+}

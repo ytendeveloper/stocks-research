@@ -1,0 +1,140 @@
+{
+  "ticker": "SPIR",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Spire Global",
+    "exchange": "",
+    "sector": "Aerospace/Data",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Nanosatellite constellation for weather, climate, maritime data-as-a-service.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Satellite + Space Data"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 21.16,
+    "change": 1.95,
+    "changePct": 10.15,
+    "volume": 1511200,
+    "avgVolume": 1447760,
+    "dayHigh": 21.59,
+    "dayLow": 19.62,
+    "fiftyTwoWeekHigh": 23.59,
+    "fiftyTwoWeekLow": 6.6,
+    "marketCap": "$819M",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 21.16,
+        "change": 10.15,
+        "volume": 1511200
+      },
+      {
+        "date": "2026-05-21",
+        "close": 19.21,
+        "change": -4.33,
+        "volume": 1082800
+      },
+      {
+        "date": "2026-05-20",
+        "close": 20.08,
+        "change": 4.97,
+        "volume": 973600
+      },
+      {
+        "date": "2026-05-19",
+        "close": 19.13,
+        "change": -0.36,
+        "volume": 1027900
+      },
+      {
+        "date": "2026-05-18",
+        "close": 19.2,
+        "change": -4.05,
+        "volume": 1668100
+      }
+    ],
+    "fiveDayChangePct": 5.75,
+    "fiveWeekChangePct": 8.29,
+    "fiveDayChanges": [
+      -4.05,
+      -0.36,
+      4.97,
+      -4.33,
+      10.15
+    ],
+    "fiveWeekChanges": [
+      -15.51,
+      10.12,
+      1.71,
+      8.22,
+      5.75
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$71.6M FY25",
+    "revenueGrowth": 0.5,
+    "pe": "N/A",
+    "profitable": false,
+    "backlog": "N/A"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 2.5,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Nanosatellite constellation for weather, climate, maritime data-as-a-service. Interesting niche but highest execution risk.",
+    "bullCase": [
+      "$150M+ NOAA pipeline",
+      "focused on weather/climate data",
+      "$65.5M PIPE"
+    ],
+    "bearCase": [
+      "Smallest/earliest stage",
+      "dilution",
+      "Q1 miss",
+      "2H-weighted"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "small-cap",
+      "unprofitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=SPIR"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

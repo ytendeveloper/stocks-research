@@ -1,0 +1,139 @@
+{
+  "ticker": "PDYN",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Palladyne AI",
+    "exchange": "",
+    "sector": "Defense/AI",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "AI autonomy stack for unmanned systems. Enables collaborative drone swarms.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Defense + Drones"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 6.4,
+    "change": 0.19,
+    "changePct": 3.06,
+    "volume": 1346000,
+    "avgVolume": 1332260,
+    "dayHigh": 6.51,
+    "dayLow": 6.26,
+    "fiftyTwoWeekHigh": 13.0,
+    "fiftyTwoWeekLow": 4.14,
+    "marketCap": "$302M",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 6.4,
+        "change": 3.06,
+        "volume": 1346000
+      },
+      {
+        "date": "2026-05-21",
+        "close": 6.21,
+        "change": 4.02,
+        "volume": 1026200
+      },
+      {
+        "date": "2026-05-20",
+        "close": 5.97,
+        "change": 0.51,
+        "volume": 972700
+      },
+      {
+        "date": "2026-05-19",
+        "close": 5.94,
+        "change": -3.88,
+        "volume": 991200
+      },
+      {
+        "date": "2026-05-18",
+        "close": 6.18,
+        "change": -4.19,
+        "volume": 1504400
+      }
+    ],
+    "fiveDayChangePct": -0.78,
+    "fiveWeekChangePct": -2.59,
+    "fiveDayChanges": [
+      -4.19,
+      -3.88,
+      0.51,
+      4.02,
+      3.06
+    ],
+    "fiveWeekChanges": [
+      -3.96,
+      0.48,
+      -3.63,
+      5.56,
+      -0.78
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$5.2M FY25",
+    "revenueGrowth": -4.15,
+    "pe": "N/A",
+    "profitable": false,
+    "backlog": "$17M"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 3.5,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "AI autonomy stack for unmanned systems. Enables collaborative drone swarms. AI drone enabler at smallest cap. Speculative moonshot.",
+    "bullCase": [
+      "AI drone brain/swarm intelligence",
+      "$24-$27M FY26 guide",
+      "$47M cash"
+    ],
+    "bearCase": [
+      "Tiny revenue",
+      "speculative",
+      "competition from primes"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "small-cap",
+      "unprofitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=PDYN"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

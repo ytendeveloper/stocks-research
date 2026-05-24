@@ -1,0 +1,139 @@
+{
+  "ticker": "ADI",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Analog Devices",
+    "exchange": "",
+    "sector": "Semiconductors",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Space-grade signal chain and power solutions for satellite telemetry and comms.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "RF + Telecom"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 397.07,
+    "change": 12.86,
+    "changePct": 3.35,
+    "volume": 6107800,
+    "avgVolume": 4156020,
+    "dayHigh": 400.73,
+    "dayLow": 387.01,
+    "fiftyTwoWeekHigh": 435.72,
+    "fiftyTwoWeekLow": 210.8,
+    "marketCap": "$193.4B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 397.07,
+        "change": 3.35,
+        "volume": 6107800
+      },
+      {
+        "date": "2026-05-21",
+        "close": 384.21,
+        "change": -3.48,
+        "volume": 5303500
+      },
+      {
+        "date": "2026-05-20",
+        "close": 398.05,
+        "change": -3.92,
+        "volume": 10353000
+      },
+      {
+        "date": "2026-05-19",
+        "close": 414.31,
+        "change": -1.02,
+        "volume": 6190400
+      },
+      {
+        "date": "2026-05-18",
+        "close": 418.58,
+        "change": 0.26,
+        "volume": 4228500
+      }
+    ],
+    "fiveDayChangePct": -4.89,
+    "fiveWeekChangePct": 6.9,
+    "fiveDayChanges": [
+      0.26,
+      -1.02,
+      -3.92,
+      -3.48,
+      3.35
+    ],
+    "fiveWeekChanges": [
+      7.57,
+      -0.47,
+      4.73,
+      0.23,
+      -4.89
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$6.8B+ TTM",
+    "revenueGrowth": 0.37,
+    "pe": "28",
+    "profitable": true,
+    "backlog": "N/A"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 3.0,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Space-grade signal chain and power solutions for satellite telemetry and comms. Quality compounder with genuine space exposure.",
+    "bullCase": [
+      "Record revenue",
+      "A&D at new highs",
+      "$1.5B Empower acquisition",
+      "60%+ gross margin"
+    ],
+    "bearCase": [
+      "Premium valuation",
+      "cyclical semiconductor"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "large-cap",
+      "profitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=ADI"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

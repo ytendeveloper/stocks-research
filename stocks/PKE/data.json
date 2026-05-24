@@ -1,0 +1,139 @@
+{
+  "ticker": "PKE",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Park Aerospace",
+    "exchange": "",
+    "sector": "Materials",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Advanced composites for aerospace structures applicable to satellites/spacecraft.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Materials + Aerospace"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 34.6,
+    "change": 1.61,
+    "changePct": 4.88,
+    "volume": 273400,
+    "avgVolume": 185190,
+    "dayHigh": 34.7,
+    "dayLow": 32.94,
+    "fiftyTwoWeekHigh": 35.86,
+    "fiftyTwoWeekLow": 13.48,
+    "marketCap": "$689M",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 34.6,
+        "change": 4.88,
+        "volume": 273400
+      },
+      {
+        "date": "2026-05-21",
+        "close": 32.99,
+        "change": -2.57,
+        "volume": 243400
+      },
+      {
+        "date": "2026-05-20",
+        "close": 33.86,
+        "change": 1.65,
+        "volume": 146000
+      },
+      {
+        "date": "2026-05-19",
+        "close": 33.31,
+        "change": -0.69,
+        "volume": 228100
+      },
+      {
+        "date": "2026-05-18",
+        "close": 33.54,
+        "change": -0.45,
+        "volume": 148500
+      }
+    ],
+    "fiveDayChangePct": 2.7,
+    "fiveWeekChangePct": 0.26,
+    "fiveDayChanges": [
+      -0.45,
+      -0.69,
+      1.65,
+      -2.57,
+      4.88
+    ],
+    "fiveWeekChanges": [
+      -3.94,
+      2.32,
+      -1.0,
+      0.33,
+      2.7
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$66M TTM",
+    "revenueGrowth": null,
+    "pe": "20",
+    "profitable": true,
+    "backlog": "N/A"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 2.0,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Advanced composites for aerospace structures applicable to satellites/spacecraft. Niche with no growth catalyst.",
+    "bullCase": [
+      "Specialty aerospace composites",
+      "$63.6M cash",
+      "zero debt"
+    ],
+    "bearCase": [
+      "Tiny, flat revenue",
+      "low liquidity",
+      "niche"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "small-cap",
+      "profitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=PKE"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

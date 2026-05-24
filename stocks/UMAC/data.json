@@ -1,0 +1,139 @@
+{
+  "ticker": "UMAC",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Unusual Machines",
+    "exchange": "",
+    "sector": "Defense/Drones",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "U.S.-made drone components. Benefits from DJI ban / NDAA compliance.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Defense + Drones"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 16.78,
+    "change": 1.98,
+    "changePct": 13.38,
+    "volume": 6924100,
+    "avgVolume": 3776170,
+    "dayHigh": 16.88,
+    "dayLow": 14.76,
+    "fiftyTwoWeekHigh": 23.38,
+    "fiftyTwoWeekLow": 4.81,
+    "marketCap": "$802M",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 16.78,
+        "change": 13.38,
+        "volume": 6924100
+      },
+      {
+        "date": "2026-05-21",
+        "close": 14.8,
+        "change": 2.99,
+        "volume": 2579000
+      },
+      {
+        "date": "2026-05-20",
+        "close": 14.37,
+        "change": 5.2,
+        "volume": 2601900
+      },
+      {
+        "date": "2026-05-19",
+        "close": 13.66,
+        "change": -5.47,
+        "volume": 3706400
+      },
+      {
+        "date": "2026-05-18",
+        "close": 14.45,
+        "change": -10.8,
+        "volume": 5564200
+      }
+    ],
+    "fiveDayChangePct": 3.58,
+    "fiveWeekChangePct": 19.09,
+    "fiveDayChanges": [
+      -10.8,
+      -5.47,
+      5.2,
+      2.99,
+      13.38
+    ],
+    "fiveWeekChanges": [
+      3.97,
+      -3.14,
+      -5.43,
+      20.72,
+      3.58
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$11.2M FY25",
+    "revenueGrowth": 2.96,
+    "pe": "N/A",
+    "profitable": false,
+    "backlog": "N/A"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 3.0,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "U.S.-made drone components. Benefits from DJI ban / NDAA compliance. Picks-and-shovels, fortress balance sheet.",
+    "bullCase": [
+      "Components to 50%+ Drone Dominance winners",
+      "$220M cash",
+      "Lantronix on $1.1B program"
+    ],
+    "bearCase": [
+      "Small revenue",
+      "component supplier margins",
+      "$760M on $27M rev"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "small-cap",
+      "unprofitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=UMAC"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

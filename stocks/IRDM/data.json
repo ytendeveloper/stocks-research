@@ -1,0 +1,139 @@
+{
+  "ticker": "IRDM",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Iridium Communications",
+    "exchange": "",
+    "sector": "Telecom/Space",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Original global satellite communications company. Operational 66-sat constellation.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Satellite + Space Data"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 48.84,
+    "change": 3.14,
+    "changePct": 6.87,
+    "volume": 2227400,
+    "avgVolume": 2024575,
+    "dayHigh": 48.94,
+    "dayLow": 46.2,
+    "fiftyTwoWeekHigh": 48.94,
+    "fiftyTwoWeekLow": 15.65,
+    "marketCap": "$5.2B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 48.84,
+        "change": 6.87,
+        "volume": 2227400
+      },
+      {
+        "date": "2026-05-21",
+        "close": 45.7,
+        "change": 0.93,
+        "volume": 2013100
+      },
+      {
+        "date": "2026-05-20",
+        "close": 45.28,
+        "change": 3.92,
+        "volume": 2161600
+      },
+      {
+        "date": "2026-05-19",
+        "close": 43.57,
+        "change": 0.39,
+        "volume": 1657600
+      },
+      {
+        "date": "2026-05-18",
+        "close": 43.4,
+        "change": 4.28,
+        "volume": 2635700
+      }
+    ],
+    "fiveDayChangePct": 17.35,
+    "fiveWeekChangePct": 16.7,
+    "fiveDayChanges": [
+      4.28,
+      0.39,
+      3.92,
+      0.93,
+      6.87
+    ],
+    "fiveWeekChanges": [
+      -6.91,
+      1.23,
+      5.12,
+      0.39,
+      17.35
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$871.7M FY25",
+    "revenueGrowth": 0.05,
+    "pe": "46",
+    "profitable": true,
+    "backlog": "N/A"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 2.0,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Original global satellite communications company. Operational 66-sat constellation. Quality compounder, not multi-bagger.",
+    "bullCase": [
+      "NTN Direct with Vodafone/DT",
+      "$200M incremental rev by 2030",
+      "2.5M subscribers"
+    ],
+    "bearCase": [
+      "Flat service growth guide",
+      "Starlink/5G competition",
+      "46x P/E"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "mid-cap",
+      "profitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=IRDM"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "ticker": "FLY",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "Firefly Aerospace",
+    "exchange": "",
+    "sector": "Aerospace",
+    "industry": "",
+    "country": "USA",
+    "headquarters": "",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "",
+    "employees": null,
+    "website": "",
+    "description": "Vertically integrated launch + lunar services. Launch-to-landing capability.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": [
+      "Launch + Spacecraft"
+    ]
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-23",
+    "price": 49.5,
+    "change": 6.64,
+    "changePct": 15.49,
+    "volume": 8773800,
+    "avgVolume": 6422365,
+    "dayHigh": 50.02,
+    "dayLow": 42.93,
+    "fiftyTwoWeekHigh": 73.8,
+    "fiftyTwoWeekLow": 16.0,
+    "marketCap": "$7.9B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 49.5,
+        "change": 15.49,
+        "volume": 8773800
+      },
+      {
+        "date": "2026-05-21",
+        "close": 42.86,
+        "change": -2.59,
+        "volume": 4349200
+      },
+      {
+        "date": "2026-05-20",
+        "close": 44.0,
+        "change": 3.36,
+        "volume": 5779500
+      },
+      {
+        "date": "2026-05-19",
+        "close": 42.57,
+        "change": -3.14,
+        "volume": 5832700
+      },
+      {
+        "date": "2026-05-18",
+        "close": 43.95,
+        "change": 8.71,
+        "volume": 9863400
+      }
+    ],
+    "fiveDayChangePct": 22.43,
+    "fiveWeekChangePct": 13.22,
+    "fiveDayChanges": [
+      8.71,
+      -3.14,
+      3.36,
+      -2.59,
+      15.49
+    ],
+    "fiveWeekChanges": [
+      -19.65,
+      -3.79,
+      17.4,
+      1.89,
+      22.43
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-22",
+    "revenue": "$275M TTM",
+    "revenueGrowth": 0.45,
+    "pe": "N/A",
+    "profitable": false,
+    "backlog": "N/A"
+  },
+  "quarterly": [],
+  "annual": [],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-22",
+    "score": 2.0,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "Vertically integrated launch + lunar services. Launch-to-landing capability. Impressive breadth but unsustainable economics.",
+    "bullCase": [
+      "Broadest portfolio (Alpha, Eclipse, Blue Ghost, Elytra, Ocula)"
+    ],
+    "bearCase": [
+      "Burn rate > revenue",
+      "$6.87B on $275M rev",
+      "Alpha reliability issues"
+    ],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "mid-cap",
+      "unprofitable"
+    ]
+  },
+  "news": [],
+  "ownership": {},
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=FLY"
+  },
+  "meta": {
+    "createdAt": "2026-05-22",
+    "updatedAt": "2026-05-23",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "migrated-from-legacy-data.json"
+    ]
+  }
+}
