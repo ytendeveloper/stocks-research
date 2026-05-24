@@ -171,21 +171,86 @@
       "operatingIncome": "-$19.0M",
       "netIncome": "-$17.9M",
       "eps": -0.42
+    },
+    {
+      "year": 2026,
+      "revenue": "$143.1M",
+      "projected": true,
+      "source": "analyst-consensus",
+      "revenueYoY": 0.6199,
+      "analysts": 5
+    },
+    {
+      "year": 2027,
+      "revenue": "$219.4M",
+      "projected": true,
+      "source": "analyst-consensus",
+      "revenueYoY": 0.5332,
+      "analysts": 5
     }
   ],
   "claude": {
     "lastAnalyzedAt": "2026-05-24",
-    "score": null,
+    "score": 3.0,
     "scoreScale": "1-5",
-    "conviction": "",
-    "stance": "",
-    "thesis": "",
-    "bullCase": [],
-    "bearCase": [],
-    "catalysts": [],
-    "risks": [],
-    "valuation": {},
-    "notes": [],
+    "conviction": "low",
+    "stance": "constructive but cautious",
+    "thesis": "InP substrate play on AI photonics. Indium phosphide is the substrate of choice for 800G/1.6T optical transceivers driving hyperscale AI interconnects; AXT also serves GaAs (RF, 5G, defense) and germanium (space solar cells). Strategic supply position with reshoring tailwinds, but $9.2B cap on $96M TTM revenue (~96x P/S) is heroically priced after the +71% 5-week rally.",
+    "bullCase": [
+      "InP substrates critical for 800G/1.6T AI optical interconnects",
+      "Direct AI data center buildout exposure via Lumentum, Coherent, AAOI customers",
+      "Germanium substrates for satellite solar cells (space TAM)",
+      "GaAs for 5G RF, WiFi 7, and defense radar",
+      "Western InP supply chain reshoring vs. China dependence"
+    ],
+    "bearCase": [
+      "$9.2B market cap on $96M TTM revenue \u2014 96x P/S is extreme",
+      "Unprofitable, 187x trailing P/E",
+      "Concentrated customer base in optical/RF semis",
+      "China geopolitical exposure on rare-earth raw materials",
+      "+71% in 5 weeks invites mean reversion / profit taking"
+    ],
+    "catalysts": [
+      {
+        "date": "2026-Q3",
+        "event": "Hyperscaler 1.6T optical transceiver ramp orders",
+        "impact": "high"
+      },
+      {
+        "date": "2026-Q2",
+        "event": "Next earnings report",
+        "impact": "medium"
+      }
+    ],
+    "risks": [
+      {
+        "risk": "Valuation compression if AI optics ramp slows",
+        "severity": "high"
+      },
+      {
+        "risk": "Customer concentration",
+        "severity": "medium"
+      },
+      {
+        "risk": "Geopolitical/export control on InP and GaAs raw materials",
+        "severity": "medium"
+      }
+    ],
+    "valuation": {
+      "method": "P/S multiple vs. specialty semi peers",
+      "fairValueLow": 90,
+      "fairValueHigh": 160,
+      "currency": "USD",
+      "confidence": "low"
+    },
+    "notes": [
+      {
+        "date": "2026-05-24",
+        "type": "thesis",
+        "note": "Initiating coverage at 3/5. Compelling structural narrative (InP for AI photonics + space solar germanium) but valuation is extended after the +71% 5w rally. Watching for sustained order momentum from optical transceiver customers before scaling conviction.",
+        "images": []
+      }
+    ],
     "derivedTags": [
       "mid-cap",
       "unprofitable"

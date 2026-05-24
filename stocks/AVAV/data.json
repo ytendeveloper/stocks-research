@@ -173,6 +173,22 @@
       "operatingIncome": "-$22.6M",
       "netIncome": "-$176.2M",
       "eps": -7.04
+    },
+    {
+      "year": 2026,
+      "revenue": "$1.90B",
+      "projected": true,
+      "source": "analyst-consensus",
+      "revenueYoY": 1.3199,
+      "analysts": 19
+    },
+    {
+      "year": 2027,
+      "revenue": "$2.20B",
+      "projected": true,
+      "source": "analyst-consensus",
+      "revenueYoY": 0.1579,
+      "analysts": 19
     }
   ],
   "claude": {
