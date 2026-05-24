@@ -2,18 +2,18 @@
   "ticker": "AVAV",
   "schemaVersion": "1.0",
   "static": {
-    "name": "AeroVironment",
-    "exchange": "",
-    "sector": "Defense/Drones",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "AeroVironment, Inc.",
+    "exchange": "NMS",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "country": "United States",
+    "headquarters": "Arlington, VA",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Military drone leader. Switchblade combat-proven. BlueHalo adds space comms.",
+    "ceo": "Mr. Wahid  Nawabi",
+    "employees": 1456,
+    "website": "https://www.avinc.com",
+    "description": "AeroVironment, Inc. designs, develops, produces, delivers, and supports a portfolio of robotic systems and related services for government agencies and businesses in the United States and internationally. It operates in two segments, Autonomous Systems; and Space, Cyber and Directed Energy. The company provides uncrewed aircraft systems (UAS), which include small and medium UAS, and kinesis command and control software; and counter-UAS and precision strike, a loitering munitions solution that deliver actionable intelligence and precision firepower modern warfighters, including precision strike, radio frequency and kinetic C-UAS, and electronic warfare systems. It also offers autonomy, AI, and platform technologies; unmanned maritime; uncrewed ground systems; and high-altitude pseudo-satellites. The company provides digital beamforming technology, a multi-band/beam software defined antenna tile that allows simultaneous communication with multiple satellites; laser communications, a data transmission systems for space operations; space-qualified hardware for line of sight stabilization and control electronics in low, medium, and geostationary earth orbit, as well as cislunar orbits; phased array antenna technology to supports hypersonic telemetry and tracking, and other missile testing; and directed energy solution. It also offers cyber solution for national security and defense operations; and HaloCortex OSINT, an AI-powered OSINT analysis platform to provide insights and solve department of defense and commercial challenges. AeroVironment, Inc. was incorporated in 1971 and is headquartered in Arlington, Virginia.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,96 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$1.6B post-BlueHalo",
-    "revenueGrowth": 0.15,
-    "pe": "N/A",
+    "asOf": "2026-05-23",
+    "revenue": "$1.61B",
+    "revenueGrowth": 1.434,
+    "pe": 43.01,
     "profitable": false,
     "backlog": "$3.5B ceiling"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-01-31",
+      "revenue": "$408.0M",
+      "grossMargin": 0.2421,
+      "operatingIncome": "-$27.7M",
+      "netIncome": "-$156.6M",
+      "eps": -3.15,
+      "revenueYoY": 1.4344
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-10-31",
+      "revenue": "$472.5M",
+      "grossMargin": 0.2203,
+      "operatingIncome": "-$30.2M",
+      "netIncome": "-$17.1M",
+      "eps": -0.34
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-07-31",
+      "revenue": "$454.7M",
+      "grossMargin": 0.2092,
+      "operatingIncome": "-$69.3M",
+      "netIncome": "-$67.4M"
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-04-30",
+      "revenue": "$275.1M",
+      "grossMargin": 0.3648,
+      "operatingIncome": "$32.2M",
+      "netIncome": "$16.7M",
+      "eps": 0.59
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-01-31",
+      "revenue": "$167.6M",
+      "grossMargin": 0.377,
+      "operatingIncome": "-$3.1M",
+      "netIncome": "-$1.8M",
+      "eps": -0.06
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-10-31",
+      "eps": 0.27
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-04-30",
+      "revenue": "$820.6M",
+      "grossMargin": 0.3883,
+      "operatingIncome": "$59.2M",
+      "netIncome": "$43.6M",
+      "eps": 1.56,
+      "revenueYoY": 0.145
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-04-30",
+      "revenue": "$716.7M",
+      "grossMargin": 0.3962,
+      "operatingIncome": "$71.8M",
+      "netIncome": "$59.7M",
+      "eps": 2.19,
+      "revenueYoY": 0.326
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-04-30",
+      "revenue": "$540.5M",
+      "grossMargin": 0.321,
+      "operatingIncome": "-$22.6M",
+      "netIncome": "-$176.2M",
+      "eps": -7.04
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 3.5,
@@ -121,8 +202,116 @@
       "unprofitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-23",
+      "headline": "AeroVironment and KBR Shares Skyrocket, What You Need To Know",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aerovironment-kbr-shares-skyrocket-know-222855214.html",
+      "sentiment": "neutral",
+      "summary": "A number of stocks jumped in the afternoon session after the U.S. and Iran signaled progress toward a peace agreement, lifting both commercial and defense aerospace names."
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "NASA Engineers Say New Rotor Breakthrough Could Enable Supersonic Helicopter Flight",
+      "source": "Benzinga",
+      "url": "https://tech.yahoo.com/science/articles/nasa-engineers-rotor-breakthrough-could-203107329.html",
+      "sentiment": "neutral",
+      "summary": "NASA engineers have pushed experimental Mars helicopter rotors past the speed of sound, a breakthrough that could eventually allow future aircraft to carry heavier scientific payloads and fly farther across the Martian surface, the agency announced May 7. Breaking The..."
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Is DPRO Gaining Momentum in the Expanding Drone Logistics Industry?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dpro-gaining-momentum-expanding-drone-124800530.html",
+      "sentiment": "neutral",
+      "summary": "Draganfly expands into drone logistics and emergency response as rising demand and strong Q1 2026 revenue growth boost adoption."
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "AeroVironment\u2019s New Autonomy Suite Prompts Fresh Look At AVAV Valuation",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aerovironment-autonomy-suite-prompts-fresh-071103500.html",
+      "sentiment": "neutral",
+      "summary": "AeroVironment (NasdaqGS:AVAV) launched AV_Halo INSTINCT and DETECT, new battlefield autonomy and sensing solutions. The company also introduced the MAYHEM 10 modular loitering munition for contested environments. These products mark a push into advanced software, AI-driven autono"
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Cathie Wood Shifts ARK's Defense Stocks; Contracts, Foreign Sales In Focus",
+      "source": "Investor's Business Daily",
+      "url": "https://www.investors.com/news/cathie-wood-ark-invest-aerospace-defense-holdings-lockheed-martin-northrop-grumman-navy-foreign-military-sales/?src=A00220&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "Cathie Wood's ARK Invest loads up on defense, air taxi stocks. Navy awards contracts to Lockheed, Northrop. U.S. announces foreign military sales."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "The Pentagon Wants 300,000 Drones But China Controls The Magnets",
+      "source": "Oilprice.com",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/pentagon-wants-300-000-drones-000000791.html",
+      "sentiment": "neutral",
+      "summary": "The Pentagon just placed the largest drone order in U.S. history, and every one of those drones needs rare earth magnets\u2026 ideally not from China."
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "AeroVironment (AVAV) Advances While Market Declines: Some Information for Investors",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aerovironment-avav-advances-while-market-221501323.html",
+      "sentiment": "neutral",
+      "summary": "In the most recent trading session, AeroVironment (AVAV) closed at $161.43, indicating a +2.17% shift from the previous trading day."
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "Can Draganfly Capitalize on Surging Demand for Unmanned Systems?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/draganfly-capitalize-surging-demand-unmanned-181400138.html",
+      "sentiment": "neutral",
+      "summary": "DPRO expands its presence in defense drones through U.S. Army and Air Force deals as demand grows for mission-ready unmanned systems."
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "How Is AVAV Building Stronger Revenue Visibility Through Its Backlog?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/avav-building-stronger-revenue-visibility-141800617.html",
+      "sentiment": "neutral",
+      "summary": "AeroVironment's $1.12 billion funded backlog boosts revenue visibility, with 39% of obligations set to hit fiscal 2026 and more beyond."
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "Swarmer: Combat-Validated Platform Positioned for Accelerated Growth \u2013 Quarterly Update Report",
+      "source": "Exec Edge",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/swarmer-combat-validated-platform-positioned-153646731.html",
+      "sentiment": "neutral",
+      "summary": "Download the Complete Report Here Swarmer, Inc. (SWMR) Combat-Validated Autonomy Platform Positioned for Accelerated Growth as License Activation Scales Key Takeaways: 1Q26 establishes the starting revenue baseline ahead of expected sequential growth. Meta Bureau\u2019s $2.86 million "
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.8932,
+    "insiderPct": 0.0077,
+    "shortInterest": 0.1182,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0993
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0458
+      },
+      {
+        "name": "Vanguard Portfolio Management LLC",
+        "pct": 0.0339
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0324
+      },
+      {
+        "name": "BAILLIE GIFFORD & CO",
+        "pct": 0.0206
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

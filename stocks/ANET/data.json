@@ -2,18 +2,18 @@
   "ticker": "ANET",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Arista Networks",
-    "exchange": "",
-    "sector": "Networking",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Arista Networks, Inc.",
+    "exchange": "NYQ",
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "country": "United States",
+    "headquarters": "Santa Clara, CA",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "High-performance networking for ground-based satellite data processing centers.",
+    "ceo": "Ms. Jayshree V. Ullal",
+    "employees": 5115,
+    "website": "https://www.arista.com",
+    "description": "Arista Networks, Inc. engages in the development, marketing, and sale of data-driven, client to cloud networking solutions for AI, data center, campus, and routing environments in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. Its cloud networking solutions consist of Extensible Operating System (EOS), a publish-subscribe state-sharing networking operating system offered in combination with a set of network applications. The company offers data center, cloud and AI networking, cognitive adjacencies, and cognitive network software and services. It also provides post contract customer support services, such as technical support, hardware repair and replacement parts beyond standard warranty, bug fixes, patches, and upgrade services. The company serves a range of industries comprising internet companies, cloud service providers, financial services organizations, government agencies, media and entertainment, healthcare, oil and gas, education, manufacturing, industrial, and others. It markets and sells its products through distributors, system integrators, value-added resellers, and original equipment manufacturer partners, as well as through its direct sales force. Arista Networks, Inc. was formerly known as Arastra, Inc. and changed its name to Arista Networks, Inc. in October 2008. The company was incorporated in 2004 and is headquartered in Santa Clara, California.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,96 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$9.01B FY25",
-    "revenueGrowth": 0.286,
-    "pe": "45",
+    "asOf": "2026-05-23",
+    "revenue": "$9.71B",
+    "revenueGrowth": 0.351,
+    "pe": 52.93,
     "profitable": true,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$2.71B",
+      "grossMargin": 0.619,
+      "operatingIncome": "$1.16B",
+      "netIncome": "$1.02B",
+      "eps": 0.81,
+      "revenueYoY": 0.355
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$2.49B",
+      "grossMargin": 0.6286,
+      "operatingIncome": "$1.03B",
+      "netIncome": "$955.8M",
+      "eps": 0.76
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$2.31B",
+      "grossMargin": 0.6456,
+      "operatingIncome": "$978.2M",
+      "netIncome": "$853.0M",
+      "eps": 0.68
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$2.20B",
+      "grossMargin": 0.6525,
+      "operatingIncome": "$986.2M",
+      "netIncome": "$888.8M",
+      "eps": 0.71
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$2.00B",
+      "grossMargin": 0.6365,
+      "operatingIncome": "$858.8M",
+      "netIncome": "$813.8M",
+      "eps": 0.65
+    },
+    {
+      "period": "2024-Q3",
+      "reportDate": "2024-09-30"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$9.01B",
+      "grossMargin": 0.6406,
+      "operatingIncome": "$3.86B",
+      "netIncome": "$3.51B",
+      "eps": 2.79,
+      "revenueYoY": 0.2871
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$7.00B",
+      "grossMargin": 0.6413,
+      "operatingIncome": "$2.94B",
+      "netIncome": "$2.85B",
+      "eps": 2.27,
+      "revenueYoY": 0.1945
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$5.86B",
+      "grossMargin": 0.6195,
+      "operatingIncome": "$2.26B",
+      "netIncome": "$2.09B",
+      "eps": 1.69
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 2.0,
@@ -120,8 +201,116 @@
       "profitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-23",
+      "headline": "Every Analyst Is Watching the Wrong AI Stock. Here's the One That Actually Matters.",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/23/every-analyst-is-watching-the-wrong-ai-stock-heres/",
+      "sentiment": "neutral",
+      "summary": "The AI boom is no longer just about chips. Arista Networks is emerging as one of the essential infrastructure winners powering the massive data flows behind every modern AI cluster."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Nvidia\u2019s Hidden $60 Billion Business Is About to Overtake Broadcom",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/05/23/nvidias-hidden-60-billion-business-is-about-to-overtake-broadcom/",
+      "sentiment": "neutral",
+      "summary": "For years, investors treated artificial intelligence as a GPU story. Buy the chipmakers, ride the boom, and call it a day. But AI data centers have evolved into something much bigger \u2014 sprawling digital factories that need not only computing power, but also ultra-fast networking "
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Assessing Whether Arista Networks (ANET) Looks Overvalued After Mixed Short-Term Share Performance",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-whether-arista-networks-anet-102152596.html",
+      "sentiment": "neutral",
+      "summary": "Why Arista Networks (ANET) is on investors\u2019 radar today Arista Networks (ANET) is drawing attention after a mixed stretch in its share performance, with the stock up over the past week but down over the past month, prompting closer scrutiny of its fundamentals. See our latest ana"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "1 Artificial Intelligence (AI) Stock to Buy After Its Post-Earnings Sell-Off",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/22/artificial-intelligence-ai-stock-buy-sell-off-anet/",
+      "sentiment": "neutral",
+      "summary": "Short-term challenges could provide an excellent opportunity for long-term investors."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Cisco Gains From AI Networking Boom : More Upside Ahead?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cisco-gains-ai-networking-boom-190000720.html",
+      "sentiment": "neutral",
+      "summary": "CSCO rides on AI networking demand as hyperscaler orders surge and campus upgrades accelerate, boosting revenue growth and AI outlook."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Cisco Rises 33% in a Month: Here's Why You Should Buy the Stock",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cisco-rises-33-month-heres-164400533.html",
+      "sentiment": "neutral",
+      "summary": "CSCO shares jump 33% in a month as AI networking orders surge and its hyperscaler AI outlook improves despite margin pressure."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "How is Ciena Advancing AI and Cloud Network Infrastructure?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/ciena-advancing-ai-cloud-network-141200810.html",
+      "sentiment": "neutral",
+      "summary": "CIEN sees hyperscaler AI buildouts driving demand for optical systems, DCI and its new hyper-rail, plus Nubis-powered data center tech."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Arista\u2019s Gartner Leadership Highlights Push Into Campus And AIOps Software",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/arista-gartner-leadership-highlights-push-002745025.html",
+      "sentiment": "neutral",
+      "summary": "Arista Networks (NYSE:ANET) has been named a Leader in the 2026 Gartner Magic Quadrant for Enterprise Wired and Wireless LAN. The company introduced new ruggedized wired platforms and advanced wireless access points aimed at enterprise campus deployments. Arista evolved its AVA a"
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Is Arista (ANET) One Of The Best Extremely Profitable Stocks To Buy According To Wall Street?",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/arista-anet-one-best-extremely-174552208.html",
+      "sentiment": "neutral",
+      "summary": "Arista Networks, Inc. (NYSE:ANET), featuring a net income margin of 38.32% and upside potential of 30.50%, secures a spot on our list of the best extremely profitable stocks to buy according to Wall Street analysts. The company reported net income of $3.51 billion for the recentl"
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Is Arista Networks (ANET) the Best Pick-and-Shovel AI Stock to Buy Now?",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-anet-best-pick-155204758.html",
+      "sentiment": "neutral",
+      "summary": "We just covered the 10 Best Pick and Shovel AI Stocks to Buy for the Long Term. Arista Networks (NYSE:ANET) ranks #10 (see 5 Best Pick and Shovel AI Stocks to Buy for the Long Term). Short Interest: 1.7% Arista makes high-speed switches and routing systems used by major cloud pla"
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.728,
+    "insiderPct": 0.1727,
+    "shortInterest": 0.0176,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.073
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0542
+      },
+      {
+        "name": "FMR, LLC",
+        "pct": 0.0415
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0371
+      },
+      {
+        "name": "Price (T.Rowe) Associates Inc",
+        "pct": 0.0233
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

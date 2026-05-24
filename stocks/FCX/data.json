@@ -2,18 +2,18 @@
   "ticker": "FCX",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Freeport-McMoRan",
-    "exchange": "",
-    "sector": "Materials",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Freeport-McMoRan Inc.",
+    "exchange": "NYQ",
+    "sector": "Basic Materials",
+    "industry": "Copper",
+    "country": "United States",
+    "headquarters": "Phoenix, AZ",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Copper for satellite wiring, ground stations, launch pad electrical, data centers.",
+    "ceo": "Ms. Kathleen Lynne Quirk",
+    "employees": 29000,
+    "website": "https://fcx.com",
+    "description": "Freeport-McMoRan Inc. engages in the mining of mineral properties in North America, South America, and Indonesia. The company primarily explores for copper, gold, molybdenum, silver, and other metals. Its assets include the Grasberg minerals district in Indonesia; Morenci, Bagdad, Safford, Sierrita, and Miami in Arizona; Chino and Tyrone in New Mexico; and Henderson and Climax in Colorado, North America, as well as Cerro Verde in Peru and El Abra in Chile. The company was formerly known as Freeport-McMoRan Copper & Gold Inc. and changed its name to Freeport-McMoRan Inc. in July 2014. The company was incorporated in 1987 and is headquartered in Phoenix, Arizona.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,96 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$24B+ TTM",
-    "revenueGrowth": 0.09,
-    "pe": "15",
+    "asOf": "2026-05-23",
+    "revenue": "$26.42B",
+    "revenueGrowth": 0.088,
+    "pe": 32.8,
     "profitable": true,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$6.23B",
+      "grossMargin": 0.2655,
+      "operatingIncome": "$1.44B",
+      "netIncome": "$881.0M",
+      "eps": 0.61,
+      "revenueYoY": 0.0873
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$5.63B",
+      "grossMargin": 0.1805,
+      "operatingIncome": "$811.0M",
+      "netIncome": "$406.0M",
+      "eps": 0.28
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$6.97B",
+      "grossMargin": 0.3072,
+      "operatingIncome": "$1.96B",
+      "netIncome": "$674.0M",
+      "eps": 0.47
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$7.58B",
+      "grossMargin": 0.3471,
+      "operatingIncome": "$2.43B",
+      "netIncome": "$772.0M",
+      "eps": 0.54
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$5.73B",
+      "grossMargin": 0.2629,
+      "operatingIncome": "$1.30B",
+      "netIncome": "$352.0M",
+      "eps": 0.24
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$25.91B",
+      "grossMargin": 0.2816,
+      "operatingIncome": "$6.50B",
+      "netIncome": "$2.20B",
+      "eps": 1.54,
+      "revenueYoY": 0.0181
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$25.45B",
+      "grossMargin": 0.3009,
+      "operatingIncome": "$6.86B",
+      "netIncome": "$1.89B",
+      "eps": 1.31,
+      "revenueYoY": 0.1133
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$22.86B",
+      "grossMargin": 0.3133,
+      "operatingIncome": "$6.22B",
+      "netIncome": "$1.85B",
+      "eps": 1.29
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 2.0,
@@ -120,8 +201,116 @@
       "profitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-22",
+      "headline": "Texas Instruments, Generac upgraded: Wall Street's top analyst calls",
+      "source": "The Fly",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-upgraded-qualcomm-downgraded-wall-133634577.html",
+      "sentiment": "neutral",
+      "summary": "Texas Instruments, Generac upgraded: Wall Street's top analyst calls"
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "FCX vs. SCCO: Which Copper Mining Giant is a Better Pick Now?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/fcx-vs-scco-copper-mining-131600953.html",
+      "sentiment": "neutral",
+      "summary": "Freeport and Southern Copper push ahead with major projects leveraging strong cash flows and favorable copper prices."
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "The 30-Year Treasury Just Crossed 5%. Here Are 2 Hard Asset Stocks Under $40 Built for What Comes Next",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/05/20/the-30-year-treasury-just-crossed-5-here-are-2-hard-asset-stocks-under-40-built-for-what-comes-next/",
+      "sentiment": "neutral",
+      "summary": "Long bonds are doing something they have not done in years: pricing real risk. With the 10-year Treasury at 4.67% and the 20- and 30-year already above 5%, capital is rotating out of duration-sensitive growth and into companies that actually make stuff out of the ground. That bac"
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Stocks Settle Lower on Rising Bond Yields",
+      "source": "Barchart",
+      "url": "https://www.barchart.com/story/news/2025311/stocks-settle-lower-on-rising-bond-yields",
+      "sentiment": "neutral",
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) on Tuesday closed down -0.67%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -0.65%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.61%. June E-mini S&P futures (ESM26 ) fell -0.70%, and June E-mini Nasdaq futures..."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Top Research Reports for Visa, IBM & CrowdStrike",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/top-research-reports-visa-ibm-201700509.html",
+      "sentiment": "neutral",
+      "summary": "Visa stays central to digital payments as cross-border activity and transaction growth fuel momentum despite margin pressure."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Rising Bond Yields Weigh on Stocks",
+      "source": "Barchart",
+      "url": "https://www.barchart.com/story/news/2019082/rising-bond-yields-weigh-on-stocks",
+      "sentiment": "neutral",
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) today is down -0.68%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down -0.34%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down -0.95%. June E-mini S&P futures (ESM26 ) are down -0.75%, and June E-mini Nasdaq futures..."
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "Stocks Settle Sharply Lower as Bond Yields Jump on Inflation Fears",
+      "source": "Barchart",
+      "url": "https://www.barchart.com/story/news/1965508/stocks-settle-sharply-lower-as-bond-yields-jump-on-inflation-fears",
+      "sentiment": "neutral",
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) on Friday closed down -1.24%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -1.07%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -1.54%. June E-mini S&P futures (ESM26 ) fell -1.26%, and June E-mini Nasdaq futures..."
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "Stocks Slide as Inflation Fears Lift Bond Yields",
+      "source": "Barchart",
+      "url": "https://www.barchart.com/story/news/1959885/stocks-slide-as-inflation-fears-lift-bond-yields",
+      "sentiment": "neutral",
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) today is down -0.91%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down -0.83%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down -1.30%. June E-mini S&P futures (ESM26 ) are down -1.02%, and June E-mini Nasdaq futures..."
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "Stocks Tumble on Inflation Jitters",
+      "source": "Barchart",
+      "url": "https://www.barchart.com/story/news/1958749/stocks-tumble-on-inflation-jitters",
+      "sentiment": "neutral",
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) today is down -1.17%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down -0.96%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down -1.64%. June E-mini S&P futures (ESM26 ) are down -1.07%, and June E-mini Nasdaq futures..."
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "Zacks Industry Outlook Highlights Southern Copper, Freeport-McMoRan and Lundin Mining",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/zacks-industry-outlook-highlights-southern-072400693.html",
+      "sentiment": "neutral",
+      "summary": "SCCO, FCX and LUNMF are positioned to benefit from rising demand for copper and non-ferrous metals tied to AI and energy projects."
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.8832,
+    "insiderPct": 0.0069,
+    "shortInterest": 0.02,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0876
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.065
+      },
+      {
+        "name": "Fisher Asset Management, LLC",
+        "pct": 0.0453
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0446
+      },
+      {
+        "name": "Bank of America Corporation",
+        "pct": 0.0295
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

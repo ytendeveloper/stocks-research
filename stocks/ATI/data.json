@@ -2,18 +2,18 @@
   "ticker": "ATI",
   "schemaVersion": "1.0",
   "static": {
-    "name": "ATI Inc",
-    "exchange": "",
-    "sector": "Materials",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "ATI Inc.",
+    "exchange": "NYQ",
+    "sector": "Industrials",
+    "industry": "Metal Fabrication",
+    "country": "United States",
+    "headquarters": "Dallas, TX",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Titanium alloys for rocket engines, spacecraft structures, satellite bus.",
+    "ceo": "Ms. Kimberly A. Fields",
+    "employees": 7600,
+    "website": "https://www.atimaterials.com",
+    "description": "ATI Inc. produces and sells specialty materials and complex components worldwide. It operates in two segments, High Performance Materials & Components, and Advanced Alloys & Solutions. The company produces high performance materials, including titanium and titanium-based alloys, nickel- and cobalt-based alloys and superalloys, advanced powder alloys and other specialty materials, and metallic powder alloys, as well as long product forms, such as ingot, billet, bar, rod, wire, shapes and rectangles, seamless tubes, plus precision forgings, components, and machined parts. It also offers zirconium and related alloys, including hafnium and niobium, nickel-based alloys, titanium and titanium-based alloys, and specialty alloys in various forms, such as plate, sheet, and precision rolled strip products. In addition, the company provides hot-rolling conversion services comprising carbon steel products. It serves medical and specialty energy, aerospace and defense, construction and mining, transportation, oil and gas, automotive, food equipment and appliances, and mining markets. The company was formerly known as Allegheny Technologies Incorporated. ATI Inc. was founded in 1996 and is headquartered in Dallas, Texas.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,100 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$4.58B TTM",
-    "revenueGrowth": null,
-    "pe": "34",
+    "asOf": "2026-05-23",
+    "revenue": "$4.59B",
+    "revenueGrowth": 0.006,
+    "pe": 53.56,
     "profitable": true,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$1.15B",
+      "grossMargin": 0.2283,
+      "operatingIncome": "$170.8M",
+      "netIncome": "$118.2M",
+      "eps": 0.86,
+      "revenueYoY": 0.0088
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$1.18B",
+      "grossMargin": 0.2323,
+      "operatingIncome": "$170.7M",
+      "netIncome": "$96.6M",
+      "eps": 0.71
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$1.13B",
+      "grossMargin": 0.2268,
+      "operatingIncome": "$160.7M",
+      "netIncome": "$110.0M",
+      "eps": 0.8
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$1.14B",
+      "grossMargin": 0.2126,
+      "operatingIncome": "$159.7M",
+      "netIncome": "$100.7M",
+      "eps": 0.72
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$1.14B",
+      "grossMargin": 0.206,
+      "operatingIncome": "$150.8M",
+      "netIncome": "$97.0M",
+      "eps": 0.68
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31"
+    },
+    {
+      "period": "2024-Q3",
+      "reportDate": "2024-09-30"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$4.59B",
+      "grossMargin": 0.2195,
+      "operatingIncome": "$641.9M",
+      "netIncome": "$404.3M",
+      "eps": 2.92,
+      "revenueYoY": 0.0528
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$4.36B",
+      "grossMargin": 0.2059,
+      "operatingIncome": "$555.9M",
+      "netIncome": "$367.8M",
+      "eps": 2.82,
+      "revenueYoY": 0.0456
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$4.17B",
+      "grossMargin": 0.1923,
+      "operatingIncome": "$474.5M",
+      "netIncome": "$410.8M",
+      "eps": 3.21
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 3.0,
@@ -120,8 +205,116 @@
       "profitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-22",
+      "headline": "3 Reasons Why Growth Investors Shouldn't Overlook ATI (ATI)",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-why-growth-investors-164503499.html",
+      "sentiment": "neutral",
+      "summary": "ATI (ATI) possesses solid growth attributes, which could help it handily outperform the market."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Is It Worth Investing in ATI (ATI) Based on Wall Street's Bullish Views?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/worth-investing-ati-ati-based-133004740.html",
+      "sentiment": "neutral",
+      "summary": "Based on the average brokerage recommendation (ABR), ATI (ATI) should be added to one's portfolio. Wall Street analysts' overly optimistic recommendations cast doubt on the effectiveness of this highly sought-after metric. So, is the stock worth buying?"
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "How Investors May Respond To ATI (ATI) CEO Kimberly Fields Also Becoming Board Chair",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-ati-ati-191014790.html",
+      "sentiment": "neutral",
+      "summary": "At its 2026 Annual Meeting held earlier this month, ATI Inc. confirmed that Chief Executive Officer and President Kimberly A. Fields has also become Board Chair, following the retirement of long-time Chair Robert S. Wetherbee, while Leroy M. Ball was appointed Lead Independent Di"
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "ATI Leadership Shift Puts Governance And Valuation In Investor Focus",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ati-leadership-shift-puts-governance-131221740.html",
+      "sentiment": "neutral",
+      "summary": "ATI Inc. (NYSE:ATI) has appointed Kimberly A. Fields as Board Chair while she continues as CEO and President. The leadership change follows the retirement of long-serving Board Chair Robert S. Wetherbee and other Board transitions. The moves reflect a consolidation of leadership "
+    },
+    {
+      "date": "2026-05-16",
+      "headline": "3 Crucial Aerospace Component Makers That Analysts Love",
+      "source": "MarketBeat",
+      "url": "https://www.marketbeat.com/stock-ideas/3-crucial-aerospace-component-makers-that-analysts-love/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "sentiment": "neutral",
+      "summary": "Aerospace component companies may play an increasingly important role as investors turn to space firms like SpaceX, and these industry leaders get analyst love."
+    },
+    {
+      "date": "2026-05-07",
+      "headline": "Top 3D Printing Stocks With Solid Potential for Long-Term Growth",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/top-3d-printing-stocks-solid-150100017.html",
+      "sentiment": "neutral",
+      "summary": "3D Printing is reshaping industries with faster production and lower costs, drawing investor interest. Stocks like NVDA, AME, CRS and ATI offer strong growth potential."
+    },
+    {
+      "date": "2026-05-07",
+      "headline": "Dow Jones Futures Rise, Oil Prices Fall On Iran-Deal Hopes, Nvidia Leads New Buys; ARM Is Earnings Mover",
+      "source": "Investor's Business Daily",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-iran-deal-hopes-nvidia-new-buy-arm-earnings/?src=A00220&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "The S&P 500 and Nasdaq hit new highs on Iran deal hopes. Nvidia leads new buys with Arm a big earnings mover late."
+    },
+    {
+      "date": "2026-05-06",
+      "headline": "Is It Too Late To Consider ATI (ATI) After A 7x Five Year Surge?",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/too-consider-ati-ati-7x-231406189.html",
+      "sentiment": "neutral",
+      "summary": "If you are wondering whether ATI at US$165.08 is still reasonable value or starting to look stretched, the next sections walk through the numbers that matter most. The stock has seen sharp moves recently, with returns of 12.9% over 7 days, 11.6% over 30 days, 38.5% year to date a"
+    },
+    {
+      "date": "2026-05-06",
+      "headline": "Is ATI (ATI) a Solid Growth Stock? 3 Reasons to Think \"Yes\"",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ati-ati-solid-growth-stock-164503265.html",
+      "sentiment": "neutral",
+      "summary": "ATI (ATI) possesses solid growth attributes, which could help it handily outperform the market."
+    },
+    {
+      "date": "2026-05-06",
+      "headline": "Is ATI INC (ATI) Stock Outpacing Its Aerospace Peers This Year?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ati-inc-ati-stock-outpacing-134004915.html",
+      "sentiment": "neutral",
+      "summary": "Here is how ATI (ATI) and Intuitive Machines, Inc. (LUNR) have performed compared to their sector so far this year."
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.9669,
+    "insiderPct": 0.0101,
+    "shortInterest": 0.0425,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.1205
+      },
+      {
+        "name": "Capital Research Global Investors",
+        "pct": 0.0451
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0449
+      },
+      {
+        "name": "Capital International Investors",
+        "pct": 0.0431
+      },
+      {
+        "name": "Vanguard Portfolio Management LLC",
+        "pct": 0.0427
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

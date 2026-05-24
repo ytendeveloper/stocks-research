@@ -2,18 +2,18 @@
   "ticker": "HXL",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Hexcel",
-    "exchange": "",
-    "sector": "Materials",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Hexcel Corporation",
+    "exchange": "NYQ",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "country": "United States",
+    "headquarters": "Stamford, CT",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Carbon fiber composites for rocket fairings, satellite structures, payload adapters.",
+    "ceo": "Mr. Thomas C. Gentile III",
+    "employees": 5563,
+    "website": "https://www.hexcel.com",
+    "description": "Hexcel Corporation develops, manufactures, and markets advanced lightweight composites technology. It operates through two segments, Composite Materials and Engineered Products. The company offers carbon fiber, reinforcements, prepregs and other fiber-reinforced matrix materials, honeycomb, resins, engineered core and composite structures for use in commercial aerospace, defense and space, and industrial applications. The Composite Materials segment manufactures and markets carbon fibers, fabrics, multi-axials, specialty reinforcements, prepregs and other fiber-reinforced matrix materials, structural adhesives, honeycomb, molding compounds, tooling materials, polyurethane systems, and laminates that are used in military aircraft, transportation, recreational products, and other industrial applications. The Engineered Products segment manufactures and markets aircraft structures and finished aircraft components, including wing to body fairings, wing panels, flight deck panels, door liners, rotorcraft blades, spars, and tip caps; and aircraft structural sub-components and semi-finished components used in rotorcraft blades, engine nacelles, and aircraft surfaces, such as flaps, wings, elevators, and fairings; and RF interference control products for military and aerospace applications. This segment also provides interference control materials, structural composites, and services; dielectric absorber foams; magnetic absorbers; and thermoplastics for commercial and defense applications. The company sells its products directly through its marketing managers, product managers, and sales personnel, as well as through independent distributors in the Americas, Europe, the Asia Pacific, India, and Africa. Hexcel Corporation was founded in 1946 and is headquartered in Stamford, Connecticut.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,100 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$1.9B TTM",
-    "revenueGrowth": null,
-    "pe": "25",
+    "asOf": "2026-05-23",
+    "revenue": "$1.94B",
+    "revenueGrowth": 0.099,
+    "pe": 57.08,
     "profitable": true,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$501.5M",
+      "grossMargin": 0.2686,
+      "operatingIncome": "$57.6M",
+      "netIncome": "$37.2M",
+      "eps": 0.49,
+      "revenueYoY": 0.0986
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$491.3M",
+      "grossMargin": 0.2463,
+      "operatingIncome": "$61.4M",
+      "netIncome": "$46.4M",
+      "eps": 0.6
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$456.2M",
+      "grossMargin": 0.219,
+      "operatingIncome": "$36.0M",
+      "netIncome": "$20.6M",
+      "eps": 0.26
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$489.9M",
+      "grossMargin": 0.2276,
+      "operatingIncome": "$30.0M",
+      "netIncome": "$13.5M",
+      "eps": 0.17
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$456.5M",
+      "grossMargin": 0.2243,
+      "operatingIncome": "$44.2M",
+      "netIncome": "$28.9M",
+      "eps": 0.36
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31"
+    },
+    {
+      "period": "2024-Q3",
+      "reportDate": "2024-09-30"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$1.89B",
+      "grossMargin": 0.2296,
+      "operatingIncome": "$171.6M",
+      "netIncome": "$109.4M",
+      "eps": 1.38,
+      "revenueYoY": -0.0053
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$1.90B",
+      "grossMargin": 0.2469,
+      "operatingIncome": "$186.1M",
+      "netIncome": "$132.1M",
+      "eps": 1.61,
+      "revenueYoY": 0.0615
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$1.79B",
+      "grossMargin": 0.2421,
+      "operatingIncome": "$215.3M",
+      "netIncome": "$105.7M",
+      "eps": 1.25
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 2.5,
@@ -119,8 +204,116 @@
       "profitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-23",
+      "headline": "Hexcel (HXL) Valuation Check After Q1 Beat And Cautious Full Year Guidance",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hexcel-hxl-valuation-check-q1-140930389.html",
+      "sentiment": "neutral",
+      "summary": "Hexcel (HXL) has drawn fresh attention after first quarter results beat expectations on revenue and earnings, even as its relatively cautious full year guidance led analysts to trim estimates and reassess the stock. See our latest analysis for Hexcel. Despite the cautious full ye"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Elbit Systems to Post Q1 Earnings: What's in Store for the Stock?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/elbit-systems-post-q1-earnings-161400333.html",
+      "sentiment": "neutral",
+      "summary": "ESLT heads into Q1 2026 earnings with rising defense demand, a record backlog and a new UAV acquisition boosting its global reach."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Hexcel (HXL) Down 7.2% Since Last Earnings Report: Can It Rebound?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hexcel-hxl-down-7-2-153006816.html",
+      "sentiment": "neutral",
+      "summary": "Hexcel (HXL) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues."
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "HEICO to Report Q2 Earnings: What's in the Cards for the Stock?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/heico-report-q2-earnings-whats-171300863.html",
+      "sentiment": "neutral",
+      "summary": "HEI's Q2 sales and EPS are expected to have benefited from the completed acquisition and aftermarket demand support for the Flight Support and Electronic Technologies."
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Aerospace Stocks Q1 Recap: Benchmarking Hexcel (NYSE:HXL)",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aerospace-stocks-q1-recap-benchmarking-015655480.html",
+      "sentiment": "neutral",
+      "summary": "As the Q1 earnings season wraps, let\u2019s dig into this quarter\u2019s best and worst performers in the aerospace industry, including Hexcel (NYSE:HXL) and its peers."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "3 High-Flying Stocks We Find Risky",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-high-flying-stocks-risky-094855530.html",
+      "sentiment": "neutral",
+      "summary": "Expensive stocks often command premium valuations because the market thinks their business models are exceptional. However, the downside is that high expectations are already baked into their prices, leaving little room for error if they stumble even slightly."
+    },
+    {
+      "date": "2026-05-16",
+      "headline": "How The Hexcel (HXL) Story Is Evolving As Analyst Targets And Assumptions Shift",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hexcel-hxl-story-evolving-analyst-081702019.html",
+      "sentiment": "neutral",
+      "summary": "Hexcel\u2019s updated fair value estimate has been raised from US$85.00 to US$94.60, pointing to a higher modeled equity value per share. Across the Street, some analysts are lifting price targets by US$7 to US$15, while another has cut a target by US$10, leaving you with a mix of bul"
+    },
+    {
+      "date": "2026-05-12",
+      "headline": "ATRO Outperforms Industry in a Month: Should You Buy the Stock?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/atro-outperforms-industry-month-buy-152300531.html",
+      "sentiment": "neutral",
+      "summary": "ATRO gains on strong aerospace innovation, rising earnings estimates and discounted valuation, positioning the stock for long-term growth."
+    },
+    {
+      "date": "2026-05-07",
+      "headline": "Kratos Defense Q1 Earnings and Revenues Surpass Estimates",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kratos-defense-q1-earnings-revenues-144600563.html",
+      "sentiment": "neutral",
+      "summary": "KTOS beats Q1 estimates as adjusted EPS rises to 16 cents, and revenues jump 22.6% to $371 million, with the backlog climbing to $1.635 billion."
+    },
+    {
+      "date": "2026-04-30",
+      "headline": "Speece Thorson Bets On Insight Enterprises (NSIT) With a 78,000 Share Buy",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/filings/2026/04/30/speece-thorson-bets-on-insight-enterprises-nsit-with-a-78-000-share-buy/",
+      "sentiment": "neutral",
+      "summary": "Insight Enterprises delivers integrated IT solutions and services to a broad client base across industries worldwide."
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 1.1738,
+    "insiderPct": 0.0092,
+    "shortInterest": 0.0621,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.1707
+      },
+      {
+        "name": "Price (T.Rowe) Associates Inc",
+        "pct": 0.0671
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0632
+      },
+      {
+        "name": "Earnest Partners LLC",
+        "pct": 0.0624
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0451
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

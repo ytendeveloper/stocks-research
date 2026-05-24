@@ -2,18 +2,18 @@
   "ticker": "COHR",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Coherent Corp",
-    "exchange": "",
-    "sector": "Semiconductors",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Coherent Corp.",
+    "exchange": "NYQ",
+    "sector": "Technology",
+    "industry": "Scientific & Technical Instruments",
+    "country": "United States",
+    "headquarters": "Saxonburg, PA",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "DARPA Space-BACN coherent optical transceivers for LEO inter-satellite links.",
+    "ceo": "Mr. James Robert Anderson",
+    "employees": 30216,
+    "website": "https://www.coherent.com",
+    "description": "Coherent Corp. develops, manufactures, and markets engineered materials, optoelectronic components and devices, and laser systems for the use in the industrial, communications, electronics, and instrumentation markets worldwide. It operates through three segments: Networking, Materials, and Lasers. The Networking segment offers transceivers, systems, subsystems, modules, components, optics, and semiconductor devices for datacenter and communications applications. The Materials segment provides engineered materials, laser optics, thermoelectric components, and advanced ceramic and metal-matrix composite materials and products; and vertical-cavity surface-emitting laser, edge-emitting laser, pump lasers, high-power lasers for materials processing, and integrated circuit. The Laser segment offers excimer lasers, solid-state lasers, CO2 lasers, and laser systems for various industrial applications, including semiconductor capital equipment, display manufacturing, precision manufacturing, and scientific research; and laser systems and subsystems. It markets its products and services through direct sales force, representatives, and distributors. The company was formerly known as II-VI Incorporated and changed its name to Coherent Corp. in September 2022. Coherent Corp. was incorporated in 1971 and is headquartered in Saxonburg, Pennsylvania.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,96 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$5.81B FY25",
-    "revenueGrowth": 0.234,
-    "pe": "N/A",
+    "asOf": "2026-05-23",
+    "revenue": "$6.60B",
+    "revenueGrowth": 0.205,
+    "pe": 178.94,
     "profitable": true,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$1.81B",
+      "grossMargin": 0.3766,
+      "operatingIncome": "$226.3M",
+      "netIncome": "$191.4M",
+      "eps": 1.01,
+      "revenueYoY": 0.2067
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$1.69B",
+      "grossMargin": 0.3695,
+      "operatingIncome": "$198.6M",
+      "netIncome": "$146.7M",
+      "eps": 0.87
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$1.58B",
+      "grossMargin": 0.3663,
+      "operatingIncome": "$172.2M",
+      "netIncome": "$226.3M",
+      "eps": 1.24
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$1.53B",
+      "grossMargin": 0.3571,
+      "operatingIncome": "$145.0M",
+      "netIncome": "-$95.6M",
+      "eps": -0.83
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$1.50B",
+      "grossMargin": 0.3523,
+      "operatingIncome": "$145.5M",
+      "netIncome": "$15.7M",
+      "eps": -0.11
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-06-30",
+      "revenue": "$5.81B",
+      "grossMargin": 0.3517,
+      "operatingIncome": "$534.9M",
+      "netIncome": "$49.4M",
+      "eps": -0.52,
+      "revenueYoY": 0.2335
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-06-30",
+      "revenue": "$4.71B",
+      "grossMargin": 0.3093,
+      "operatingIncome": "$123.2M",
+      "netIncome": "-$156.2M",
+      "eps": -1.84,
+      "revenueYoY": -0.0872
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-06-30",
+      "revenue": "$5.16B",
+      "grossMargin": 0.3136,
+      "operatingIncome": "$82.0M",
+      "netIncome": "-$259.5M",
+      "eps": -2.93
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 3.0,
@@ -119,8 +200,116 @@
       "unprofitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-22",
+      "headline": "Stock Market Leaders Respect The 21-Day Line. You Should Too.",
+      "source": "Investor's Business Daily",
+      "url": "https://www.investors.com/how-to-invest/investors-corner/stock-market-leaders-respect-the-21-day-line-you-should-too/?src=A00220&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "During stock market uptrends, the 21-day exponential moving average has proved itself to be a strong short-term support for leading stocks."
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "As Small-Cap Outperformance Continues, These 2 ETFs Provide Exposure",
+      "source": "MarketBeat",
+      "url": "https://www.marketbeat.com/stock-ideas/as-small-cap-outperformance-continues-these-2-etfs-provide-exposure/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "sentiment": "neutral",
+      "summary": "In 2026, small-cap stocks are outperforming the S&P 500 due to lower domestic risks and discounted valuations, making two ETFs in particular strong hedges."
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Applied Optoelectronics Up 635.5% in 6 Months: How to Play the Stock",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-635-5-6-150100143.html",
+      "sentiment": "neutral",
+      "summary": "AAOI's shares surge 635.5% in six months as 400G/800G demand builds ---- yet valuation, competition and uneven earnings add caution."
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "CRDO vs. COHR: Which AI Connectivity Stock Is the Better Buy?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/crdo-vs-cohr-ai-connectivity-134400067.html",
+      "sentiment": "neutral",
+      "summary": "Credo is betting big on AEC adoption, new product families and a $750M DustPhotonics deal - while Coherent scales transceivers and OCS."
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "Astera Labs Stock Notches Record High. It\u2019s Up Double Digits for a Second Day.",
+      "source": "Barrons.com",
+      "url": "https://www.barrons.com/articles/astera-labs-stock-record-high-nvidia-ai-4e10de1f?siteid=yhoof2&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "Shares of  Astera Labs  surged Wednesday, building on a strong gain from Tuesday as investors appeared bullish on the maker of semiconductor-based connectors for cloud and artificial-intelligence infrastructure ahead of  Nvidia  earnings and after the company gave upbeat commenta"
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "Nvidia Might Have Just Revealed the AI Sleeper Stock That Investors Missed",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/05/20/nvidia-might-have-just-revealed-the-ai-sleeper-stock-that-investors-missed/",
+      "sentiment": "neutral",
+      "summary": "Nvidia (NASDAQ:NVDA) has been on quite the investment spree in the past year, and while much of the AI bets and partnerships have begun to bear fruit after the latest run in AI-related names, questions linger as to how all these \u201ccircular\u201d bets change the risk/reward profile of t"
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "3 Large-Cap Stocks with Promising Prospects",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-large-cap-stocks-promising-220455893.html",
+      "sentiment": "neutral",
+      "summary": "Large-cap stocks have the power to shape entire industries thanks to their size and widespread influence. With such vast footprints, however, finding new areas for growth is much harder than for smaller, more agile players."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "A Deep Dive Into NVIDIA\u2019s Latest Portfolio Moves",
+      "source": "MarketBeat",
+      "url": "https://www.marketbeat.com/originals/a-deep-dive-into-nvidias-latest-portfolio-moves/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "sentiment": "neutral",
+      "summary": "NVIDIA's latest 13F filing does not tell the story it seems to at first glance. The apparent divergence in its CoreWeave and Nebius holdings is a prime example."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Coherent (COHR) Gains from AI Infrastructure Investment",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-cohr-gains-ai-infrastructure-140108629.html",
+      "sentiment": "neutral",
+      "summary": "Fidelity Investments, an investment management company, recently released its first-quarter 2026 investor letter for \u201cFidelity Growth Strategies Fund\u201d. A copy of the letter is available to download here. The Fidelity Growth Strategy is a diversified equity strategy aimed at domes"
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Coherent Stock: Is Wall Street Bullish or Bearish?",
+      "source": "Barchart",
+      "url": "https://www.barchart.com/story/news/2005658/coherent-stock-is-wall-street-bullish-or-bearish",
+      "sentiment": "neutral",
+      "summary": "Coherent has notably outperformed the broader market over the past 52 weeks, and Wall Street analysts maintain a highly optimistic outlook about the stock\u2019s prospects."
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.893,
+    "insiderPct": 0.0453,
+    "shortInterest": 0.0459,
+    "topHolders": [
+      {
+        "name": "FMR, LLC",
+        "pct": 0.1158
+      },
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0764
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0623
+      },
+      {
+        "name": "Vanguard Portfolio Management LLC",
+        "pct": 0.0484
+      },
+      {
+        "name": "Nvidia Corp",
+        "pct": 0.0398
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

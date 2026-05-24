@@ -2,18 +2,18 @@
   "ticker": "MRVL",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Marvell Technology",
-    "exchange": "",
-    "sector": "Semiconductors",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Marvell Technology, Inc.",
+    "exchange": "NMS",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "country": "United States",
+    "headquarters": "Wilmington, DE",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "MGS subsidiary for A&D ASICs; edge computing for satellite ground infrastructure.",
+    "ceo": "Mr. Matthew J. Murphy",
+    "employees": 7480,
+    "website": "https://www.marvell.com",
+    "description": "Marvell Technology, Inc., together with its subsidiaries, provides data infrastructure semiconductor solutions and spanning the data center core to network edge in the United States, Argentina, China, India, Israel, Japan, Singapore, South Korea, Taiwan, Vietnam, and internationally. The company develops and scales system-on-a-chip architectures, integrating analog, mixed-signal, and digital signal processing functionality. It offers a portfolio of ethernet solutions, including spanning controllers, network adapters, physical transceivers, and switches; single or multiple core processors; and custom application specific integrated circuits, interconnects, fibre channel adapters, and processors. The company also provides interconnect products, including pulse amplitude modulation, coherent and coherent-lite digital signal processors (DSPs), laser drivers, trans-impedance amplifiers, silicon photonics, co-packaged optics, linear pluggable optics chipsets, data center interconnect, active electrical cable DSPs and peripheral component interconnect express retimer solutions; fibre channel products comprising host bus adapters and controllers for server and storage system connectivity; storage controllers for hard disk drives and solid-state-drives; host system interfaces, including serial advanced technology attachment and serial attached SCSI, peripheral component interconnect express, compute express link switches, non-volatile memory express (NVMe), and NVMe over fabrics; and develops ultra accelerator linkTM switches and ethernet for scale-up networking switches. The company serves data centers, communications, and other markets. It offers its products through direct customers and distributors. Marvell Technology, Inc. was incorporated in 1995 and is headquartered in Wilmington, Delaware.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,92 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$8.195B FY26",
-    "revenueGrowth": 0.42,
-    "pe": "55",
+    "asOf": "2026-05-23",
+    "revenue": "$8.19B",
+    "revenueGrowth": 0.221,
+    "pe": 64.16,
     "profitable": true,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-01-31",
+      "revenue": "$2.22B",
+      "grossMargin": 0.5174,
+      "operatingIncome": "$413.9M",
+      "netIncome": "$396.1M",
+      "eps": 0.47,
+      "revenueYoY": 0.2198
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-10-31",
+      "revenue": "$2.07B",
+      "grossMargin": 0.5157,
+      "operatingIncome": "$367.4M",
+      "netIncome": "$1.90B",
+      "eps": 2.22
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-07-31",
+      "revenue": "$2.01B",
+      "grossMargin": 0.5038,
+      "operatingIncome": "$298.8M",
+      "netIncome": "$194.8M",
+      "eps": 0.23
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-04-30",
+      "revenue": "$1.90B",
+      "grossMargin": 0.5025,
+      "operatingIncome": "$258.3M",
+      "netIncome": "$177.9M",
+      "eps": 0.21
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-01-31",
+      "revenue": "$1.82B",
+      "grossMargin": 0.5048,
+      "operatingIncome": "$222.7M",
+      "netIncome": "$200.2M",
+      "eps": 0.23
+    }
+  ],
+  "annual": [
+    {
+      "year": 2026,
+      "reportDate": "2026-01-31",
+      "revenue": "$8.19B",
+      "grossMargin": 0.5102,
+      "operatingIncome": "$1.34B",
+      "netIncome": "$2.67B",
+      "eps": 3.1,
+      "revenueYoY": 0.4194
+    },
+    {
+      "year": 2025,
+      "reportDate": "2025-01-31",
+      "revenue": "$5.77B",
+      "grossMargin": 0.4131,
+      "operatingIncome": "-$366.4M",
+      "netIncome": "-$885.0M",
+      "eps": -1.02,
+      "revenueYoY": 0.0472
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-01-31",
+      "revenue": "$5.51B",
+      "grossMargin": 0.4164,
+      "operatingIncome": "-$436.6M",
+      "netIncome": "-$933.4M",
+      "eps": -1.08
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 2.0,
@@ -120,8 +197,116 @@
       "profitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-24",
+      "headline": "Dow Jones Futures: Trump Says Iran Deal Near With Hormuz 'Opened'; Tesla, AI Stocks Near Buy Points",
+      "source": "Investor's Business Daily",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-trump-iran-deal-hormuz-tesla-stocks/?src=A00220&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "President Donald Trump said Saturday that the U.S. and Iran are close to an interim deal that will open the Strait of Hormuz."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Qorvo, Allegro MicroSystems, and Lattice Semiconductor Stocks Trade Up, What You Need To Know",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/qorvo-allegro-microsystems-lattice-semiconductor-235655480.html",
+      "sentiment": "neutral",
+      "summary": "A number of stocks jumped in the afternoon session after the broader market rallied on Iran peace progress and AI-linked growth names led the comeback in technology. Nvidia's Q1 results earlier in the week (beat-and-raise on $81.6B revenue with Q2 guidance of $89-92.8B and an $80"
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Does Marvell (MRVL) Keeping a Combined Chairman-CEO Role Clarify or Complicate Its AI Ambitions?",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/does-marvell-mrvl-keeping-combined-141110831.html",
+      "sentiment": "neutral",
+      "summary": "In May 2026, Marvell Technology\u2019s board reaffirmed its preference for a combined Chairman-CEO role under Matt Murphy and urged shareholders to vote against a proposal requiring an independent, non-executive board chair at the June 25 annual meeting. The governance debate comes as"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Stocks Settle Higher on Iran Peace Hopes and Tech Strength",
+      "source": "Barchart",
+      "url": "https://www.barchart.com/story/news/2093234/stocks-settle-higher-on-iran-peace-hopes-and-tech-strength",
+      "sentiment": "neutral",
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) on Friday closed up +0.37%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up +0.58%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up +0.42%. June E-mini S&P futures (ESM26 ) rose +0.35%, and June E-mini Nasdaq futures..."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Marvell shares jump on Stifel price target hike on AI demand outlook",
+      "source": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-shares-jump-stifel-price-173458839.html",
+      "sentiment": "neutral",
+      "summary": "Marvell Stock Pops After Wall Street Bets Big on AI Server Demand"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Stock Market Week Ahead: Marvell, Dell And The Fed's Inflation Gauge",
+      "source": "Investor's Business Daily",
+      "url": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-marvell-dell-costco-earnings-fed-inflation-gauge/?src=A00220&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "The stock market is right at highs with several leaders near buy points. Marvell, Dell and Costco earnings are on tap, along with the Fed's inflation gauge."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "See How Big Money, AI Push Marvell Higher",
+      "source": "FX Empire",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/see-big-money-ai-push-152118811.html",
+      "sentiment": "neutral",
+      "summary": "Marvell Technology, Inc. (MRVL) shares being bought furiously by institutions."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Stocks Climb on US-Iran Peace Hopes and Strength in Chipmakers",
+      "source": "Barchart",
+      "url": "https://www.barchart.com/story/news/2087619/stocks-climb-on-us-iran-peace-hopes-and-strength-in-chipmakers",
+      "sentiment": "neutral",
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) today is up +0.50%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up +0.63%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +0.73%. June E-mini S&P futures (ESM26 ) are up +0.47%, and June E-mini Nasdaq futures..."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "MRVL to Post Q1 Earnings: Time to Buy, Sell or Hold the Stock?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mrvl-post-q1-earnings-time-144300668.html",
+      "sentiment": "neutral",
+      "summary": "Marvell Technology heads into Q1 earnings results with AI-driven data center demand, booming custom silicon growth and rising competition in focus."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Melius Research Raises Qualcomm (QCOM) Price Target, Sees More Upside in AI Semiconductor Stocks",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/melius-research-raises-qualcomm-qcom-142510158.html",
+      "sentiment": "neutral",
+      "summary": "QUALCOMM Incorporated (NASDAQ:QCOM) is included among the 10 High Quality Stocks to Buy According to Hedge Funds. On May 18, Melius Research raised its price recommendation on QUALCOMM Incorporated (NASDAQ:QCOM) to $220 from $170. It reiterated a Hold rating on the shares. The fi"
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.8531,
+    "insiderPct": 0.0074,
+    "shortInterest": 0.0381,
+    "topHolders": [
+      {
+        "name": "FMR, LLC",
+        "pct": 0.1463
+      },
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0711
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0436
+      },
+      {
+        "name": "Vanguard Portfolio Management LLC",
+        "pct": 0.037
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.026
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

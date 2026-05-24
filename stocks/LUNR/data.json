@@ -2,18 +2,18 @@
   "ticker": "LUNR",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Intuitive Machines",
-    "exchange": "",
-    "sector": "Aerospace",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Intuitive Machines, Inc.",
+    "exchange": "NGM",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "country": "United States",
+    "headquarters": "Houston, TX",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Premier lunar economy company. Near-monopoly on NASA lunar delivery.",
+    "ceo": "Mr. Stephen J. Altemus",
+    "employees": 525,
+    "website": "https://www.intuitivemachines.com",
+    "description": "Intuitive Machines, Inc. operates as a space infrastructure and services company in the United States. The company provides delivery services for the transportation and delivery of payloads, such as satellites, scientific instruments, and cargo to various destinations in space, rideshare delivery, and lunar surface access; data transmission services, which include the collection, processing, and interpretation of space-based data, as well as utilizing AI applications, such as command, control, communications, reconnaissance and prospecting; and infrastructure as a service solutions for navigation, maintenance, scientific data collection, and system health monitoring. It also offers Nova-C lunar lander that combines flight-proven with a scalable design to meet the demands of the emerging lunar economy; Micro Nova Hopper develops propulsive drone that is designed to land, deploy, and hop on the company's IM-2 mission; and Nova-D developed to transport critical payloads, including infrastructure services, such as fission surface power systems, lunar terrain vehicles, and rovers enabling sustainable lunar exploration and development. In addition, the company provides lunar data network. It serves its products to the U.S. government, which include NASA, national security space, U.S. department of Defense, and state governments; commercial; and international customers. The company was founded in 2013 and is headquartered in Houston, Texas.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,99 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$500M+ TTM",
-    "revenueGrowth": null,
-    "pe": "N/A",
+    "asOf": "2026-05-23",
+    "revenue": "$334.3M",
+    "revenueGrowth": 1.987,
+    "pe": -286.96,
     "profitable": false,
     "backlog": "$1.1B"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$183.6M",
+      "grossMargin": 0.1471,
+      "operatingIncome": "-$39.2M",
+      "netIncome": "-$37.4M",
+      "eps": -0.25,
+      "revenueYoY": 1.9376
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$43.3M",
+      "grossMargin": 0.1619,
+      "operatingIncome": "-$33.1M",
+      "netIncome": "-$39.9M",
+      "eps": -0.33
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$51.0M",
+      "grossMargin": 0.0827,
+      "operatingIncome": "-$15.4M",
+      "netIncome": "-$6.8M",
+      "eps": -0.06
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$50.3M",
+      "grossMargin": -0.2354,
+      "operatingIncome": "-$28.6M",
+      "netIncome": "-$25.2M",
+      "eps": -0.22
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$62.5M",
+      "grossMargin": 0.1068,
+      "operatingIncome": "-$10.1M",
+      "netIncome": "-$11.4M",
+      "eps": -0.11
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31"
+    },
+    {
+      "period": "2024-Q3",
+      "reportDate": "2024-09-30"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$207.1M",
+      "grossMargin": 0.0293,
+      "operatingIncome": "-$87.2M",
+      "netIncome": "-$83.3M",
+      "revenueYoY": -0.0917
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$228.0M",
+      "grossMargin": 0.0121,
+      "operatingIncome": "-$52.4M",
+      "netIncome": "-$283.4M",
+      "eps": -2.83,
+      "revenueYoY": 1.8643
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$79.6M",
+      "grossMargin": -0.3072,
+      "operatingIncome": "-$60.2M",
+      "netIncome": "$61.8M",
+      "eps": 2.88
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 4.0,
@@ -122,8 +206,116 @@
       "unprofitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-22",
+      "headline": "Why Intuitive Machines (LUNR) Is Still a Polarizing Space-Tech Bet",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-intuitive-machines-lunr-still-071843245.html",
+      "sentiment": "neutral",
+      "summary": "Intuitive Machines, Inc. (NASDAQ:LUNR) is one of the best \u201cmoonshot\u201d tech stocks to buy according to short sellers. The stock\u2019s latest publicly reported short interest stood at 28.15% of float as of April 30, 2026. The company strengthened its moonshot case on May 14, when it rep"
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "ASTS, LUNR, FLY, SATS Rise Premarket: SpaceX IPO Pitch Calls Space Economy \u2018Largest TAM In Human History\u2019",
+      "source": "Stocktwits",
+      "url": "https://stocktwits.com/news-articles/markets/equity/asts-lunr-fly-sats-spacex-ipo-space-economy-largest-tam/cZXzxlNReF9",
+      "sentiment": "neutral",
+      "summary": "AST SpaceMobile gained attention after SpaceX identified the company as a competitor in satellite-to-mobile connectivity."
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "Can LUNR Become the Infrastructure Backbone of the New Space Economy?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lunr-become-infrastructure-backbone-space-183100918.html",
+      "sentiment": "neutral",
+      "summary": "Intuitive Machines is expanding beyond lunar missions into communications, navigation, and national security infrastructure as revenues surge."
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "3 Space Infrastructure Stocks Gaining Momentum Ahead of the SpaceX IPO",
+      "source": "MarketBeat",
+      "url": "https://www.marketbeat.com/stock-ideas/3-space-infrastructure-stocks-gaining-momentum-ahead-of-the-spacex-ipo/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "sentiment": "neutral",
+      "summary": "As SpaceX eyes a potential June IPO, capital is flowing into space infrastructure stocks like LUNR, RDW, and VOYG, each posting record backlogs in Q1 2026."
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "Assessing Intuitive Machines (LUNR) Valuation After Sharp Multi\u2011Month Share Price Swings",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-intuitive-machines-lunr-valuation-080750831.html",
+      "sentiment": "neutral",
+      "summary": "Intuitive Machines (LUNR) is back on investors\u2019 radar after recent trading, with the stock closing at $32.46 and showing sharp swings over the past month and past 3 months. See our latest analysis for Intuitive Machines. For context, Intuitive Machines has seen its 30-day share p"
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Rocket Lab Sinks 9%, Planet Labs Tumbles 6%, Intuitive Machines Slides 5%: Space Rally Hits a Wall",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/05/19/rocket-lab-sinks-9-planet-labs-tumbles-6-intuitive-machines-slides-5-space-rally-hits-a-wall/",
+      "sentiment": "neutral",
+      "summary": "Pure-play commercial space stocks are getting hit hard at midday on Tuesday. Rocket Lab (NASDAQ:RKLB) is down 9%, Planet Labs (NYSE:PL) is off 6%, and Intuitive Machines (NASDAQ:LUNR) has slipped 5%. There\u2019s no single company-specific headline driving the move in Rocket Lab, Plan"
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Rocket Lab Shares Jump as SpaceX IPO Buzz Lifts Space Sector",
+      "source": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-shares-jump-spacex-115026355.html",
+      "sentiment": "neutral",
+      "summary": "Rocket Lab Surges as Musk Revives SpaceX Listing Plans"
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "Can Intuitive Machines' Record Backlog Drive Its Next Phase of Growth?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-machines-record-backlog-drive-181500017.html",
+      "sentiment": "neutral",
+      "summary": "LUNR's $1.1B backlog and major contract wins boost its revenue outlook as demand rises for space and defense infrastructure."
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "SpaceX filing boosts space stocks, BofA resumes ServiceNow coverage",
+      "source": "Yahoo Finance Video",
+      "url": "https://finance.yahoo.com/video/spacex-filing-boosts-space-stocks-bofa-resumes-servicenow-coverage-154113234.html",
+      "sentiment": "neutral",
+      "summary": "Market Catalysts host Julie Hyman takes a look at some of Monday's trending tickers and stories. ServiceNow (NOW) stock is climbing after Bank of America (BAC) restarted its coverage of the name. Space stocks, including Rocket Lab (RKLB), Intuitive Machines (LUNR), and Firefly (F"
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "Why Intuitive Machines Stock Popped Then Dropped",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/18/why-intuitive-machines-stock-popped-then-dropped/",
+      "sentiment": "neutral",
+      "summary": "First, the SpaceX IPO inspired space investors -- but today it's frightening them."
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.862,
+    "insiderPct": 0.0561,
+    "shortInterest": 0.2144,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0624
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0498
+      },
+      {
+        "name": "Shaw D.E. & Co., Inc.",
+        "pct": 0.0384
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0326
+      },
+      {
+        "name": "Citadel Advisors Llc",
+        "pct": 0.0227
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

@@ -2,18 +2,18 @@
   "ticker": "LMT",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Lockheed Martin",
-    "exchange": "",
-    "sector": "Defense",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Lockheed Martin Corporation",
+    "exchange": "NYQ",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "country": "United States",
+    "headquarters": "Bethesda, MD",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Largest defense contractor. Builds military satellites, missile defense, hypersonics.",
+    "ceo": "Mr. James D. Taiclet Jr.",
+    "employees": 123000,
+    "website": "https://www.lockheedmartin.com",
+    "description": "Lockheed Martin Corporation, an aerospace and defense company, engages in the research, design, development, manufacture, integration, and sustainment of technology systems, products, and services in the United States, Europe, Asia, the Middle East, and internationally. The company operates through four segments: Aeronautics; Missiles and Fire Control (MFC); Rotary and Mission Systems (RMS); and Space. The Aeronautics segment offers combat and air mobility aircraft, unmanned air vehicles, and related technologies. The MFC segment provides air and missile defense systems; tactical missiles and precision strike weapon systems; logistics; fire control systems; mission operations support, readiness, engineering support, and integration services; and ground vehicles. The RMS segment offers military and commercial helicopters, surface ships, sea and land-based missile defense systems, radar and laser systems, sea and air-based mission and combat systems, command and control mission solutions, cyber solutions, simulation and training solutions, and services and supports surface ships. The Space segment provides satellites; space transportation systems; strategic, advanced strike, and defensive systems; and classified systems and services in support of national security systems. This segment also provides network-enabled situational awareness and integrates space and ground global systems to help its customers gather, analyze, and securely distribute critical intelligence data. It serves primarily serves the U.S. government and international customers, as well as foreign military sales contracted through the U.S. government. The company was formerly known as The Lockheed Corporation and changed its name to Lockheed Martin Corporation in March 1995. Lockheed Martin Corporation was founded in 1912 and is based in Bethesda, Maryland.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,92 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$75B TTM",
-    "revenueGrowth": 0.056,
-    "pe": "24",
+    "asOf": "2026-05-23",
+    "revenue": "$75.11B",
+    "revenueGrowth": 0.003,
+    "pe": 25.84,
     "profitable": true,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$18.02B",
+      "grossMargin": 0.1153,
+      "operatingIncome": "$2.06B",
+      "netIncome": "$1.49B",
+      "eps": 6.47,
+      "revenueYoY": 0.0033
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$20.32B",
+      "grossMargin": 0.1143,
+      "operatingIncome": "$2.33B",
+      "netIncome": "$1.34B",
+      "eps": 5.82
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$18.61B",
+      "grossMargin": 0.1204,
+      "operatingIncome": "$2.28B",
+      "netIncome": "$1.62B",
+      "eps": 6.98
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$18.16B",
+      "grossMargin": 0.0404,
+      "operatingIncome": "$748.0M",
+      "netIncome": "$342.0M",
+      "eps": 1.46
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$17.96B",
+      "grossMargin": 0.1293,
+      "operatingIncome": "$2.37B",
+      "netIncome": "$1.71B",
+      "eps": 7.3
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$75.05B",
+      "grossMargin": 0.1015,
+      "operatingIncome": "$7.73B",
+      "netIncome": "$5.02B",
+      "eps": 21.56,
+      "revenueYoY": 0.0564
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$71.04B",
+      "grossMargin": 0.0975,
+      "operatingIncome": "$7.01B",
+      "netIncome": "$5.34B",
+      "eps": 22.39,
+      "revenueYoY": 0.0514
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$67.57B",
+      "grossMargin": 0.1255,
+      "operatingIncome": "$8.51B",
+      "netIncome": "$6.92B",
+      "eps": 27.65
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 1.5,
@@ -122,8 +199,116 @@
       "profitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-24",
+      "headline": "Kyiv struck by large-scale Russian attack after warning of Oreshnik launch",
+      "source": "Investing.com",
+      "url": "https://www.yahoo.com/news/world/articles/kyiv-struck-large-scale-russian-013159603.html",
+      "sentiment": "neutral",
+      "summary": "Investing.com -- Russian forces launched a major overnight missile and drone attack on Kyiv early Sunday, injuring at least three people and damaging residential buildings across the Ukrainian capital, local officials said."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Rocket Lab and Redwire Shares Skyrocket, What You Need To Know",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-redwire-shares-skyrocket-224455197.html",
+      "sentiment": "neutral",
+      "summary": "A number of stocks jumped in the afternoon session after the U.S. and Iran signaled progress toward a peace agreement, lifting both commercial and defense aerospace names."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "AeroVironment and KBR Shares Skyrocket, What You Need To Know",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aerovironment-kbr-shares-skyrocket-know-222855214.html",
+      "sentiment": "neutral",
+      "summary": "A number of stocks jumped in the afternoon session after the U.S. and Iran signaled progress toward a peace agreement, lifting both commercial and defense aerospace names."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "I cut my housing costs 54 percent by downsizing in an expensive city. Here\u2019s how I reached financial independence without leaving California",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/personal-finance/2026/05/23/i-cut-my-housing-costs-54-percent-by-downsizing-in-an-expensive-city-heres-how-i-reached-financial-independence-without-leaving-california/",
+      "sentiment": "neutral",
+      "summary": "Aubrey Williams reached financial independence in Santa Barbara, California, one of the most expensive real estate markets in America, without packing up and moving to Tennessee. On the Catching Up to FI podcast, he described the move that did most of the work: \u201cThe folks who had"
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "U.S. denies Taiwan arms sale pause due to Iran munition needs \u2013 Reuters",
+      "source": "Investing.com",
+      "url": "https://www.yahoo.com/news/politics/articles/u-denies-taiwan-arms-sale-071905359.html",
+      "sentiment": "neutral",
+      "summary": "Investing.com \u2014 U.S. arms sales to Taiwan are subject to multi-year administrative processing timelines and remain entirely separate from ongoing military operations in the Middle East, according to a source familiar with the matter reported exclusively by Reuters on Saturday."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "How Ukraine\u2019s drone edge made it a sought-after solution \u2013 reports WSJ",
+      "source": "Investing.com",
+      "url": "https://www.yahoo.com/news/world/articles/ukraine-drone-edge-made-sought-063424939.html",
+      "sentiment": "neutral",
+      "summary": "Investing.com -- The rapid escalation of global drone warfare has transformed Ukraine into a critical strategic provider of counter-unmanned aerial systems (UAS) expertise and advanced defense technology, according to an exclusive report by The Wall Street Journal on Saturday."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Trump says an agreement with Iran has been \u2018largely negotiated\u2019",
+      "source": "Investing.com",
+      "url": "https://www.yahoo.com/news/politics/articles/mediators-race-prevent-u-israeli-002823253.html",
+      "sentiment": "neutral",
+      "summary": "Investing.com -- U.S. President Trump said in a post on Truth Social that following a call with leaders in the Middle East on Saturday, an agreement has been \u201clargely negotiated\u201d subject to finalization between the United States, Iran and other countries in the region. He added t"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Lockheed Martin Stock: Is Wall Street Bullish or Bearish?",
+      "source": "Barchart",
+      "url": "https://www.barchart.com/story/news/2087577/lockheed-martin-stock-is-wall-street-bullish-or-bearish",
+      "sentiment": "neutral",
+      "summary": "Despite Lockheed Martin\u2019s underperformance relative to the broader market over the past 52 weeks, Wall Street analysts maintain a moderately optimistic outlook on the stock\u2019s prospects."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Is It Time To Revisit Lockheed Martin (LMT) After Recent Share Price Weakness?",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/time-revisit-lockheed-martin-lmt-151147550.html",
+      "sentiment": "neutral",
+      "summary": "If you are wondering whether Lockheed Martin at around US$522.79 is offering good value today, the key is to separate the stock's price from the company's underlying worth. The stock is up 0.5% over the past week, has declined 8.6% over the past month, and sits on returns of 5.2%"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Gina Rinehart Invests $97 Million in US Defense Stocks",
+      "source": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gina-rinehart-invests-97-million-132522094.html",
+      "sentiment": "neutral",
+      "summary": "Australia's richest person expanded Hancock Prospecting's defense holdings while increasing exposure to global mining companies."
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.7602,
+    "insiderPct": 0.0011,
+    "shortInterest": 0.0118,
+    "topHolders": [
+      {
+        "name": "State Street Corporation",
+        "pct": 0.1412
+      },
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0773
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.061
+      },
+      {
+        "name": "Charles Schwab Investment Management, Inc.",
+        "pct": 0.031
+      },
+      {
+        "name": "Morgan Stanley",
+        "pct": 0.0246
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

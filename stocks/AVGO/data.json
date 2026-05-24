@@ -2,18 +2,18 @@
   "ticker": "AVGO",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Broadcom",
-    "exchange": "",
-    "sector": "Semiconductors",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Broadcom Inc.",
+    "exchange": "NMS",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "country": "United States",
+    "headquarters": "Palo Alto, CA",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Networking silicon foundational for satellite ground ops and data processing.",
+    "ceo": "Mr. Hock E. Tan",
+    "employees": 33000,
+    "website": "https://www.broadcom.com",
+    "description": "Broadcom Inc. designs, develops, and supplies various semiconductor devices and infrastructure software solutions internationally. The company operates in two segments: Semiconductor Solutions and Infrastructure Software. The company offers networking connectivity, such as custom silicon solutions, ethernet switching & routing, ethernet NIC controllers, physical layer devices, and fiber optic components; wireless device connectivity, including RF semiconductor devices, connectivity solutions, custom touch controllers, and inductive charging ASICS; servers and storage system solutions, such as PCIE switches, SAS & raid products, fibre channel products, and HDD & SSD solutions; broadband solutions, includes set-top box, and broadband access; and industrial. The company also offers a private cloud software portfolio, including the VMware Cloud Foundation, Edge, vSphere foundation, telco cloud platform, private AI, live recovery, application networking and security, application development and data services; mainframe software, such as AIOPS & automation, database & data management, DEVX & DEVOPS, cybersecurity & compliance management, beyond code programs, foundational & open mainframe solutions; cybersecurity, such as endpoint, network, information, application security, and identity & access management; enterprise software; and fc san management. Its products are used in various applications in enterprise and data center networking, including artificial intelligence networking and connectivity, home connectivity, set-top boxes, broadband access, telecommunication equipment, wireless device and base stations, data center servers and storage systems, factory automation, power generation and alternative energy systems, and electronic displays. Broadcom Inc. was founded in 1961 and is headquartered in Palo Alto, California.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,96 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$68.28B TTM",
-    "revenueGrowth": 0.65,
-    "pe": "30",
+    "asOf": "2026-05-23",
+    "revenue": "$68.28B",
+    "revenueGrowth": 0.295,
+    "pe": 80.57,
     "profitable": true,
     "backlog": "$73B AI"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-01-31",
+      "revenue": "$19.31B",
+      "grossMargin": 0.6813,
+      "operatingIncome": "$8.67B",
+      "netIncome": "$7.35B",
+      "eps": 1.55,
+      "revenueYoY": 0.2942
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-10-31",
+      "revenue": "$18.02B",
+      "grossMargin": 0.6799,
+      "operatingIncome": "$7.65B",
+      "netIncome": "$8.52B",
+      "eps": 1.8
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-07-31",
+      "revenue": "$15.95B",
+      "grossMargin": 0.671,
+      "operatingIncome": "$6.07B",
+      "netIncome": "$4.14B",
+      "eps": 0.88
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-04-30",
+      "revenue": "$15.00B",
+      "grossMargin": 0.6796,
+      "operatingIncome": "$5.92B",
+      "netIncome": "$4.96B",
+      "eps": 1.05
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-01-31",
+      "revenue": "$14.92B",
+      "grossMargin": 0.6801,
+      "operatingIncome": "$6.43B",
+      "netIncome": "$5.50B",
+      "eps": 1.17
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-10-31"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-10-31",
+      "revenue": "$63.89B",
+      "grossMargin": 0.6777,
+      "operatingIncome": "$26.07B",
+      "netIncome": "$23.13B",
+      "eps": 4.91,
+      "revenueYoY": 0.2389
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-10-31",
+      "revenue": "$51.57B",
+      "grossMargin": 0.6303,
+      "operatingIncome": "$15.00B",
+      "netIncome": "$5.89B",
+      "eps": 1.27,
+      "revenueYoY": 0.4397
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-10-31",
+      "revenue": "$35.82B",
+      "grossMargin": 0.6893,
+      "operatingIncome": "$16.45B",
+      "netIncome": "$14.08B",
+      "eps": 3.39
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 1.0,
@@ -120,8 +201,116 @@
       "profitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-24",
+      "headline": "Why This Fund Sold $11 Million of BILL Stock Despite a $1 Billion Buyback Plan",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/filings/2026/05/23/why-this-fund-sold-usd11-million-of-bill-stock-despite-a-usd1-billion-buyback-plan/",
+      "sentiment": "neutral",
+      "summary": "This cloud-based fintech firm delivers automation solutions for back-office financial operations, targeting small and midsize businesses."
+    },
+    {
+      "date": "2026-05-24",
+      "headline": "This Tech Stock Pays a Growing Dividend and Rides Every AI Tailwind. What's Not to Like?",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/23/this-tech-stock-pays-a-growing-dividend-and-rides/",
+      "sentiment": "neutral",
+      "summary": "Broadcom is a rare combination of a leading AI company with a long history of dividend growth."
+    },
+    {
+      "date": "2026-05-24",
+      "headline": "Meta, Broadcom And Others Launch $125 Million UCLA AI Chip Hub",
+      "source": "Benzinga",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/meta-broadcom-others-launch-125-003114962.html",
+      "sentiment": "neutral",
+      "summary": "Broadcom Inc., Applied Materials Inc., GlobalFoundries Inc., Meta Platforms Inc., and Synopsys, Inc. announced on Thursday that they have partnered with the UCLA Samueli School of Engineering to launch a $125 million Semiconductor Hub aimed at accelerating research and workforce."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Qorvo, Allegro MicroSystems, and Lattice Semiconductor Stocks Trade Up, What You Need To Know",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/qorvo-allegro-microsystems-lattice-semiconductor-235655480.html",
+      "sentiment": "neutral",
+      "summary": "A number of stocks jumped in the afternoon session after the broader market rallied on Iran peace progress and AI-linked growth names led the comeback in technology. Nvidia's Q1 results earlier in the week (beat-and-raise on $81.6B revenue with Q2 guidance of $89-92.8B and an $80"
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Presidential Trading Puts Broadcom Valuation And Policy Risks In Focus",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/presidential-trading-puts-broadcom-valuation-231220064.html",
+      "sentiment": "neutral",
+      "summary": "New federal ethics disclosures show President Donald Trump traded shares of Broadcom (NasdaqGS:AVGO) while in office. The trading involved Broadcom and other large technology stocks that were affected by U.S. policy and diplomatic decisions. The overlap between these trades and o"
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Citi names Broadcom stock top semiconductor pick for 2026",
+      "source": "TheStreet",
+      "url": "https://www.thestreet.com/investing/stocks/citi-names-broadcom-stock-top-semiconductor-pick-for-2026",
+      "sentiment": "neutral",
+      "summary": "The AI chip race has produced a handful of clear winners. Broadcom is one of them. But the question heading into its next earnings report is no longer about whether it is a top AI stock to own. The real debate now is: Can a company already pulling in billions from artificial inte"
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Billionaire Chase Coleman Just Increased His Stake in These 3 Top Semiconductor Stocks. Are They Still Buys?",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/23/billionaire-chase-coleman-just-increased-his-stake/",
+      "sentiment": "neutral",
+      "summary": "The billionaire tech investor continues to see upside in semiconductor stocks."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "This Artificial Intelligence (AI) Stock Will Beat Nvidia, AMD, Broadcom, and Intel to Become the Biggest Winner in AI Inference",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/23/this-artificial-intelligence-ai-stock-will-beat-nv/",
+      "sentiment": "neutral",
+      "summary": "Arm Holdings' business model makes the stock a solid investment for those looking to capitalize on the growing demand for AI inference."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Broadcom\u2019s AI Packaging Bet Gets Bigger. Wall Street Is Betting on More Upside for AVGO Stock.",
+      "source": "Barchart",
+      "url": "https://www.barchart.com/story/news/2102972/broadcoms-ai-packaging-bet-gets-bigger-wall-street-is-betting-on-more-upside-for-avgo-stock",
+      "sentiment": "neutral",
+      "summary": "Broadcom joining Applied Materials\u2019 EPIC platform adds another layer to the AI infrastructure story, as advanced packaging becomes more critical for custom accelerators, networking chips, and next-generation compute systems."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Nvidia\u2019s Hidden $60 Billion Business Is About to Overtake Broadcom",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/05/23/nvidias-hidden-60-billion-business-is-about-to-overtake-broadcom/",
+      "sentiment": "neutral",
+      "summary": "For years, investors treated artificial intelligence as a GPU story. Buy the chipmakers, ride the boom, and call it a day. But AI data centers have evolved into something much bigger \u2014 sprawling digital factories that need not only computing power, but also ultra-fast networking "
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.8015,
+    "insiderPct": 0.0195,
+    "shortInterest": 0.011,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0815
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0651
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0404
+      },
+      {
+        "name": "Vanguard Portfolio Management LLC",
+        "pct": 0.0271
+      },
+      {
+        "name": "FMR, LLC",
+        "pct": 0.0262
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

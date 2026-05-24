@@ -2,18 +2,18 @@
   "ticker": "RCAT",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Red Cat Holdings",
-    "exchange": "",
-    "sector": "Defense/Drones",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Red Cat Holdings, Inc.",
+    "exchange": "NCM",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "country": "United States",
+    "headquarters": "South Salt Lake, UT",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Pure-play tactical military drone maker. Black Widow for Army ISR.",
+    "ceo": "Mr. Jeffrey M. Thompson",
+    "employees": 244,
+    "website": "https://redcat.red",
+    "description": "Red Cat Holdings, Inc., together with its subsidiaries, provides drone and robotic solutions for defense, national security, and commercial applications in the United States. The company designs and manufactures small and tactical unmanned aircraft systems (UAS), such as BLACK WIDOW, a short-range reconnaissance war fighter with selectable integrated AI software capabilities; TEAL 2, a blue UAS product of defense used by combat soldiers, police officers, firefighters, wildlife managers, and industrial inspectors; and FANG, a first-person view small UAS. It also develops and produces long-endurance, vertical takeoff, and landing fixed-wing unmanned aircraft systems designed for extended-range intelligence, surveillance, and reconnaissance missions, such as THE EDGE 130. In addition, the company develops BLUE OPS, a battle-tested uncrewed surface vessel weapons system. Further, it provides FANG FPV DRONE, part of ARACHNID family of unmanned intelligence. Red Cat Holdings, Inc. is based in South Salt Lake, Utah.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,96 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$40.7M FY25",
-    "revenueGrowth": 8.49,
-    "pe": "N/A",
+    "asOf": "2026-05-23",
+    "revenue": "$54.6M",
+    "revenueGrowth": 8.491,
+    "pe": -26.14,
     "profitable": false,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$15.5M",
+      "grossMargin": 0.127,
+      "operatingIncome": "-$27.3M",
+      "netIncome": "-$26.6M",
+      "eps": -0.22,
+      "revenueYoY": 8.6875
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$26.2M",
+      "grossMargin": 0.0424,
+      "operatingIncome": "-$23.9M",
+      "netIncome": "-$19.7M",
+      "eps": -0.17
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$9.6M",
+      "grossMargin": 0.0661,
+      "operatingIncome": "-$17.5M",
+      "netIncome": "-$16.0M",
+      "eps": -0.16
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$3.2M",
+      "grossMargin": 0.1165,
+      "operatingIncome": "-$12.6M",
+      "netIncome": "-$13.3M",
+      "eps": -0.15
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$1.6M",
+      "grossMargin": -0.5215,
+      "operatingIncome": "-$12.5M",
+      "netIncome": "-$23.1M",
+      "eps": -0.27
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-10-31"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$40.7M",
+      "grossMargin": 0.0313,
+      "operatingIncome": "-$66.6M",
+      "netIncome": "-$72.1M",
+      "eps": -0.73,
+      "revenueYoY": 1.2865
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-04-30",
+      "revenue": "$17.8M",
+      "grossMargin": 0.2064,
+      "operatingIncome": "-$18.9M",
+      "netIncome": "-$24.1M",
+      "eps": -0.4,
+      "revenueYoY": 2.8696
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-04-30",
+      "revenue": "$4.6M",
+      "grossMargin": -0.1806,
+      "operatingIncome": "-$23.5M",
+      "netIncome": "-$28.1M",
+      "eps": -0.52
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 3.5,
@@ -121,8 +202,116 @@
       "unprofitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-22",
+      "headline": "Red Cat\u2019s Japan Drone Deal Tests Growth And Execution Story",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/red-cat-japan-drone-deal-181245373.html",
+      "sentiment": "neutral",
+      "summary": "Red Cat Holdings (NasdaqCM: RCAT) secured its first international defense contract for Black Widow drone systems with Japan's Ministry of Defense. The agreement marks the company\u2019s entry into the Asia Pacific defense market. For investors tracking Red Cat Holdings, the contract w"
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "Why Red Cat Stock Popped Today",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/20/why-red-cat-stock-popped-today/",
+      "sentiment": "neutral",
+      "summary": "Now, Red Cat can charge its military drones wirelessly."
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "Red Cat Shares Rise Following Quaze Technologies Acquisition (RCAT)",
+      "source": "InvestorsHub",
+      "url": "https://investorshub.advfn.com/market-news/article/28757/red-cat-shares-rise-following-quaze-technologies-acquisition-rcat",
+      "sentiment": "neutral",
+      "summary": "Red Cat Holdings (NASDAQ:RCAT) shares gained 3% on Wednesday after the company completed its acquisition of Quaze Technologies, a Qu\u00e9bec-based developer specializing in wireless power transfer systems for unmanned platforms. Quaze will continue operating as an independent busines"
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Why Red Cat Stock Dropped Today",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/19/why-red-cat-stock-dropped-today/",
+      "sentiment": "neutral",
+      "summary": "Red Cat makes weapons for war -- and soon, perhaps tools for cleaning up after peace is declared."
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "Swarmer: Combat-Validated Platform Positioned for Accelerated Growth \u2013 Quarterly Update Report",
+      "source": "Exec Edge",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/swarmer-combat-validated-platform-positioned-153646731.html",
+      "sentiment": "neutral",
+      "summary": "Download the Complete Report Here Swarmer, Inc. (SWMR) Combat-Validated Autonomy Platform Positioned for Accelerated Growth as License Activation Scales Key Takeaways: 1Q26 establishes the starting revenue baseline ahead of expected sequential growth. Meta Bureau\u2019s $2.86 million "
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "Assessing Red Cat Holdings (RCAT) Valuation After Recent Share Price Volatility And Strong Multi Year Returns",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-red-cat-holdings-rcat-043929190.html",
+      "sentiment": "neutral",
+      "summary": "Red Cat Holdings stock overview Red Cat Holdings (RCAT) has drawn attention after recent volatility, with the stock up 3.6% in the latest session but down 23% over the past month and 14% over the past 3 months. With a market cap of about US$1.15b and annual revenue of US$54.57 mi"
+    },
+    {
+      "date": "2026-05-13",
+      "headline": "Why Red Cat Stock Crashed Today",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/13/why-red-cat-stock-crashed-today/",
+      "sentiment": "neutral",
+      "summary": "Red Cat needs cash -- because it keeps burning it."
+    },
+    {
+      "date": "2026-05-13",
+      "headline": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Ahead of US-China Meeting",
+      "source": "MT Newswires",
+      "url": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-131321756.html",
+      "sentiment": "neutral",
+      "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1% and the actively tr"
+    },
+    {
+      "date": "2026-05-13",
+      "headline": "Why Is Red Cat Stock Tumbling Today?",
+      "source": "Benzinga",
+      "url": "https://finance.yahoo.com/news/why-red-cat-stock-tumbling-121101984.html",
+      "sentiment": "neutral",
+      "summary": "Defense drone maker Red Cat Holdings, Inc. (NASDAQ:RCAT) shares fell in Wednesday premarket trading after the company priced a $225 million public stock offering at a 15% discount from the last closing price. RCAT Stock Falls After Offering Pricing Red Cat priced an underwritten "
+    },
+    {
+      "date": "2026-05-13",
+      "headline": "QuickLogic Posts Downbeat Q1 Results, Joins Resideo Technologies And Other Big Stocks Moving Lower In Wednesday's Pre-Market Session",
+      "source": "Benzinga",
+      "url": "https://finance.yahoo.com/news/quicklogic-posts-downbeat-q1-results-120207304.html",
+      "sentiment": "neutral",
+      "summary": "U.S. stock futures were mixed this morning, with the Dow futures falling around 100 points on Wednesday. Shares of QuickLogic Corp (NASDAQ:QUIK) fell in pre-market trading after the company reported worse-than-expected first-quarter financial results. QuickLogic reported quarterl"
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.4556,
+    "insiderPct": 0.0911,
+    "shortInterest": 0.2685,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.4089
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.2508
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.1587
+      },
+      {
+        "name": "Hood River Capital Management LLC",
+        "pct": 0.1062
+      },
+      {
+        "name": "Geode Capital Management, LLC",
+        "pct": 0.0909
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

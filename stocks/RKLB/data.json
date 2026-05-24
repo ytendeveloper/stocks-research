@@ -2,18 +2,18 @@
   "ticker": "RKLB",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Rocket Lab USA",
-    "exchange": "",
-    "sector": "Aerospace",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Rocket Lab Corporation",
+    "exchange": "NMS",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "country": "United States",
+    "headquarters": "Long Beach, CA",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Core launch + satellite manufacturer. Purest space economy play.",
+    "ceo": "Sir Peter  Beck",
+    "employees": 2600,
+    "website": "https://rocketlabcorp.com",
+    "description": "Rocket Lab Corporation, a space company, provides launch services and space systems solutions in the United States, Canada, Japan, and internationally. The company operates through launch services and space systems segments. The company provides launch services, spacecraft design services, spacecraft components, spacecraft manufacturing, optical systems, and other spacecraft and on-orbit management solutions and constellation management services, as well as designs and manufactures small and medium-class rockets and develops flight and ground software. It also designs, manufactures, and sells Electron, an orbital small launch vehicle for small spacecraft launch services, as well as develops Neutron launch vehicles for large constellation deployments, interplanetary missions, and potentially for human spaceflight. In addition, the company designs and manufactures a range of components and subsystems for its launch vehicles and spacecraft. It serves commercial, aerospace prime contractors, and government customers. Rocket Lab Corporation was formerly known as Rocket Lab USA, Inc. and changed its name to Rocket Lab Corporation in August 2021. The company was founded in 2006 and is headquartered in Long Beach, California.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,91 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$800M TTM",
+    "asOf": "2026-05-23",
+    "revenue": "$679.6M",
     "revenueGrowth": 0.635,
-    "pe": "N/A",
+    "pe": -15934.27,
     "profitable": false,
     "backlog": "$2.2B"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$200.3M",
+      "grossMargin": 0.3818,
+      "operatingIncome": "-$56.0M",
+      "netIncome": "-$45.0M",
+      "eps": -0.07,
+      "revenueYoY": 0.6338
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$179.7M",
+      "grossMargin": 0.3798,
+      "operatingIncome": "-$51.0M",
+      "netIncome": "-$52.9M",
+      "eps": -0.09
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$155.1M",
+      "grossMargin": 0.3696,
+      "operatingIncome": "-$59.0M",
+      "netIncome": "-$18.3M",
+      "eps": -0.03
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$144.5M",
+      "grossMargin": 0.321,
+      "operatingIncome": "-$59.6M",
+      "netIncome": "-$66.4M",
+      "eps": -0.13
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$122.6M",
+      "grossMargin": 0.2876,
+      "operatingIncome": "-$59.2M",
+      "netIncome": "-$60.6M",
+      "eps": -0.12
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$601.8M",
+      "grossMargin": 0.3443,
+      "operatingIncome": "-$228.8M",
+      "netIncome": "-$198.2M",
+      "revenueYoY": 0.3796
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$436.2M",
+      "grossMargin": 0.2663,
+      "operatingIncome": "-$189.8M",
+      "netIncome": "-$190.2M",
+      "eps": -0.38,
+      "revenueYoY": 0.7833
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$244.6M",
+      "grossMargin": 0.2102,
+      "operatingIncome": "-$177.9M",
+      "netIncome": "-$182.6M",
+      "eps": -0.38
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 2.0,
@@ -120,8 +196,116 @@
       "unprofitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-23",
+      "headline": "Rocket Lab and Redwire Shares Skyrocket, What You Need To Know",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-redwire-shares-skyrocket-224455197.html",
+      "sentiment": "neutral",
+      "summary": "A number of stocks jumped in the afternoon session after the U.S. and Iran signaled progress toward a peace agreement, lifting both commercial and defense aerospace names."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Rocket Lab Wins Space Force Deal As Valuation And Momentum Diverge",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-wins-space-force-042450106.html",
+      "sentiment": "neutral",
+      "summary": "Rocket Lab (NasdaqGS:RKLB) has secured a $90 million multi year contract with the U.S. Space Force to build and operate geostationary defense satellites. The award is Rocket Lab's first major U.S. Space Force prime contract for complex GEO missions, expanding its role beyond laun"
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Why Rocket Lab (RKLB) Stock Is Falling Today",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-rocket-lab-rklb-stock-041255807.html",
+      "sentiment": "neutral",
+      "summary": "Shares of aerospace and defense company Rocket Lab (NASDAQ:RKLB) fell 4.5% in the morning session after the company disclosed plans for a large-scale equity offering program that could raise up to $3 billion through future share sales."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "These Space ETFs Are Retail\u2019s \u2018Standout Favorite\u2019 Ahead Of SpaceX IPO",
+      "source": "Stocktwits",
+      "url": "https://stocktwits.com/news-articles/markets/equity/these-space-et-fs-are-retail-s-standout-favorite-ahead-of-space-x-ipo/cZgRqI9ReYe",
+      "sentiment": "neutral",
+      "summary": "Retail investors are rushing into some space-related trades, according to Vanda Research."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "These Stocks Are Today\u2019s Movers: Dell, Apple, IBM, Est\u00e9e Lauder, Futu, Rocket Lab, Workday, and More",
+      "source": "Barrons.com",
+      "url": "https://www.barrons.com/articles/stock-movers-9326f611?siteid=yhoof2&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "Est\u00e9e Lauder ends acquisition talks with Spain\u2019s Puig Brands and Workday\u2019s first-quarter earnings beat Wall Street estimates."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Rocket Lab Stock Rebounds From SpaceX IPO Anxiety",
+      "source": "Barrons.com",
+      "url": "https://www.barrons.com/articles/rocket-lab-stock-spacex-ipo-space-force-contract-a2ec1c73?siteid=yhoof2&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "Rocket Lab shares rebounded Friday after a sharp selloff tied to investor reaction to SpaceX\u2019s IPO filing. A new Space Force contract and successful launch helped lift the stock."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "AST SpaceMobile Jumps 7%, Rocket Lab Climbs 6%, Planet Labs Rises 4%: Space Stocks Resume Their Climb",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/05/22/ast-spacemobile-jumps-7-rocket-lab-climbs-6-planet-labs-rises-4-space-stocks-resume-their-climb/",
+      "sentiment": "neutral",
+      "summary": "Space stocks are back in rally mode at midday Friday, with the sector\u2019s three highest-profile pure plays moving sharply higher in unison. AST SpaceMobile (NASDAQ:ASTS) stock is up 7%, Rocket Lab (NASDAQ:RKLB) shares are climbing 6%, and Planet Labs (NYSE:PL) stock has added 4%. T"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Rocket Lab Stock Pops on $90 Million Space Force Satellite Win",
+      "source": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-stock-pops-90-172806120.html",
+      "sentiment": "neutral",
+      "summary": "Rocket Lab Scores Major Space Force Contract, Expands Orbit Ambitions"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "3 Large-Cap Stocks on Our Watchlist",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-large-cap-stocks-watchlist-163655762.html",
+      "sentiment": "neutral",
+      "summary": "Large-cap stocks usually command their industries because they have the scale to drive market trends. The flip side though is that their sheer size can limit growth as expanding further becomes an increasingly challenging task."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "SpaceX Hype Lifts Industry Stocks",
+      "source": "The Wall Street Journal",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-05-22-2026/card/spacex-hype-lifts-industry-stocks-n5MXOjRZpQ551AkOX1B5?siteid=yhoof2&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "Space stocks are rocketing upwards. AST SpaceMobile and Virgin Galactic have each risen more than 9% in Friday's trading session, extending gains from Thursday driven by SpaceX's move toward an initial public offering."
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.5877,
+    "insiderPct": 0.0088,
+    "shortInterest": 0.0579,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0656
+      },
+      {
+        "name": "Vanguard Portfolio Management LLC",
+        "pct": 0.0445
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.042
+      },
+      {
+        "name": "BAILLIE GIFFORD & CO",
+        "pct": 0.0318
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0241
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

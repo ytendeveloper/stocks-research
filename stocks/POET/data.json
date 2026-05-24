@@ -2,18 +2,18 @@
   "ticker": "POET",
   "schemaVersion": "1.0",
   "static": {
-    "name": "POET Technologies",
-    "exchange": "",
-    "sector": "Semiconductors",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "POET Technologies Inc.",
+    "exchange": "NCM",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "country": "Canada",
+    "headquarters": "Toronto, ON",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Photonic integration for AI data center optical interconnects",
+    "ceo": "Dr. Suresh V. Venkatesan Ph.D.",
+    "employees": 80,
+    "website": "https://www.poet-technologies.com",
+    "description": "POET Technologies Inc., together with its subsidiaries, designs, develops, manufactures, and sells semiconductor products and services for commercial applications in the United States, Canada, the rest of North and South America, Europe, Malaysia, Singapore, China, and the rest of Asia. The company offers photonic integrated packaging solutions based on the POET Optical Interposer, a platform that allows the integration of electronic and photonic devices onto a single chip using advanced wafer-level semiconductor manufacturing techniques. Its products include photonic integrated circuits, optical engines, optical transceiver modules, and light source products. The company serves the data center AI, light source, and telecommunications markets; 5G interconnect markets, such as PON and GPON, as well as edge computing for machine-to-machine communications; and sensing markets, including LIDAR, Optical Coherence Tomography for medical devices, and virtual reality systems. The company was formerly known as Opel Technologies Inc. and changed its name to POET Technologies Inc. in June 2013. POET Technologies Inc. is headquartered in Toronto, Canada.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,92 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$1.07M",
-    "revenueGrowth": null,
-    "pe": "N/A",
+    "asOf": "2026-05-23",
+    "revenue": "$1.1M",
+    "revenueGrowth": 10.753,
+    "pe": Infinity,
     "profitable": false,
     "backlog": null
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$503K",
+      "operatingIncome": "-$14.6M",
+      "netIncome": "-$12.3M",
+      "eps": -0.08,
+      "revenueYoY": 2.012
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$341K",
+      "operatingIncome": "-$9.6M",
+      "netIncome": "-$42.7M"
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$298K",
+      "operatingIncome": "-$7.7M",
+      "netIncome": "-$9.4M",
+      "eps": -0.1
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$268K",
+      "operatingIncome": "-$7.5M",
+      "netIncome": "-$17.3M",
+      "eps": -0.21
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$167K",
+      "operatingIncome": "-$9.1M",
+      "netIncome": "$6.3M",
+      "eps": 0.08
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31"
+    },
+    {
+      "period": "2024-Q3",
+      "reportDate": "2024-09-30",
+      "eps": -0.2
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$1.1M",
+      "operatingIncome": "-$33.9M",
+      "netIncome": "-$63.0M",
+      "eps": -0.68,
+      "revenueYoY": 25.8293
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$41K",
+      "operatingIncome": "-$23.6M",
+      "netIncome": "-$56.7M",
+      "eps": -0.94,
+      "revenueYoY": -0.912
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$466K",
+      "operatingIncome": "-$20.4M",
+      "netIncome": "-$20.3M",
+      "eps": -0.51
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 3.5,
@@ -124,8 +201,116 @@
       "unprofitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-22",
+      "headline": "POET Technologies (POET) Posts Q1 2026 Results",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/poet-technologies-poet-posts-q1-122210987.html",
+      "sentiment": "neutral",
+      "summary": "POET Technologies Inc. (NASDAQ:POET) is one of the Best Semiconductor Stocks to Buy Under $30. On May 14, the company released its Q1 2026 results, wherein it posted non-recurring engineering and product revenue of $503,389 compared to $166,760 in Q1 2025 and $341,202 in Q4 2025."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "POET Technologies Lawsuits And Customer Losses Raise Valuation Risk Questions",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/poet-technologies-lawsuits-customer-losses-031322048.html",
+      "sentiment": "neutral",
+      "summary": "Multiple securities class action lawsuits have been filed against POET Technologies (NasdaqCM:POET), alleging misleading statements about its tax status and business agreements. Claims focus on an alleged failure to disclose likely PFIC status and related tax consequences for US "
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Prediction: POET Stock\u2019s Outlook Just Turned Bleak",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/05/21/prediction-poet-stocks-outlook-just-turned-bleak/",
+      "sentiment": "neutral",
+      "summary": "POET Technologies (NASDAQ:POET) has been one of the wildest small-cap AI infrastructure stories of 2026, with shares riding a 133.49% year-to-date rally on a marquee Lumilens supply agreement. After running this name through our proprietary model, the rally has gotten ahead of th"
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "POET Technologies (POET) Goes Aggressive on Expansion, Jumps 13%",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/poet-technologies-poet-goes-aggressive-022610739.html",
+      "sentiment": "neutral",
+      "summary": "POET Technologies Inc. (NASDAQ:POET) is one of the 10 Stocks With Insane Returns Right Now. POET Technologies snapped a three-day losing streak on Wednesday, climbing 13.08 percent to close at $14.78 apiece, after announcing an aggressive plan to expand its wafer manufacturing ca"
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Why Poet Technologies Stock Plummeted Today",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/19/why-poet-technologies-stock-plummeted-today/",
+      "sentiment": "neutral",
+      "summary": "After a huge rally earlier this month, Poet has been getting hit with big pullbacks."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Stock Market Today, May 19: Poet Technologies Falls After $400 Million Offering Sparks Dilution Concerns",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/05/19/stock-market-today-may-19-poet-technologies-falls-after-400-million-offering-sparks-dilution-concerns/",
+      "sentiment": "neutral",
+      "summary": "Fresh capital for AI photonic interconnects collides with mounting dilution, today, May 19, 2026."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "This Artificial Intelligence (AI) Semiconductor Company Has a $146 Billion Opportunity That No One Is Talking About. Here's Why the Stock Still Isn't a Buy.",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/19/this-artificial-intelligence-ai-semiconductor-comp/",
+      "sentiment": "neutral",
+      "summary": "Poet Technologies is gaining steam in the artificial intelligence (AI) infrastructure market, but its stock has gotten well ahead of its business."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "POET Technologies (POET) Lands A Massive Capital Raise As AI Expansion Efforts Grow",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/poet-technologies-poet-lands-massive-105728566.html",
+      "sentiment": "neutral",
+      "summary": "With a one-month return of 117.57%, POET Technologies Inc. (NASDAQ:POET) is among the 8 Best Rising Tech Stocks to Buy According to Hedge Funds. On May 15, POET Technologies Inc. (NASDAQ:POET) announced that it entered into a definitive agreement with a single institutional inves"
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "Poet Technologies Stock Sold Off Again Today -- Is It Time to Buy?",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/18/poet-technologies-sold-off-again-today-is-the-stoc/",
+      "sentiment": "neutral",
+      "summary": "Should investors jump into Poet stock after its recent pullbacks?"
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "POET Technologies Secures US$400M Strategic Investment",
+      "source": "IPO-Edge.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/poet-technologies-secures-us-400m-211901619.html",
+      "sentiment": "neutral",
+      "summary": "By Karen Roman POET Technologies Inc. (Nasdaq: POET) said it closed its direct offering by issuing about 19 million common shares in a sale totaling $400 million to a single [\u2026]"
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.0863,
+    "insiderPct": 0.0008,
+    "shortInterest": 0.0962,
+    "topHolders": [
+      {
+        "name": "Citadel Advisors Llc",
+        "pct": 0.0165
+      },
+      {
+        "name": "MMCAP International, Inc. SPC",
+        "pct": 0.0097
+      },
+      {
+        "name": "Morgan Stanley",
+        "pct": 0.0089
+      },
+      {
+        "name": "Group One Trading, LLC",
+        "pct": 0.0078
+      },
+      {
+        "name": "Raymond James Financial, Inc.",
+        "pct": 0.0069
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

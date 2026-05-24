@@ -3,17 +3,17 @@
   "schemaVersion": "1.0",
   "static": {
     "name": "RTX Corporation",
-    "exchange": "",
-    "sector": "Defense",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "exchange": "NYQ",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "country": "United States",
+    "headquarters": "Arlington, VA",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Missile systems, radar, space sensors, satellite systems.",
+    "ceo": "Mr. Christopher T. Calio J.D.",
+    "employees": 180000,
+    "website": "https://www.rtx.com",
+    "description": "RTX Corporation, an aerospace and defense company, provides systems and services for commercial, military, and government customers worldwide. It operates through three segments: Collins Aerospace (Collins), Pratt & Whitney, and Raytheon. The Collins segment offers aerospace and defense products, and aftermarket services for civil and military aircraft manufacturers and commercial airlines, as well as regional, business, and general aviation, defense, and commercial space operations. This segment designs, manufactures, and supplies electric power generation and management and distribution, environmental control, flight control, air data and aircraft sensing, engine control, and engine nacelle systems, as well as engine components; cabin interiors, including seating, oxygen, food and beverage preparation, storage and galley, lavatory, and wastewater management systems; connected aviation solutions and services; and systems solutions for connected battlespace, test and training range systems, crew escape systems, and simulation and training. It also provides spare parts, overhaul and repair, engineering and technical support, training and fleet management solutions, and asset and information management services. The Pratt & Whitney segment supplies aircraft engines for commercial, military, business jet, and general aviation customers; and produces, sells, and services military and commercial auxiliary power units, as well as offers fleet management and aftermarket maintenance, repair, and overhaul services. The Raytheon segment provides defensive and offensive threat detection, tracking, and mitigation capabilities for government and commercial customers. This segment offers sensors, mission orchestration and satellite control products, and software. The company was formerly known as Raytheon Technologies Corporation and changed its name to RTX Corporation in July 2023. RTX Corporation was incorporated in 1934 and is headquartered in Arlington, Virginia.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,92 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$88.6B TTM",
-    "revenueGrowth": 0.09,
-    "pe": "22",
+    "asOf": "2026-05-23",
+    "revenue": "$90.37B",
+    "revenueGrowth": 0.087,
+    "pe": 33.21,
     "profitable": true,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$22.08B",
+      "grossMargin": 0.2081,
+      "operatingIncome": "$2.56B",
+      "netIncome": "$2.06B",
+      "eps": 1.53,
+      "revenueYoY": 0.0871
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$24.24B",
+      "grossMargin": 0.1946,
+      "operatingIncome": "$2.60B",
+      "netIncome": "$1.62B",
+      "eps": 1.21
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$22.48B",
+      "grossMargin": 0.2038,
+      "operatingIncome": "$2.52B",
+      "netIncome": "$1.92B",
+      "eps": 1.43
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$21.58B",
+      "grossMargin": 0.2028,
+      "operatingIncome": "$2.15B",
+      "netIncome": "$1.66B",
+      "eps": 1.24
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$20.31B",
+      "grossMargin": 0.2027,
+      "operatingIncome": "$2.04B",
+      "netIncome": "$1.53B",
+      "eps": 1.15
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$88.60B",
+      "grossMargin": 0.2008,
+      "operatingIncome": "$9.30B",
+      "netIncome": "$6.73B",
+      "eps": 5.02,
+      "revenueYoY": 0.0973
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$80.74B",
+      "grossMargin": 0.1909,
+      "operatingIncome": "$6.54B",
+      "netIncome": "$4.77B",
+      "eps": 3.58,
+      "revenueYoY": 0.1715
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$68.92B",
+      "grossMargin": 0.1754,
+      "operatingIncome": "$3.56B",
+      "netIncome": "$3.19B",
+      "eps": 2.24
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 2.0,
@@ -119,8 +196,116 @@
       "profitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-23",
+      "headline": "AeroVironment and KBR Shares Skyrocket, What You Need To Know",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aerovironment-kbr-shares-skyrocket-know-222855214.html",
+      "sentiment": "neutral",
+      "summary": "A number of stocks jumped in the afternoon session after the U.S. and Iran signaled progress toward a peace agreement, lifting both commercial and defense aerospace names."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "RTX (RTX) Demonstrates Self-Healing Combat Communications System PACE4ACE",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/rtx-rtx-demonstrates-self-healing-120352715.html",
+      "sentiment": "neutral",
+      "summary": "RTX Corporation (NYSE:RTX) is one of the best low risk stocks to buy in 2026. On May 20, RTX\u2019s BBN Technologies, funded by the Air Force Research Laboratory, demonstrated a self-healing communications system called PACE4ACE. The system provides a continuous, secure data flow for "
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "U.S. denies Taiwan arms sale pause due to Iran munition needs \u2013 Reuters",
+      "source": "Investing.com",
+      "url": "https://www.yahoo.com/news/politics/articles/u-denies-taiwan-arms-sale-071905359.html",
+      "sentiment": "neutral",
+      "summary": "Investing.com \u2014 U.S. arms sales to Taiwan are subject to multi-year administrative processing timelines and remain entirely separate from ongoing military operations in the Middle East, according to a source familiar with the matter reported exclusively by Reuters on Saturday."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "How Ukraine\u2019s drone edge made it a sought-after solution \u2013 reports WSJ",
+      "source": "Investing.com",
+      "url": "https://www.yahoo.com/news/world/articles/ukraine-drone-edge-made-sought-063424939.html",
+      "sentiment": "neutral",
+      "summary": "Investing.com -- The rapid escalation of global drone warfare has transformed Ukraine into a critical strategic provider of counter-unmanned aerial systems (UAS) expertise and advanced defense technology, according to an exclusive report by The Wall Street Journal on Saturday."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Carpenter Technology: This Stock Will Melt Up",
+      "source": "Barrons.com",
+      "url": "https://www.barrons.com/articles/carpenter-technology-stock-melt-up-b57d0b6e?siteid=yhoof2&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "Earnings momentum, pricing power, and barriers to entry can help the alloy manufacturer\u2019s stock advance 42% from here."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Trump says an agreement with Iran has been \u2018largely negotiated\u2019",
+      "source": "Investing.com",
+      "url": "https://www.yahoo.com/news/politics/articles/mediators-race-prevent-u-israeli-002823253.html",
+      "sentiment": "neutral",
+      "summary": "Investing.com -- U.S. President Trump said in a post on Truth Social that following a call with leaders in the Middle East on Saturday, an agreement has been \u201clargely negotiated\u201d subject to finalization between the United States, Iran and other countries in the region. He added t"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Software-Centric Radar And Resilient Comms Push Could Be A Game Changer For RTX (RTX)",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/software-centric-radar-resilient-comms-151315930.html",
+      "sentiment": "neutral",
+      "summary": "Recently, RTX\u2019s Raytheon business secured a new Office of Naval Research contract to advance software-defined naval radar, while its BBN Technologies division proved the PACE4ACE self-healing communications system can keep military data flowing securely even under jamming and net"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Gina Rinehart Invests $97 Million in US Defense Stocks",
+      "source": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gina-rinehart-invests-97-million-132522094.html",
+      "sentiment": "neutral",
+      "summary": "Australia's richest person expanded Hancock Prospecting's defense holdings while increasing exposure to global mining companies."
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Why Is RTX (RTX) Down 3.4% Since Last Earnings Report?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-rtx-rtx-down-3-153009422.html",
+      "sentiment": "neutral",
+      "summary": "RTX (RTX) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues."
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "One-Fifth of SpaceX Revenue Comes From Uncle Sam: The Defense Contractors That Should Worry",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/05/21/one-fifth-of-spacex-revenue-comes-from-uncle-sam-the-defense-contractors-that-should-worry/",
+      "sentiment": "neutral",
+      "summary": "SpaceX\u2019s S-1 just handed legacy defense investors a number they cannot ignore. And you can bet they won\u2019t. In 2025, roughly one-fifth of SpaceX revenue came from U.S. federal agencies, primarily NASA, the Department of War, the General Services Administration, and certain Intelli"
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.8156,
+    "insiderPct": 0.0008,
+    "shortInterest": 0.0115,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.081
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0688
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0648
+      },
+      {
+        "name": "Capital Research Global Investors",
+        "pct": 0.0389
+      },
+      {
+        "name": "JPMORGAN CHASE & CO",
+        "pct": 0.0307
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

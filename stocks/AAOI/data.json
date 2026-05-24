@@ -2,18 +2,18 @@
   "ticker": "AAOI",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Applied Optoelectronics",
-    "exchange": "",
-    "sector": "Semiconductors",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Applied Optoelectronics, Inc.",
+    "exchange": "NGM",
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "country": "United States",
+    "headquarters": "Sugar Land, TX",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Transceivers applicable to satellite ground stations and high-speed optical links.",
+    "ceo": "Dr. Chih-Hsiang  Lin Ph.D.",
+    "employees": 4691,
+    "website": "https://www.ao-inc.com",
+    "description": "Applied Optoelectronics, Inc. engages in the design, manufacture, and sale of fiber-optic networking products in the United States, Taiwan, and China. The company offers optical modules, optical filters, lasers, laser components, subassemblies, transmitters and transceivers, turn-key equipment, headend, node, and distribution equipment, as well as amplifiers. It sells its products to internet data center operators, cable television, telecom equipment manufacturers, fiber-to-the-home, and internet service providers through its direct and indirect sales channels. Applied Optoelectronics, Inc. was incorporated in 1997 and is headquartered in Sugar Land, Texas.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,100 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$455.7M FY25",
-    "revenueGrowth": 0.828,
-    "pe": "N/A",
+    "asOf": "2026-05-23",
+    "revenue": "$507.0M",
+    "revenueGrowth": 0.514,
+    "pe": 38.03,
     "profitable": false,
     "backlog": "$324M AI"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$151.1M",
+      "grossMargin": 0.2906,
+      "operatingIncome": "-$12.9M",
+      "netIncome": "-$14.3M",
+      "eps": -0.19,
+      "revenueYoY": 0.5125
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$134.3M",
+      "grossMargin": 0.3124,
+      "operatingIncome": "-$11.4M",
+      "netIncome": "-$2.0M",
+      "eps": -0.03
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$118.6M",
+      "grossMargin": 0.2804,
+      "operatingIncome": "-$15.0M",
+      "netIncome": "-$17.9M",
+      "eps": -0.28
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$103.0M",
+      "grossMargin": 0.3027,
+      "operatingIncome": "-$14.7M",
+      "netIncome": "-$9.1M",
+      "eps": -0.16
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$99.9M",
+      "grossMargin": 0.3059,
+      "operatingIncome": "-$8.8M",
+      "netIncome": "-$9.2M",
+      "eps": -0.18
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31"
+    },
+    {
+      "period": "2024-Q3",
+      "reportDate": "2024-09-30"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$455.7M",
+      "grossMargin": 0.3004,
+      "operatingIncome": "-$49.7M",
+      "netIncome": "-$38.2M",
+      "eps": -0.64,
+      "revenueYoY": 0.8272
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$249.4M",
+      "grossMargin": 0.2478,
+      "operatingIncome": "-$70.5M",
+      "netIncome": "-$186.7M",
+      "eps": -4.5,
+      "revenueYoY": 0.1461
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$217.6M",
+      "grossMargin": 0.2707,
+      "operatingIncome": "-$40.4M",
+      "netIncome": "-$56.0M",
+      "eps": -1.75
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 4.0,
@@ -122,8 +207,116 @@
       "unprofitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-22",
+      "headline": "Raymond James Raises the Firm\u2019s Price Target on nLIGHT (LASR)",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/raymond-james-raises-firm-price-164710364.html",
+      "sentiment": "neutral",
+      "summary": "nLIGHT, Inc. (NASDAQ:LASR) is one of the 8 High Return Semiconductor Stocks to Buy Now. On May 8, 2026, Raymond James raised the firm\u2019s price target on nLIGHT, Inc. (NASDAQ:LASR) to $100 from $75 and kept a Strong Buy rating on the shares. The firm said Q1 results cleared a high "
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Applied Optoelectronics Up 635.5% in 6 Months: How to Play the Stock",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-635-5-6-150100143.html",
+      "sentiment": "neutral",
+      "summary": "AAOI's shares surge 635.5% in six months as 400G/800G demand builds ---- yet valuation, competition and uneven earnings add caution."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Stock Market Today, May 19: Poet Technologies Falls After $400 Million Offering Sparks Dilution Concerns",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/05/19/stock-market-today-may-19-poet-technologies-falls-after-400-million-offering-sparks-dilution-concerns/",
+      "sentiment": "neutral",
+      "summary": "Fresh capital for AI photonic interconnects collides with mounting dilution, today, May 19, 2026."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Dow Jones Futures: Trump Iran Delay Saves Dow, But Sandisk, Bloom Energy, AI Leaders Sell Off",
+      "source": "Investor's Business Daily",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-trump-postpones-iran-attack-sandisk-bloom-energy-ai-sell-off/?src=A00220&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "President Trump said he delayed a planned attack on Iran, but Sandisk, Bloom Energy and other AI leaders still tumbled."
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "POET Technologies Secures US$400M Strategic Investment",
+      "source": "IPO-Edge.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/poet-technologies-secures-us-400m-211901619.html",
+      "sentiment": "neutral",
+      "summary": "By Karen Roman POET Technologies Inc. (Nasdaq: POET) said it closed its direct offering by issuing about 19 million common shares in a sale totaling $400 million to a single [\u2026]"
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "Applied Optoelectronics Inc. (AAOI): Mark Cuban Urges Focus on Foundational AI",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-inc-aaoi-mark-202843330.html",
+      "sentiment": "neutral",
+      "summary": "We just covered the Mark Cuban Stock Portfolio: 8 Best Stocks to Buy and Applied Optoelectronics, Inc. (NASDAQ:AAOI) ranks 6th on this list. Applied Optoelectronics, Inc. (NASDAQ:AAOI) is one of the favorite AI stocks among billionaire investors. Mark Cuban, in an interview on th"
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "Applied Optoelectronics Slumps 10%, Lumentum Dives 9%, Coherent Drops 6% as AI Optics Profit-Takers Strike",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/05/18/applied-optoelectronics-slumps-10-lumentum-dives-9-coherent-drops-6-as-ai-optics-profit-takers-strike/",
+      "sentiment": "neutral",
+      "summary": "The hottest corner of the AI infrastructure trade is taking a breather. Shares of Applied Optoelectronics (NASDAQ:AAOI) are down 10% in Monday midday trading, while Lumentum Holdings (NASDAQ:LITE) is off 9% and Coherent (NYSE:COHR) has slipped 6%. There\u2019s no fresh negative cataly"
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "Why Applied Optoelectronics Stock May Be Near a Turning Point",
+      "source": "MarketBeat",
+      "url": "https://www.marketbeat.com/originals/why-applied-optoelectronics-stock-may-be-near-a-turning-point/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "sentiment": "neutral",
+      "summary": "Applied Optoelectronics is well-positioned for hyperscaler demand but faces execution challenges and potential disruption from copacked optics."
+    },
+    {
+      "date": "2026-05-17",
+      "headline": "Applied Optoelectronics Expands Beyond AI With Mediacom DOCSIS 4.0 Deal",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-expands-beyond-ai-031239449.html",
+      "sentiment": "neutral",
+      "summary": "Applied Optoelectronics (NasdaqGM:AAOI) has entered into a supply agreement with Mediacom to support DOCSIS 4.0 broadband upgrades. The partnership targets network upgrades that are expected to reach 1 million households across Mediacom's footprint. AOI will provide multiple broa"
+    },
+    {
+      "date": "2026-05-16",
+      "headline": "Assessing Applied Optoelectronics (AAOI) Valuation After A Sharp Multi Month Share Price Surge",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-applied-optoelectronics-aaoi-valuation-151131979.html",
+      "sentiment": "neutral",
+      "summary": "Applied Optoelectronics (AAOI) has drawn attention after recent trading left the stock with strong gains over the past 3 months and year to date, even though the company reported a net loss. See our latest analysis for Applied Optoelectronics. Recent trading has been volatile, wi"
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.6835,
+    "insiderPct": 0.1087,
+    "shortInterest": 0.1314,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0896
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0382
+      },
+      {
+        "name": "Oberweis Asset Management Inc.",
+        "pct": 0.0293
+      },
+      {
+        "name": "Jane Street Group, LLC",
+        "pct": 0.0284
+      },
+      {
+        "name": "Shaw D.E. & Co., Inc.",
+        "pct": 0.0264
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

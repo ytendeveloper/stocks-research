@@ -2,18 +2,18 @@
   "ticker": "NVDA",
   "schemaVersion": "1.0",
   "static": {
-    "name": "NVIDIA",
-    "exchange": "",
-    "sector": "Semiconductors",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "NVIDIA Corporation",
+    "exchange": "NMS",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "country": "United States",
+    "headquarters": "Santa Clara, CA",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Space-1 Vera Rubin Module for orbital computing. De facto standard for satellite data processing.",
+    "ceo": "Mr. Jen-Hsun  Huang",
+    "employees": 42000,
+    "website": "https://www.nvidia.com",
+    "description": "NVIDIA Corporation operates as a data center scale AI infrastructure company. The company operates through two segments, Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. The company sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants worldwide. It has a collaboration with Tech Mahindra Limited to develop artificial intelligence powered telco network operations reasoning agent. The company has a strategic partnership with Lumentum Holdings Inc. to develop optics technologies for AI and data centers. It also has a strategic partnership with Nebius Group N.V. to develop and deploy hyperscale cloud for the artificial intelligence market; and has a strategic partnership with IREN Limited to accelerate deployment of up to 5 gigawatts of infrastructure. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,92 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$215.94B FY26",
-    "revenueGrowth": 0.655,
-    "pe": "40",
+    "asOf": "2026-05-23",
+    "revenue": "$253.49B",
+    "revenueGrowth": 0.852,
+    "pe": 33.03,
     "profitable": true,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q2",
+      "reportDate": "2026-04-30",
+      "revenue": "$81.61B",
+      "grossMargin": 0.7493,
+      "operatingIncome": "$53.54B",
+      "netIncome": "$58.32B",
+      "eps": 2.4,
+      "revenueYoY": 0.8522
+    },
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-01-31",
+      "revenue": "$68.13B",
+      "grossMargin": 0.75,
+      "operatingIncome": "$44.30B",
+      "netIncome": "$42.96B",
+      "eps": 1.77
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-10-31",
+      "revenue": "$57.01B",
+      "grossMargin": 0.7341,
+      "operatingIncome": "$36.01B",
+      "netIncome": "$31.91B",
+      "eps": 1.31
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-07-31",
+      "revenue": "$46.74B",
+      "grossMargin": 0.7242,
+      "operatingIncome": "$28.44B",
+      "netIncome": "$26.42B",
+      "eps": 1.08
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-04-30",
+      "revenue": "$44.06B",
+      "grossMargin": 0.6052,
+      "operatingIncome": "$21.64B",
+      "netIncome": "$18.77B",
+      "eps": 0.77
+    }
+  ],
+  "annual": [
+    {
+      "year": 2026,
+      "reportDate": "2026-01-31",
+      "revenue": "$215.94B",
+      "grossMargin": 0.7107,
+      "operatingIncome": "$130.39B",
+      "netIncome": "$120.07B",
+      "eps": 4.93,
+      "revenueYoY": 0.6547
+    },
+    {
+      "year": 2025,
+      "reportDate": "2025-01-31",
+      "revenue": "$130.50B",
+      "grossMargin": 0.7499,
+      "operatingIncome": "$81.45B",
+      "netIncome": "$72.88B",
+      "eps": 2.97,
+      "revenueYoY": 1.1422
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-01-31",
+      "revenue": "$60.92B",
+      "grossMargin": 0.7272,
+      "operatingIncome": "$32.97B",
+      "netIncome": "$29.76B",
+      "eps": 1.21
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 1.0,
@@ -120,8 +197,116 @@
       "profitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-24",
+      "headline": "2 Stocks With Monster Potential to Hold Through the Next Decade of Uncertainty",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/23/2-stocks-with-monster-potential-to-hold-through-th/",
+      "sentiment": "neutral",
+      "summary": "Alphabet and TSCM are two of the best-positioned AI stocks for the long term."
+    },
+    {
+      "date": "2026-05-24",
+      "headline": "Nvidia's Board Just Authorized an Additional $80 Billion Buyback. Here's What That Really Signals to Investors.",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/23/nvidias-board-just-authorized-an-additional-80-bil/",
+      "sentiment": "neutral",
+      "summary": "Returning cash at this scale says a lot about the chip giant's confidence. But it doesn't erase the stock's biggest risks."
+    },
+    {
+      "date": "2026-05-24",
+      "headline": "Why This Fund Sold $11 Million of BILL Stock Despite a $1 Billion Buyback Plan",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/filings/2026/05/23/why-this-fund-sold-usd11-million-of-bill-stock-despite-a-usd1-billion-buyback-plan/",
+      "sentiment": "neutral",
+      "summary": "This cloud-based fintech firm delivers automation solutions for back-office financial operations, targeting small and midsize businesses."
+    },
+    {
+      "date": "2026-05-24",
+      "headline": "This Tech Stock Pays a Growing Dividend and Rides Every AI Tailwind. What's Not to Like?",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/23/this-tech-stock-pays-a-growing-dividend-and-rides/",
+      "sentiment": "neutral",
+      "summary": "Broadcom is a rare combination of a leading AI company with a long history of dividend growth."
+    },
+    {
+      "date": "2026-05-24",
+      "headline": "Is It Too Late To Consider NVIDIA (NVDA) After A 7x Multi Year Surge?",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/too-consider-nvidia-nvda-7x-001643571.html",
+      "sentiment": "neutral",
+      "summary": "For investors questioning whether NVIDIA's current share price still makes sense, or if expectations have run too far ahead of reality, this article focuses squarely on what you are paying versus what you may be getting. The stock recently closed at US$215.33, with returns of 7.9"
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Qorvo, Allegro MicroSystems, and Lattice Semiconductor Stocks Trade Up, What You Need To Know",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/qorvo-allegro-microsystems-lattice-semiconductor-235655480.html",
+      "sentiment": "neutral",
+      "summary": "A number of stocks jumped in the afternoon session after the broader market rallied on Iran peace progress and AI-linked growth names led the comeback in technology. Nvidia's Q1 results earlier in the week (beat-and-raise on $81.6B revenue with Q2 guidance of $89-92.8B and an $80"
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "If I Could Only Hold 1 Vanguard ETF Forever, Here's What I'd Buy",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/23/if-i-could-only-hold-1-vanguard-etf-forever-heres/",
+      "sentiment": "neutral",
+      "summary": "I've been buying this ETF for years and don't plan to stop anytime soon."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Wall Street Was Sleeping on the \"Bits-to-Atoms\" Trade. This Growth Stock Could Profit.",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/23/wall-street-was-sleeping-on-the-bits-to-atoms-trad/",
+      "sentiment": "neutral",
+      "summary": "This company is among those at the center of a massive shift toward AI infrastructure."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Here\u2019s What Jim Cramer Had Said About NVIDIA (NVDA) Ahead Of Earnings",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-had-said-nvidia-231915364.html",
+      "sentiment": "neutral",
+      "summary": "We recently published Jim Cramer Took A Side On Biggest AI Debate & Discussed These 13 Stocks. NVIDIA Corporation (NASDAQ:NVDA) is one of the stocks discussed by Jim Cramer. AI GPU giant NVIDIA Corporation (NASDAQ:NVDA) reported its earnings on the 20th. By afternoon on the 21st,"
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Prediction: Nvidia Will Become the World's First $15 Trillion Company by 2029",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/23/prediction-nvidia-will-become-the-worlds-first-15/",
+      "sentiment": "neutral",
+      "summary": "Nvidia stock could triple within the next three years thanks to its phenomenal growth potential."
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.7078,
+    "insiderPct": 0.0398,
+    "shortInterest": 0.0122,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0796
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0636
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0411
+      },
+      {
+        "name": "FMR, LLC",
+        "pct": 0.0411
+      },
+      {
+        "name": "Geode Capital Management, LLC",
+        "pct": 0.0248
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

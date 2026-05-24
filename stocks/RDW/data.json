@@ -3,17 +3,17 @@
   "schemaVersion": "1.0",
   "static": {
     "name": "Redwire Corporation",
-    "exchange": "",
-    "sector": "Aerospace",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "exchange": "NYQ",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "country": "United States",
+    "headquarters": "Jacksonville, FL",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Spacecraft components, sensors, in-space manufacturing. Dual defense/space.",
+    "ceo": "Mr. Peter Anthony Cannito Jr.",
+    "employees": 1400,
+    "website": "https://www.rdw.com",
+    "description": "Redwire Corporation provides critical space solutions and space infrastructure for government and commercial customers in the United States, Europe, and internationally. It operates in two segments Space and Defense Tech. The company offers sensors and avionics systems, including star trackers and sun sensors, which are critical for accurate navigation and control of spacecraft; camera systems; infrared, space situational awareness, and position timing and navigation payloads; It also provides software suite that enables digital engineering and generation of high-fidelity, interactive modeling and simulations of individual components, entire spacecraft, and full constellations in a cloud-based environment. In addition, the company offers microgravity payloads, radio frequency systems, antennas, spacecraft platforms and missions, and in-space manufacturing and biotech facilities, as well as field-proven uncrewed airborne system (UAS) technology. Further, it provides combat-proven autonomous systems, optical sensors, advanced optics, resilient energy solutions, and radio frequency payloads, as well as provides intelligence, surveillance, and reconnaissance capabilities for customers including the U.S. Department of War, U.S. Federal Civilian Agencies and allied governments across multiple domains. Redwire Corporation was founded in 2010 and is headquartered in Jacksonville, Florida.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,96 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$350M+ TTM",
+    "asOf": "2026-05-23",
+    "revenue": "$371.0M",
     "revenueGrowth": 0.579,
-    "pe": "N/A",
+    "pe": -42.66,
     "profitable": false,
     "backlog": "$498.1M"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$97.0M",
+      "grossMargin": 0.2661,
+      "operatingIncome": "-$69.7M",
+      "netIncome": "-$76.5M",
+      "eps": -0.4,
+      "revenueYoY": 0.5798
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$108.8M",
+      "grossMargin": 0.0965,
+      "operatingIncome": "-$46.8M",
+      "netIncome": "-$85.5M",
+      "eps": -0.58
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$103.4M",
+      "grossMargin": 0.1625,
+      "operatingIncome": "-$41.2M",
+      "netIncome": "-$41.2M",
+      "eps": -0.29
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$61.8M",
+      "grossMargin": -0.3087,
+      "operatingIncome": "-$75.2M",
+      "netIncome": "-$97.0M",
+      "eps": -1.41
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$61.4M",
+      "grossMargin": 0.1473,
+      "operatingIncome": "-$10.5M",
+      "netIncome": "-$2.9M",
+      "eps": -0.09
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$335.4M",
+      "grossMargin": 0.0515,
+      "operatingIncome": "-$173.8M",
+      "netIncome": "-$226.6M",
+      "eps": -2.28,
+      "revenueYoY": 0.1029
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$304.1M",
+      "grossMargin": 0.1462,
+      "operatingIncome": "-$33.1M",
+      "netIncome": "-$114.3M",
+      "eps": -2.35,
+      "revenueYoY": 0.2473
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$243.8M",
+      "grossMargin": 0.2378,
+      "operatingIncome": "-$15.5M",
+      "netIncome": "-$27.3M",
+      "eps": -0.73
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 3.0,
@@ -121,8 +202,116 @@
       "unprofitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-23",
+      "headline": "Rocket Lab and Redwire Shares Skyrocket, What You Need To Know",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-redwire-shares-skyrocket-224455197.html",
+      "sentiment": "neutral",
+      "summary": "A number of stocks jumped in the afternoon session after the U.S. and Iran signaled progress toward a peace agreement, lifting both commercial and defense aerospace names."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "1 Stock Under $50 with Impressive Fundamentals and 2 That Underwhelm",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-stock-under-50-impressive-135655872.html",
+      "sentiment": "neutral",
+      "summary": "Stocks in the $10-50 range offer a sweet spot between affordability and stability as they\u2019re typically more established than penny stocks. But their headline prices don\u2019t guarantee quality, and investors should exercise caution as some have shaky business models."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Redwire (RDW) Bags Million-Dollar Contracts, Soars 13.9%",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/redwire-rdw-bags-million-dollar-084054237.html",
+      "sentiment": "neutral",
+      "summary": "Redwire Corp. (NYSE:RDW) is one of the 10 Stocks Effortlessly Climbing Double-Digits. Redwire extended its winning streak to a third consecutive day on Friday, jumping 13.94 percent to finish at $17.49 apiece, after bagging million-dollar contracts with two customers. In a statem"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "These Space ETFs Are Retail\u2019s \u2018Standout Favorite\u2019 Ahead Of SpaceX IPO",
+      "source": "Stocktwits",
+      "url": "https://stocktwits.com/news-articles/markets/equity/these-space-et-fs-are-retail-s-standout-favorite-ahead-of-space-x-ipo/cZgRqI9ReYe",
+      "sentiment": "neutral",
+      "summary": "Retail investors are rushing into some space-related trades, according to Vanda Research."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Redwire Stock Has Gained Over 40% In A Month \u2014 A Look At How Defense Contracts, SpaceX IPO Buzz Boosted Investor Sentiment",
+      "source": "Stocktwits",
+      "url": "https://stocktwits.com/news-articles/markets/equity/redwire-rdw-stock-rally-defense-contract-spacex-ipo-hype/cZgRWzzReoH",
+      "sentiment": "neutral",
+      "summary": "Investors appear to be cheering the fresh defense contract wins, rising hype around the SpaceX IPO, and interest in Redwire\u2019s role in the broader space ecosystem."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Why Redwire Corporation Stock Keeps Going Up",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/22/why-redwire-corporation-stock-keeps-going-up/",
+      "sentiment": "neutral",
+      "summary": "Redwire's purchase of Edge Autonomy is starting to look like a brilliant idea."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Assessing Redwire (RDW) Valuation After Major NATO And U.S. Army Drone Contract Wins",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-redwire-rdw-valuation-major-101145653.html",
+      "sentiment": "neutral",
+      "summary": "Redwire (RDW) is back in focus after announcing a high eight figure, multi year Penguin Mk3 drone contract with a NATO ally and a US$15 million follow on Stalker UAS order from the U.S. Army. See our latest analysis for Redwire. Those contract wins arrive as Redwire\u2019s share price"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Redwire (RDW) Is Up 9.7% After New NATO Drone Deal And U.S. Army Follow-On Order",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/redwire-rdw-9-7-nato-091424051.html",
+      "sentiment": "neutral",
+      "summary": "In recent days, Redwire Corporation announced a high eight-figure, multi-year contract to supply its Penguin Mk3 tactical uncrewed aerial systems to an undisclosed NATO ally, alongside a US$15 million follow-on order from the U.S. Army for Stalker drones, bringing recent Army Sta"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "3 Stocks to Buy Before SpaceX Goes Public",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/22/3-stocks-to-buy-before-spacex-goes-public/",
+      "sentiment": "neutral",
+      "summary": "These space stocks are up big in 2026, but have the makings of long-term winners."
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "3 Space Infrastructure Stocks Gaining Momentum Ahead of the SpaceX IPO",
+      "source": "MarketBeat",
+      "url": "https://www.marketbeat.com/stock-ideas/3-space-infrastructure-stocks-gaining-momentum-ahead-of-the-spacex-ipo/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "sentiment": "neutral",
+      "summary": "As SpaceX eyes a potential June IPO, capital is flowing into space infrastructure stocks like LUNR, RDW, and VOYG, each posting record backlogs in Q1 2026."
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.5401,
+    "insiderPct": 0.0149,
+    "shortInterest": 0.1672,
+    "topHolders": [
+      {
+        "name": "Ae Industrial Partners, LP",
+        "pct": 0.169
+      },
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0557
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0348
+      },
+      {
+        "name": "Bank of America Corporation",
+        "pct": 0.0343
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0282
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

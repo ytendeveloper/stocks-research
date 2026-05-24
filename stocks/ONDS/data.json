@@ -2,18 +2,18 @@
   "ticker": "ONDS",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Ondas Inc",
-    "exchange": "",
-    "sector": "Defense/Drones",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Ondas Inc.",
+    "exchange": "NCM",
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "country": "United States",
+    "headquarters": "West Palm Beach, FL",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Autonomous drone systems for border defense, counter-UAS, military ISR.",
+    "ceo": "Mr. Eric Ashley Brock CPA",
+    "employees": 459,
+    "website": "https://www.ondas.com",
+    "description": "Ondas Inc. provides private wireless, drone, and automated data solutions in the United States and internationally. It operates through the Ondas Networks and Ondas Autonomous Systems segments. The company offers Counter-UAS (CUAS) and site protection systems, including iron drone raider, a fully autonomous interceptor drone system for neutralizing small hostile drones; sentrycs CoRF, Cyber/RF-based CUAS platform for detection, identification, tracking, and mitigation of unauthorized drones; optimus system, fully autonomous drone platform for continuous security, surveillance, and mission-critical data collection; 4M defense, supporting missions related to demining and clearing land of unexploded ordnance; roboteam, UGVs and tactical ground robotics; apeiro motion, autonomy and mobility software for robotic platforms, enhancing navigation and operational effectiveness; and loitering munition systems, is a one way drone for a variety of missions including ISR defense and strike. It also offers FullMAX Software-Defined Radio Platform, a patented SDR platform for secure, private, wide-area broadband networks, enabling mission-critical communications; software and hardware maintenance agreements, extended software and hardware maintenance contracts, including ongoing support, security upgrades, and feature enhancements; licensing/royalties, licensing of FullMAX software and technology for integration into partner hardware and software platforms; and ancillary services, wireless network design, systems engineering, radio frequency planning, software configuration, product training, installation, onsite support, and engineering/product development. It serves rail, electric utilities, oil and gas, public safety, government, and other industrial applications. The company was formerly known as Ondas Holdings Inc. and changed its name to Ondas Inc. in January 2026. Ondas Inc. was incorporated in 2014 and is headquartered in West Palm Beach, Florida.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,100 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$96.6M TTM",
-    "revenueGrowth": 0.65,
-    "pe": "N/A",
-    "profitable": false,
+    "asOf": "2026-05-23",
+    "revenue": "$96.6M",
+    "revenueGrowth": 10.799,
+    "pe": 100.67,
+    "profitable": true,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$50.1M",
+      "grossMargin": 0.492,
+      "operatingIncome": "-$42.7M",
+      "netIncome": "$362.9M",
+      "eps": 0.58,
+      "revenueYoY": 10.9286
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$30.1M",
+      "grossMargin": 0.4228,
+      "operatingIncome": "-$23.3M",
+      "netIncome": "-$99.7M"
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$10.1M",
+      "grossMargin": 0.2579,
+      "operatingIncome": "-$15.5M",
+      "netIncome": "-$7.5M",
+      "eps": -0.03
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$6.3M",
+      "grossMargin": 0.5311,
+      "operatingIncome": "-$9.2M",
+      "netIncome": "-$10.8M",
+      "eps": -0.08
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$4.2M",
+      "grossMargin": 0.3503,
+      "operatingIncome": "-$10.3M",
+      "netIncome": "-$14.1M",
+      "eps": -0.15
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31"
+    },
+    {
+      "period": "2024-Q3",
+      "reportDate": "2024-09-30",
+      "eps": -0.15
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$50.7M",
+      "grossMargin": 0.3973,
+      "operatingIncome": "-$58.4M",
+      "netIncome": "-$132.0M",
+      "eps": -0.62,
+      "revenueYoY": 6.0417
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$7.2M",
+      "grossMargin": 0.048,
+      "operatingIncome": "-$34.6M",
+      "netIncome": "-$38.0M",
+      "eps": -0.61,
+      "revenueYoY": -0.5414
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$15.7M",
+      "grossMargin": 0.4067,
+      "operatingIncome": "-$38.2M",
+      "netIncome": "-$44.8M",
+      "eps": -0.88
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 4.0,
@@ -122,8 +207,116 @@
       "unprofitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-23",
+      "headline": "Why Analysts Think Ondas Inc. (ONDS) Still Has Room to Run",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-analysts-think-ondas-inc-145155245.html",
+      "sentiment": "neutral",
+      "summary": "Ondas Inc. (NASDAQ:ONDS) is among the most traded US stocks so far in 2026. On May 19, Needham maintained a Buy rating and a price target of $23 on Ondas Inc. (NASDAQ:ONDS). This comes after the Omnisys acquisition, which the firm believes represents one of the company\u2019s most str"
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Here's Why I Wouldn't Touch Ondas With a 10\u2011Foot Pole After This Parabolic Run",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/22/heres-why-i-wouldnt-touch-ondas-with-a-10foot-pole/",
+      "sentiment": "neutral",
+      "summary": "The stock has surged more than 12x in just a year."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Why Ondas (ONDS) Is Building a Defense-AI Moonshot",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-ondas-onds-building-defense-071753042.html",
+      "sentiment": "neutral",
+      "summary": "Ondas Inc. (NASDAQ:ONDS) is one of the best \u201cmoonshot\u201d tech stocks to buy according to short sellers. The stock\u2019s latest publicly reported short interest stood at 34.27% of float as of April 30, 2026, according to MarketBeat. Ondas gave the moonshot case another defense-AI layer "
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Assessing Ondas (ONDS) Valuation After Transformational Q1 2026 Profit Surge",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-ondas-onds-valuation-transformational-171303183.html",
+      "sentiment": "neutral",
+      "summary": "Ondas (ONDS) has drawn fresh attention after its Q1 2026 earnings, with sales reported at US$50.12 million and net income at US$361.25 million, compared with much lower figures a year earlier. See our latest analysis for Ondas. Those Q1 2026 results come after a period where the "
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Should Ondas\u2019 (ONDS) Profit Surge and Defense Pivot Reshape Its Previously Cautious Investment Narrative?",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ondas-onds-profit-surge-defense-160924021.html",
+      "sentiment": "neutral",
+      "summary": "In the first quarter of 2026, Ondas Inc. reported sales of US$50.12 million, up sharply from US$4.25 million a year earlier, and moved from a net loss of US$14.14 million to net income of US$361.25 million, while also lifting its full-year 2026 revenue target to at least US$390 m"
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Ondas Acquires Omnisys to Boost AI Battlefield Capabilities",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/ondas-acquires-omnisys-boost-ai-152000789.html",
+      "sentiment": "neutral",
+      "summary": "ONDS acquires Omnisys to add AI battlefield orchestration software, boosting its autonomous defense portfolio and expanding software-driven growth."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Ondas Pulls Forward OAS EBITDA Profitability Target: Can it Deliver?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ondas-pulls-forward-oas-ebitda-123700481.html",
+      "sentiment": "neutral",
+      "summary": "ONDS compresses OAS adjusted EBITDA profitability timeline to Q1 2027 as margins improve, but rising costs and near-term losses raise questions on execution."
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "Ondas Acquires Omnisys, Adding 25-Year-Proven AI Battlefield Software",
+      "source": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/ondas-acquires-omnisys-adding-25-164136770.html",
+      "sentiment": "neutral",
+      "summary": "The BRO platform brings combat-tested autonomous coordination to Ondas' growing defense portfolio"
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "How Ondas Is Growing Far Faster Than It Burns Cash",
+      "source": "Trefis",
+      "url": "https://www.trefis.com/articles/598515/how-ondas-is-growing-far-faster-than-it-burns-cash/2026-05-18",
+      "sentiment": "neutral",
+      "summary": "The headline numbers for the Ondas (ONDS) Q1 2026 report triggered typical market hesitation, driven by an operating loss of $42.7 million, an operating cash burn of $51.3 million, and a slight EPS miss of -$0.07 versus the -$0.06 consensus estimate. For casual observers, these f"
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "Ondas Omnisys Deal Expands Push Into AI Defense Software Platforms",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/ondas-omnisys-deal-expands-push-141144396.html",
+      "sentiment": "neutral",
+      "summary": "Ondas Holdings Inc. (NasdaqCM:ONDS) agreed to acquire Omnisys Ltd., an Israeli developer of AI-based battle resource optimization software. The deal adds AI-powered multi domain defense planning and coordination tools to Ondas' autonomous systems portfolio. The acquisition is tie"
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.43,
+    "insiderPct": 0.0163,
+    "shortInterest": 0.3396,
+    "topHolders": [
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.9251
+      },
+      {
+        "name": "Defiance Etfs, LLC",
+        "pct": 0.5227
+      },
+      {
+        "name": "Hood River Capital Management LLC",
+        "pct": 0.5184
+      },
+      {
+        "name": "Van Eck Associates Corporation",
+        "pct": 0.5148
+      },
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.4704
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

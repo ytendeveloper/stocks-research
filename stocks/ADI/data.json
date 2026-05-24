@@ -2,18 +2,18 @@
   "ticker": "ADI",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Analog Devices",
-    "exchange": "",
-    "sector": "Semiconductors",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Analog Devices, Inc.",
+    "exchange": "NMS",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "country": "United States",
+    "headquarters": "Wilmington, MA",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Space-grade signal chain and power solutions for satellite telemetry and comms.",
+    "ceo": "Mr. Vincent T. Roche",
+    "employees": 24500,
+    "website": "https://www.analog.com",
+    "description": "Analog Devices, Inc. engages in the design, manufacture, testing, and marketing of integrated circuits (ICs), software, and subsystems products in the United States, rest of North and South America, Europe, Japan, China, and rest of Asia. It provides data converter products, which translate real-world analog signals into digital data, as well as translates digital data into analog signals; power management and reference products for power conversion, driver monitoring, sequencing, and energy management applications in the automotive, communications, industrial, and consumer markets; and power ICs that include performance, integration, and software design simulation tools for accurate power supply designs. The company also offers amplifiers to condition analog signals; and radio frequency and microwave ICs to support cellular infrastructure; and micro-electro-mechanical systems technology solutions, including accelerometers used to sense acceleration, gyroscopes for sense rotation, inertial measurement units to sense multiple degrees of freedom, and broadband switches for radio and instrument systems, as well as isolators. In addition, it provides digital signal processing and system products for numeric calculations. The company serves clients in the industrial, automotive, consumer, instrumentation, aerospace, defense and healthcare, and communications markets through a direct sales force, third-party distributors, and independent sales representatives, as well as online. The company was incorporated in 1965 and is headquartered in Wilmington, Massachusetts.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,100 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$6.8B+ TTM",
-    "revenueGrowth": 0.37,
-    "pe": "28",
+    "asOf": "2026-05-23",
+    "revenue": "$12.74B",
+    "revenueGrowth": 0.372,
+    "pe": 59.18,
     "profitable": true,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q2",
+      "reportDate": "2026-04-30",
+      "revenue": "$3.62B",
+      "grossMargin": 0.6733,
+      "operatingIncome": "$1.38B",
+      "netIncome": "$1.18B",
+      "eps": 2.41,
+      "revenueYoY": 0.3712
+    },
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-01-31",
+      "revenue": "$3.16B",
+      "grossMargin": 0.6471,
+      "operatingIncome": "$1.05B",
+      "netIncome": "$830.8M",
+      "eps": 1.7
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-10-31",
+      "revenue": "$3.08B",
+      "grossMargin": 0.6313,
+      "operatingIncome": "$945.2M",
+      "netIncome": "$787.7M",
+      "eps": 1.6
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-07-31",
+      "revenue": "$2.88B",
+      "grossMargin": 0.6214,
+      "operatingIncome": "$822.4M",
+      "netIncome": "$518.5M",
+      "eps": 1.05
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-04-30",
+      "revenue": "$2.64B",
+      "grossMargin": 0.6104,
+      "operatingIncome": "$679.7M",
+      "netIncome": "$569.8M",
+      "eps": 1.15
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-01-31"
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-10-31"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-10-31",
+      "revenue": "$11.02B",
+      "grossMargin": 0.6147,
+      "operatingIncome": "$3.00B",
+      "netIncome": "$2.27B",
+      "eps": 4.59,
+      "revenueYoY": 0.1686
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-10-31",
+      "revenue": "$9.43B",
+      "grossMargin": 0.5708,
+      "operatingIncome": "$2.07B",
+      "netIncome": "$1.64B",
+      "eps": 3.3,
+      "revenueYoY": -0.234
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-10-31",
+      "revenue": "$12.31B",
+      "grossMargin": 0.6401,
+      "operatingIncome": "$3.98B",
+      "netIncome": "$3.31B",
+      "eps": 6.6
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 3.0,
@@ -120,8 +205,116 @@
       "profitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-23",
+      "headline": "Jim Cramer Discusses Analog Devices\u2019 (ADI) Market",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-discusses-analog-devices-231629313.html",
+      "sentiment": "neutral",
+      "summary": "We recently published Jim Cramer Took A Side On Biggest AI Debate & Discussed These 13 Stocks. Analog Devices, Inc. (NASDAQ:ADI) is one of the stocks discussed by Jim Cramer. Analog Devices, Inc. (NASDAQ:ADI) is a semiconductor company whose chips are used in a variety of applica"
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "NXP Semiconductors and Himax Stocks Trade Up, What You Need To Know",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nxp-semiconductors-himax-stocks-trade-230855630.html",
+      "sentiment": "neutral",
+      "summary": "A number of stocks jumped in the afternoon session after risk-on sentiment returned on Iran peace progress as Treasury yields cooled."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Universal Display and Microchip Technology Shares Are Soaring, What You Need To Know",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/universal-display-microchip-technology-shares-230055577.html",
+      "sentiment": "neutral",
+      "summary": "A number of stocks jumped in the afternoon session after risk-on sentiment returned on Iran peace progress as Treasury yields cooled."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "onsemi, Texas Instruments, and Impinj Shares Are Soaring, What You Need To Know",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/onsemi-texas-instruments-impinj-shares-225255596.html",
+      "sentiment": "neutral",
+      "summary": "A number of stocks jumped in the afternoon session after risk-on sentiment returned on Iran peace progress as Treasury yields cooled."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Analog Devices (ADI) Stock Trades Up, Here Is Why",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-stock-trades-203655018.html",
+      "sentiment": "neutral",
+      "summary": "Shares of manufacturer of analog chips Analog Devices (NASDAQ:ADI) jumped 3.1% in the afternoon session after the company's CEO highlighted soaring demand for its artificial intelligence (AI) infrastructure products and reported impressive financial metrics."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Stocks Settle Higher on Iran Peace Hopes and Tech Strength",
+      "source": "Barchart",
+      "url": "https://www.barchart.com/story/news/2093234/stocks-settle-higher-on-iran-peace-hopes-and-tech-strength",
+      "sentiment": "neutral",
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) on Friday closed up +0.37%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up +0.58%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up +0.42%. June E-mini S&P futures (ESM26 ) rose +0.35%, and June E-mini Nasdaq futures..."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Texas Instruments Is at an All-Time High. Buy the Stock, Says This Analyst.",
+      "source": "Barrons.com",
+      "url": "https://www.barrons.com/articles/texas-instruments-stock-buy-ai-08221490?siteid=yhoof2&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "Seaport Research Partners upgrades shares of Texas Instruments to Buy from Neutral and sets a price target of $400."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "2 Semiconductor Stocks to Consider Right Now and 1 We Ignore",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/2-semiconductor-stocks-consider-now-170855769.html",
+      "sentiment": "neutral",
+      "summary": "Semiconductors are the silicon backbone of the digital revolution. The amount of data we ingest is also increasing exponentially, leading to elevated demand for chips with more processing power. This secular trend bodes well for the industry, which has posted a six-month gain of "
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Analog Devices CEO drops bombshell message on exploding AI infrastructure demand",
+      "source": "TheStreet",
+      "url": "https://www.thestreet.com/investing/stocks/analog-devices-ceo-drops-bombshell-message-on-exploding-ai-infrastructure-demand",
+      "sentiment": "neutral",
+      "summary": "Analog Devices (ADI) is plugged directly into the infrastructure powering the AI wave. Today, the company's AI story has shifted from vague thematic exposure to concrete, measurable demand. Hyperscalers are building at a record pace, and ADI's optical and power components are fou"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Stocks Climb on US-Iran Peace Hopes and Strength in Chipmakers",
+      "source": "Barchart",
+      "url": "https://www.barchart.com/story/news/2087619/stocks-climb-on-us-iran-peace-hopes-and-strength-in-chipmakers",
+      "sentiment": "neutral",
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) today is up +0.50%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up +0.63%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +0.73%. June E-mini S&P futures (ESM26 ) are up +0.47%, and June E-mini Nasdaq futures..."
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.9351,
+    "insiderPct": 0.0024,
+    "shortInterest": 0.0249,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0885
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0652
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0473
+      },
+      {
+        "name": "JPMORGAN CHASE & CO",
+        "pct": 0.0426
+      },
+      {
+        "name": "Vanguard Portfolio Management LLC",
+        "pct": 0.0294
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

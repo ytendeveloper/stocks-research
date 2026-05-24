@@ -2,18 +2,18 @@
   "ticker": "PL",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Planet Labs",
-    "exchange": "",
-    "sector": "Aerospace/Data",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Planet Labs PBC",
+    "exchange": "NYQ",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "country": "United States",
+    "headquarters": "San Francisco, CA",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Largest fleet of Earth observation satellites. Core space data economy.",
+    "ceo": "Dr. William Spencer Marshall",
+    "employees": 945,
+    "website": "https://www.planet.com",
+    "description": "Planet Labs PBC engages in the design, construction, and launch of constellations of satellites with the intent of providing high-cadence geospatial data delivered to customers through an online platform in the United States and internationally. The company offers SuperDove satellites to create an always-online scanner for the planet, with the goal of imaging the Earth every day at a ground sampling distance (GSD) resolution of up to 3.5 meters. This combines planet monitoring with other scientific-grade radiometric data from public satellite data programs; and SkySat and Pelican satellites to capture a specified location several times per day, achieving a GSD resolution of up to 50 centimeters after processing, powered by an application programming interface. It also provides Tanager, a hyperspectral imaging satellite that delivers full-spectrum imagery across the visible and shortwave infrared regions, and the Earth Observation platform, which enables customers and partners to access, analyze, and act on its proprietary data catalog by discovering image tasking capacity, relevant data layers, extracting useful information, and delivering insights through custom-built solutions or GIS workflows via APIs and browser-based applications. In addition, the company's satellite services arrangements include designing and manufacturing customer-owned satellites, mission systems engineering, launch procurement, ground station infrastructure, satellite operations, and maintenance, as well as dedicated image tasking capacity on company-owned or customer-owned satellites. It serves agriculture, mapping, energy, forestry, finance, and insurance companies, as well as government agencies. Planet Labs PBC was founded in 2010 and is headquartered in San Francisco, California.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,96 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$308M FY26",
-    "revenueGrowth": 0.26,
-    "pe": "N/A",
+    "asOf": "2026-05-23",
+    "revenue": "$307.7M",
+    "revenueGrowth": 0.411,
+    "pe": -1971.11,
     "profitable": false,
     "backlog": "$900M+"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-01-31",
+      "revenue": "$86.8M",
+      "grossMargin": 0.5417,
+      "operatingIncome": "-$36.0M",
+      "netIncome": "-$152.5M",
+      "eps": -0.48,
+      "revenueYoY": 0.4091
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-10-31",
+      "revenue": "$81.3M",
+      "grossMargin": 0.5733,
+      "operatingIncome": "-$18.3M",
+      "netIncome": "-$59.2M",
+      "eps": -0.19
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-07-31",
+      "revenue": "$73.4M",
+      "grossMargin": 0.576,
+      "operatingIncome": "-$18.0M",
+      "netIncome": "-$22.6M",
+      "eps": -0.07
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-04-30",
+      "revenue": "$66.3M",
+      "grossMargin": 0.5524,
+      "operatingIncome": "-$22.8M",
+      "netIncome": "-$12.6M",
+      "eps": -0.04
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-01-31",
+      "revenue": "$61.6M",
+      "grossMargin": 0.6208,
+      "operatingIncome": "-$19.4M",
+      "netIncome": "-$35.2M",
+      "eps": -0.12
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-10-31"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2026,
+      "reportDate": "2026-01-31",
+      "revenue": "$307.7M",
+      "grossMargin": 0.5605,
+      "operatingIncome": "-$95.1M",
+      "netIncome": "-$246.9M",
+      "eps": -0.8,
+      "revenueYoY": 0.259
+    },
+    {
+      "year": 2025,
+      "reportDate": "2025-01-31",
+      "revenue": "$244.4M",
+      "grossMargin": 0.5718,
+      "operatingIncome": "-$111.1M",
+      "netIncome": "-$123.2M",
+      "eps": -0.42,
+      "revenueYoY": 0.1074
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-01-31",
+      "revenue": "$220.7M",
+      "grossMargin": 0.5118,
+      "operatingIncome": "-$167.3M",
+      "netIncome": "-$140.5M",
+      "eps": -0.5
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 3.0,
@@ -121,8 +202,116 @@
       "unprofitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-23",
+      "headline": "Iridium, Planet Labs, and Ziff Davis Shares Skyrocket, What You Need To Know",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/iridium-planet-labs-ziff-davis-234055588.html",
+      "sentiment": "neutral",
+      "summary": "A number of stocks jumped in the afternoon session after the Dow Jones Industrial Average climbed more than 300 points and briefly touched a fresh all-time high above 50,700 as market sentiment improved amid falling yields."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "A Look At Planet Labs (PL) Valuation After Strong Recent Share Price Gains",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/look-planet-labs-pl-valuation-231218870.html",
+      "sentiment": "neutral",
+      "summary": "Recent performance and business snapshot Planet Labs PBC (PL) stock has caught investor attention after a strong run, with gains of 12.4% over the past month and 85.6% over the past 3 months, alongside a 1-year total return of 11.1%. The company focuses on designing, launching, a"
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "1 Unpopular Stock That Should Get More Attention and 2 We Find Risky",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-unpopular-stock-more-attention-102855682.html",
+      "sentiment": "neutral",
+      "summary": "Wall Street has issued downbeat forecasts for the stocks in this article. These predictions are rare - financial institutions typically hesitate to say bad things about a company because it can jeopardize their other revenue-generating business lines like M&A advisory."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "AST SpaceMobile Jumps 7%, Rocket Lab Climbs 6%, Planet Labs Rises 4%: Space Stocks Resume Their Climb",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/05/22/ast-spacemobile-jumps-7-rocket-lab-climbs-6-planet-labs-rises-4-space-stocks-resume-their-climb/",
+      "sentiment": "neutral",
+      "summary": "Space stocks are back in rally mode at midday Friday, with the sector\u2019s three highest-profile pure plays moving sharply higher in unison. AST SpaceMobile (NASDAQ:ASTS) stock is up 7%, Rocket Lab (NASDAQ:RKLB) shares are climbing 6%, and Planet Labs (NYSE:PL) stock has added 4%. T"
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Space Stocks Surge as SpaceX IPO Frenzy Builds",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/space-stocks-surge-spacex-ipo-174600097.html",
+      "sentiment": "neutral",
+      "summary": "We discuss the investment case for the space economy and highlight key space ETFs."
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Is Planet Labs Moving Closer to Sustainable Profitability?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/planet-labs-moving-closer-sustainable-173000607.html",
+      "sentiment": "neutral",
+      "summary": "PL nears profitability with strong 2026 guidance, leaning on efficiency, tighter costs and higher-margin analytics and software integration."
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "PL Versus BKSY: Which Satellite Imaging Stock Has More Upside?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/pl-versus-bksy-satellite-imaging-172300521.html",
+      "sentiment": "neutral",
+      "summary": "BKSY stock surges 143% YTD, secures up to $160M in wins and guides for 2026 revenue growth above 50% and 80% gross margin."
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "2 Growth Stocks to Stash and 1 We Find Risky",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/2-growth-stocks-stash-1-094855245.html",
+      "sentiment": "neutral",
+      "summary": "Growth boosts valuation multiples, but it doesn\u2019t always last forever. Companies that cannot maintain it are often penalized with large declines in market value, a lesson ingrained in investors who lost money in tech stocks during 2022."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Rocket Lab Sinks 9%, Planet Labs Tumbles 6%, Intuitive Machines Slides 5%: Space Rally Hits a Wall",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/05/19/rocket-lab-sinks-9-planet-labs-tumbles-6-intuitive-machines-slides-5-space-rally-hits-a-wall/",
+      "sentiment": "neutral",
+      "summary": "Pure-play commercial space stocks are getting hit hard at midday on Tuesday. Rocket Lab (NASDAQ:RKLB) is down 9%, Planet Labs (NYSE:PL) is off 6%, and Intuitive Machines (NASDAQ:LUNR) has slipped 5%. There\u2019s no single company-specific headline driving the move in Rocket Lab, Plan"
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "You\u2019re Going to Regret Not Buying This ETF Before SpaceX\u2019s IPO",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/05/18/youre-going-to-regret-not-buying-this-etf-before-spacexs-ipo/",
+      "sentiment": "neutral",
+      "summary": "Prediction market traders on Polymarket now assign a 92% probability that SpaceX completes its IPO by June 30, 2026, with a $1.5 trillion-plus valuation in play. That puts the Procure Space ETF (NYSEARCA:UFO) in an unusual spot for a $749 million niche fund. UFO is the cleanest p"
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.7972,
+    "insiderPct": 0.0178,
+    "shortInterest": 0.108,
+    "topHolders": [
+      {
+        "name": "Alphabet Inc.",
+        "pct": 0.1092
+      },
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0789
+      },
+      {
+        "name": "Vanguard Portfolio Management LLC",
+        "pct": 0.0378
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0378
+      },
+      {
+        "name": "Van Eck Associates Corporation",
+        "pct": 0.0257
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

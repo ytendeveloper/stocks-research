@@ -2,18 +2,18 @@
   "ticker": "IRDM",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Iridium Communications",
-    "exchange": "",
-    "sector": "Telecom/Space",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Iridium Communications Inc.",
+    "exchange": "NMS",
+    "sector": "Communication Services",
+    "industry": "Telecom Services",
+    "country": "United States",
+    "headquarters": "McLean, VA",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Original global satellite communications company. Operational 66-sat constellation.",
+    "ceo": "Mr. Matthew J. Desch",
+    "employees": 975,
+    "website": "https://www.iridium.com",
+    "description": "Iridium Communications Inc. provides mobile voice and data communications services and products to businesses, the United States and foreign governments, non-governmental organizations, and consumers in the United States, Canada, and internationally. The company offers mobile satellite communications services for land mobile end users and aviation sectors; broadband terminals, embedded devices, and handsets for merchant shipping, fishing, leisure and research vessels, and specialized watercraft; satellite-based IoT services; hosted payload and other data services; and other data services and engineering services. It also provides postpaid mobile voice and data satellite communications; prepaid mobile voice satellite communications; push-to-talk; broadband data; Internet of Things (IoT); and satellite time and location services. In addition, the company offers personnel tracking devices; asset tracking devices for equipment, vehicles, and aircrafts; beyond-line-of-sight aircraft communications applications; maritime communications applications; specialized communications solutions for high-value individuals; and mobile communications and data devices for the military and other government agencies, such as secure satellite handsets; and maintenance services for the U.S. government's dedicated gateway. Further, it provides satellite handsets, voice and data modems, broadband data devices, and IoT data devices; and various accessories for its devices that include batteries, holsters, earbud headphones, portable auxiliary antennas, antenna adaptors, USB data cables, and charging units. The company sells its products and services to commercial end users through a wholesale distribution network that include service providers, and value-added resellers and value-added manufacturers. The company was formerly known as Iridium Holdings LLC and changed its name to Iridium Communications Inc. in September 2009. Iridium Communications Inc. is headquartered in McLean, Virginia.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,92 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$871.7M FY25",
-    "revenueGrowth": 0.05,
-    "pe": "46",
+    "asOf": "2026-05-23",
+    "revenue": "$875.8M",
+    "revenueGrowth": 0.019,
+    "pe": 49.33,
     "profitable": true,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$219.1M",
+      "grossMargin": 0.714,
+      "operatingIncome": "$50.7M",
+      "netIncome": "$21.6M",
+      "eps": 0.2,
+      "revenueYoY": 0.0195
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$212.9M",
+      "grossMargin": 0.7275,
+      "operatingIncome": "$55.2M",
+      "netIncome": "$24.9M",
+      "eps": 0.24
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$226.9M",
+      "grossMargin": 0.7205,
+      "operatingIncome": "$70.1M",
+      "netIncome": "$37.1M",
+      "eps": 0.35
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$216.9M",
+      "grossMargin": 0.7008,
+      "operatingIncome": "$50.3M",
+      "netIncome": "$22.0M",
+      "eps": 0.2
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$214.9M",
+      "grossMargin": 0.7131,
+      "operatingIncome": "$60.4M",
+      "netIncome": "$30.4M",
+      "eps": 0.28
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$871.7M",
+      "grossMargin": 0.7155,
+      "operatingIncome": "$236.0M",
+      "netIncome": "$114.4M",
+      "eps": 1.09,
+      "revenueYoY": 0.0494
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$830.7M",
+      "grossMargin": 0.7224,
+      "operatingIncome": "$200.4M",
+      "netIncome": "$112.8M",
+      "eps": 1.02,
+      "revenueYoY": 0.0506
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$790.7M",
+      "grossMargin": 0.7153,
+      "operatingIncome": "$81.6M",
+      "netIncome": "$15.4M",
+      "eps": 0.13
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 2.0,
@@ -120,8 +197,116 @@
       "profitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-23",
+      "headline": "Iridium, Planet Labs, and Ziff Davis Shares Skyrocket, What You Need To Know",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/iridium-planet-labs-ziff-davis-234055588.html",
+      "sentiment": "neutral",
+      "summary": "A number of stocks jumped in the afternoon session after the Dow Jones Industrial Average climbed more than 300 points and briefly touched a fresh all-time high above 50,700 as market sentiment improved amid falling yields."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Musk\u2019s Latest Venture Gives Space Stocks Their Own Tesla Surge",
+      "source": "Bloomberg",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/musk-latest-venture-gives-space-120137536.html",
+      "sentiment": "neutral",
+      "summary": "(Bloomberg) -- With the highly-anticipated debut of SpaceX on the US stock market around the corner, euphoria for Elon Musk\u2019s rocket venture is drawing comparisons to Tesla Inc.\u2019s effect on electric-vehicle stocks. Most Read from BloombergBungie Plans Layoffs After Ending \u2018Destin"
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Why Is IRDM Stock Rising Premarket Today?",
+      "source": "Stocktwits",
+      "url": "https://stocktwits.com/news-articles/markets/equity/irdm-stock-rising-premarket-shareholder-meeting-dividend/cZXzU77ReFX",
+      "sentiment": "neutral",
+      "summary": "Iridium Communications\u2019 Board declared a quarterly cash dividend of $0.15 per share."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Crane NXT, Iridium, Napco, and Amphenol Stocks Trade Down, What You Need To Know",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/crane-nxt-iridium-napco-amphenol-162855928.html",
+      "sentiment": "neutral",
+      "summary": "A number of stocks fell in the afternoon session after investors reacted to a cocktail of negative macroeconomic news, including surging oil prices and rising Treasury yields."
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "Assessing Iridium Communications (IRDM) Valuation After Recent Share Price Momentum",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-iridium-communications-irdm-valuation-111222349.html",
+      "sentiment": "neutral",
+      "summary": "Recent performance context for Iridium Communications (IRDM) Iridium Communications (IRDM) has drawn fresh attention after a strong run in recent months, with the stock showing gains over the past week, month and past 3 months. This has prompted investors to reassess its satellit"
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "Iridium Takes Full Control Of Aireon As Valuation Questions Linger",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/iridium-takes-full-control-aireon-101449402.html",
+      "sentiment": "neutral",
+      "summary": "Iridium Communications (NasdaqGS:IRDM) has agreed to acquire the remaining 61% of Aireon Holdings, taking full ownership of the company. The deal brings Aireon's space based air traffic surveillance business fully under Iridium's control and aligns it with Iridium's satellite net"
+    },
+    {
+      "date": "2026-05-14",
+      "headline": "Iridium Bets on Air Safety in Aireon Takeover",
+      "source": "The Wall Street Journal",
+      "url": "https://www.wsj.com/tech/iridium-bets-on-air-safety-in-aireon-takeover-07f35719?siteid=yhoof2&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "Satellite operator Iridium Communications agreed to take full control of a company that tracks airplane movements, betting it can grow the air data provider into a bigger business."
+    },
+    {
+      "date": "2026-05-12",
+      "headline": "Is Parsons Corporation\u00a0(PSN) Among the Best Transport Infrastructure Stocks to Buy for 2026?",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/news/parsons-corporation-psn-among-best-205919525.html",
+      "sentiment": "neutral",
+      "summary": "With an upside potential of 36.86%, Parsons Corporation (NYSE:PSN) is among the Best Transport Infrastructure Stocks to Buy for 2026. On May 4, Parsons Corporation (NYSE:PSN) announced a strategic partnership with Everywhere Communications to advance next-generation autonomous dr"
+    },
+    {
+      "date": "2026-05-05",
+      "headline": "2 Cash-Producing Stocks Worth Investigating and 1 We Find Risky",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/2-cash-producing-stocks-worth-090855597.html",
+      "sentiment": "neutral",
+      "summary": "Generating cash is essential for any business, but not all cash-rich companies are great investments. Some produce plenty of cash but fail to allocate it effectively, leading to missed opportunities."
+    },
+    {
+      "date": "2026-04-26",
+      "headline": "Iridium Communications Inc. Earnings Missed Analyst Estimates: Here's What Analysts Are Forecasting Now",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/iridium-communications-inc-earnings-missed-125933640.html",
+      "sentiment": "neutral",
+      "summary": "Shareholders might have noticed that Iridium Communications Inc. ( NASDAQ:IRDM ) filed its first-quarter result this..."
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.8901,
+    "insiderPct": 0.1229,
+    "shortInterest": 0.06,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.1318
+      },
+      {
+        "name": "Vanguard Portfolio Management LLC",
+        "pct": 0.0576
+      },
+      {
+        "name": "Silver Heights Capital Management Inc.",
+        "pct": 0.0487
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0478
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0389
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

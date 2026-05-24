@@ -2,18 +2,18 @@
   "ticker": "SPIR",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Spire Global",
-    "exchange": "",
-    "sector": "Aerospace/Data",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Spire Global, Inc.",
+    "exchange": "NYQ",
+    "sector": "Industrials",
+    "industry": "Specialty Business Services",
+    "country": "United States",
+    "headquarters": "Vienna, VA",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Nanosatellite constellation for weather, climate, maritime data-as-a-service.",
+    "ceo": "Ms. Theresa  Condor",
+    "employees": 372,
+    "website": "https://spire.com",
+    "description": "Spire Global, Inc. provides subscription-based data, insights, predictive analytics, and related project-based services in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. The company offers Space Reconnaissance service, a mission-critical insights support defense, intelligence, and national security operations; Aviation service, a satellite-based aircraft tracking data to power applications; Weather and Climate, a space-based data, AI-powered insights, and predictive weather analytics; and Space Services solutions includes space-as-a- service, which delivers and develops infrastructure, including ground station network and cloud infrastructure to access spaces. It serves government, logistics, operations, insurance, energy, agriculture, and financial industries. The company was formerly known as Nanosatisfi, Inc. and changed its name to Spire Global, Inc. in July 2014. Spire Global, Inc. was founded in 2012 and is headquartered in Vienna, Virginia.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,96 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$71.6M FY25",
-    "revenueGrowth": 0.5,
-    "pe": "N/A",
-    "profitable": false,
+    "asOf": "2026-05-23",
+    "revenue": "$63.5M",
+    "revenueGrowth": -0.337,
+    "pe": 13.31,
+    "profitable": true,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$15.8M",
+      "grossMargin": 0.3982,
+      "operatingIncome": "-$23.7M",
+      "netIncome": "-$25.8M",
+      "eps": -0.78,
+      "revenueYoY": -0.2719
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$15.8M",
+      "grossMargin": 0.4064,
+      "operatingIncome": "-$20.3M",
+      "netIncome": "-$25.1M",
+      "eps": -0.76
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$12.7M",
+      "grossMargin": 0.3665,
+      "operatingIncome": "-$21.1M",
+      "netIncome": "-$19.7M",
+      "eps": -0.61
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$23.9M",
+      "grossMargin": 0.3649,
+      "operatingIncome": "-$23.1M",
+      "netIncome": "-$23.5M",
+      "eps": -0.88
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31",
+      "revenue": "$21.7M",
+      "grossMargin": 0.3244,
+      "operatingIncome": "-$28.2M",
+      "netIncome": "-$48.2M"
+    },
+    {
+      "period": "2024-Q3",
+      "reportDate": "2024-09-30",
+      "eps": -0.5
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$71.6M",
+      "grossMargin": 0.4076,
+      "operatingIncome": "-$86.9M",
+      "netIncome": "$51.3M",
+      "eps": 1.66,
+      "revenueYoY": -0.352
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$110.5M",
+      "grossMargin": 0.361,
+      "operatingIncome": "-$65.8M",
+      "netIncome": "-$103.4M",
+      "eps": -4.28,
+      "revenueYoY": 0.1322
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$97.6M",
+      "grossMargin": 0.3953,
+      "operatingIncome": "-$58.0M",
+      "netIncome": "-$77.6M",
+      "eps": -3.96
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 2.5,
@@ -121,8 +202,116 @@
       "unprofitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-23",
+      "headline": "Spire Global's (NYSE:SPIR) Profits May Be Overstating Its True Earnings Potential",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/spire-globals-nyse-spir-profits-134413258.html",
+      "sentiment": "neutral",
+      "summary": "Shareholders were pleased with the recent earnings report from Spire Global, Inc. ( NYSE:SPIR ). However, we think that..."
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Amadeus IT Group Taps Spire Data As Shares Trade Below Targets",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amadeus-group-taps-spire-data-200749495.html",
+      "sentiment": "neutral",
+      "summary": "Amadeus IT Group has integrated Spire Global's real time ground and space based aircraft tracking data into its Virtual Airport Operations Center (vAPOC). The upgrade brings AI driven scenario planning and predictive analytics to airport operations using global flight data. The c"
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Spire Global (SPIR) Selected by Amadeus IT Group to Supply Aircraft Tracking Data",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/spire-global-spir-selected-amadeus-030141837.html",
+      "sentiment": "neutral",
+      "summary": "Spire Global Inc. (NYSE:SPIR) is one of the best performing NYSE stocks so far in 2026. On May 19, Spire Global was selected by travel technology provider Amadeus IT Group to integrate its aircraft tracking data into Amadeus\u2019 Virtual Airport Operations Center/vAPOC. Spire will su"
+    },
+    {
+      "date": "2026-05-16",
+      "headline": "How Spire Global (SPIR) Is Redefining Its Story With New Targets And HyMS Expectations",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/spire-global-spir-redefining-story-141321688.html",
+      "sentiment": "neutral",
+      "summary": "Spire Global\u2019s updated analyst model now points to a higher fair value price target of $20.38, up from $17.60, signaling a shift in how the stock\u2019s long term potential is being framed. Recent research leans on refreshed revenue assumptions through 2026 and 2027, Q1 results, and t"
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "Spire Global Q1 Earnings Call Highlights",
+      "source": "MarketBeat",
+      "url": "https://www.marketbeat.com/instant-alerts/spire-global-q1-earnings-call-highlights-2026-05-15/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "sentiment": "neutral",
+      "summary": "Spire Global (NYSE:SPIR) reported first-quarter 2026 results that exceeded its own guidance for revenue and adjusted EBITDA, while management reiterated its full-year outlook and said the company\u2019s growth plan remains weighted toward the second half of the year. Chief Executive O"
+    },
+    {
+      "date": "2026-05-14",
+      "headline": "Spire Global Inc (SPIR) Q1 2026 Earnings Call Highlights: Strong Revenue Growth Amid ...",
+      "source": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/spire-global-inc-spir-q1-050042732.html",
+      "sentiment": "neutral",
+      "summary": "Spire Global Inc (SPIR) surpasses revenue expectations but faces profitability hurdles and delivery risks."
+    },
+    {
+      "date": "2026-05-13",
+      "headline": "Full Transcript: Spire Global Q1 2026 Earnings Call",
+      "source": "Benzinga",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/full-transcript-spire-global-q1-214318027.html",
+      "sentiment": "neutral",
+      "summary": "Spire Global (NYSE:SPIR) held its first-quarter earnings conference call on Wednesday. Below is the complete transcript from the call. This transcript is brought to you by Benzinga APIs. For real-time access to our entire catalog, please visit https://www.benzinga.com/apis/ for a"
+    },
+    {
+      "date": "2026-05-13",
+      "headline": "Spire Global, Inc. (SPIR) Reports Q1 Loss, Beats Revenue Estimates",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/spire-global-inc-spir-reports-213505996.html",
+      "sentiment": "neutral",
+      "summary": "Spire (SPIR) delivered earnings and revenue surprises of +2.63% and +5.21%, respectively, for the quarter ended March 2026. Do the numbers hold clues to what lies ahead for the stock?"
+    },
+    {
+      "date": "2026-05-11",
+      "headline": "Draganfly Inc. (DPRO) Reports Q1 Loss, Lags Revenue Estimates",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/draganfly-inc-dpro-reports-q1-220505780.html",
+      "sentiment": "neutral",
+      "summary": "Draganfly (DPRO) delivered earnings and revenue surprises of -20.00% and -6.87%, respectively, for the quarter ended March 2026. Do the numbers hold clues to what lies ahead for the stock?"
+    },
+    {
+      "date": "2026-05-07",
+      "headline": "Howmet (HWM) Q1 Earnings Miss Estimates",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/howmet-hwm-q1-earnings-miss-125006659.html",
+      "sentiment": "neutral",
+      "summary": "Howmet (HWM) delivered earnings and revenue surprises of -22.40% and +3.41%, respectively, for the quarter ended March 2026. Do the numbers hold clues to what lies ahead for the stock?"
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.3821,
+    "insiderPct": 0.0604,
+    "shortInterest": 0.1592,
+    "topHolders": [
+      {
+        "name": "325 Capital Llc",
+        "pct": 0.0484
+      },
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0449
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0296
+      },
+      {
+        "name": "Lane Generational LLC",
+        "pct": 0.0195
+      },
+      {
+        "name": "Geode Capital Management, LLC",
+        "pct": 0.0185
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

@@ -2,18 +2,18 @@
   "ticker": "LHX",
   "schemaVersion": "1.0",
   "static": {
-    "name": "L3Harris Technologies",
-    "exchange": "",
-    "sector": "Defense",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "L3Harris Technologies, Inc.",
+    "exchange": "NYQ",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "country": "United States",
+    "headquarters": "Melbourne, FL",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Tactical radios, satellite payloads, electronic warfare, space systems.",
+    "ceo": "Mr. Christopher E. Kubasik CPA",
+    "employees": 45000,
+    "website": "https://www.l3harris.com",
+    "description": "L3Harris Technologies, Inc. provides mission-critical solutions for government and commercial customers worldwide. It operates through three segments: Space & Mission Systems (SMS), Communications & Spectrum Dominance (CSD), and Missile Solutions (MSL). The SMS segment integrates satellite and payload capabilities, including missile warning and defense, with maritime, air special missions, and other global defense and civil government programs. Its MSL segment unites propulsion, hypersonic, and other advanced missile technologies. The CSD segment provides tactical radios, software, waveforms, satellite terminals, and end-to-end battlefield systems for the U.S. Department of Defense, international, federal, and state agency customers; broadband communications; integrated vision solutions, such as helmet-mounted integrated night vision goggles with image intensifier tubes and weapon-mounted sights, aiming lasers, and range finders; and public safety radios and system applications and equipment. The company was formerly known as Harris Corporation and changed its name to L3Harris Technologies, Inc. in June 2019. L3Harris Technologies, Inc. was founded in 1895 and is headquartered in Melbourne, Florida.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,96 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$21.5B TTM",
-    "revenueGrowth": -0.15,
-    "pe": "25",
+    "asOf": "2026-05-23",
+    "revenue": "$12.86B",
+    "revenueGrowth": 1.9,
+    "pe": 33.91,
     "profitable": true,
     "backlog": "$40.7B"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$5.74B",
+      "grossMargin": 0.2441,
+      "operatingIncome": "$642.0M",
+      "netIncome": "$512.0M",
+      "eps": 2.74,
+      "revenueYoY": 0.1189
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$5.65B",
+      "grossMargin": 0.256,
+      "operatingIncome": "$376.0M",
+      "netIncome": "$300.0M",
+      "eps": 1.6
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$5.66B",
+      "grossMargin": 0.264,
+      "operatingIncome": "$631.0M",
+      "netIncome": "$462.0M",
+      "eps": 2.47
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$5.43B",
+      "grossMargin": 0.246,
+      "operatingIncome": "$584.0M",
+      "netIncome": "$458.0M",
+      "eps": 2.45
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$5.13B",
+      "grossMargin": 0.2631,
+      "operatingIncome": "$554.0M",
+      "netIncome": "$386.0M",
+      "eps": 2.05
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$21.86B",
+      "grossMargin": 0.2573,
+      "operatingIncome": "$2.15B",
+      "netIncome": "$1.61B",
+      "eps": 8.57,
+      "revenueYoY": 0.0253
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$21.32B",
+      "grossMargin": 0.259,
+      "operatingIncome": "$2.02B",
+      "netIncome": "$1.50B",
+      "eps": 7.91,
+      "revenueYoY": 0.0978
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$19.42B",
+      "grossMargin": 0.2633,
+      "operatingIncome": "$1.80B",
+      "netIncome": "$1.23B",
+      "eps": 6.47
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 2.5,
@@ -119,8 +200,116 @@
       "profitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-24",
+      "headline": "How L3Harris\u2019 Fiber\u2011Optic Tether Production Ramp Will Impact L3Harris Technologies (LHX) Investors",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/l3harris-fiber-optic-tether-production-020927494.html",
+      "sentiment": "neutral",
+      "summary": "Earlier in May 2026, L3Harris Technologies announced plans to ramp up production of its fiber-optic tether systems used to maintain secure communications with military drones and underwater platforms amid rising electronic warfare threats. This expansion highlights how L3Harris i"
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "A Look At L3Harris Technologies (LHX) Valuation After Fiber Optic Tether Production Expansion",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/look-l3harris-technologies-lhx-valuation-141120911.html",
+      "sentiment": "neutral",
+      "summary": "L3Harris Technologies (LHX) is expanding production of its fiber-optic tether systems for military drones and underwater platforms, responding to heightened electronic warfare threats and growing demand for secure communications in situations where radio signals risk disruption. "
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "L3Harris Expands Fiber Tether Output As Electronic Warfare Shapes Defense Demand",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/l3harris-expands-fiber-tether-output-121357459.html",
+      "sentiment": "neutral",
+      "summary": "L3Harris Technologies (NYSE:LHX) is expanding production of its advanced fiber-optic tether systems. The ramp up targets rising demand from the Pentagon and allied forces for secure links to drones and underwater platforms. The move is a response to growing electronic warfare thr"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Gina Rinehart Invests $97 Million in US Defense Stocks",
+      "source": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gina-rinehart-invests-97-million-132522094.html",
+      "sentiment": "neutral",
+      "summary": "Australia's richest person expanded Hancock Prospecting's defense holdings while increasing exposure to global mining companies."
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Can Cognyte's $5M APAC Security Deal Strengthen its Revenue Pipeline?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cognytes-5m-apac-security-deal-134000307.html",
+      "sentiment": "neutral",
+      "summary": "CGNT lands a $5M APAC agency upgrade deal, boosting AI-driven investigative tools as governments ramp digital intelligence spending."
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "One-Fifth of SpaceX Revenue Comes From Uncle Sam: The Defense Contractors That Should Worry",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/05/21/one-fifth-of-spacex-revenue-comes-from-uncle-sam-the-defense-contractors-that-should-worry/",
+      "sentiment": "neutral",
+      "summary": "SpaceX\u2019s S-1 just handed legacy defense investors a number they cannot ignore. And you can bet they won\u2019t. In 2025, roughly one-fifth of SpaceX revenue came from U.S. federal agencies, primarily NASA, the Department of War, the General Services Administration, and certain Intelli"
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "How Is Rocket Lab Strengthening Its End-to-End Space Model?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-strengthening-end-end-125700664.html",
+      "sentiment": "neutral",
+      "summary": "RKLB is building an end-to-end space model launch, spacecraft systems and mission ops to diversify revenues and deepen its market position."
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "Is It Too Late To Consider L3Harris Technologies (LHX) After Its Recent Share Price Pullback",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/too-consider-l3harris-technologies-lhx-101233780.html",
+      "sentiment": "neutral",
+      "summary": "Investors may be wondering whether L3Harris Technologies at around US$308 a share is still offering value, or if most of the upside is already reflected in the price. The stock is up 35.8% over the last year and 77.5% over three years, even though it is down 12.0% over the past m"
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Cathie Wood Shifts ARK's Defense Stocks; Contracts, Foreign Sales In Focus",
+      "source": "Investor's Business Daily",
+      "url": "https://www.investors.com/news/cathie-wood-ark-invest-aerospace-defense-holdings-lockheed-martin-northrop-grumman-navy-foreign-military-sales/?src=A00220&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "Cathie Wood's ARK Invest loads up on defense, air taxi stocks. Navy awards contracts to Lockheed, Northrop. U.S. announces foreign military sales."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "How Is RTX Expanding Its Software-Defined Radar Capabilities?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/rtx-expanding-software-defined-radar-135100755.html",
+      "sentiment": "neutral",
+      "summary": "RTX lands a Naval Research contract to advance software-defined radar, enabling future naval systems to run multi-mission sensing in a crowded spectrum."
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.8936,
+    "insiderPct": 0.0042,
+    "shortInterest": 0.0126,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.096
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0651
+      },
+      {
+        "name": "Capital World Investors",
+        "pct": 0.0591
+      },
+      {
+        "name": "Vanguard Portfolio Management LLC",
+        "pct": 0.0513
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0475
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

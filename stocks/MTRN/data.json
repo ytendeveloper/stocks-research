@@ -2,18 +2,18 @@
   "ticker": "MTRN",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Materion",
-    "exchange": "",
-    "sector": "Materials",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Materion Corporation",
+    "exchange": "NYQ",
+    "sector": "Basic Materials",
+    "industry": "Other Industrial Metals & Mining",
+    "country": "United States",
+    "headquarters": "Mayfield Heights, OH",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Beryllium alloys and precision optics for satellite optics and space telescope mirrors.",
+    "ceo": "Mr. Jugal K. Vijayvargiya",
+    "employees": 3000,
+    "website": "https://materion.com",
+    "description": "Materion Corporation, together with its subsidiaries, produces advanced engineered materials in the United States, Asia, Europe, and internationally. The company operates in four segments: Performance Materials, Electronic Materials, Precision Optics, and Other. It provides beryllium and non-beryllium containing alloy systems and custom engineered metal solutions in strip, bulk, rod, plate, bar, tube, and other customized shapes; engineering and product development services; alloyed metals, beryllium products, and beryllium hydroxide; precision strip, rod, wire, and engineered strip metal products; ToughMet alloys; and SupremEX aluminum silicon carbide metal matrix composite formulation products. The company also operates the bertrandite ore mine and refinery that provides feedstock hydroxide for its beryllium businesses and external sale. In addition, it produces advanced chemicals, microelectronics packaging, precious and non-precious metal, and specialty metal products, including vapor deposition targets, frame lid assemblies, clad and precious metal pre-forms, and high temperature braze materials. Further, the company designs and manufactures precision thin film coatings, optical filters, and assemblies. In addition, it offers inorganic chemicals and powders, specialty coatings, specialty engineered beryllium and copper-based alloys, beryllium composites, ceramics, and engineered clad and plated metal systems. The company sells its products to semiconductor, industrial, aerospace and defense, automotive, energy, consumer electronics, and life sciences through its facilities and service centers, independent distributors and agents, outside distributors, direct sales offices, and independent sales representatives. The company was formerly known as Brush Engineered Materials Inc. and changed its name to Materion Corporation in March 2011. Materion Corporation was founded in 1921 and is based in Mayfield Heights, Ohio.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,92 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$1.79B TTM",
-    "revenueGrowth": null,
-    "pe": "25",
+    "asOf": "2026-05-23",
+    "revenue": "$1.92B",
+    "revenueGrowth": 0.308,
+    "pe": 58.75,
     "profitable": true,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$549.8M",
+      "grossMargin": 0.1488,
+      "operatingIncome": "$36.9M",
+      "netIncome": "$19.4M",
+      "eps": 0.93,
+      "revenueYoY": 0.3081
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$489.8M",
+      "grossMargin": 0.13,
+      "operatingIncome": "$4.9M",
+      "netIncome": "$6.6M",
+      "eps": 0.32
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$444.8M",
+      "grossMargin": 0.1936,
+      "operatingIncome": "$38.6M",
+      "netIncome": "$25.4M",
+      "eps": 1.23
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$431.7M",
+      "grossMargin": 0.1915,
+      "operatingIncome": "$38.4M",
+      "netIncome": "$25.1M",
+      "eps": 1.21
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$420.3M",
+      "grossMargin": 0.1812,
+      "operatingIncome": "$31.3M",
+      "netIncome": "$17.7M",
+      "eps": 0.85
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$1.79B",
+      "grossMargin": 0.1727,
+      "operatingIncome": "$113.3M",
+      "netIncome": "$74.8M",
+      "eps": 3.61,
+      "revenueYoY": 0.0655
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$1.68B",
+      "grossMargin": 0.1935,
+      "operatingIncome": "$133.7M",
+      "netIncome": "$5.9M",
+      "eps": 0.28,
+      "revenueYoY": 0.006
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$1.67B",
+      "grossMargin": 0.2096,
+      "operatingIncome": "$140.5M",
+      "netIncome": "$95.7M",
+      "eps": 4.64
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 2.5,
@@ -119,8 +196,116 @@
       "profitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-18",
+      "headline": "How Materion\u2019s 14th Straight Dividend Hike Will Impact Materion (MTRN) Investors",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/materion-14th-straight-dividend-hike-031614041.html",
+      "sentiment": "neutral",
+      "summary": "Earlier this month, Materion Corporation shareholders approved an amendment to the company\u2019s Amended & Restated Articles of Incorporation and the board raised the quarterly dividend to US$0.1450 per share, payable on June 12, 2026, to investors of record on May 28, 2026. The divi"
+    },
+    {
+      "date": "2026-05-14",
+      "headline": "Materion (MTRN) Raises Quarterly Dividend",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/materion-mtrn-raises-quarterly-dividend-225051088.html",
+      "sentiment": "neutral",
+      "summary": "Materion Corporation (NYSE:MTRN) is one of the 8 Best American Mining Stocks to Buy Right Now. On May 7, 2026, Materion Corporation (NYSE:MTRN) announced that its Board of Directors declared a second-quarter 2026 dividend of 14.5c per share, an increase of 0.5c per share from the"
+    },
+    {
+      "date": "2026-05-06",
+      "headline": "Has Materion (MTRN) Outpaced Other Basic Materials Stocks This Year?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/materion-mtrn-outpaced-other-basic-134003436.html",
+      "sentiment": "neutral",
+      "summary": "Here is how Materion (MTRN) and Minerals Technologies (MTX) have performed compared to their sector so far this year."
+    },
+    {
+      "date": "2026-05-04",
+      "headline": "Aura Minerals Gears Up to Report Q1 Earnings: How to Play the Stock?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aura-minerals-gears-report-q1-133300607.html",
+      "sentiment": "neutral",
+      "summary": "AUGO heads into Q1 earnings with surging output and a 443% EPS growth outlook as mine ramp-ups and expansions drive record production."
+    },
+    {
+      "date": "2026-05-01",
+      "headline": "Does Record Q1 2026 Results And Backlog Strengthen The Bull Case For Materion (MTRN)?",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/does-record-q1-2026-results-121443964.html",
+      "sentiment": "neutral",
+      "summary": "Materion Corporation recently reported past first-quarter 2026 results, with sales rising to US$549.82 million from US$420.33 million a year earlier and net income increasing to US$19.37 million from US$17.70 million. The quarter also delivered record performance in Electronic Ma"
+    },
+    {
+      "date": "2026-04-29",
+      "headline": "Materion (MTRN) Q1 2026 Earnings Transcript",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/04/29/materion-mtrn-q1-2026-earnings-transcript/",
+      "sentiment": "neutral",
+      "summary": "Following Jugal, Shelly will review the detailed financial results in addition to discussing expectations for the remainder of 2026.  Additionally, comments regarding earnings before interest, taxes, depreciation, depletion and amortization, net income and earnings per share refl"
+    },
+    {
+      "date": "2026-04-29",
+      "headline": "Materion Corporation Q1 2026 Earnings Call Summary",
+      "source": "Moby",
+      "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-materion-corporation-q1-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
+      "sentiment": "neutral",
+      "summary": "Moby summary of Materion Corporation's Q1 2026 earnings call"
+    },
+    {
+      "date": "2026-04-29",
+      "headline": "Materion (MTRN) Q1 Earnings and Revenues Top Estimates",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/materion-mtrn-q1-earnings-revenues-122507698.html",
+      "sentiment": "neutral",
+      "summary": "Materion (MTRN) delivered earnings and revenue surprises of +2.42% and +14.89%, respectively, for the quarter ended March 2026. Do the numbers hold clues to what lies ahead for the stock?"
+    },
+    {
+      "date": "2026-04-28",
+      "headline": "Nucor Q1 Earnings and Revenues Top on Higher Volumes and Prices",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nucor-q1-earnings-revenues-top-124800020.html",
+      "sentiment": "neutral",
+      "summary": "NUE's Q1 earnings jump on higher prices and volumes, and beat estimates as strong sales growth and segment gains shape outlook."
+    },
+    {
+      "date": "2026-04-24",
+      "headline": "Why The Materion (MTRN) Story Is Shifting As Higher Price Targets Meet Execution Risks",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-materion-mtrn-story-shifting-110507325.html",
+      "sentiment": "neutral",
+      "summary": "Materion\u2019s fair value price target holds at US$178.33, signaling that recent model updates have not altered the central valuation anchor for the shares. Analysts are split between confidence that this level can be supported if growth plans and margin goals are met, and concern th"
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.9718,
+    "insiderPct": 0.0184,
+    "shortInterest": 0.0312,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.162
+      },
+      {
+        "name": "Vanguard Portfolio Management LLC",
+        "pct": 0.0649
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0639
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0446
+      },
+      {
+        "name": "Dimensional Fund Advisors LP",
+        "pct": 0.0426
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

@@ -2,18 +2,18 @@
   "ticker": "QRVO",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Qorvo",
-    "exchange": "",
-    "sector": "Semiconductors",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Qorvo, Inc.",
+    "exchange": "NMS",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "country": "United States",
+    "headquarters": "Greensboro, NC",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "RF chips for satellite communication terminals and phased-array antennas.",
+    "ceo": "Mr. Robert A. Bruggeworth",
+    "employees": 5200,
+    "website": "https://www.qorvo.com",
+    "description": "Qorvo, Inc. engages in development and commercialization of technologies and products for wireless, wired, and power markets in the United States, China, rest of Asia, Taiwan, and Europe. It operates through three segments: High Performance Analog (HPA), Connectivity and Sensors Group (CSG), and Advanced Cellular Group (ACG). The HPA segment supplies radio frequency, analog mixed signal, and power management solutions for defense and aerospace markets, as well as offers compound semiconductor foundry services, wafer processing, advanced packaging and heterogeneous integration solutions. The CSG segment supplies connectivity and sensor solutions featuring various technologies, such as UWB, Matter, Bluetooth Low Energy, Zigbee, Thread, Wi-Fi, and cellular solutions. It serves smart home, industrial automation, automotive, smartphones, wearables, gaming, and industrial and enterprise access points markets. The ACG segment supplies cellular solutions for smartphones, wearables, laptops, tablets, and various other devices. It also offers foundry services for defense primes and other defense and aerospace customers. The company sells its products directly to original equipment manufacturers and original design manufacturers, as well as through a network of sales representative firms and distributors. Qorvo, Inc. was founded in 1957 and is headquartered in Greensboro, North Carolina.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,96 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$3.5B TTM",
-    "revenueGrowth": null,
-    "pe": "14",
+    "asOf": "2026-05-23",
+    "revenue": "$3.68B",
+    "revenueGrowth": -0.07,
+    "pe": 29.4,
     "profitable": true,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$808.3M",
+      "grossMargin": 0.4887,
+      "operatingIncome": "$113.9M",
+      "netIncome": "$29.7M",
+      "eps": 0.32,
+      "revenueYoY": -0.0704
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$993.0M",
+      "grossMargin": 0.4675,
+      "operatingIncome": "$192.1M",
+      "netIncome": "$164.1M",
+      "eps": 1.77
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$1.06B",
+      "grossMargin": 0.4696,
+      "operatingIncome": "$157.7M",
+      "netIncome": "$119.6M",
+      "eps": 1.29
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$818.8M",
+      "grossMargin": 0.4052,
+      "operatingIncome": "$30.1M",
+      "netIncome": "$25.6M",
+      "eps": 0.28
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$869.5M",
+      "grossMargin": 0.4216,
+      "operatingIncome": "$124.3M",
+      "netIncome": "$31.4M",
+      "eps": 0.34
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2026,
+      "reportDate": "2026-03-31",
+      "revenue": "$3.68B",
+      "grossMargin": 0.4589,
+      "operatingIncome": "$493.8M",
+      "netIncome": "$339.0M",
+      "eps": 3.66,
+      "revenueYoY": -0.0108
+    },
+    {
+      "year": 2025,
+      "reportDate": "2025-03-31",
+      "revenue": "$3.72B",
+      "grossMargin": 0.4129,
+      "operatingIncome": "$288.1M",
+      "netIncome": "$55.6M",
+      "eps": 0.59,
+      "revenueYoY": -0.0133
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-03-31",
+      "revenue": "$3.77B",
+      "grossMargin": 0.3949,
+      "operatingIncome": "$313.1M",
+      "netIncome": "-$70.3M",
+      "eps": -0.73
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 2.0,
@@ -120,8 +201,116 @@
       "profitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-23",
+      "headline": "Qorvo, Allegro MicroSystems, and Lattice Semiconductor Stocks Trade Up, What You Need To Know",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/qorvo-allegro-microsystems-lattice-semiconductor-235655480.html",
+      "sentiment": "neutral",
+      "summary": "A number of stocks jumped in the afternoon session after the broader market rallied on Iran peace progress and AI-linked growth names led the comeback in technology. Nvidia's Q1 results earlier in the week (beat-and-raise on $81.6B revenue with Q2 guidance of $89-92.8B and an $80"
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "3 Cash-Producing Stocks We Steer Clear Of",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-cash-producing-stocks-steer-111655668.html",
+      "sentiment": "neutral",
+      "summary": "Generating cash is essential for any business, but not all cash-rich companies are great investments. Some produce plenty of cash but fail to allocate it effectively, leading to missed opportunities."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Qualcomm Surges 12%, Skyworks Rallies 9%, Qorvo Rises 7%: The Mobile Chip Trade Picks Smaller Winners",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/05/22/qualcomm-surges-12-skyworks-rallies-9-qorvo-rises-7-the-mobile-chip-trade-picks-smaller-winners/",
+      "sentiment": "neutral",
+      "summary": "Shares of Qualcomm (NASDAQ:QCOM) are up 11% at midday Friday, with Skyworks Solutions (NASDAQ:SWKS) higher by 9% and Qorvo (NASDAQ:QRVO) tacking on 7%. The mobile and RF (radio frequency) chip trade is rallying broadly, but the bid is concentrated in the smaller, more focused nam"
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "RF Industries Stock Up 195% in 6 Months: Is it too Late to Invest?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rf-industries-stock-195-6-142100591.html",
+      "sentiment": "neutral",
+      "summary": "RFIL's 195% surge reflects stronger margins, rising backlog and thermal cooling demand, but can growth momentum keep delivering?"
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "5 Mid-Cap AI Infrastructure Stocks to Buy With Deep Discounted Value",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/5-mid-cap-ai-infrastructure-123800787.html",
+      "sentiment": "neutral",
+      "summary": "Five mid-cap AI infrastructure stocks, including BILL, PCTY, TDC, VSH and QRVO, offer discounted valuations amid rising AI demand."
+    },
+    {
+      "date": "2026-05-16",
+      "headline": "Qorvo, Sensata Technologies, and Texas Instruments Stocks Trade Down, What You Need To Know",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/qorvo-sensata-technologies-texas-instruments-022055424.html",
+      "sentiment": "neutral",
+      "summary": "A number of stocks fell in the afternoon session after hot April CPI sent Treasury yields higher, eliminating 2026 rate-cut hopes, a direct headwind for high-multiple growth stocks."
+    },
+    {
+      "date": "2026-05-11",
+      "headline": "RF Industries, Ltd. (RFIL) Hits Fresh High: Is There Still Room to Run?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rf-industries-ltd-rfil-hits-131502330.html",
+      "sentiment": "neutral",
+      "summary": "RF Industries (RFIL) is at a 52-week high, but can investors hope for more gains in the future? We take a look at the company's fundamentals for clues."
+    },
+    {
+      "date": "2026-05-06",
+      "headline": "Nvidia Shares Are Having a Great Day. It\u2019s Still One of the Year\u2019s Worst in Chip Stocks.",
+      "source": "Barrons.com",
+      "url": "https://www.barrons.com/articles/nvidia-stock-price-underperformer-chips-743543a1?siteid=yhoof2&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "Nvidia  was rising early Wednesday amid a broader chip-stocks rally.  While the move pushes it above the psychologically significantly $200 level, it was only a small boost compared with  Advanced Micro Devices  \u2019 17% gain on the back of AMD\u2019s strong earnings Tuesday afternoon.  "
+    },
+    {
+      "date": "2026-05-06",
+      "headline": "Qorvo Q4 Earnings Surpass Estimates Despite Lower Revenue Growth",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/qorvo-q4-earnings-surpass-estimates-144500270.html",
+      "sentiment": "neutral",
+      "summary": "QRVO beats Q4 estimates despite weak smartphone demand, as stronger margins, cost control and product mix lift profitability."
+    },
+    {
+      "date": "2026-05-06",
+      "headline": "Skyworks Solutions Q2 Earnings Call Highlights",
+      "source": "MarketBeat",
+      "url": "https://www.marketbeat.com/instant-alerts/skyworks-solutions-q2-earnings-call-highlights-2026-05-05/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "sentiment": "neutral",
+      "summary": "Skyworks Solutions (NASDAQ:SWKS) reported fiscal second-quarter 2026 results that came in above its guidance, citing strength in both its mobile business and broad markets portfolio. Management also highlighted a \u201csignificant multi-generational design win\u201d with a leading Android "
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.9929,
+    "insiderPct": 0.0159,
+    "shortInterest": 0.0935,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.1181
+      },
+      {
+        "name": "Starboard Value LP",
+        "pct": 0.0853
+      },
+      {
+        "name": "Vanguard Portfolio Management LLC",
+        "pct": 0.0659
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0427
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0414
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

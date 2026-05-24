@@ -2,18 +2,18 @@
   "ticker": "KTOS",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Kratos Defense",
-    "exchange": "",
-    "sector": "Defense",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Kratos Defense & Security Solutions, Inc.",
+    "exchange": "NMS",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "country": "United States",
+    "headquarters": "San Diego, CA",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Autonomous drones, hypersonic systems, satellite communications, rocket motors.",
+    "ceo": "Mr. Eric M. DeMarco",
+    "employees": 4300,
+    "website": "https://www.kratosdefense.com",
+    "description": "Kratos Defense & Security Solutions, Inc., a technology company, provides technology, hardware, products, system, and software for the defense, national security, and commercial markets in the United States, other North America, the Asia Pacific, the Middle East, Europe, and Internationally. The company operates through Kratos Government Solutions and Unmanned Systems segments. It offers virtualized ground systems for satellites and space vehicles, including software for command and control, telemetry, and tracking and control; jet powered unmanned aerial drone systems and hypersonic vehicles and rocket systems; propulsion systems for drones, missiles, loitering munitions, supersonic systems, spacecraft and launch systems, command, control, communication, computing, combat, and intelligence surveillance and reconnaissance; and microwave electronic products for missile, radar, missile defense, space, and satellite; and counter unmanned aircraft systems, directed energy, communication and other systems, and virtual and augmented reality training systems for the warfighter. The company primarily serves national security-related agencies, the U.S. Department of Defense, intelligence and classified agencies, international government agencies, and domestic and international commercial customers. Kratos Defense & Security Solutions, Inc. was formerly known as Wireless Facilities, Inc. and changed its name to Kratos Defense & Security Solutions, Inc. in August 1999. Kratos Defense & Security Solutions, Inc. was incorporated in 1994 and is headquartered in San Diego, California.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,100 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$1.3B TTM",
+    "asOf": "2026-05-23",
+    "revenue": "$1.42B",
     "revenueGrowth": 0.226,
-    "pe": "N/A",
+    "pe": 330.47,
     "profitable": true,
     "backlog": "$2.01B"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$371.0M",
+      "grossMargin": 0.2415,
+      "operatingIncome": "$6.6M",
+      "netIncome": "$11.9M",
+      "eps": 0.07,
+      "revenueYoY": 0.226
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$345.1M",
+      "grossMargin": 0.2417,
+      "operatingIncome": "$10.1M",
+      "netIncome": "$5.9M",
+      "eps": 0.03
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$347.6M",
+      "grossMargin": 0.2218,
+      "operatingIncome": "$7.3M",
+      "netIncome": "$8.7M",
+      "eps": 0.05
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$351.5M",
+      "grossMargin": 0.21,
+      "operatingIncome": "$3.7M",
+      "netIncome": "$2.9M",
+      "eps": 0.02
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$302.6M",
+      "grossMargin": 0.2432,
+      "operatingIncome": "$6.6M",
+      "netIncome": "$4.5M",
+      "eps": 0.03
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31"
+    },
+    {
+      "period": "2024-Q3",
+      "reportDate": "2024-09-30"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$1.35B",
+      "grossMargin": 0.2286,
+      "operatingIncome": "$27.7M",
+      "netIncome": "$22.0M",
+      "eps": 0.14,
+      "revenueYoY": 0.1842
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$1.14B",
+      "grossMargin": 0.2528,
+      "operatingIncome": "$29.7M",
+      "netIncome": "$16.3M",
+      "eps": 0.11,
+      "revenueYoY": 0.0962
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$1.04B",
+      "grossMargin": 0.259,
+      "operatingIncome": "$31.5M",
+      "netIncome": "-$8.9M",
+      "eps": -0.07
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 4.0,
@@ -122,8 +207,116 @@
       "unprofitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-23",
+      "headline": "2 Growth Stocks Set to Flourishand 1 Facing Challenges",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/2-growth-stocks-set-flourishand-134055177.html",
+      "sentiment": "neutral",
+      "summary": "Growth is oxygen. But when it evaporates, the consequences can be severe - ask anyone who bought Cisco in the Dot-Com Bubble or newer investors who lived through the 2020 to 2022 COVID cycle."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "What to Know About This Fund's $10.2 Million Buy of a Hotel Stock Up 28% in a Year",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/filings/2026/05/22/what-to-know-about-this-fund-s-usd10-2-million-buy-of-a-hotel-stock-up-28-in-a-year/",
+      "sentiment": "neutral",
+      "summary": "This hospitality group runs thousands of hotels across China and abroad, using a hybrid model of ownership and franchising."
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Investors Abandoned These 3 AI Stocks Too Early, Says Jeff Clark",
+      "source": "MarketBeat",
+      "url": "https://www.marketbeat.com/originals/investors-abandoned-these-3-ai-stocks-too-early-says-jeff-clark/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "sentiment": "neutral",
+      "summary": "Jeff Clark of TradeSmith makes the contrarian case for Figma, Kratos Defense, and SoundHound AI as the market's narrow rally leaves dozens of growth stocks behind."
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "Is Kratos Defense & Security Solutions (KTOS) Still Attractive After Recent Share Price Swings?",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kratos-defense-security-solutions-ktos-231351107.html",
+      "sentiment": "neutral",
+      "summary": "Wondering whether Kratos Defense & Security Solutions at around US$55.82 is still priced attractively, or if the easy value has already been taken off the table? The stock has risen 6.3% over the past week, after declining 20.1% over the past month and 29.6% year to date, while s"
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "3 Profitable Stocks to Consider Right Now",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-profitable-stocks-consider-now-224455954.html",
+      "sentiment": "neutral",
+      "summary": "Profitable companies tend to be more resilient, giving them the flexibility to invest and return capital to shareholders. Businesses that consistently generate earnings can better navigate downturns and capitalize on new opportunities."
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "How Is KTOS Strengthening Revenue Visibility Through Its Backlog?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ktos-strengthening-revenue-visibility-backlog-142500983.html",
+      "sentiment": "neutral",
+      "summary": "Kratos Defense's $2.01 billion backlog, $1.46 billion funded, boosts revenue visibility, with 37% slated for fiscal 2026 and 25% for fiscal 2027."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Ondas Pulls Forward OAS EBITDA Profitability Target: Can it Deliver?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ondas-pulls-forward-oas-ebitda-123700481.html",
+      "sentiment": "neutral",
+      "summary": "ONDS compresses OAS adjusted EBITDA profitability timeline to Q1 2027 as margins improve, but rising costs and near-term losses raise questions on execution."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "The Pentagon Wants 300,000 Drones But China Controls The Magnets",
+      "source": "Oilprice.com",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/pentagon-wants-300-000-drones-000000791.html",
+      "sentiment": "neutral",
+      "summary": "The Pentagon just placed the largest drone order in U.S. history, and every one of those drones needs rare earth magnets\u2026 ideally not from China."
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "Can Draganfly Capitalize on Surging Demand for Unmanned Systems?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/draganfly-capitalize-surging-demand-unmanned-181400138.html",
+      "sentiment": "neutral",
+      "summary": "DPRO expands its presence in defense drones through U.S. Army and Air Force deals as demand grows for mission-ready unmanned systems."
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "1 of Wall Street\u2019s Favorite Stock to Target This Week and 2 Facing Headwinds",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-wall-street-favorite-stock-095655127.html",
+      "sentiment": "neutral",
+      "summary": "The stocks in this article have caught Wall Street\u2019s attention in a big way, with price targets implying returns above 20%. But investors should take these forecasts with a grain of salt because analysts typically say nice things about companies so their firms can win business in"
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.9421,
+    "insiderPct": 0.0137,
+    "shortInterest": 0.0633,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.1689
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0475
+      },
+      {
+        "name": "Vanguard Portfolio Management LLC",
+        "pct": 0.0461
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0441
+      },
+      {
+        "name": "Geode Capital Management, LLC",
+        "pct": 0.0281
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

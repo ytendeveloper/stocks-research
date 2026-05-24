@@ -2,18 +2,18 @@
   "ticker": "UMAC",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Unusual Machines",
-    "exchange": "",
-    "sector": "Defense/Drones",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Unusual Machines, Inc.",
+    "exchange": "ASE",
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "country": "United States",
+    "headquarters": "Orlando, FL",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "U.S.-made drone components. Benefits from DJI ban / NDAA compliance.",
+    "ceo": "Dr. Allan Thomas Evans Ph.D.",
+    "employees": 141,
+    "website": "https://www.unusualmachines.com",
+    "description": "Unusual Machines, Inc. engages in the commercial drone industry. The company offers small drones and essential components. It distributes their products through B2B sale, e-commerce site, and retail channel. The company has a strategic collaboration with Lantronix Inc. for the development of autonomous drone components integrating edge AI compute with flight control systems. The company was formerly known as AerocarveUS Corporation and changed its name to Unusual Machines, Inc. in July 2022. Unusual Machines, Inc. was incorporated in 2019 and is headquartered in Orlando, Florida.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,97 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$11.2M FY25",
-    "revenueGrowth": 2.96,
-    "pe": "N/A",
+    "asOf": "2026-05-23",
+    "revenue": "$17.3M",
+    "revenueGrowth": 2.964,
+    "pe": -83.9,
     "profitable": false,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$8.1M",
+      "grossMargin": 0.3278,
+      "operatingIncome": "-$7.3M",
+      "netIncome": "$10.3M",
+      "eps": 0.22,
+      "revenueYoY": 3.05
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$4.9M",
+      "grossMargin": 0.3624,
+      "operatingIncome": "-$9.7M",
+      "netIncome": "-$10.6M"
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$2.1M",
+      "grossMargin": 0.3937,
+      "operatingIncome": "-$5.0M",
+      "netIncome": "$1.6M",
+      "eps": 0.05
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$2.1M",
+      "grossMargin": 0.3741,
+      "operatingIncome": "-$7.2M",
+      "netIncome": "-$7.0M",
+      "eps": -0.32
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$2.0M",
+      "grossMargin": 0.2433,
+      "operatingIncome": "-$3.3M",
+      "netIncome": "-$3.3M",
+      "eps": -0.21
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31"
+    },
+    {
+      "period": "2024-Q3",
+      "reportDate": "2024-09-30",
+      "eps": -0.3
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$11.2M",
+      "grossMargin": 0.3489,
+      "operatingIncome": "-$25.2M",
+      "netIncome": "-$19.2M",
+      "revenueYoY": 1.0
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$5.6M",
+      "grossMargin": 0.2778,
+      "operatingIncome": "-$6.9M",
+      "netIncome": "-$32.0M",
+      "eps": -3.84
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$0",
+      "operatingIncome": "-$2.4M",
+      "netIncome": "-$2.4M",
+      "eps": -0.31
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 3.0,
@@ -120,8 +202,116 @@
       "unprofitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-19",
+      "headline": "Ondas Acquires Omnisys to Boost AI Battlefield Capabilities",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/ondas-acquires-omnisys-boost-ai-152000789.html",
+      "sentiment": "neutral",
+      "summary": "ONDS acquires Omnisys to add AI battlefield orchestration software, boosting its autonomous defense portfolio and expanding software-driven growth."
+    },
+    {
+      "date": "2026-05-17",
+      "headline": "Unusual Machines (UMAC) Is Up 20.7% After Surging Q1 Results And Major Supply Chain Expansion \u2013 Has The Bull Case Changed?",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/unusual-machines-umac-20-7-220755773.html",
+      "sentiment": "neutral",
+      "summary": "Unusual Machines, Inc. recently reported that first-quarter 2026 sales rose to US$8.10 million from US$2.04 million a year earlier, with net income improving to US$10.28 million from a net loss of US$3.27 million, while also disclosing past and planned actions including a US$150."
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "Unusual Machines Inc (UMAC) Q1 2026 Earnings Call Highlights: Record Revenue Growth and ...",
+      "source": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/unusual-machines-inc-umac-q1-050143786.html",
+      "sentiment": "neutral",
+      "summary": "Unusual Machines Inc (UMAC) reports a remarkable 296% revenue growth and strategic moves, despite facing challenges in customer concentration and supply chain risks."
+    },
+    {
+      "date": "2026-05-14",
+      "headline": "Unusual Machines, Inc. (UMAC) Q1 Earnings Miss Estimates",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/unusual-machines-inc-umac-q1-222003047.html",
+      "sentiment": "neutral",
+      "summary": "Unusual Machines, Inc. (UMAC) delivered earnings and revenue surprises of -41.67% and +60.95%, respectively, for the quarter ended March 2026. Do the numbers hold clues to what lies ahead for the stock?"
+    },
+    {
+      "date": "2026-05-14",
+      "headline": "Unusual Machines (UMAC) Valuation Check As US$75 Million Inventory Push Follows Capital Raise",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/unusual-machines-umac-valuation-check-140918511.html",
+      "sentiment": "neutral",
+      "summary": "Why Unusual Machines stock is back on investor radars Unusual Machines (UMAC) has committed approximately US$75 million to inventory orders after raising about US$150 million, a material move that puts supply chain readiness at the center of the stock story. See our latest analys"
+    },
+    {
+      "date": "2026-05-11",
+      "headline": "AST SpaceMobile, Inc. (ASTS) Reports Q1 Loss, Misses Revenue Estimates",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-inc-asts-reports-220503758.html",
+      "sentiment": "neutral",
+      "summary": "AST SpaceMobile (ASTS) delivered earnings and revenue surprises of -191.13% and -61.46%, respectively, for the quarter ended March 2026. Do the numbers hold clues to what lies ahead for the stock?"
+    },
+    {
+      "date": "2026-05-08",
+      "headline": "Why These 5 Drone Stocks Could Outperform This Summer",
+      "source": "Oilprice.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-5-drone-stocks-could-000000658.html",
+      "sentiment": "neutral",
+      "summary": "Modern warfare is being reshaped by drones, but Western reliance on Chinese-controlled rare earth supply chains exposes a critical vulnerability - one these three companies can exploit."
+    },
+    {
+      "date": "2026-05-07",
+      "headline": "Unusual Machines, Inc. (UMAC) Earnings Expected to Grow: Should You Buy?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/unusual-machines-inc-umac-earnings-140005357.html",
+      "sentiment": "neutral",
+      "summary": "Unusual Machines, Inc. (UMAC) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations."
+    },
+    {
+      "date": "2026-05-06",
+      "headline": "Clearfield (CLFD) Reports Q2 Loss, Tops Revenue Estimates",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/clearfield-clfd-reports-q2-loss-212504615.html",
+      "sentiment": "neutral",
+      "summary": "Clearfield (CLFD) delivered earnings and revenue surprises of 0.00% and +2.20%, respectively, for the quarter ended March 2026. Do the numbers hold clues to what lies ahead for the stock?"
+    },
+    {
+      "date": "2026-04-23",
+      "headline": "Pentagon\u2019s Budget Hits New Highs as Trump's Sons Cash In",
+      "source": "Moby",
+      "url": "https://app.moby.co/home/news/news-pentagons-fy2027-budget-hits-new-highs-as-trumps-sons-cash-in?utm_source=yahoo_finance&utm_medium=rss",
+      "sentiment": "neutral",
+      "summary": "A 240x budget jump for autonomous warfare sent a clear signal to defense startups, including several where Trump\u2019s sons already had their cash."
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.5252,
+    "insiderPct": 0.0695,
+    "shortInterest": 0.146,
+    "topHolders": [
+      {
+        "name": "Ameriprise Financial, Inc.",
+        "pct": 0.0423
+      },
+      {
+        "name": "Tudor Investment Corp Et Al",
+        "pct": 0.0377
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0373
+      },
+      {
+        "name": "Davidson Kempner Capital Management LP",
+        "pct": 0.0346
+      },
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0299
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

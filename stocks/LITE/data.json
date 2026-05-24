@@ -2,18 +2,18 @@
   "ticker": "LITE",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Lumentum Holdings",
-    "exchange": "",
-    "sector": "Semiconductors",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Lumentum Holdings Inc.",
+    "exchange": "NMS",
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "country": "United States",
+    "headquarters": "San Jose, CA",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Lasers and optics for inter-satellite laser links and free-space optical comms.",
+    "ceo": "Mr. Michael E.  Hurlston",
+    "employees": 10562,
+    "website": "https://www.lumentum.com",
+    "description": "Lumentum Holdings Inc. manufactures and sells optical and photonic products in the Americas, the Asia-Pacific, Europe, the Middle East, and Africa. It operates through two segments, Cloud & Networking and Industrial Tech. The Cloud & Networking segment offers optical and photonic chips, components, modules, and subsystems supplied to cloud data center operators, AI/ML infrastructure providers, and network equipment manufacturer customers that are building cloud data centers and network infrastructures. Its Industrial Tech segment provides short-pulse solid-state lasers, kilowatt-class fiber lasers, diode lasers, and gas lasers that serves the semiconductor device, solar cell, display, and electric vehicle and battery manufacturing markets. The company was incorporated in 2015 and is headquartered in San Jose, California.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,96 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "~$3.5B+ annualized",
-    "revenueGrowth": null,
-    "pe": "N/A",
+    "asOf": "2026-05-23",
+    "revenue": "$2.49B",
+    "revenueGrowth": 0.901,
+    "pe": 166.71,
     "profitable": true,
     "backlog": "$400M+ OCS"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$808.4M",
+      "grossMargin": 0.4416,
+      "operatingIncome": "$175.6M",
+      "netIncome": "$144.2M",
+      "eps": 1.99,
+      "revenueYoY": 0.9012
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$665.5M",
+      "grossMargin": 0.3608,
+      "operatingIncome": "$63.9M",
+      "netIncome": "$78.2M",
+      "eps": 1.1
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$533.8M",
+      "grossMargin": 0.34,
+      "operatingIncome": "$15.0M",
+      "netIncome": "$4.2M",
+      "eps": 0.06
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$480.7M",
+      "grossMargin": 0.3326,
+      "operatingIncome": "-$3.2M",
+      "netIncome": "$213.3M",
+      "eps": 3.06
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$425.2M",
+      "grossMargin": 0.2881,
+      "operatingIncome": "-$65.4M",
+      "netIncome": "-$44.1M",
+      "eps": -0.64
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-06-30",
+      "revenue": "$1.65B",
+      "grossMargin": 0.2796,
+      "operatingIncome": "-$192.2M",
+      "netIncome": "$25.9M",
+      "eps": 0.38,
+      "revenueYoY": 0.2132
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-06-30",
+      "revenue": "$1.36B",
+      "grossMargin": 0.185,
+      "operatingIncome": "-$361.4M",
+      "netIncome": "-$546.5M",
+      "eps": -8.12,
+      "revenueYoY": -0.2316
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-06-30",
+      "revenue": "$1.77B",
+      "grossMargin": 0.322,
+      "operatingIncome": "-$87.6M",
+      "netIncome": "-$131.6M",
+      "eps": -1.93
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 3.0,
@@ -119,8 +200,116 @@
       "unprofitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-22",
+      "headline": "Lumentum\u2019s AI Optics Expansion Meets New 2x Leveraged Trading Pressure",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lumentum-ai-optics-expansion-meets-221116330.html",
+      "sentiment": "neutral",
+      "summary": "Launch of the T-REX 2X Long LITE Daily Target ETF offering 2x daily exposure to NasdaqGS:LITE. Acquisition of a fifth indium phosphide fabrication facility to expand manufacturing for AI driven optical demand. Both moves highlight Lumentum Holdings' growing relevance to AI infras"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Lumentum, IBD Stock Of The Day, Focuses On 'Execution' Amid AI Optical Boom",
+      "source": "Investor's Business Daily",
+      "url": "https://www.investors.com/research/ibd-stock-of-the-day/lumentum-stock-artificial-intelligence-optical-data-center-boom/?src=A00220&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "Lumentum stock has climbed 155% in 2026 amid growing demand for superfast optical communications in AI data centers."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Lumentum's AI Connectivity Portfolio Expands: Is Growth Durable?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/lumentums-ai-connectivity-portfolio-expands-131300103.html",
+      "sentiment": "neutral",
+      "summary": "LITE's AI networking push gains traction as hyperscaler demand drives record revenues and rapid growth in optical connectivity shipments."
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Zacks.com featured highlights include Dow, Arrow Electronics and Lumentum",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-com-featured-highlights-dow-145500627.html",
+      "sentiment": "neutral",
+      "summary": "DOW, ARW and LITE gained attention after broker rating upgrades tied to improving earnings outlooks and demand trends."
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "America's Greatest Opportunities: JDS Uniphase's Incredible Run",
+      "source": "Investor's Business Daily",
+      "url": "https://www.investors.com/how-to-invest/stock-market-america-greatest-opportunities-jds-uniphase-viavi-lumentum/?src=A00220&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "JDS Uniphase never closed a week below its 10-week-moving-average line until after it peaked in little over a year on the stock market."
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "Does Lumentum (LITE) Joining the Nasdaq-100 Recast Its AI Infrastructure Investment Narrative?",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/does-lumentum-lite-joining-nasdaq-231549258.html",
+      "sentiment": "neutral",
+      "summary": "Lumentum Holdings Inc. was added to the Nasdaq-100 Index on May 18, 2026, following a year of strong AI-related demand for its optical and photonic technologies supporting cloud, telecom, and data center infrastructure. This inclusion, combined with record revenue growth linked t"
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "Astera Labs Stock Notches Record High. It\u2019s Up Double Digits for a Second Day.",
+      "source": "Barrons.com",
+      "url": "https://www.barrons.com/articles/astera-labs-stock-record-high-nvidia-ai-4e10de1f?siteid=yhoof2&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "Shares of  Astera Labs  surged Wednesday, building on a strong gain from Tuesday as investors appeared bullish on the maker of semiconductor-based connectors for cloud and artificial-intelligence infrastructure ahead of  Nvidia  earnings and after the company gave upbeat commenta"
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "Are You Looking for a Top Momentum Pick? Why Lumentum (LITE) is a Great Choice",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/looking-top-momentum-pick-why-160004053.html",
+      "sentiment": "neutral",
+      "summary": "Does Lumentum (LITE) have what it takes to be a top stock pick for momentum investors? Let's find out."
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "Best Momentum Stocks to Buy for May 20th",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/best-momentum-stocks-buy-may-141500857.html",
+      "sentiment": "neutral",
+      "summary": "LITE, UCTT, and AMAT made it to the Zacks Rank #1 (Strong Buy) momentum stocks list on May 20, 2026."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Stock Market Today, May 19: Poet Technologies Falls After $400 Million Offering Sparks Dilution Concerns",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/05/19/stock-market-today-may-19-poet-technologies-falls-after-400-million-offering-sparks-dilution-concerns/",
+      "sentiment": "neutral",
+      "summary": "Fresh capital for AI photonic interconnects collides with mounting dilution, today, May 19, 2026."
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 1.0274,
+    "insiderPct": 0.0078,
+    "shortInterest": 0.1342,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.1007
+      },
+      {
+        "name": "FMR, LLC",
+        "pct": 0.0924
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0596
+      },
+      {
+        "name": "Vanguard Portfolio Management LLC",
+        "pct": 0.0476
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0391
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

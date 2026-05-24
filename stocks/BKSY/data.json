@@ -2,18 +2,18 @@
   "ticker": "BKSY",
   "schemaVersion": "1.0",
   "static": {
-    "name": "BlackSky Technology",
-    "exchange": "",
-    "sector": "Aerospace/Data",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "BlackSky Technology Inc.",
+    "exchange": "NYQ",
+    "sector": "Industrials",
+    "industry": "Specialty Business Services",
+    "country": "United States",
+    "headquarters": "Herndon, VA",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Real-time satellite imagery and geospatial analytics for defense ISR.",
+    "ceo": "Mr. Brian E. O'Toole",
+    "employees": 321,
+    "website": "https://blacksky.com",
+    "description": "BlackSky Technology Inc. operates as a space-based technology company in the United States and internationally. The company offers space-based intelligence and artificial intelligence (AI) services, mission solutions, and advanced technology programs consisting of cloud computing and hosting services, direct materials to build and test specific components, and internal labor for service solutions that enhance customer adoption and operational integration of the company's technology. It also provides BlackSky Spectra, an AI-enabled software platform that processes a range of observations by integrating data from the company's proprietary satellite constellation and from other third-party sensors, such as synthetic aperture radar and radio frequency satellites, GPS-enabled terrestrial data sources, and Internet of Things-connected devices. In addition, the company offers a range of services related to object, change and anomaly detection, site monitoring, and enhanced analytics, which help detect key pattern of life changes in critical locations, including ports, airports, and construction sites; retail activity; commodities stockpiles; and other sites that contain critical commodities and supply chain inventory. Further, it develops and delivers customized advanced satellites and payload systems. The company's products and services are used in national security, supply chain resilience, economic intelligence, and other critical decision-making requirements. It serves the United States federal government and its agencies; international governments, agencies, and organizations; and the commercial and industrial infrastructure markets, including energy and utilities, insurance, commodities, mining, manufacturing, logistics, supply chain management, agriculture, environmental monitoring, disaster and risk management, engineering and construction, retail, and consumer behavior. BlackSky Technology Inc. was founded in 2014 and is headquartered in Herndon, Virginia.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,99 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$106.6M FY25",
-    "revenueGrowth": -0.41,
-    "pe": "N/A",
+    "asOf": "2026-05-23",
+    "revenue": "$97.8M",
+    "revenueGrowth": -0.297,
+    "pe": -87.83,
     "profitable": false,
     "backlog": "$345M"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$20.8M",
+      "grossMargin": 0.6471,
+      "operatingIncome": "-$18.5M",
+      "netIncome": "-$29.7M",
+      "eps": -0.82,
+      "revenueYoY": -0.2949
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$35.2M",
+      "grossMargin": 0.7262,
+      "operatingIncome": "-$4.2M",
+      "netIncome": "-$868K",
+      "eps": -0.02
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$19.6M",
+      "grossMargin": 0.6526,
+      "operatingIncome": "-$16.8M",
+      "netIncome": "-$15.3M",
+      "eps": -0.44
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$22.2M",
+      "grossMargin": 0.7186,
+      "operatingIncome": "-$13.9M",
+      "netIncome": "-$41.2M",
+      "eps": -1.27
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$29.5M",
+      "grossMargin": 0.5735,
+      "operatingIncome": "-$12.0M",
+      "netIncome": "-$12.8M",
+      "eps": -0.42
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31"
+    },
+    {
+      "period": "2024-Q3",
+      "reportDate": "2024-09-30"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$106.6M",
+      "grossMargin": 0.6687,
+      "operatingIncome": "-$46.9M",
+      "netIncome": "-$70.3M",
+      "revenueYoY": 0.0441
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$102.1M",
+      "grossMargin": 0.7313,
+      "operatingIncome": "-$44.3M",
+      "netIncome": "-$57.2M",
+      "eps": -2.66,
+      "revenueYoY": 0.0804
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$94.5M",
+      "grossMargin": 0.6425,
+      "operatingIncome": "-$56.0M",
+      "netIncome": "-$53.9M",
+      "eps": -3.2
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 4.0,
@@ -121,8 +205,116 @@
       "unprofitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-21",
+      "headline": "Is Planet Labs Moving Closer to Sustainable Profitability?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/planet-labs-moving-closer-sustainable-173000607.html",
+      "sentiment": "neutral",
+      "summary": "PL nears profitability with strong 2026 guidance, leaning on efficiency, tighter costs and higher-margin analytics and software integration."
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "PL Versus BKSY: Which Satellite Imaging Stock Has More Upside?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/pl-versus-bksy-satellite-imaging-172300521.html",
+      "sentiment": "neutral",
+      "summary": "BKSY stock surges 143% YTD, secures up to $160M in wins and guides for 2026 revenue growth above 50% and 80% gross margin."
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "BlackSky Technology (BKSY) Lands New Government AI Imagery Deal Is Its Platform Strategy Gaining Traction?",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/blacksky-technology-bksy-lands-government-061234698.html",
+      "sentiment": "neutral",
+      "summary": "Earlier this week, BlackSky Technology announced it had secured a seven-figure, one-year subscription contract with a new government customer to expand access to its advanced Gen-2 mission applications and real-time AI-enabled imagery services. This win highlights growing adoptio"
+    },
+    {
+      "date": "2026-05-12",
+      "headline": "3 Stocks That May Be Priced Below Their Estimated Value In May 2026",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-may-priced-below-173804472.html",
+      "sentiment": "neutral",
+      "summary": "The United States market has shown robust performance, rising 2.6% over the last week and 26% over the past year, with earnings expected to grow by 17% annually. In such a thriving environment, identifying stocks that are potentially priced below their estimated value can offer i"
+    },
+    {
+      "date": "2026-05-10",
+      "headline": "BlackSky Gen\u20113 Milestone Spurs Contracts And Supports Upgraded 2026 Outlook",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/blacksky-gen-3-milestone-spurs-211534577.html",
+      "sentiment": "neutral",
+      "summary": "BlackSky Technology (NYSE:BKSY) has fully deployed its Gen-3 satellite constellation, moving into full commercial operations. The company secured a new $99 million contract with the U.S. Air Force Research Lab and a multi-year agreement with an international defense customer. Man"
+    },
+    {
+      "date": "2026-05-10",
+      "headline": "Is It Too Late To Consider BlackSky Technology (BKSY) After Its Recent 1 Year Surge?",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/too-consider-blacksky-technology-bksy-190726218.html",
+      "sentiment": "neutral",
+      "summary": "How BlackSky Technology\u2019s Recent Returns Frame the Valuation Question BlackSky Technology is on many watchlists right now, and if you are wondering whether the current price fairly reflects the stock\u2019s potential, the valuation story is where the real interest lies. Over the short"
+    },
+    {
+      "date": "2026-05-10",
+      "headline": "A Look At BlackSky Technology\u2019s Valuation As Raised 2026 Guidance Signals Growing Demand For Gen 3 Services",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/look-blacksky-technology-valuation-raised-160958733.html",
+      "sentiment": "neutral",
+      "summary": "BlackSky Technology (BKSY) is back in focus after raising its full year 2026 revenue outlook to US$130 million to US$150 million, pointing to an inflection in demand for its Gen 3 geospatial services. See our latest analysis for BlackSky Technology. The earnings miss and widened "
+    },
+    {
+      "date": "2026-05-09",
+      "headline": "BlackSky Technology Q1 Earnings Call Highlights",
+      "source": "MarketBeat",
+      "url": "https://www.marketbeat.com/instant-alerts/blacksky-technology-q1-earnings-call-highlights-2026-05-09/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "sentiment": "neutral",
+      "summary": "BlackSky Technology (NYSE:BKSY) raised its 2026 revenue and adjusted EBITDA outlook after reporting first-quarter results that management said reflected accelerating demand for its Gen-3 satellite imagery and AI-enabled intelligence services. Chief Executive Officer Brian O'Toole"
+    },
+    {
+      "date": "2026-05-08",
+      "headline": "BlackSky (BKSY) Q1 2026 Earnings Transcript",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/05/08/blacksky-bksy-q1-2026-earnings-transcript/",
+      "sentiment": "neutral",
+      "summary": "Today, I'm joined by our Chief Executive Officer, Brian O'Toole; and our Chief Financial Officer, Henry Dubois.  Additionally, a webcast of this earnings call will be available in the Investor Relations section of our website at www.blacksky.com.  In conjunction with today's call"
+    },
+    {
+      "date": "2026-05-08",
+      "headline": "Rocket Lab stock blasts back to record highs",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/article/rocket-lab-stock-blasts-back-to-record-highs-155700117.html",
+      "sentiment": "neutral",
+      "summary": "Rocket Lab stock jumped more than 25% Friday, hitting its first intraday record high since January and underscoring how space stocks are back on Wall Street's radar."
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.6657,
+    "insiderPct": 0.0896,
+    "shortInterest": 0.1952,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0685
+      },
+      {
+        "name": "Bank Of New York Mellon Corporation",
+        "pct": 0.0517
+      },
+      {
+        "name": "AWM Investment Company, Inc.",
+        "pct": 0.0465
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0361
+      },
+      {
+        "name": "Cercano Management Llc",
+        "pct": 0.0335
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

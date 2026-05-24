@@ -2,18 +2,18 @@
   "ticker": "AA",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Alcoa",
-    "exchange": "",
-    "sector": "Materials",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Alcoa Corporation",
+    "exchange": "NYQ",
+    "sector": "Basic Materials",
+    "industry": "Aluminum",
+    "country": "United States",
+    "headquarters": "Pittsburgh, PA",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Aluminum alloys for spacecraft construction and space station modules.",
+    "ceo": "Mr. William F. Oplinger",
+    "employees": 14900,
+    "website": "https://www.alcoa.com",
+    "description": "Alcoa Corporation, together with its subsidiaries, engages in the bauxite mining, alumina refining, aluminum production, and energy generation business in Australia, Brazil, Canada, Iceland, Norway, Spain, the United States, and internationally. The company operates through two segments: Alumina and Aluminum. It operates bauxite and other aluminous ores mining and processes bauxite into alumina for sale to aluminum smelter customers and customers who process it into industrial chemical products through supply contracts to third parties, as well as aluminum smelting and casting businesses. The company also offers aluminium powder and scrap and primary aluminum in the form of commodity grade ingot and value-add ingot to customers that produce products for transportation, building and construction, packaging, wire, and other industrial markets. In addition, it provides energy that generates and sells electricity in the wholesale market to traders, large industrial consumers, distribution companies, and other generation companies. The company was formerly known as Alcoa Upstream Corporation and changed its name to Alcoa Corporation in May 2016. The company was founded in 1886 and is headquartered in Pittsburgh, Pennsylvania.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,100 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$13B TTM",
-    "revenueGrowth": null,
-    "pe": "12",
+    "asOf": "2026-05-23",
+    "revenue": "$12.65B",
+    "revenueGrowth": -0.052,
+    "pe": 18.3,
     "profitable": true,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$3.19B",
+      "grossMargin": 0.2133,
+      "operatingIncome": "$426.0M",
+      "netIncome": "$425.0M",
+      "eps": 1.61,
+      "revenueYoY": -0.0534
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$3.45B",
+      "grossMargin": 0.167,
+      "operatingIncome": "-$112.0M",
+      "netIncome": "$213.0M",
+      "eps": 0.86
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$3.00B",
+      "grossMargin": 0.1002,
+      "operatingIncome": "$51.0M",
+      "netIncome": "$232.0M",
+      "eps": 0.88
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$3.02B",
+      "grossMargin": 0.1213,
+      "operatingIncome": "$119.0M",
+      "netIncome": "$164.0M",
+      "eps": 0.63
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$3.37B",
+      "grossMargin": 0.2763,
+      "operatingIncome": "$700.0M",
+      "netIncome": "$548.0M",
+      "eps": 2.08
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31"
+    },
+    {
+      "period": "2024-Q3",
+      "reportDate": "2024-09-30"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$12.83B",
+      "grossMargin": 0.1694,
+      "operatingIncome": "$758.0M",
+      "netIncome": "$1.16B",
+      "eps": 4.45,
+      "revenueYoY": 0.0791
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$11.89B",
+      "grossMargin": 0.1556,
+      "operatingIncome": "$828.0M",
+      "netIncome": "$60.0M",
+      "eps": 0.26,
+      "revenueYoY": 0.127
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$10.55B",
+      "grossMargin": 0.0699,
+      "operatingIncome": "-$227.0M",
+      "netIncome": "-$651.0M",
+      "eps": -3.65
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 1.5,
@@ -119,8 +204,116 @@
       "profitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-23",
+      "headline": "UBS Upgrade Ties Alcoa Outlook To Prolonged Aluminium Supply Tightness",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/ubs-upgrade-ties-alcoa-outlook-150956806.html",
+      "sentiment": "neutral",
+      "summary": "UBS upgraded Alcoa (NYSE:AA) to Buy, citing sustained disruptions to aluminium production in the Middle East. The bank expects these supply issues to keep aluminium prices and physical premiums elevated for an extended period. UBS links this environment to potential improvement i"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Stocks Settle Higher on Iran Peace Hopes and Tech Strength",
+      "source": "Barchart",
+      "url": "https://www.barchart.com/story/news/2093234/stocks-settle-higher-on-iran-peace-hopes-and-tech-strength",
+      "sentiment": "neutral",
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) on Friday closed up +0.37%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up +0.58%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up +0.42%. June E-mini S&P futures (ESM26 ) rose +0.35%, and June E-mini Nasdaq futures..."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Aluminum Supply Shocks Are Changing The Game For Alcoa",
+      "source": "Trefis",
+      "url": "https://www.trefis.com/articles/600124/aluminum-supply-shocks-are-changing-the-game-for-alcoa/2026-05-22",
+      "sentiment": "neutral",
+      "summary": "Aluminum usually doesn\u2019t get the spotlight like gold or copper, but right now the market is unusually tight. A mix of Middle East supply disruptions, shipping issues, and U.S. tariffs has pushed prices higher and given Alcoa (NYSE:AA) a massive boost. The stock is up nearly 134% "
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Here's Another Stock Getting A Lift From The Iran War. It's Racing Past Two Buy Points.",
+      "source": "Investor's Business Daily",
+      "url": "https://www.investors.com/news/alcoa-stock-buy-points-ubs-iran-war/?src=A00220&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "A UBS analyst upgraded Alcoa, touting higher prices from Middle East smelter outages due to the Iran war. The stock surged past two buy points."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "UBS upgrades alcoa to \u2018buy\u2019 as middle east supply crisis drives aluminium surge",
+      "source": "Investing.com",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/ubs-upgrades-alcoa-buy-middle-154219229.html",
+      "sentiment": "neutral",
+      "summary": "Investing.com -- UBS has upgraded Alcoa shares to \u201cBuy\u201d from \u201cNeutral,\u201d raising its price target to $80 per share from $75, citing expectations that prolonged disruptions to Middle East aluminium production will keep prices and premiums elevated for years."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Alcoa Weighs Rising Costs Against Efficiency Push And Valuation Appeal",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alcoa-weighs-rising-costs-against-140719419.html",
+      "sentiment": "neutral",
+      "summary": "Alcoa (NYSE:AA) is facing higher energy expenses, particularly diesel, along with increased raw material costs. These cost pressures are affecting the company\u2019s expense base and prompting operational adjustments. Management focus is shifting more toward cost efficiency and expand"
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Aluminum Prices Have Surged Nearly 90% Since the Iran War Began, and Kiplinger Says Your Portfolio Should Respond",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/personal-finance/2026/05/19/aluminum-prices-have-surged-nearly-90-since-the-iran-war-began-and-kiplinger-says-your-portfolio-should-respond/",
+      "sentiment": "neutral",
+      "summary": "The Iran war started on February 27, and the aluminum market has not been the same since. Alcoa CEO William Oplinger told investors on the company\u2019s Q1 2026 call that London Metal Exchange prices had recently exceeded $3,600 per metric ton on tight inventories and Middle East sup"
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Will Cost Inflation and Tariffs Continue to Weigh on Alcoa?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cost-inflation-tariffs-continue-weigh-161300147.html",
+      "sentiment": "neutral",
+      "summary": "AA faces rising energy, raw material and restart costs, with higher diesel prices expected to hurt Q2 2026 results."
+    },
+    {
+      "date": "2026-05-14",
+      "headline": "Alcoa (AA) Invests $65M to Expand Low-Carbon Aluminum Output",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alcoa-aa-invests-65m-expand-225110749.html",
+      "sentiment": "neutral",
+      "summary": "Alcoa Corporation (NYSE:AA) is one of the 8 Best American Mining Stocks to Buy Right Now. On May 11, 2026, Alcoa Corporation (NYSE:AA) announced a $65M investment to expand foundry production capabilities at its Mosjoen smelter in Norway to incorporate recycled content into the c"
+    },
+    {
+      "date": "2026-05-14",
+      "headline": "Should You Buy Alcoa Stock After a 91.3% Rally in 6 Months?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-alcoa-stock-91-3-150200744.html",
+      "sentiment": "neutral",
+      "summary": "AA shares surge 91% in six months as higher aluminum prices, tariff support and stronger demand boosted sales growth."
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.8427,
+    "insiderPct": 0.0054,
+    "shortInterest": 0.0234,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.1076
+      },
+      {
+        "name": "Eagle Capital Management LLC",
+        "pct": 0.0534
+      },
+      {
+        "name": "FMR, LLC",
+        "pct": 0.0487
+      },
+      {
+        "name": "Vanguard Portfolio Management LLC",
+        "pct": 0.0479
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0446
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

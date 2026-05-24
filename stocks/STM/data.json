@@ -2,18 +2,18 @@
   "ticker": "STM",
   "schemaVersion": "1.0",
   "static": {
-    "name": "STMicroelectronics",
-    "exchange": "",
-    "sector": "Semiconductors",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "STMicroelectronics N.V.",
+    "exchange": "NYQ",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "country": "Netherlands",
+    "headquarters": "Schiphol",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "THE Starlink chip backbone. 90% LEO satellite semiconductor market share.",
+    "ceo": "Mr. Jean-Marc  Chery",
+    "employees": 48000,
+    "website": "https://www.st.com/content/st_com/en.html",
+    "description": "STMicroelectronics N.V., together with its subsidiaries, designs, develops, manufactures, and sells semiconductor products in Europe, the Middle East, Africa, the Americas, and the Asia Pacific. The company operates through Analog products, MEMS and Sensors Group (AM&S); Power and Discrete products (P&D); Embedded Processing (\u0093EMP\u0094); and RF Products (D&RF) segments. It offers industrial application-specific integrated circuits (ASICs) and application-specific standard products (ASSPs); power management solutions; custom analog ICs, wireless charging solutions; galvanic isolated gate and LED drivers; converters, transistors, intelligent power switches, clocks and timers, comparators, and current-sense amplifiers; micro-electro-mechanical systems (MEMS) sensors, including accelerometers, gyroscopes, magnetic sensors, pressure, temperature, presence detection, biosensors, machine learning, and edge AI processing smart sensors, as well as thermal and piezoelectric actuators; and optical sensing solutions. The company also provides silicon MOSFETs, SiC MOSFETs, IGBTs, thyristors, rectifiers, and power modules and bipolar transistors; microcontrollers, and automotive microcontrollers and secured; radio frequency (RF) communications and ASICs; car infotainment products; ultra-wide band and radar systems; and Connected Security Products; and automotive driver assistance systems. It serves automotive, industrial, personal electronics and communications equipment, and computers and peripherals markets. STMicroelectronics N.V. was incorporated in 1987 and is headquartered in Schiphol, the Netherlands.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,92 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$11.8B TTM",
+    "asOf": "2026-05-23",
+    "revenue": "$12.38B",
     "revenueGrowth": 0.23,
-    "pe": "N/A",
+    "pe": 417.88,
     "profitable": true,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$3.10B",
+      "grossMargin": 0.3376,
+      "operatingIncome": "$96.0M",
+      "netIncome": "$37.0M",
+      "eps": 0.04,
+      "revenueYoY": 0.2302
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$3.33B",
+      "grossMargin": 0.352,
+      "operatingIncome": "$207.0M",
+      "netIncome": "-$30.0M",
+      "eps": -0.03
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$3.19B",
+      "grossMargin": 0.3323,
+      "operatingIncome": "$162.0M",
+      "netIncome": "$237.0M",
+      "eps": 0.27
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$2.77B",
+      "grossMargin": 0.2357,
+      "operatingIncome": "-$73.0M",
+      "netIncome": "-$10.0M",
+      "eps": -0.11
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$2.52B",
+      "grossMargin": 0.3341,
+      "operatingIncome": "-$38.0M",
+      "netIncome": "$56.0M",
+      "eps": 0.06
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$11.80B",
+      "grossMargin": 0.3389,
+      "operatingIncome": "$323.0M",
+      "netIncome": "$166.0M",
+      "eps": 0.19,
+      "revenueYoY": -0.1108
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$13.27B",
+      "grossMargin": 0.3934,
+      "operatingIncome": "$1.49B",
+      "netIncome": "$1.56B",
+      "eps": 1.73,
+      "revenueYoY": -0.2325
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$17.29B",
+      "grossMargin": 0.4794,
+      "operatingIncome": "$4.56B",
+      "netIncome": "$4.21B",
+      "eps": 4.66
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 4.0,
@@ -121,8 +198,116 @@
       "unprofitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-22",
+      "headline": "European Stocks Close Higher Friday; German Q1 GDP Increases, Semiconductor Shares Gain",
+      "source": "MT Newswires",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/european-stocks-close-higher-friday-155753252.html",
+      "sentiment": "neutral",
+      "summary": "European stock markets closed higher Friday as the Stoxx Europe 600 rose 0.7%, Germany's DAX 40 clim"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "STMicroelectronics (STM): The Best European Growth Stock to Buy",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stmicroelectronics-stm-best-european-growth-105831820.html",
+      "sentiment": "neutral",
+      "summary": "STMicroelectronics N.V. (NYSE:STM) is one of the 10 Best European Growth Stocks to Buy. On May 15, 2026, Deutsche Bank analyst Robert Sanders raised the firm\u2019s price target on STMicroelectronics N.V. (NYSE:STM) to EUR 42 from EUR 32 while maintaining a Buy rating on the shares. L"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "How The Story On STMicroelectronics (ENXTPA:STMPA) Is Shifting With AI And Analyst Rethinks",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/story-stmicroelectronics-enxtpa-stmpa-shifting-091526501.html",
+      "sentiment": "neutral",
+      "summary": "Analysts have reset their Fair Value price target for STMicroelectronics to \u20ac46.41 from \u20ac27.52, pointing to a meaningfully different view of what the equity could be worth. This shift lines up with recent research that has become more constructive on the stock, citing changing ex"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Global markets rise as Iran war uncertainty keeps oil elevated",
+      "source": "Euronews",
+      "url": "https://www.euronews.com/2026/05/22/global-markets-rise-as-iran-war-uncertainty-keeps-oil-elevated?utm_source=yahoo&utm_campaign=feeds_business_articles_2024&utm_medium=referral",
+      "sentiment": "neutral",
+      "summary": "Markets climbed on Friday as hopes of a breakthrough in US-Iran negotiations steadied investor nerves, but with Hormuz shipping still disrupted and oil above $100, uncertainty has far from lifted.View on euronews"
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Mizuho just rerated these 3 AI winners",
+      "source": "TheStreet",
+      "url": "https://www.thestreet.com/investing/stocks/mizuho-just-rerated-these-3-ai-winners",
+      "sentiment": "neutral",
+      "summary": "Mizuho analyst Vijay Rakesh upgraded his price targets on Micron Technology (MU), STMicroelectronics (STMPA), and Texas Instruments (TXN) this week, arguing that AI data center demand is creating durable tailwinds for both analog chips and memory in ways the market hasn't fully p"
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Jim Cramer on STMicroelectronics: \u201cWe\u2019re Late\u201d",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-stmicroelectronics-131259652.html",
+      "sentiment": "neutral",
+      "summary": "STMicroelectronics N.V. (NYSE:STM) was among the stocks Jim Cramer discussed while explaining how investors can navigate the current market rotation. A caller sought Cramer\u2019s opinion on the stock, and here\u2019s what he had to say in response: We\u2019re late, we\u2019re late, we\u2019re late. 51 t"
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "ON Gains Ground in China EV Market: What Does it Mean for Investors?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gains-ground-china-ev-market-150400451.html",
+      "sentiment": "neutral",
+      "summary": "ON is gaining EV traction in China as its silicon carbide tech expands across new models and next-gen EV platforms."
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "How Big Could the AI Data Center Opportunity Be for Navitas?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/big-could-ai-data-center-162400998.html",
+      "sentiment": "neutral",
+      "summary": "NVTS sees AI data centers as a multibillion-dollar growth driver as demand rises for GaN and SiC chips in next-gen power-hungry racks."
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "Should You Buy, Sell or Hold ADI Stock Before Q2 Earnings?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-adi-stock-152000454.html",
+      "sentiment": "neutral",
+      "summary": "Analog Devices heads into Q2 FY26 earnings results with AI data center growth, robotics demand and optical networking trends driving momentum."
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "STMicroelectronics (STM) Introduces Next-Gen Ultralow-Power Global-Shutter Image Sensors",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/stmicroelectronics-stm-introduces-next-gen-143809832.html",
+      "sentiment": "neutral",
+      "summary": "STMicroelectronics (NYSE:STM) is one of the best performing semiconductor stocks so far in 2026. On April 28, STMicroelectronics introduced its next generation of ultralow-power global-shutter image sensors, the monochrome VD55G4 and the RGB color VD65G4. Part of the ST BrightSen"
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.1239,
+    "insiderPct": 0.0,
+    "shortInterest": 0.0171,
+    "topHolders": [
+      {
+        "name": "Van Eck Associates Corporation",
+        "pct": 0.0128
+      },
+      {
+        "name": "Citadel Advisors Llc",
+        "pct": 0.0076
+      },
+      {
+        "name": "Slate Path Capital, LP",
+        "pct": 0.0067
+      },
+      {
+        "name": "Morgan Stanley",
+        "pct": 0.0059
+      },
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0054
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

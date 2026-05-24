@@ -2,18 +2,18 @@
   "ticker": "ACHR",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Archer Aviation",
-    "exchange": "",
-    "sector": "Aerospace/eVTOL",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Archer Aviation Inc.",
+    "exchange": "NYQ",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "country": "United States",
+    "headquarters": "San Jose, CA",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "eVTOL with defense applications for troop transport, logistics, ISR.",
+    "ceo": "Mr. Adam D. Goldstein",
+    "employees": 1160,
+    "website": "https://www.archer.com",
+    "description": "Archer Aviation Inc., together with its subsidiaries, designs and develops aircraft and related technologies and services for commercial and defense sectors in the United States and internationally. The company offers electric vertical takeoff and landing (eVTOL) aircraft for urban air taxi operations. Archer Aviation Inc. is based in San Jose, California.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,86 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "~$1.6M Q1",
+    "asOf": "2026-05-23",
+    "revenue": "$1.9M",
     "revenueGrowth": null,
-    "pe": "N/A",
+    "pe": -6.71,
     "profitable": false,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$1.6M",
+      "grossMargin": 0.1875,
+      "operatingIncome": "-$254.6M",
+      "netIncome": "-$217.7M",
+      "eps": -0.28
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$300K",
+      "operatingIncome": "-$234.4M",
+      "netIncome": "-$188.9M"
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$0",
+      "operatingIncome": "-$174.8M",
+      "netIncome": "-$129.9M",
+      "eps": -0.2
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$0",
+      "operatingIncome": "-$176.1M",
+      "netIncome": "-$206.0M",
+      "eps": -0.36
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$0",
+      "operatingIncome": "-$144.0M",
+      "netIncome": "-$93.4M",
+      "eps": -0.17
+    },
+    {
+      "period": "2024-Q3",
+      "reportDate": "2024-09-30",
+      "eps": -0.29
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$300K",
+      "operatingIncome": "-$729.3M",
+      "netIncome": "-$618.2M",
+      "eps": -0.99
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$0",
+      "operatingIncome": "-$509.7M",
+      "netIncome": "-$536.8M",
+      "eps": -1.42
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$0",
+      "operatingIncome": "-$444.8M",
+      "netIncome": "-$457.9M",
+      "eps": -1.69
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 3.0,
@@ -121,8 +192,116 @@
       "unprofitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-22",
+      "headline": "Archer\u2019s LA Airport Push Confronts Legal Threats And Investor Uncertainty",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/archer-la-airport-push-confronts-051603101.html",
+      "sentiment": "neutral",
+      "summary": "Archer Aviation and rival Joby Aviation are locked in an escalating legal dispute involving allegations of corporate espionage and undisclosed ties to China. The legal fight is intensifying just as Archer moves to acquire Hawthorne Municipal Airport to anchor its entry into the L"
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "Vertical Aerospace: Pre-Flight Checks Point to a Breakout",
+      "source": "MarketBeat",
+      "url": "https://www.marketbeat.com/originals/vertical-aerospace-pre-flight-checks-point-to-a-breakout/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "sentiment": "neutral",
+      "summary": "Vertical Aerospace is de-risking its regulatory path by advancing battery and hybrid-propulsion technologies, offering an overlooked valuation opportunity."
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "Dogfight over California: The ugly battle between electric air taxi leaders Joby and Archer",
+      "source": "LA Times",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/dogfight-over-california-ugly-battle-100000095.html",
+      "sentiment": "neutral",
+      "summary": "As they compete to make flying cars a reality, air taxi companies Archer and Joby are involved in a complex legal battle that has spanned half a year."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Archer Aviation vs. Joby Aviation: Comparing Early Revenue Generation Trends",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/charts/2026/05/19/archer-aviation-vs-joby-aviation-comparing-early-revenue-generation-trends/",
+      "sentiment": "neutral",
+      "summary": "One eVTOL company has established revenue momentum while the other is still getting there."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Cathie Wood Shifts ARK's Defense Stocks; Contracts, Foreign Sales In Focus",
+      "source": "Investor's Business Daily",
+      "url": "https://www.investors.com/news/cathie-wood-ark-invest-aerospace-defense-holdings-lockheed-martin-northrop-grumman-navy-foreign-military-sales/?src=A00220&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "Cathie Wood's ARK Invest loads up on defense, air taxi stocks. Navy awards contracts to Lockheed, Northrop. U.S. announces foreign military sales."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Wall Street Analysts Think Archer Aviation (ACHR) Is a Good Investment: Is It?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-think-archer-133004968.html",
+      "sentiment": "neutral",
+      "summary": "The average brokerage recommendation (ABR) for Archer Aviation (ACHR) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts make the effectiveness of this highly sought-after metric questionable. So, is it worth buying the stock?"
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "Stock Market Today, May 18: Archer Aviation Extends Losses As Investors Look for Certification Progress",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/05/18/stock-market-today-may-18-archer-aviation-extends-losses-as-investors-look-for-certification-progress/",
+      "sentiment": "neutral",
+      "summary": "Heavy cash burn and high-stakes air taxi certification keep this eVTOL pioneer under scrutiny, today, May 18, 2026."
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "Archer Aviation's $700 Million Cash Burn Is Preventing Its Liftoff",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/18/archer-aviations-700-million-cash-burn-is-prevent/",
+      "sentiment": "neutral",
+      "summary": "This eVTOL company is looking to launch the first commercial air taxi service before the 2028 Olympics."
+    },
+    {
+      "date": "2026-05-16",
+      "headline": "Assessing Archer Aviation\u2019s Valuation As FAA Milestone And Global Expansion Progress Meet Ongoing Cash Burn Concerns",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-archer-aviation-valuation-faa-002324326.html",
+      "sentiment": "neutral",
+      "summary": "Archer Aviation (ACHR) has moved closer to launching urban air taxi services after becoming the first eVTOL company to complete Phase 3 of the FAA type certification process, a key regulatory milestone for investors to track. See our latest analysis for Archer Aviation. Despite p"
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "Archer vs. Joby: The eVTOL Race Just Got Real -- Here's Which Stock Wins",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/15/archer-vs-joby-the-evtol-race-just-got-real-heres/",
+      "sentiment": "neutral",
+      "summary": "Joby and Archer are neck and neck. But one looks like a clear winner."
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.4978,
+    "insiderPct": 0.1493,
+    "shortInterest": 0.1478,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0775
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0575
+      },
+      {
+        "name": "ARK Investment Management, LLC",
+        "pct": 0.0493
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0323
+      },
+      {
+        "name": "Vanguard Portfolio Management LLC",
+        "pct": 0.0304
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

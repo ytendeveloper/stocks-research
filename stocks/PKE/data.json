@@ -2,18 +2,18 @@
   "ticker": "PKE",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Park Aerospace",
-    "exchange": "",
-    "sector": "Materials",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Park Aerospace Corp.",
+    "exchange": "NYQ",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "country": "United States",
+    "headquarters": "Westbury, NY",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Advanced composites for aerospace structures applicable to satellites/spacecraft.",
+    "ceo": "Mr. Brian E. Shore",
+    "employees": 132,
+    "website": "https://www.parkaerospace.com",
+    "description": "Park Aerospace Corp., an aerospace company, develops and manufactures solution and hot-melt advanced composite materials used to produce composite structures for the aerospace market in North America, Asia, and Europe. It offers advanced composite materials, including film adhesives and lightning strike protection materials used to produce primary and secondary structures for jet engines, large and regional transport aircraft, military aircraft, unmanned aerial vehicles, business jets, general aviation aircraft, and rotary wing aircraft. The company also provides specialty ablative materials for rocket motors and nozzles; and specially designed materials for radome applications. In addition, it designs and fabricates composite parts, structures and assemblies, and low volume tooling for the aerospace industry. The company was formerly known as Park Electrochemical Corp. and changed its name to Park Aerospace Corp. in July 2019. Park Aerospace Corp. was incorporated in 1954 and is based in Westbury, New York.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,96 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$66M TTM",
-    "revenueGrowth": null,
-    "pe": "20",
+    "asOf": "2026-05-23",
+    "revenue": "$66.1M",
+    "revenueGrowth": 0.203,
+    "pe": 80.47,
     "profitable": true,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-11-30",
+      "revenue": "$17.3M",
+      "grossMargin": 0.3406,
+      "operatingIncome": "$3.6M",
+      "netIncome": "$3.0M",
+      "eps": 0.15,
+      "revenueYoY": 0.2014
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-08-31",
+      "revenue": "$16.4M",
+      "grossMargin": 0.3123,
+      "operatingIncome": "$2.8M",
+      "netIncome": "$2.4M",
+      "eps": 0.12
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-05-31",
+      "revenue": "$15.4M",
+      "grossMargin": 0.3064,
+      "operatingIncome": "$2.4M",
+      "netIncome": "$2.1M",
+      "eps": 0.1
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-02-28",
+      "revenue": "$16.9M",
+      "grossMargin": 0.2927,
+      "operatingIncome": "$2.9M",
+      "netIncome": "$1.2M",
+      "eps": 0.06
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-11-30",
+      "revenue": "$14.4M",
+      "grossMargin": 0.2657,
+      "operatingIncome": "$1.8M",
+      "netIncome": "$1.6M",
+      "eps": 0.08
+    },
+    {
+      "period": "2024-Q3",
+      "reportDate": "2024-08-31"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-02-28",
+      "revenue": "$62.0M",
+      "grossMargin": 0.2844,
+      "operatingIncome": "$9.4M",
+      "netIncome": "$5.9M",
+      "eps": 0.29,
+      "revenueYoY": 0.1071
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-02-29",
+      "revenue": "$56.0M",
+      "grossMargin": 0.2952,
+      "operatingIncome": "$8.4M",
+      "netIncome": "$7.5M",
+      "eps": 0.37,
+      "revenueYoY": 0.0351
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-02-28",
+      "revenue": "$54.1M",
+      "grossMargin": 0.3047,
+      "operatingIncome": "$10.0M",
+      "netIncome": "$10.7M",
+      "eps": 0.52
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 2.0,
@@ -120,8 +201,116 @@
       "profitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-11",
+      "headline": "US Market's 3 Undiscovered Gems with Promising Potential",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-markets-3-undiscovered-gems-173307456.html",
+      "sentiment": "neutral",
+      "summary": "Over the last 7 days, the United States market has risen by 2.2%, contributing to a notable 31% increase over the past year, with earnings expected to grow by 17% annually in the coming years. In this thriving environment, identifying stocks with strong fundamentals and growth po"
+    },
+    {
+      "date": "2026-05-06",
+      "headline": "Roubaix Capital Opens $8.5 Million York Space Systems Position, Immediately Making YSS its Largest Holding",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/filings/2026/05/06/roubaix-capital-opens-usd9-3-million-york-space-systems-position-immediately-making-yss-its-largest-holding/",
+      "sentiment": "neutral",
+      "summary": "York Space Systems provides integrated spacecraft and mission solutions for government, national security, and commercial sectors."
+    },
+    {
+      "date": "2026-05-01",
+      "headline": "Is Paymentus Stock a Buy After Palisades Investment Partners Increased Its Stake By $6 Million?",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/filings/2026/05/01/is-paymentus-stock-a-buy-after-palisades-investment-partners-increased-its-stake-by-usd6-million/",
+      "sentiment": "neutral",
+      "summary": "Paymentus delivers cloud-based bill payment technology to major enterprises across regulated and service-intensive industries."
+    },
+    {
+      "date": "2026-05-01",
+      "headline": "Is Amprius Technologies Stock a Buy After Palisades Investment Partners Initiated a Position Worth $4.8 Million?",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/filings/2026/05/01/is-amprius-technologies-stock-a-buy-after-palisades-investment-partners-initiated-a-position-worth-usd4-8-million/",
+      "sentiment": "neutral",
+      "summary": "Amprius Technologies manufactures silicon nanowire lithium-ion batteries for aerospace, defense, and electric mobility markets."
+    },
+    {
+      "date": "2026-05-01",
+      "headline": "Palisades Investment Partners Initiated a Position in SkyWater Technology Stock. What Does This Mean for Investors?",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/filings/2026/05/01/palisades-investment-partners-initiated-a-position-in-skywater-technology-stock-what-does-this-mean-for-investors/",
+      "sentiment": "neutral",
+      "summary": "SkyWater Technology delivers custom semiconductor solutions for sectors including aerospace, automotive, and industrial IoT."
+    },
+    {
+      "date": "2026-04-16",
+      "headline": "The Zacks Analyst Blog Highlights Netflix, PepsiCo, Novo Nordisk, Hawthorn Bancshares and Park Aerospace",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-netflix-080200440.html",
+      "sentiment": "neutral",
+      "summary": "Netflix faces near-term pressure from competition and debt, but subscriber growth, strong engagement and diversified content strategy support long-term expansion."
+    },
+    {
+      "date": "2026-04-15",
+      "headline": "Top Research Reports for Netflix, PepsiCo & Novo Nordisk",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/top-research-reports-netflix-pepsico-213200515.html",
+      "sentiment": "neutral",
+      "summary": "Today's Research Daily features new research reports on 16 major stocks, including Netflix, Inc. (NFLX), PepsiCo, Inc. (PEP) and Novo Nordisk A/S (NVO), as well as two micro-cap stocks, Hawthorn Bancshares, Inc. (HWBK) and Park Aerospace Corp. (PKE)."
+    },
+    {
+      "date": "2026-04-07",
+      "headline": "US Undiscovered Gems Featuring 3 Promising Small Caps",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-undiscovered-gems-featuring-3-113319195.html",
+      "sentiment": "neutral",
+      "summary": "The United States market has experienced a robust performance, climbing 4.4% over the last week and 32% in the past year, with earnings anticipated to grow by 16% annually in the coming years. In this dynamic environment, identifying promising small-cap stocks can be key for inve"
+    },
+    {
+      "date": "2026-02-23",
+      "headline": "SIFCO Stock Surges 109.7% in Three Months: What's Behind the Rally?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/news/sifco-stock-surges-109-7-155800126.html",
+      "sentiment": "neutral",
+      "summary": "SIF is riding a sharp rally as a return to profitability, stronger margins and rising aerospace demand lift investor sentiment."
+    },
+    {
+      "date": "2026-02-02",
+      "headline": "Park Aerospace Rises 35% in 6 Months: Should You Buy the Stock?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/news/park-aerospace-rises-35-6-171000398.html",
+      "sentiment": "neutral",
+      "summary": "PKE thrives on defense demand, strong margins and a 40-year dividend streak, backed by niche aerospace tech, long-term contracts and rising profitability."
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.9277,
+    "insiderPct": 0.0962,
+    "shortInterest": 0.0604,
+    "topHolders": [
+      {
+        "name": "Brandes Investment Partners L.P.",
+        "pct": 0.1396
+      },
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0662
+      },
+      {
+        "name": "Renaissance Technologies, LLC",
+        "pct": 0.0431
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0411
+      },
+      {
+        "name": "Gamco Investors, Inc ET AL",
+        "pct": 0.0346
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

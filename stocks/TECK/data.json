@@ -2,18 +2,18 @@
   "ticker": "TECK",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Teck Resources",
-    "exchange": "",
-    "sector": "Materials",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Teck Resources Limited",
+    "exchange": "NYQ",
+    "sector": "Basic Materials",
+    "industry": "Other Industrial Metals & Mining",
+    "country": "Canada",
+    "headquarters": "Vancouver, BC",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Critical minerals (germanium for IR optics, indium for solar cells) used in satellites.",
+    "ceo": "Mr. Jonathan H. Price M.B.A.",
+    "employees": 7429,
+    "website": "https://www.teck.com",
+    "description": "Teck Resources Limited engages in research, exploration, development, processing, smelting, refining, and reclamation of mineral properties in Asia, the Americas, and Europe. It operates through Copper and Zinc segments. The company offers copper, zinc, and lead concentrates, as well as refined zinc, lead, and silver. It also produces lead, precious metals, molybdenum, fertilizers, and other metals; and sells refined metals or concentrates. In addition, it explores for gold. The company was formerly known as Teck Cominco Limited and changed its name to Teck Resources Limited in April 2009. Teck Resources Limited was founded in 1913 and is based in Vancouver, Canada.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,100 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$7.69B TTM",
-    "revenueGrowth": 0.72,
-    "pe": "14",
+    "asOf": "2026-05-23",
+    "revenue": "$12.41B",
+    "revenueGrowth": 0.722,
+    "pe": 22.87,
     "profitable": true,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$3.94B",
+      "grossMargin": 0.4349,
+      "operatingIncome": "$1.48B",
+      "netIncome": "$819.0M",
+      "eps": 1.67,
+      "revenueYoY": 0.7205
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$3.06B",
+      "grossMargin": 0.3237,
+      "operatingIncome": "$349.0M",
+      "netIncome": "$544.0M",
+      "eps": 1.11
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$3.38B",
+      "grossMargin": 0.195,
+      "operatingIncome": "$496.0M",
+      "netIncome": "$281.0M",
+      "eps": 0.58
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$2.02B",
+      "grossMargin": 0.2328,
+      "operatingIncome": "$262.0M",
+      "netIncome": "$206.0M",
+      "eps": 0.42
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$2.29B",
+      "grossMargin": 0.2341,
+      "operatingIncome": "$325.0M",
+      "netIncome": "$370.0M",
+      "eps": 0.74
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31"
+    },
+    {
+      "period": "2024-Q3",
+      "reportDate": "2024-09-30"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$10.76B",
+      "grossMargin": 0.247,
+      "operatingIncome": "$1.54B",
+      "netIncome": "$1.40B",
+      "eps": 2.84,
+      "revenueYoY": 0.1876
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$9.06B",
+      "grossMargin": 0.1773,
+      "operatingIncome": "$778.0M",
+      "netIncome": "$406.0M",
+      "eps": 0.79,
+      "revenueYoY": 0.3981
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$6.48B",
+      "grossMargin": 0.1717,
+      "operatingIncome": "$36.0M",
+      "netIncome": "$2.41B",
+      "eps": 4.65
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 2.0,
@@ -119,8 +204,115 @@
       "profitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-23",
+      "headline": "Deutsche Bank Raises its Price Target on Teck Resources (TECK)",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-raises-price-target-023108089.html",
+      "sentiment": "neutral",
+      "summary": "Teck Resources Limited (NYSE:TECK) is one of the 10 Best Performing Canadian Stocks So Far in 2026. On May 15, 2026, Deutsche Bank raised the firm\u2019s price target on Teck Resources Limited (NYSE:TECK) to $62 from $60 previously and maintained a Buy rating on the shares. JPMorgan a"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Gina Rinehart Invests $97 Million in US Defense Stocks",
+      "source": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gina-rinehart-invests-97-million-132522094.html",
+      "sentiment": "neutral",
+      "summary": "Australia's richest person expanded Hancock Prospecting's defense holdings while increasing exposure to global mining companies."
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "Star Copper Engages former Teck Resources Exploration Manager Klaus Heppe as Strategic Advisor",
+      "source": "MT Newswires",
+      "url": "https://finance.yahoo.com/sectors/energy/articles/star-copper-engages-former-teck-111205762.html",
+      "sentiment": "neutral",
+      "summary": "Star Copper (STCU.CN) has entered into a consulting services agreement dated effective as of May 15,"
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "A Look At Teck Resources (TSX:TECK.B) Valuation After Germanium Recovery Agreement With Titan Mining",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/look-teck-resources-tsx-teck-091428381.html",
+      "sentiment": "neutral",
+      "summary": "Titan Mining\u2019s cooperation agreement with Teck Resources (TSX:TECK.B) to assess germanium recovery from existing Empire State Mines waste streams has drawn fresh attention and is tying the stock to critical minerals for defense and semiconductor supply chains. See our latest anal"
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "Anglo American to Sell Australian Steelmaking Coal Assets for Up to $3.875 Billion",
+      "source": "The Wall Street Journal",
+      "url": "https://www.wsj.com/business/deals/anglo-american-to-sell-steelmaking-coal-assets-to-dhilmar-for-up-to-3-875-billion-064418cc?siteid=yhoof2&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "The sale will complete Anglo American\u2019s exit from steelmaking coal and is part of a drive to simplify its portfolio ahead of a merger with Teck Resources."
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "Anglo American to sell Australian steelmaking coal mines for \u00a32.9bn",
+      "source": "PA Media: Money",
+      "url": "https://uk.finance.yahoo.com/news/anglo-american-sell-australian-steelmaking-070708734.html",
+      "sentiment": "neutral",
+      "summary": "The FTSE 100 commodities giant said it will sell the operations to fellow UK-based miner Dhilmar."
+    },
+    {
+      "date": "2026-05-10",
+      "headline": "Canada open to deeper U.S.-Mexico trade ties in strategic sectors",
+      "source": "Investing.com",
+      "url": "https://finance.yahoo.com/economy/policy/articles/canada-open-deeper-u-mexico-000737982.html",
+      "sentiment": "neutral",
+      "summary": "Investing.com -- Prime Minister Mark Carney indicated on Saturday that Canada remains open to significantly deeper trade integration with the United States and Mexico within specific strategic industries."
+    },
+    {
+      "date": "2026-05-07",
+      "headline": "Freeport-McMoRan Earnings: The Good, the Bad, and the Grasberg",
+      "source": "Trefis",
+      "url": "https://www.trefis.com/articles/598617/freeport-mcmoran-earnings-the-good-the-bad-and-the-grasberg/2026-05-07",
+      "sentiment": "neutral",
+      "summary": "There is one metal quietly sitting at the center of the modern economy. It runs through electric vehicles, powers AI data centers, and connects massive renewable energy projects around the world. That metal is copper, and few companies produce more of it than Freeport-McMoRan (NY"
+    },
+    {
+      "date": "2026-05-06",
+      "headline": "Is It Too Late To Consider Teck Resources (TSX:TECK.B) After 64% One-Year Rally?",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/too-consider-teck-resources-tsx-051738762.html",
+      "sentiment": "neutral",
+      "summary": "Wondering if Teck Resources at around $78.75 is still offering value, or if most of the easy gains are already behind it? This article focuses squarely on what the current price might imply. The stock has been relatively steady over the last 7 days with a 0.4% decline. Its 7.1% r"
+    },
+    {
+      "date": "2026-05-02",
+      "headline": "What the migration of primary listings says about Canada's capital markets",
+      "source": "Financial Post",
+      "url": "https://financialpost.com/investing/migration-primary-listings-canada-capital-markets",
+      "sentiment": "neutral",
+      "summary": "J. Ari Pandes: Storied Canadian companies with deep national roots are choosing to shun our public markets for their primary listings"
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.759,
+    "insiderPct": 0.028,
+    "topHolders": [
+      {
+        "name": "Principal Financial Group, Inc.",
+        "pct": 0.0457
+      },
+      {
+        "name": "Royal Bank of Canada",
+        "pct": 0.0313
+      },
+      {
+        "name": "UBS Group AG",
+        "pct": 0.0307
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0275
+      },
+      {
+        "name": "Davis Selected Advisers",
+        "pct": 0.022
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

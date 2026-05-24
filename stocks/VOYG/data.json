@@ -2,18 +2,18 @@
   "ticker": "VOYG",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Voyager Technologies",
-    "exchange": "",
-    "sector": "Aerospace",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Voyager Technologies, Inc.",
+    "exchange": "NYQ",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "country": "United States",
+    "headquarters": "Denver, CO",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Building commercial successor to ISS. Most ambitious space infrastructure play.",
+    "ceo": "Mr. Dylan E. Taylor MBA",
+    "employees": 800,
+    "website": "https://voyagertechnologies.com",
+    "description": "Voyager Technologies, Inc. operates as a defense technology and space solutions company in the United States, Europe, the Middle East, and internationally. It operates through three segments: Defense & National Security, Space Solutions, and Starlab Space Stations. The Defense & National Security segment provides defense systems, including solid propulsion subsystems; signal intelligence systems; space-qualified radiation-hardened laser and radio frequency (RF) communications systems and advanced electro-optical and digital systems comprising transceivers, mission-data transmitters, and command and data handling systems; guidance, navigation, and control systems that include sun sensors, star trackers, and inertial measurement units; artificial intelligence-powered edge computing products; and space maneuver. Its Space Solutions segment offers advanced space technology systems, such as in-space propulsion systems with applications for orbital servicing, manufacturing, and deep space exploration; space infrastructure, including the Bishop Airlock, a module attached to the ISS that enables movement of equipment, supplies, and payloads between the ISS and open space; and space science and mission management services, such as the Space Acceleration Measurement System (SAMS) on the ISS. The Starlab Space Stations segment operates a commercial space station and provides continued permanent human presence in space. It serves defense, national security, and space industries. The company was formerly known as Voyager Space Holdings, Inc. and changed its name to Voyager Technologies, Inc. in February 2025. Voyager Technologies, Inc. was incorporated in 2019 and is headquartered in Denver, Colorado.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,92 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$167M TTM",
-    "revenueGrowth": -0.53,
-    "pe": "N/A",
+    "asOf": "2026-05-23",
+    "revenue": "$167.2M",
+    "revenueGrowth": 0.021,
+    "pe": -36.19,
     "profitable": false,
     "backlog": "$275M"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$35.2M",
+      "grossMargin": -0.0439,
+      "operatingIncome": "-$44.6M",
+      "netIncome": "-$44.0M",
+      "eps": -0.75,
+      "revenueYoY": 0.0203
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$46.7M",
+      "grossMargin": 0.2141,
+      "operatingIncome": "-$34.0M",
+      "netIncome": "-$30.2M",
+      "eps": -0.52
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$39.6M",
+      "grossMargin": 0.1538,
+      "operatingIncome": "-$24.0M",
+      "netIncome": "-$16.3M",
+      "eps": -0.28
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$45.7M",
+      "grossMargin": 0.1798,
+      "operatingIncome": "-$24.1M",
+      "netIncome": "-$31.4M",
+      "eps": -1.23
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$34.5M",
+      "grossMargin": 0.1619,
+      "operatingIncome": "-$26.3M",
+      "netIncome": "-$26.9M",
+      "eps": -0.58
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$166.4M",
+      "grossMargin": 0.1795,
+      "operatingIncome": "-$108.5M",
+      "netIncome": "-$104.8M",
+      "eps": -2.89,
+      "revenueYoY": 0.154
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$144.2M",
+      "grossMargin": 0.2422,
+      "operatingIncome": "-$44.8M",
+      "netIncome": "-$62.1M",
+      "eps": -1.48,
+      "revenueYoY": 0.0595
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$136.1M",
+      "grossMargin": 0.2042,
+      "operatingIncome": "-$14.2M",
+      "netIncome": "-$25.4M",
+      "eps": -0.77
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 3.0,
@@ -120,8 +197,116 @@
       "unprofitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-20",
+      "headline": "SpaceX Delays Starship Launch. IPO Prospectus Due This Week.",
+      "source": "Investor's Business Daily",
+      "url": "https://www.investors.com/news/spacex-starship-launch-v3-super-heavy-ipo-prospectus-elon-musk-space-stocks/?src=A00220&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "Elon Musk's SpaceX this week will launch its next Starship flight, release the prospectus for its $1.75 trillion IPO."
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "3 Space Infrastructure Stocks Gaining Momentum Ahead of the SpaceX IPO",
+      "source": "MarketBeat",
+      "url": "https://www.marketbeat.com/stock-ideas/3-space-infrastructure-stocks-gaining-momentum-ahead-of-the-spacex-ipo/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "sentiment": "neutral",
+      "summary": "As SpaceX eyes a potential June IPO, capital is flowing into space infrastructure stocks like LUNR, RDW, and VOYG, each posting record backlogs in Q1 2026."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Voyager Technologies (VOYG) Is Up 24.5% After New ISS Microgravity And Space-Cloud Partnerships - Has The Bull Case Changed?",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/voyager-technologies-voyg-24-5-151126657.html",
+      "sentiment": "neutral",
+      "summary": "In recent weeks, Red Hat, Inc. and Exobiosphere have each announced new collaborations with Voyager Technologies, including deploying Red Hat Enterprise Linux 10.1 on Voyager\u2019s LEOcloud micro datacenter and signing a mission management contract for Exobiosphere\u2019s Orbital High-Thr"
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Rocket Lab Shares Jump as SpaceX IPO Buzz Lifts Space Sector",
+      "source": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-shares-jump-spacex-115026355.html",
+      "sentiment": "neutral",
+      "summary": "Rocket Lab Surges as Musk Revives SpaceX Listing Plans"
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Voyager Technologies Links Space Research And Cloud Services On The ISS",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/voyager-technologies-links-space-research-110856660.html",
+      "sentiment": "neutral",
+      "summary": "Voyager Technologies (NYSE:VOYG) secured a mission management contract with Exobiosphere to support commercial biological research on the International Space Station. The company partnered with Red Hat to deploy a containerized, quantum secure Red Hat Enterprise Linux and UBI pla"
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Billionaire space founder says he can tell if you\u2019ll stay stuck in the middle class forever with a simple kids marshmallow test\u2014and even your car can give it away",
+      "source": "Fortune",
+      "url": "https://finance.yahoo.com/economy/articles/billionaire-space-founder-says-simple-070000356.html",
+      "sentiment": "neutral",
+      "summary": "Billionaire says leasing a car is the biggest red flag you'll stay stuck in the middle class\u2014and Americans' $1.67 trillion auto loan bill proves his point."
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "Boeing Eases After China Order, Deliveries Fall Short. Space Stocks Rally.",
+      "source": "Investor's Business Daily",
+      "url": "https://www.investors.com/news/boeing-stock-china-order-deliveries-ba-defense-aerospace-stocks-buy-point-rklb-lunr-rdw-hwm-gd/?src=A00220&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "Aerospace, defense stocks trade near buy point in mixed week for the sector. Boeing eases from entry on China orders, delivery report."
+    },
+    {
+      "date": "2026-05-13",
+      "headline": "Space Stocks Jump As SpaceX, Google Explore Orbital Data Center Deal",
+      "source": "Investor's Business Daily",
+      "url": "https://www.investors.com/news/spacex-google-orbital-data-centers-partnership-rocket-launch-space-stocks-intuitive-machines-lunr/?src=A00220&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "Space stocks advance on reports SpaceX, Google are in discussions for an orbital data center launch partnership. Intuitive Machines results are due."
+    },
+    {
+      "date": "2026-05-13",
+      "headline": "I'd Buy More of These 2 Space Stocks Before the Market Figures Out What It's Missing",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/13/buy-more-of-these-2-space-stocks-before-the-market/",
+      "sentiment": "neutral",
+      "summary": "Space could be a $1.8 trillion opportunity, and these two companies are positioning themselves to grab a big piece of the action."
+    },
+    {
+      "date": "2026-05-13",
+      "headline": "Anduril Climbs To $61 Billion Valuation After Massive Thrive, a16z-Backed Round",
+      "source": "Benzinga",
+      "url": "https://finance.yahoo.com/news/anduril-climbs-61-billion-valuation-163051045.html",
+      "sentiment": "neutral",
+      "summary": "Anduril announced its Series H Funding round has raised $5 billion, putting the defense technology company's valuation at $61 billion. The funding round was led by Josh Kushner's Thrive Capital and Andreessen Horowitz. \"This financing gives us the ability to continue investing ag"
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.6667,
+    "insiderPct": 0.0498,
+    "shortInterest": 0.1604,
+    "topHolders": [
+      {
+        "name": "Senvest Management LLC",
+        "pct": 0.0669
+      },
+      {
+        "name": "Alyeska Investment Group, L.p.",
+        "pct": 0.0562
+      },
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0507
+      },
+      {
+        "name": "Wellington Management Group, LLP",
+        "pct": 0.031
+      },
+      {
+        "name": "Frontier Capital Management Company LLC",
+        "pct": 0.0229
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

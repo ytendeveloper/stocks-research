@@ -2,18 +2,18 @@
   "ticker": "YSS",
   "schemaVersion": "1.0",
   "static": {
-    "name": "York Space Systems",
-    "exchange": "",
-    "sector": "Aerospace",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "York Space Systems, Inc.",
+    "exchange": "NYQ",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "country": "United States",
+    "headquarters": "Greenwood Village, CO",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Satellite bus manufacturer building one-stop-shop for complete satellite solutions.",
+    "ceo": "Mr. Dirk  Wallinger",
+    "employees": 710,
+    "website": "https://www.yorkspacesystems.com",
+    "description": "York Space Systems, Inc. operates as a space and defense prime providing a comprehensive suite of mission-critical solutions for national security, government and commercial customers in the United States. It provides space and defense primes with proprietary hardware and software capabilities designed to address customers' requirements across the elements of the space ecosystem throughout the mission lifecycle. The company also engages in the design, production, integration, and operation of spacecraft to manage spacecraft and constellations. It offers S-CLASS, LX-CLASS, and M-CLASS spacecraft, which are satellite platforms to a range of space market needs. In addition, the company provides software that enables versatile integration of a variety of payloads for customers and supply chain commonalities across platforms, as well as software-enabled services. The company was formerly known as Yellowstone Midco Holdings II, LLC and changed its name to York Space Systems, Inc. in January 2026. York Space Systems, Inc. was founded in 2012 and is based in Greenwood Village, Colorado.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,80 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$460M TTM",
-    "revenueGrowth": 0.09,
-    "pe": "N/A",
+    "asOf": "2026-05-23",
+    "revenue": "$396.3M",
+    "revenueGrowth": 0.095,
+    "pe": 54.39,
     "profitable": false,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$116.3M",
+      "grossMargin": 0.1904,
+      "operatingIncome": "-$104.5M",
+      "netIncome": "-$114.8M",
+      "eps": -1.51
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$105.3M",
+      "grossMargin": 0.2,
+      "operatingIncome": "-$5.0M",
+      "netIncome": "-$28.5M"
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$106.3M",
+      "grossMargin": 0.2315,
+      "operatingIncome": "-$6.6M",
+      "netIncome": "-$11.7M",
+      "eps": -0.12
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31",
+      "revenue": "$76.6M",
+      "grossMargin": 0.2044,
+      "operatingIncome": "-$16.8M",
+      "netIncome": "-$25.3M"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$386.2M",
+      "grossMargin": 0.1954,
+      "operatingIncome": "-$58.6M",
+      "netIncome": "-$84.5M",
+      "eps": -0.68,
+      "revenueYoY": 0.5235
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$253.5M",
+      "grossMargin": 0.1279,
+      "operatingIncome": "-$91.8M",
+      "netIncome": "-$98.9M",
+      "eps": -0.92,
+      "revenueYoY": 0.0647
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$238.1M",
+      "grossMargin": 0.2306,
+      "operatingIncome": "-$42.9M",
+      "netIncome": "-$29.7M",
+      "eps": -0.28
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 2.0,
@@ -119,8 +184,116 @@
       "unprofitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-23",
+      "headline": "3 Space Companies Recently Went Public -- This Is How I'd Rank Them",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/23/3-space-companies-recently-went-public-this-is-how/",
+      "sentiment": "neutral",
+      "summary": "Of the three recent space IPOs, MDA Space sits at the top of the list."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Brian's Big Idea: More To Space Than SpaceX",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/brians-big-idea-more-space-183500166.html",
+      "sentiment": "neutral",
+      "summary": "A look at space stocks and an interview with StarFighters Space CEO."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "May 2026's Top Insider-Owned Growth Companies",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/may-2026s-top-insider-owned-173603008.html",
+      "sentiment": "neutral",
+      "summary": "In the last week, the market has been flat, but over the past 12 months, it has risen by an impressive 27%, with earnings expected to grow by 17% per annum in the coming years. In this environment, growth companies with high insider ownership can be particularly appealing as they"
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Assessing York Space Systems (YSS) Valuation After Recent Share Price Weakness",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-york-space-systems-yss-061102377.html",
+      "sentiment": "neutral",
+      "summary": "Event context and recent stock move York Space Systems (YSS) has been attracting attention after recent trading left the stock around $25.85, with the price down about 33% over the past month and roughly 9% over the past 3 months. See our latest analysis for York Space Systems. T"
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "York Space Systems Balances Acquisition Push With Mounting Market Scrutiny",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/york-space-systems-balances-acquisition-231154945.html",
+      "sentiment": "neutral",
+      "summary": "York Space Systems (NYSE:YSS) has announced definitive agreements to acquire ALL.SPACE and Solestial, expanding its satellite communications and solar technology footprint. The company is also the subject of short-seller allegations focusing on customer concentration and contract"
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "York Space (YSS) Q1 2026 Earnings Transcript",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/05/19/york-space-yss-q1-2026-earnings-transcript/",
+      "sentiment": "neutral",
+      "summary": "With me on the line are Dirk Wallinger, our CEO, and Kevin Messerle, our CFO.  ALL.SPACE brings an established and highly credible platform with a track record of execution across critical defense programs and a strong base of existing customers."
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "York Space Systems Shares Rise on ALL.SPACE Acquisition Agreement (YSS)",
+      "source": "InvestorsHub",
+      "url": "https://investorshub.advfn.com/market-news/article/28587/york-space-systems-shares-rise-on-all-space-acquisition-agreement-yss",
+      "sentiment": "neutral",
+      "summary": "Stock Moves Higher Following Strategic Deal AnnouncementShares of York Space Systems (NYSE:YSS) climbed 8. 1% in premarket trading on Monday after the company announced a definitive agreement to acquire ALL."
+    },
+    {
+      "date": "2026-05-17",
+      "headline": "Has York Space Systems (YSS) Share Slide Opened A Valuation Opportunity?",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/york-space-systems-yss-share-171200692.html",
+      "sentiment": "neutral",
+      "summary": "If you are wondering whether York Space Systems at around US$24.02 is starting to look like a potential bargain or still carries plenty of risk, the recent share price path gives you some important clues. The stock has fallen about 31% over the past week and is down roughly 32.8%"
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "York Space Systems Q1 Earnings Call Highlights",
+      "source": "MarketBeat",
+      "url": "https://www.marketbeat.com/instant-alerts/york-space-systems-q1-earnings-call-highlights-2026-05-15/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "sentiment": "neutral",
+      "summary": "York Space Systems (NYSE:YSS) reported first-quarter 2026 revenue ahead of internal expectations and reaffirmed its full-year outlook, while management highlighted new commercial and government awards, acquisition activity and efforts to accelerate satellite delivery timelines fo"
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "Top Midday Decliners",
+      "source": "MT Newswires",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-decliners-182029289.html",
+      "sentiment": "neutral",
+      "summary": "LanzaTech Global (LNZA) signed a securities purchase agreement with certain institutional investors"
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.4832,
+    "insiderPct": 0.099,
+    "shortInterest": 0.093,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.1466
+      },
+      {
+        "name": "Ae Industrial Partners, LP",
+        "pct": 0.0871
+      },
+      {
+        "name": "Allianz Asset Management GmbH",
+        "pct": 0.021
+      },
+      {
+        "name": "Bank Of New York Mellon Corporation",
+        "pct": 0.013
+      },
+      {
+        "name": "ClearBridge Investments, LLC",
+        "pct": 0.0104
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

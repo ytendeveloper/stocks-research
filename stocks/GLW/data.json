@@ -2,18 +2,18 @@
   "ticker": "GLW",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Corning",
-    "exchange": "",
-    "sector": "Materials/Tech",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Corning Incorporated",
+    "exchange": "NYQ",
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "country": "United States",
+    "headquarters": "Corning, NY",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Specialty glass and optical fabrication for satellite optical systems and ground stations.",
+    "ceo": "Mr. Wendell P. Weeks",
+    "employees": 67200,
+    "website": "https://www.corning.com",
+    "description": "Corning Incorporated operates in optical communications, display, specialty materials, automotive, and life sciences businesses in the United States, Canada, Mexico, Japan, Taiwan, China, South Korea, Germany, and internationally. The company provides optical fibers and cables; and hardware and equipment products, such as cable assemblies, fiber optic hardware and connectors, optical components and couplers, closures, network interface devices, and other accessories for the telecommunications industry, businesses, governments, and individuals. It also offers glass substrates for flat panel displays, including liquid crystal displays and organic light-emitting diodes that are used in televisions, notebook computers, desktop monitors, tablets, and handheld devices. In addition, it manufactures products that offer material formulations for glass, glass ceramics, crystals, precision metrology instruments, and software, as well as glass wafers and substrates, tinted sunglasses, and radiation shielding products for markets, such as mobile consumer electronics, semiconductor equipment optics and consumables, aerospace and defense optics, radiation shielding products, sunglasses, and telecommunications components. Further, the company provides ceramic substrates and filter products for emissions control in mobile, gasoline, and diesel applications, as well as technical glass and optic products and solutions for the interior and exterior of vehicles. Additionally, it offers laboratory products, including plastic vessels, liquid handling plastics, specialty surfaces, cell culture media, and serum, as well as general labware, and glassware and equipment under the Corning, Falcon, PYREX, and Axygen brands. It also offers polysilicon products and pharmaceutical glass tubing and vials. The company was formerly known as Corning Glass Works and changed its name to Corning Incorporated in April 1989. Corning Incorporated was founded in 1851 and is headquartered in Corning, New York.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,92 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$16.32B TTM",
-    "revenueGrowth": 0.19,
-    "pe": "30",
+    "asOf": "2026-05-23",
+    "revenue": "$16.32B",
+    "revenueGrowth": 0.2,
+    "pe": 93.29,
     "profitable": true,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$4.14B",
+      "grossMargin": 0.3687,
+      "operatingIncome": "$639.0M",
+      "netIncome": "$371.0M",
+      "eps": 0.43,
+      "revenueYoY": 0.2
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$4.21B",
+      "grossMargin": 0.3547,
+      "operatingIncome": "$672.0M",
+      "netIncome": "$540.0M",
+      "eps": 0.63
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$4.10B",
+      "grossMargin": 0.3707,
+      "operatingIncome": "$589.0M",
+      "netIncome": "$430.0M",
+      "eps": 0.5
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$3.86B",
+      "grossMargin": 0.3604,
+      "operatingIncome": "$573.0M",
+      "netIncome": "$469.0M",
+      "eps": 0.55
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$3.45B",
+      "grossMargin": 0.3517,
+      "operatingIncome": "$445.0M",
+      "netIncome": "$157.0M",
+      "eps": 0.18
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$15.63B",
+      "grossMargin": 0.3597,
+      "operatingIncome": "$2.28B",
+      "netIncome": "$1.60B",
+      "eps": 1.87,
+      "revenueYoY": 0.1913
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$13.12B",
+      "grossMargin": 0.326,
+      "operatingIncome": "$1.14B",
+      "netIncome": "$506.0M",
+      "eps": 0.59,
+      "revenueYoY": 0.0421
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$12.59B",
+      "grossMargin": 0.3123,
+      "operatingIncome": "$890.0M",
+      "netIncome": "$581.0M",
+      "eps": 0.69
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 2.0,
@@ -119,8 +196,116 @@
       "profitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-24",
+      "headline": "Dow Jones Futures: Trump Says Iran Deal Near With Hormuz 'Opened'; Tesla, AI Stocks Near Buy Points",
+      "source": "Investor's Business Daily",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-trump-iran-deal-hormuz-tesla-stocks/?src=A00220&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "President Donald Trump said Saturday that the U.S. and Iran are close to an interim deal that will open the Strait of Hormuz."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Wall Street Was Sleeping on the \"Bits-to-Atoms\" Trade. This Growth Stock Could Profit.",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/23/wall-street-was-sleeping-on-the-bits-to-atoms-trad/",
+      "sentiment": "neutral",
+      "summary": "This company is among those at the center of a massive shift toward AI infrastructure."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "How Nvidia\u2019s US$3.2 Billion AI Optics Pact At Corning (GLW) Has Changed Its Investment Story",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-us-3-2-billion-031859221.html",
+      "sentiment": "neutral",
+      "summary": "Nvidia recently agreed to invest up to US$3.20 billion in Corning through a warrant deal to expand Corning\u2019s U.S. optical connectivity manufacturing capacity for AI data centers, deepening their collaboration on scaling high\u2011performance optical solutions. This partnership effecti"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "This Alphabet\u2011Heavy Fund Has a Front\u2011Row Seat to the AI Boom \u2014 and the Market Can See Why It\u2019s Suddenly a Top Performer",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/05/22/this-alphabet%e2%80%91heavy-fund-has-a-front%e2%80%91row-seat-to-the-ai-boom-and-the-market-can-see-why-its-suddenly-a-top-performer/",
+      "sentiment": "neutral",
+      "summary": "Whale Rock Capital Management, run by the very impressive Alex Sacerdote, is having its moment in the sun after yet another incredible quarter. Indeed, the fund might be lesser-known compared to some of the other giants out there, but it\u2019s rising through the ranks \u2014 and fast, tha"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Robust Results Boosted Corning\u2019s (GLW) Performance in Q1",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/robust-results-boosted-corning-glw-133915094.html",
+      "sentiment": "neutral",
+      "summary": "Carillon Tower Advisers, an investment management company, released its first-quarter 2026 investor letter for the \u201cCarillon Eagle Growth & Income Fund\u201d. A copy of the letter is available to download here. The first quarter of 2026 was volatile due to market shifts, including inc"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Dow Jones Futures Rise; Amazon, Credo Lead AI Stocks In Buy Areas",
+      "source": "Investor's Business Daily",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-amazon-credo-ai-stocks-buy/?src=A00220&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "The Dow hit a record close as oil prices fell further. Amazon led AI stocks in buy areas even as Nvidia retreated."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Nvidia's Latest AI Partner Was a Bargain Hiding in Plain Sight. Is It Still a Buy?",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/22/nvidia-ai-partner-bargain-hiding-corning/",
+      "sentiment": "neutral",
+      "summary": "This manufacturer's growth is only getting faster."
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Jim Cramer on Corning: \u201cThe Beatdown\u2019s Not Enough to Entice Me to Buy\u201d",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-corning-beatdown-not-131242058.html",
+      "sentiment": "neutral",
+      "summary": "Corning Incorporated (NYSE:GLW) was among the stocks Jim Cramer discussed while explaining how investors can navigate the current market rotation. Cramer showed hesitancy when it came to buying more of the stock, as he said: Next, there\u2019s Corning, another Charitable Trust company"
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Nvidia Warrant Deal Puts Corning At Center Of AI Data Centers",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-warrant-deal-puts-corning-020906977.html",
+      "sentiment": "neutral",
+      "summary": "Nvidia agreed to invest up to US$3.2b in Corning (NYSE:GLW) through a warrant deal tied to expanding optical connectivity for AI data centers. The partnership is focused on scaling optical solutions that support high performance AI infrastructure. The arrangement deepens an exist"
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "Nvidia Might Have Just Revealed the AI Sleeper Stock That Investors Missed",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/05/20/nvidia-might-have-just-revealed-the-ai-sleeper-stock-that-investors-missed/",
+      "sentiment": "neutral",
+      "summary": "Nvidia (NASDAQ:NVDA) has been on quite the investment spree in the past year, and while much of the AI bets and partnerships have begun to bear fruit after the latest run in AI-related names, questions linger as to how all these \u201ccircular\u201d bets change the risk/reward profile of t"
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.7375,
+    "insiderPct": 0.082,
+    "shortInterest": 0.0199,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0775
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0586
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0421
+      },
+      {
+        "name": "Vanguard Portfolio Management LLC",
+        "pct": 0.0328
+      },
+      {
+        "name": "FMR, LLC",
+        "pct": 0.0289
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

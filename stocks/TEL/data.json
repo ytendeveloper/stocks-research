@@ -2,18 +2,18 @@
   "ticker": "TEL",
   "schemaVersion": "1.0",
   "static": {
-    "name": "TE Connectivity",
-    "exchange": "",
-    "sector": "Industrial/Connectors",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "TE Connectivity plc",
+    "exchange": "NYQ",
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "country": "Ireland",
+    "headquarters": "Ballybrit",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Major connector/sensor supplier for aerospace and defense",
+    "ceo": "Mr. Terrence R. Curtin CPA",
+    "employees": 90000,
+    "website": "https://www.te.com",
+    "description": "TE Connectivity plc, together with its subsidiaries, manufactures and sells connectivity and sensor solutions in Europe, the Middle East, Africa, the Asia\u0096Pacific, and the Americas. The company operates through two reportable segments, Transportation Solutions and Industrial Solutions. It provides antennas, application tooling, cable assemblies, connectors, electromagnetic compatibility/electromagnetic interference solutions, energy and power, fiber optics, heat shrink tubing, identification and labeling, medical components, passive components, relays and contactors, sensors, switches, terminals and splices, wires and cables, and wire protection and management solutions. The company also offers training and other services, including 3D printing for production, back shells prototyping, electrical installation training, HarnWare software, machine tooling service and repair, medical device design services, microfluidic devices, and sensor manufacturing services as well as conducts automotive webinars. It serves 5G and wireless equipment, aerospace, appliances, automation and control, automotive, autosport, commercial and industrial vehicles, connected home, data centers and artificial intelligence, defense and military, energy solutions, e-mobility, industrial machinery, intelligent buildings, IoT connectivity, medical technologies, oil and gas/marine, personal electronics and wearable technology, rail, sensor applications, space, and other industries. The company was formerly known as Tyco Electronics Ltd. and changed its name to TE Connectivity plc in March 2011. TE Connectivity plc was founded in 1941 and is based in Ballybrit, Ireland.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,100 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$18.7B TTM",
-    "revenueGrowth": 0.08,
-    "pe": "22",
+    "asOf": "2026-05-23",
+    "revenue": "$18.70B",
+    "revenueGrowth": 0.145,
+    "pe": 20.71,
     "profitable": true,
     "backlog": null
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$4.74B",
+      "grossMargin": 0.3678,
+      "operatingIncome": "$972.0M",
+      "netIncome": "$855.0M",
+      "eps": 2.92,
+      "revenueYoY": 0.1449
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$4.67B",
+      "grossMargin": 0.3725,
+      "operatingIncome": "$976.0M",
+      "netIncome": "$750.0M",
+      "eps": 2.55
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$4.75B",
+      "grossMargin": 0.3495,
+      "operatingIncome": "$939.0M",
+      "netIncome": "$663.0M",
+      "eps": 2.25
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$4.53B",
+      "grossMargin": 0.3529,
+      "operatingIncome": "$898.0M",
+      "netIncome": "$638.0M",
+      "eps": 2.16
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$4.14B",
+      "grossMargin": 0.3522,
+      "operatingIncome": "$802.0M",
+      "netIncome": "$13.0M",
+      "eps": 0.04
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31"
+    },
+    {
+      "period": "2024-Q3",
+      "reportDate": "2024-09-30"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-09-30",
+      "revenue": "$17.26B",
+      "grossMargin": 0.3522,
+      "operatingIncome": "$3.38B",
+      "netIncome": "$1.84B",
+      "eps": 6.2,
+      "revenueYoY": 0.089
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-09-30",
+      "revenue": "$15.85B",
+      "grossMargin": 0.3443,
+      "operatingIncome": "$2.98B",
+      "netIncome": "$3.19B",
+      "eps": 10.4,
+      "revenueYoY": -0.0112
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-09-30",
+      "revenue": "$16.03B",
+      "grossMargin": 0.3153,
+      "operatingIncome": "$2.68B",
+      "netIncome": "$1.91B",
+      "eps": 6.06
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 1.5,
@@ -121,8 +206,116 @@
       "profitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-22",
+      "headline": "Why Is TE Connectivity (TEL) Down 7% Since Last Earnings Report?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-te-connectivity-tel-down-153012901.html",
+      "sentiment": "neutral",
+      "summary": "TE Connectivity (TEL) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues."
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "Do Wall Street Analysts Like TE Connectivity Stock?",
+      "source": "Barchart",
+      "url": "https://www.barchart.com/story/news/2041696/do-wall-street-analysts-like-te-connectivity-stock",
+      "sentiment": "neutral",
+      "summary": "TE Connectivity has lagged the broader market over the past 52 weeks, yet Wall Street analysts maintain a highly optimistic outlook about the stock\u2019s prospects."
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "5 Stocks With High ROE to Profit as Markets Skid on Tech Slump",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/5-stocks-high-roe-profit-150600900.html",
+      "sentiment": "neutral",
+      "summary": "Markets slide as tech slumps and yields spike - screen flags high-ROE cash cows: ROST, TEL, AVGO, COP and ANET."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Fabrinet Rides on Automation Boom: A Case for More Upside?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/fabrinet-rides-automation-boom-case-130500884.html",
+      "sentiment": "neutral",
+      "summary": "FN rides automation and AI demand as optical and non-optical revenue surge, with Q4 revenues guided at #1.25B-$1.29B. Telecom up 55% and DCI up 90%."
+    },
+    {
+      "date": "2026-05-17",
+      "headline": "Is It Smart To Buy TE Connectivity plc (NYSE:TEL) Before It Goes Ex-Dividend?",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/smart-buy-te-connectivity-plc-124200655.html",
+      "sentiment": "neutral",
+      "summary": "TE Connectivity plc ( NYSE:TEL ) stock is about to trade ex-dividend in 4 days. The ex-dividend date is one business..."
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "Amphenol's Operating Margin Improves in Q1: Can It Expand Further?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amphenols-operating-margin-improves-q1-163100403.html",
+      "sentiment": "neutral",
+      "summary": "APH's Q1 operating margin jumps 380 bps as AI demand and operating leverage boost results. Can APH sustain the momentum?"
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "Should You Hold TTMI at 41.1X P/E? 3 Reasons Despite the Premium",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hold-ttmi-41-1x-p-124500217.html",
+      "sentiment": "neutral",
+      "summary": "TTM Technologies rides on booming AI and defense demand, but heavy spending and cash outflows could challenge gains after its massive rally."
+    },
+    {
+      "date": "2026-05-14",
+      "headline": "Is TE Connectivity (TEL) a Solid Growth Stock? 3 Reasons to Think \"Yes\"",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/te-connectivity-tel-solid-growth-164502663.html",
+      "sentiment": "neutral",
+      "summary": "TE Connectivity (TEL) is well positioned to outperform the market, as it exhibits above-average growth in financials."
+    },
+    {
+      "date": "2026-05-11",
+      "headline": "Amphenol Drops 12% in a Month: Should You Buy the Stock on the Dip?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amphenol-drops-12-month-buy-173800510.html",
+      "sentiment": "neutral",
+      "summary": "APH slides 12.3% in a month, yet records $9.4B orders and AI demand rises as CCS debt and integration risks mount."
+    },
+    {
+      "date": "2026-05-09",
+      "headline": "Has TE Connectivity (TEL) Run Too Far After 40% Gain Despite Recent Pullback?",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/te-connectivity-tel-run-too-171423489.html",
+      "sentiment": "neutral",
+      "summary": "Wondering if TE Connectivity at about US$210 per share is offering fair value right now, or if the price has moved ahead of what the fundamentals might support. The stock has seen a 40.1% return over the last year and 83.8% over three years, even though the year to date return st"
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.9675,
+    "insiderPct": 0.0016,
+    "shortInterest": 0.0289,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0888
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0653
+      },
+      {
+        "name": "Vanguard Portfolio Management LLC",
+        "pct": 0.0569
+      },
+      {
+        "name": "Dodge & Cox Inc.",
+        "pct": 0.0503
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0442
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

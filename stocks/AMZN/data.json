@@ -2,18 +2,18 @@
   "ticker": "AMZN",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Amazon (Project Kuiper)",
-    "exchange": "",
-    "sector": "Tech/Space",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Amazon.com, Inc.",
+    "exchange": "NMS",
+    "sector": "Consumer Cyclical",
+    "industry": "Internet Retail",
+    "country": "United States",
+    "headquarters": "Seattle, WA",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Project Kuiper/Leo satellite internet constellation. 3,236 target sats.",
+    "ceo": "Mr. Andrew R. Jassy",
+    "employees": 1575000,
+    "website": "https://www.amazon.com",
+    "description": "Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It also manufactures and sells electronic devices, including Kindle, fire tablets, fire TVs, echo, ring, blink, and eero; and develops and produces media content. In addition, the company offers programs that enable sellers to sell their products in its stores; and programs that allow authors, independent publishers, musicians, filmmakers, Twitch streamers, skill and app developers, and others to publish and sell content. Further, it provides compute, storage, Artificial intelligence, database, analytics, machine learning, and other services, as well as advertising services through programs, such as sponsored ads, display, and video advertising. Additionally, the company offers Amazon Prime, a membership program. The company's products offered through its stores include merchandise and content purchased for resale and products offered by third-party sellers. It serves consumers, sellers, developers, enterprises, content creators, advertisers, and employees. The company was incorporated in 1994 and is headquartered in Seattle, Washington.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,92 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$650B+ total",
-    "revenueGrowth": null,
-    "pe": "35",
+    "asOf": "2026-05-23",
+    "revenue": "$742.78B",
+    "revenueGrowth": 0.166,
+    "pe": 31.63,
     "profitable": true,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$181.52B",
+      "grossMargin": 0.5182,
+      "operatingIncome": "$23.85B",
+      "netIncome": "$30.25B",
+      "eps": 2.82,
+      "revenueYoY": 0.1661
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$213.39B",
+      "grossMargin": 0.4847,
+      "operatingIncome": "$24.98B",
+      "netIncome": "$21.19B",
+      "eps": 1.98
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$180.17B",
+      "grossMargin": 0.5079,
+      "operatingIncome": "$17.42B",
+      "netIncome": "$21.19B",
+      "eps": 1.98
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$167.70B",
+      "grossMargin": 0.5181,
+      "operatingIncome": "$19.17B",
+      "netIncome": "$18.16B",
+      "eps": 1.71
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$155.67B",
+      "grossMargin": 0.5055,
+      "operatingIncome": "$18.41B",
+      "netIncome": "$17.13B",
+      "eps": 1.62
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$716.92B",
+      "grossMargin": 0.5029,
+      "operatingIncome": "$79.97B",
+      "netIncome": "$77.67B",
+      "eps": 7.29,
+      "revenueYoY": 0.1238
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$637.96B",
+      "grossMargin": 0.4885,
+      "operatingIncome": "$68.59B",
+      "netIncome": "$59.25B",
+      "eps": 5.66,
+      "revenueYoY": 0.1099
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$574.78B",
+      "grossMargin": 0.4698,
+      "operatingIncome": "$36.85B",
+      "netIncome": "$30.43B",
+      "eps": 2.95
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 1.5,
@@ -121,8 +198,116 @@
       "profitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-24",
+      "headline": "Planet Fitness Grew Revenue 22%, So Why Did One Investor Trim $20 Million?",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/filings/2026/05/23/planet-fitness-grew-revenue-22-so-why-did-one-investor-trim-usd20-million/",
+      "sentiment": "neutral",
+      "summary": "Planet Fitness runs a franchise-based gym network across the U.S. and abroad, with shares down significantly over the past year."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "3 Top AI Stocks to Buy With $1,000 Right Now",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/23/3-top-ai-stocks-to-buy-with-1000-right-now/",
+      "sentiment": "neutral",
+      "summary": "Amazon, Nebius, and Microsoft all should have plenty of upside left in 2026."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "This Payments Stock Is Down 50%. One Fund Sold a $63 Million Stake Last Quarter",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/filings/2026/05/23/this-payments-stock-is-down-50-one-fund-sold-a-usd63-million-stake-last-quarter/",
+      "sentiment": "neutral",
+      "summary": "Shift4 Payments delivers integrated payment and software solutions to U.S. businesses across retail, hospitality, and eCommerce sectors."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "What This Fund's $24 Million monday.com Sale Could Signal After a 73% Stock Drop",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/filings/2026/05/23/what-this-fund-s-usd24-million-monday-com-sale-could-signal-after-a-73-stock-drop/",
+      "sentiment": "neutral",
+      "summary": "monday.com delivers cloud-based workflow solutions to a global client base through a scalable SaaS platform and subscription model."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Hyperscaler Debt Flood Brings Derivatives Bonanza",
+      "source": "Bloomberg",
+      "url": "https://finance.yahoo.com/markets/options/articles/hyperscaler-debt-flood-brings-derivatives-190000196.html",
+      "sentiment": "neutral",
+      "summary": "(Bloomberg) -- As big tech companies raise hundreds of billions of dollars to fund artificial intelligence investments, Wall Street banks are increasingly finding they have to trade more credit derivatives to keep doing business with the hyperscalers.Most Read from BloombergBungi"
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Paul Tudor Jones makes $8 billion bet on small-cap chaos",
+      "source": "TheStreet",
+      "url": "https://www.thestreet.com/investing/paul-tudor-jones-makes-8-billion-bet-on-small-cap-chaos",
+      "sentiment": "neutral",
+      "summary": "Paul Tudor Jones doesn\u2019t appear to be locked into one stock. That may be the real story. The billionaire investor\u2019s Tudor Investment Corp. reported a massive first-quarter options book that includes big stakes connected to Nvidia (NVDA), Tesla (TSLA), Microsoft (MSFT), Amazon (AM"
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Airbnb CEO delivers eye-opening message on future of travel",
+      "source": "TheStreet",
+      "url": "https://www.thestreet.com/investing/stocks/airbnb-ceo-delivers-eye-opening-message-on-future-of-travel-sees-airbnb-evolving-into-amazon-for-travel",
+      "sentiment": "neutral",
+      "summary": "Most people think of Airbnb the same way they thought of Amazon in 1999 \u2014 a useful but narrowly defined platform. Amazon sold books. Airbnb rents homes. Both descriptions were accurate. Both turned out to be wildly incomplete. Brian Chesky wants you to rethink what Airbnb is beco"
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Amazon, GE Vernova Lead 5 Stocks Near Buy Points In Strong Market",
+      "source": "Investor's Business Daily",
+      "url": "https://www.investors.com/news/amazon-ge-vernova-5-stocks-buy-points/?src=A00220&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "AMZN is joined by a pair of AI stocks and S&P 500 members, Cadence Design Systems, whose software tools are used to design advanced semiconductors, and GE Vernova, whose gas turbines power data centers.  AMZN was added to the SwingTrader portfolio on Thursday, while GEV is part o"
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Venture Capitalist John Doerr Says AI Is the Biggest Tech \u2018Tsunami\u2019 Ever",
+      "source": "The Wall Street Journal",
+      "url": "https://www.wsj.com/tech/ai/john-doerr-ai-opinion-1d64ee60?siteid=yhoof2&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "The well-known venture capitalist who bet on Google says that the AI revolution is, if anything, underhyped."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "Why Wall Street Still Can\u2019t Ignore Amazon.com, Inc. (AMZN)",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-wall-street-still-t-145200990.html",
+      "sentiment": "neutral",
+      "summary": "Amazon.com, Inc. (NASDAQ:AMZN) is among the most traded US stocks so far in 2026. On May 20, Wells Fargo slightly trimmed the price target on Amazon.com, Inc. (NASDAQ:AMZN) to $312, down from $313, and reiterated an Overweight rating. According to the firm, market confidence is s"
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.6798,
+    "insiderPct": 0.089,
+    "shortInterest": 0.0093,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0684
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0587
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0363
+      },
+      {
+        "name": "FMR, LLC",
+        "pct": 0.0333
+      },
+      {
+        "name": "Geode Capital Management, LLC",
+        "pct": 0.0217
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

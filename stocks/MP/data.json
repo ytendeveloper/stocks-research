@@ -2,18 +2,18 @@
   "ticker": "MP",
   "schemaVersion": "1.0",
   "static": {
-    "name": "MP Materials",
-    "exchange": "",
-    "sector": "Materials",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "MP Materials Corp.",
+    "exchange": "NYQ",
+    "sector": "Basic Materials",
+    "industry": "Other Industrial Metals & Mining",
+    "country": "United States",
+    "headquarters": "Las Vegas, NV",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Rare earth magnets for satellite reaction wheels, electric propulsion, drone motors.",
+    "ceo": "Mr. James Henry Litinsky",
+    "employees": 998,
+    "website": "https://mpmaterials.com",
+    "description": "MP Materials Corp., together with its subsidiaries, produces rare earth materials in the Western Hemisphere. It operates in two segments, Materials and Magnetics. The Materials segment owns and operates the Mountain Pass Rare Earth Mine and Processing facility located near Mountain Pass, San Bernardino County, California. The Magnetics segment produces magnetic precursor products, including NdPr metal; and manufactures NdFeB permanent magnets. MP Materials Corp. was founded in 2017 and is headquartered in Las Vegas, Nevada.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,96 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$254M TTM",
-    "revenueGrowth": 0.49,
-    "pe": "N/A",
+    "asOf": "2026-05-23",
+    "revenue": "$347.6M",
+    "revenueGrowth": 1.186,
+    "pe": 55.06,
     "profitable": false,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$90.6M",
+      "grossMargin": -0.1736,
+      "operatingIncome": "-$18.2M",
+      "netIncome": "-$8.0M",
+      "eps": -0.04,
+      "revenueYoY": 0.4901
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$52.7M",
+      "grossMargin": -0.3222,
+      "operatingIncome": "-$2.6M",
+      "netIncome": "$9.4M",
+      "eps": 0.05
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$53.6M",
+      "grossMargin": -0.3253,
+      "operatingIncome": "-$65.6M",
+      "netIncome": "-$41.8M",
+      "eps": -0.24
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$57.4M",
+      "grossMargin": -0.2407,
+      "operatingIncome": "-$43.1M",
+      "netIncome": "-$30.9M",
+      "eps": -0.19
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$60.8M",
+      "grossMargin": -0.1547,
+      "operatingIncome": "-$33.8M",
+      "netIncome": "-$22.6M",
+      "eps": -0.14
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$224.4M",
+      "grossMargin": -0.2567,
+      "operatingIncome": "-$145.1M",
+      "netIncome": "-$85.9M",
+      "eps": -0.5,
+      "revenueYoY": 0.1005
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$203.9M",
+      "grossMargin": -0.3276,
+      "operatingIncome": "-$163.7M",
+      "netIncome": "-$65.4M",
+      "eps": -0.39,
+      "revenueYoY": -0.1953
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$253.4M",
+      "grossMargin": 0.4144,
+      "operatingIncome": "$3.6M",
+      "netIncome": "$24.3M",
+      "eps": 0.14
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 3.0,
@@ -120,8 +201,116 @@
       "unprofitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-23",
+      "headline": "Despite Its Recent Partnership with Apple, MP Materials Stock Is Down. Here's Why.",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/23/despite-its-recent-partnership-with-apple-mp-mater/",
+      "sentiment": "neutral",
+      "summary": "MP Materials is trading flat on the year. With major partnerships backing it, why isn't this rare-earth stock soaring?"
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "A Look At MP Materials (MP) Valuation As Geopolitics Insider Sales And New Partnerships Shift Expectations",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/look-mp-materials-mp-valuation-050621418.html",
+      "sentiment": "neutral",
+      "summary": "MP Materials (MP) stock has been pulled in two directions, with fresh US-China rare earth trade signals and insider selling weighing on sentiment, even as new Apple and U.S. Department of Defense partnerships reshape its long term supply role. See our latest analysis for MP Mater"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "MP Stock Stays Perfect but Trading Has Been Strange Lately",
+      "source": "Barrons.com",
+      "url": "https://www.barrons.com/articles/mp-materials-stock-rare-earth-metals-121144f0?siteid=yhoof2&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "Shares of rare earth company  MP Materials  rose early Friday after catching a new Buy rating on Wall Street.  Barclays analyst Richard Garchitorena launched coverage of MP on Thursday evening with a Buy rating and $69 price target, according to ratings aggregators.  The average "
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "MP Materials vs. IDR: Which Mining Stock Has More Upside?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mp-materials-vs-idr-mining-155100051.html",
+      "sentiment": "neutral",
+      "summary": "Idaho Strategic's profitable gold business, rising earnings and lower valuation give it an edge over MP Materials in the rare-earth investment race."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Texas Instruments, Generac upgraded: Wall Street's top analyst calls",
+      "source": "The Fly",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-upgraded-qualcomm-downgraded-wall-133634577.html",
+      "sentiment": "neutral",
+      "summary": "Texas Instruments, Generac upgraded: Wall Street's top analyst calls"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Gina Rinehart Invests $97 Million in US Defense Stocks",
+      "source": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gina-rinehart-invests-97-million-132522094.html",
+      "sentiment": "neutral",
+      "summary": "Australia's richest person expanded Hancock Prospecting's defense holdings while increasing exposure to global mining companies."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "U.S. to Award Quantum-Computing Firms $2 Billion and Take Equity Stakes",
+      "source": "The Wall Street Journal",
+      "url": "https://www.wsj.com/tech/quantum-computing-grants-ibm-rigetti-globalfoundries-7382e6be?siteid=yhoof2&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "IBM, set to receive $1 billion of the package, saw large stock gains along with other companies involved."
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Here's Why USA Rare Earth Shares Popped Higher Today",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/21/heres-why-usa-rare-earth-shares-popped-higher-toda/",
+      "sentiment": "neutral",
+      "summary": "The rare-earth sector has been sold off aggressivelty on the perception of improved trade relationships, but the reality of an ongoing disagreement is hitting home today."
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Rare Earth Stocks Rally On Funding News, Fading China Fears",
+      "source": "Investor's Business Daily",
+      "url": "https://www.investors.com/news/rare-earth-stocks-usar-mp-doe-funding-fading-china-fears/?src=A00220&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "Rare earth stocks continued to snap back early Thursday after a sharp recent sell-off tied to President Donald Trump's China visit and news that Beijing would address U.S. concerns that its export restrictions have resulted in shortages.  USA Rare Earth, which announced new fundi"
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Quantum computing stocks rally after report of planned $2 billion U.S. funding package",
+      "source": "InvestorsHub",
+      "url": "https://investorshub.advfn.com/market-news/article/28845/quantum-computing-stocks-rally-after-report-of-planned-2-billion-u-s-funding-package",
+      "sentiment": "neutral",
+      "summary": "Shares of several quantum computing companies surged in U. S."
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.698,
+    "insiderPct": 0.1961,
+    "shortInterest": 0.1639,
+    "topHolders": [
+      {
+        "name": "Hancock Prospecting Pty Ltd",
+        "pct": 0.0835
+      },
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0828
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0416
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0386
+      },
+      {
+        "name": "Vanguard Portfolio Management LLC",
+        "pct": 0.038
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

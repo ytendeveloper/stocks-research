@@ -3,17 +3,17 @@
   "schemaVersion": "1.0",
   "static": {
     "name": "SEALSQ Corp",
-    "exchange": "",
-    "sector": "Semiconductors/Security",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "exchange": "NMS",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "country": "Switzerland",
+    "headquarters": "Cointrin",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Post-quantum cryptography essential for satellite and defense comms security",
+    "ceo": "Mr. Carlos Creus Moreira",
+    "employees": 185,
+    "website": "https://www.sealsq.com",
+    "description": "SEALSQ Corp, together with its subsidiaries, designs, develops, and markets semiconductors in North America, Europe, the Middle East, Africa, the Asia Pacific, and Latin America. It offers semiconductors, such as VaultIC secure elements, quantum-resistant RISC-V secure chips, secure ARM platform, and smart card reader chips; custom chip design services; and other PKI services, including personal digital identity services. The company also provides semiconductors secure chips, SaaS, software and INeS certificate management platform, implementation, integration and other services, and ASIC design and production services. Additionally, it develops WISeRobot.ch, a platform human and artificial intelligence collaboration. It serves smart energy, smart home, automotive EV charging, consumer IoT, aerospace and military telecommunications, industry, logistics, medical, and luxury sectors. The company was founded in 2022 and is headquartered in Cointrin, Switzerland. SEALSQ Corp operates as a subsidiary of WISeKey International Holding AG.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,45 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$18.3M FY2025",
-    "revenueGrowth": 0.66,
-    "pe": "N/A",
+    "asOf": "2026-05-23",
+    "revenue": "$18.3M",
+    "revenueGrowth": 1.182,
+    "pe": -22.53,
     "profitable": false,
     "backlog": null
   },
   "quarterly": [],
-  "annual": [],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$18.3M",
+      "grossMargin": 0.4728,
+      "operatingIncome": "-$39.8M",
+      "netIncome": "-$34.2M",
+      "eps": -0.24,
+      "revenueYoY": 0.6636
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$11.0M",
+      "grossMargin": 0.3395,
+      "operatingIncome": "-$17.2M",
+      "netIncome": "-$21.2M",
+      "eps": -0.6,
+      "revenueYoY": -0.6346
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$30.1M",
+      "grossMargin": 0.4674,
+      "operatingIncome": "-$4.1M",
+      "netIncome": "-$3.3M",
+      "eps": -0.21
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 3.5,
@@ -124,8 +154,116 @@
       "unprofitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-22",
+      "headline": "SEALSQ (LAES) Notes That Global Demand for AI Infrastructure Is Accelerating",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/sealsq-laes-notes-global-demand-122215299.html",
+      "sentiment": "neutral",
+      "summary": "SEALSQ Corp (NASDAQ:LAES) is one of the Best Semiconductor Stocks to Buy Under $30. On May 13, the company noted that the global demand for AI infrastructure continues to accelerate beyond the physical and energy limitations of terrestrial data centers. As a result, the aerospace"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "SEALSQ Targets Post Quantum AI Robotics And European Tech Sovereignty Potential",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sealsq-targets-post-quantum-ai-071221599.html",
+      "sentiment": "neutral",
+      "summary": "SEALSQ (NasdaqGS:LAES) has launched WISeRobot.ch, a platform that integrates post-quantum security into human centric AI robotics. The company is targeting applications across government, healthcare, and smart infrastructure that require trusted human robot interaction. SEALSQ ha"
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "SEALSQ (LAES) Valuation Check After Recent Share Price Rebound And Ongoing Losses",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sealsq-laes-valuation-check-recent-201030248.html",
+      "sentiment": "neutral",
+      "summary": "SEALSQ stock snapshot after recent price moves SEALSQ (LAES) has drawn attention after recent trading, with the stock last closing at US$2.85. Short term performance has been mixed, with a gain of 5.2% over the past day but declines over longer periods. See our latest analysis fo"
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "Wisekey Shares Rise Following Launch of AI Robotics Platform (WKEY)",
+      "source": "InvestorsHub",
+      "url": "https://investorshub.advfn.com/market-news/article/28749/wisekey-shares-rise-following-launch-of-ai-robotics-platform-wkey",
+      "sentiment": "neutral",
+      "summary": "Wisekey International Holding AG (NASDAQ:WKEY) shares climbed 6. 1% in premarket trading Wednesday after subsidiary SEALSQ Corp (NASDAQ:LAES) introduced the new WISeRobot."
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "SEALSQ Advances Quantum-Resilient Space Security With Pilot And Patent Moves",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sealsq-advances-quantum-resilient-space-061533870.html",
+      "sentiment": "neutral",
+      "summary": "SEALSQ (NasdaqGS:LAES) completed a pilot phase with the Swiss Armed Forces' Space Command focused on Swiss sovereign and quantum-resilient space communications. The pilot supports work on securing next-generation orbital platforms and building national-level space communication i"
+    },
+    {
+      "date": "2026-05-14",
+      "headline": "SEALSQ (LAES) Advances A Swiss Space Security Initiative With Quantum-Resilient Ambitions",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sealsq-laes-advances-swiss-space-173745956.html",
+      "sentiment": "neutral",
+      "summary": "With a stock price of $2.93, SEALSQ Corp (NASDAQ:LAES) is among the 10 Unrivaled Penny Stocks to Buy Now. SEALSQ Corp (NASDAQ:LAES) announced on April 13 that it had completed the pilot phase of its strategic partnership with the Space Command of the Swiss Armed Forces through pa"
+    },
+    {
+      "date": "2026-05-12",
+      "headline": "SEALSQ Corp (LAES) Files Patent Eyeing Post-Quantum Cryptography (PQC) Opportunities",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/sealsq-corp-laes-files-patent-181520873.html",
+      "sentiment": "neutral",
+      "summary": "SEALSQ Corp (NASDAQ:LAES) is one of the best young technology stocks to buy now. On April 28, SEALSQ Corp (NASDAQ:LAES) filed a new patent application for an innovative protection technique against side-channel attacks on cryptographic algorithms. The invention covered in the pat"
+    },
+    {
+      "date": "2026-05-04",
+      "headline": "WISeKey International H2 Earnings Call Highlights",
+      "source": "MarketBeat",
+      "url": "https://www.marketbeat.com/instant-alerts/wisekey-international-h2-earnings-call-highlights-2026-05-04/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "sentiment": "neutral",
+      "summary": "WISeKey International (NASDAQ:WKEY) reported audited full-year 2025 revenue of CHF 19.3 million, up 62% from CHF 11.9 million in 2024, as the company highlighted progress in shifting from legacy security products toward post-quantum semiconductor platforms and a more integrated \u201c"
+    },
+    {
+      "date": "2026-05-02",
+      "headline": "Assessing Whether SEALSQ (LAES) Justifies Its High P/S Valuation After Recent Share Price Swings",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-whether-sealsq-laes-justifies-061604208.html",
+      "sentiment": "neutral",
+      "summary": "SEALSQ stock snapshot after recent moves SEALSQ (LAES) has drawn fresh attention after a mixed run, with a recent daily decline of about 1% and a roughly 3% pullback over the week, alongside a month gain near 14%. See our latest analysis for SEALSQ. Zooming out, the 14.3% 1 month"
+    },
+    {
+      "date": "2026-04-23",
+      "headline": "WISeKey and SEALSQ (LAES) Complete Swiss Armed Forces Space Command Pilot Phase",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wisekey-sealsq-laes-complete-swiss-073035411.html",
+      "sentiment": "neutral",
+      "summary": "SEALSQ Corp. (NASDAQ:LAES) is one of the 10 Best Penny Stocks to Buy and Hold Under $5. On April 13, 2026, WISeKey (NASDAQ:WKEY) and its post-quantum subsidiary SEALSQ Corp. (NASDAQ:LAES) announced the completion of the pilot phase of their collaboration with the Swiss Armed Forc"
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.107,
+    "insiderPct": 0.0269,
+    "shortInterest": 0.0829,
+    "topHolders": [
+      {
+        "name": "Anson Funds Management LP",
+        "pct": 0.065
+      },
+      {
+        "name": "Heights Capital Management, Inc",
+        "pct": 0.0164
+      },
+      {
+        "name": "Susquehanna International Group, LLP",
+        "pct": 0.0069
+      },
+      {
+        "name": "Kessler Investment Group, LLC",
+        "pct": 0.0052
+      },
+      {
+        "name": "UBS Group AG",
+        "pct": 0.0049
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

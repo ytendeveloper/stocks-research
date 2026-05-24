@@ -2,18 +2,18 @@
   "ticker": "NOK",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Nokia",
-    "exchange": "",
-    "sector": "Telecom",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Nokia Oyj",
+    "exchange": "NYQ",
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "country": "Finland",
+    "headquarters": "Espoo",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Deployed 4G on the Moon. NTN roadmap for space-based 5G/6G connectivity.",
+    "ceo": "Mr. Justin  Hotard",
+    "employees": 78005,
+    "website": "https://www.nokia.com",
+    "description": "Nokia Oyj, together with its subsidiaries, provides mobile, fixed, and cloud network solutions in North and Latin America, Greater China, India, Asia Pacific, Europe, the Middle East, and Africa. It operates in four segments: Network Infrastructure, Mobile Networks, Cloud and Network Services, and Nokia Technologies. The company offers fixed network solutions, such as fiber and copper technologies, access infrastructure, in-home Wi-Fi solutions, and cloud and virtualization services; IP network solutions, which delivers IP edge routing and data center networking solutions for residential, mobile, enterprise, and cloud applications; and optical networks solutions, which provides optical transport networks for metro, regional, and long-haul applications. It also provides mobile technology products and services for radio access networks and microwave radio links for transport networks; and network management solutions, as well as network planning, optimization, network deployment, and technical support services. In addition, the company offers cloud and network services, including open, secure, automated, and scalable software and solutions; and 5G core, secure autonomous networks, private wireless and industrial edge, and network APIs. Further, it licenses intellectual property, including patents, technologies, and the Nokia brand. The company serves its products and services to defense communications energy and resources, enterprise and industrial campus, private networks, public sector, and transportation industries. Nokia Oyj was founded in 1865 and is headquartered in Espoo, Finland.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,92 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$19.2B TTM",
-    "revenueGrowth": 0.04,
-    "pe": "20",
+    "asOf": "2026-05-23",
+    "revenue": "$20.00B",
+    "revenueGrowth": 0.024,
+    "pe": 96.69,
     "profitable": true,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$4.50B",
+      "grossMargin": 0.4421,
+      "operatingIncome": "$63.0M",
+      "netIncome": "$86.0M",
+      "eps": 0.02,
+      "revenueYoY": 0.0251
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$6.12B",
+      "grossMargin": 0.4496,
+      "operatingIncome": "$437.0M",
+      "netIncome": "$542.0M",
+      "eps": 0.1
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$4.83B",
+      "grossMargin": 0.437,
+      "operatingIncome": "$239.0M",
+      "netIncome": "$78.0M",
+      "eps": 0.01
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$4.55B",
+      "grossMargin": 0.4336,
+      "operatingIncome": "$80.0M",
+      "netIncome": "$90.0M",
+      "eps": 0.02
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$4.39B",
+      "grossMargin": 0.4155,
+      "operatingIncome": "-$21.0M",
+      "netIncome": "-$59.0M",
+      "eps": -0.01
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$19.89B",
+      "grossMargin": 0.4354,
+      "operatingIncome": "$782.0M",
+      "netIncome": "$651.0M",
+      "eps": 0.12,
+      "revenueYoY": 0.0349
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$19.22B",
+      "grossMargin": 0.4612,
+      "operatingIncome": "$1.59B",
+      "netIncome": "$1.28B",
+      "eps": 0.23,
+      "revenueYoY": -0.0908
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$21.14B",
+      "grossMargin": 0.4043,
+      "operatingIncome": "$1.47B",
+      "netIncome": "$665.0M",
+      "eps": 0.12
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 3.5,
@@ -121,8 +198,116 @@
       "profitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-23",
+      "headline": "Nokia (NOK) Wins UK Appeal Blocking Acer and Asus Video Patent Lawsuits",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nokia-nok-wins-uk-appeal-201008183.html",
+      "sentiment": "neutral",
+      "summary": "Nokia (NYSE:NOK) is one of the best multibagger stocks to buy in 2026. On May 12, Nokia won a UK Court of Appeal ruling that permanently blocks London lawsuits brought by Acer and Asus, canceling an upcoming trial over video coding patents. The decision overturns a previous High "
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "We\u2019re Not in a Bubble. Wall Street Just Hasn\u2019t Caught Up With the New \u2018Physics\u2019 of the Stock Market.",
+      "source": "Barchart",
+      "url": "https://www.barchart.com/story/news/2101982/were-not-in-a-bubble-wall-street-just-hasnt-caught-up-with-the-new-physics-of-the-stock-market",
+      "sentiment": "neutral",
+      "summary": "Traditional signals about the overheating of the U.S. stock market are ceasing to work in the age of digital transformation."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "European Equities Traded in the US as American Depositary Receipts Edge Higher in Friday Trading",
+      "source": "MT Newswires",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/european-equities-traded-us-american-150628829.html",
+      "sentiment": "neutral",
+      "summary": "European equities traded in the US as American depositary receipts were trending slightly higher lat"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "How is Ciena Advancing AI and Cloud Network Infrastructure?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/ciena-advancing-ai-cloud-network-141200810.html",
+      "sentiment": "neutral",
+      "summary": "CIEN sees hyperscaler AI buildouts driving demand for optical systems, DCI and its new hyper-rail, plus Nubis-powered data center tech."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Easing Bond Yields Lift US Equity Futures Pre-Bell Amid Ongoing Middle East Peace Talks",
+      "source": "MT Newswires",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/easing-bond-yields-lift-us-125121793.html",
+      "sentiment": "neutral",
+      "summary": "US equity futures were higher pre-bell Friday as traders mulled easing bond yields and monitored dev"
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "European Equities Traded in the US as American Depositary Receipts Little Changed in Thursday Trading",
+      "source": "MT Newswires",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/european-equities-traded-us-american-150536399.html",
+      "sentiment": "neutral",
+      "summary": "European equities traded in the US as American depositary receipts were tracking marginally lower la"
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "Why Penguin Solutions (PENG) Stock Is Up Today",
+      "source": "StockStory",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-penguin-solutions-peng-stock-132455222.html",
+      "sentiment": "neutral",
+      "summary": "Shares of semiconductor maker Penguin Solutions (NASDAQ:PENG) jumped 3.5% in the afternoon session after the company appointed David Heard, President of Network Infrastructure at Nokia, to its board of directors to bolster its AI-focused strategy."
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "How Nokia Executive\u2019s Board Arrival Will Impact Penguin Solutions (PENG) Investors",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nokia-executive-board-arrival-impact-011802774.html",
+      "sentiment": "neutral",
+      "summary": "Penguin Solutions, Inc. has added David Heard, President of Network Infrastructure at Nokia and former Infinera CEO, to its board of directors as of May 18, 2026, bringing decades of leadership across major telecom and infrastructure companies. His background in scaling complex n"
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "IDCC Rides on Strength in Licensing Business: Will it Persist?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/idcc-rides-strength-licensing-business-161100721.html",
+      "sentiment": "neutral",
+      "summary": "IDCC's licensing business gains steam with Xiaomi and LG deals, driving record recurring revenues and stronger smartphone market coverage."
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "Up 110% YTD, Why Nvidia\u2019s Backing Could Keep Nokia Stock Rallying",
+      "source": "Barchart",
+      "url": "https://www.barchart.com/story/news/2042732/up-110-ytd-why-nvidias-backing-could-keep-nokia-stock-rallying",
+      "sentiment": "neutral",
+      "summary": "Nokia is no longer just a telecom company. It\u2019s becoming an AI networking story."
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.1751,
+    "insiderPct": 0.0297,
+    "shortInterest": 0.012,
+    "topHolders": [
+      {
+        "name": "FMR, LLC",
+        "pct": 0.0387
+      },
+      {
+        "name": "Nvidia Corp",
+        "pct": 0.029
+      },
+      {
+        "name": "Artisan Partners Limited Partnership",
+        "pct": 0.0159
+      },
+      {
+        "name": "Pzena Investment Management LLC",
+        "pct": 0.011
+      },
+      {
+        "name": "Arrowstreet Capital, Limited Partnership",
+        "pct": 0.0073
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

@@ -2,18 +2,18 @@
   "ticker": "KEEL",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Keel Infrastructure",
-    "exchange": "",
-    "sector": "AI Infrastructure",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Keel Infrastructure Corp.",
+    "exchange": "NGM",
+    "sector": "Technology",
+    "industry": "Information Technology Services",
+    "country": "United States",
+    "headquarters": "New York, NY",
     "founded": null,
     "ipoDate": "",
     "ceo": "",
     "employees": null,
-    "website": "",
-    "description": "N/A - AI compute infrastructure play",
+    "website": "https://www.keelinfra.com",
+    "description": "Keel Infrastructure Corp. operates digital and energy infrastructure with focus on high-performance computing (HPC) and artificial intelligence (AI) workloads in North America, Canada, and the United States. It primarily owns and operates data centers housing computers to validate transactions on the bitcoin blockchain, as well as sells computational power used for hashing calculations for cryptocurrency mining. The company also provides electrician services to commercial and residential customers in Quebec, Canada. It also undertakes hosting of third-party mining hardware. The company was founded in 2017 and is based in New York, New York.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,100 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "~$275M TTM",
-    "revenueGrowth": null,
-    "pe": "N/A",
+    "asOf": "2026-05-23",
+    "revenue": "$218.6M",
+    "revenueGrowth": -0.224,
+    "pe": -74.0,
     "profitable": false,
     "backlog": null
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$37.0M",
+      "grossMargin": -0.7111,
+      "operatingIncome": "-$94.6M",
+      "netIncome": "-$145.4M",
+      "eps": -0.24,
+      "revenueYoY": -0.2243
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$50.2M",
+      "grossMargin": -0.3239,
+      "operatingIncome": "-$40.4M",
+      "netIncome": "-$65.1M"
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$69.2M",
+      "grossMargin": -0.0416,
+      "operatingIncome": "-$19.9M",
+      "netIncome": "-$80.8M",
+      "eps": -0.15
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$77.8M",
+      "grossMargin": -0.0704,
+      "operatingIncome": "-$26.9M",
+      "netIncome": "-$28.8M",
+      "eps": -0.05
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$47.7M",
+      "grossMargin": 0.0058,
+      "operatingIncome": "-$40.4M",
+      "netIncome": "-$55.6M",
+      "eps": -0.11
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31"
+    },
+    {
+      "period": "2024-Q3",
+      "reportDate": "2024-09-30",
+      "eps": -0.08
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$229.3M",
+      "grossMargin": -0.0825,
+      "operatingIncome": "-$97.2M",
+      "netIncome": "-$208.5M",
+      "eps": -0.52,
+      "revenueYoY": 0.7202
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$133.3M",
+      "grossMargin": -0.1194,
+      "operatingIncome": "-$77.8M",
+      "netIncome": "-$7.4M",
+      "eps": -0.13,
+      "revenueYoY": 0.1071
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$120.4M",
+      "grossMargin": -0.1972,
+      "operatingIncome": "-$57.6M",
+      "netIncome": "-$39.9M",
+      "eps": -0.21
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 2.5,
@@ -123,8 +208,116 @@
       "unprofitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-19",
+      "headline": "This Small Crypto Miner Pivoting to AI Infrastructure Is Up by 75% This Year. Is It a Buy?",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/05/19/this-small-crypto-miner-pivoting-to-ai-infrastruct/",
+      "sentiment": "neutral",
+      "summary": "Keel Infrastructure is a smaller crypto miner that is pivoting to AI, and investors are missing out."
+    },
+    {
+      "date": "2026-05-13",
+      "headline": "News Flash: 6 Analysts Think Keel Infrastructure Corp. (NASDAQ:KEEL) Earnings Are Under Threat",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/news/news-flash-6-analysts-think-125153945.html",
+      "sentiment": "neutral",
+      "summary": "Market forces rained on the parade of Keel Infrastructure Corp. ( NASDAQ:KEEL ) shareholders today, when the analysts..."
+    },
+    {
+      "date": "2026-05-11",
+      "headline": "Stock Market Today, May 11: Keel Infrastructure Jumps After Q1 Earnings Optimism",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/05/11/stock-market-today-may-11-keel-infrastructure-jumps-after-q1-earnings-optimism/",
+      "sentiment": "neutral",
+      "summary": "Traders are piling into this AI data-center pivot even as fresh earnings highlight execution risks, today, May 11, 2026."
+    },
+    {
+      "date": "2026-05-11",
+      "headline": "Keel Infrastructure (KEEL) Q1 2026 Earnings Call Transcript",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/05/11/keel-keel-q1-2026-earnings-call-transcript/",
+      "sentiment": "neutral",
+      "summary": "This is our first earnings call presenting as Keel Infrastructure.  Two years ago, we outlined a deliberate multiyear plan to transform this company, wind down Bitcoin, build out our team and repositioned every megawatt we control towards the most significant infrastructure oppor"
+    },
+    {
+      "date": "2026-05-11",
+      "headline": "Circle Breaks Out, Crypto Stocks Surge Ahead Of Clarity Act Hearing",
+      "source": "Investor's Business Daily",
+      "url": "https://www.investors.com/news/circle-internet-earnings-stablecoin-usdc-crcl-stock-iren-notes-keel-bitfarms-bitcoin-price/?src=A00220&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "Circle Internet tops earnings views, USDC stablecoin circulation booms. Crypto stocks jump ahead of Senate hearing on the Clarity Act."
+    },
+    {
+      "date": "2026-05-11",
+      "headline": "Keel Infrastructure Posts $145 Million Loss as Firm Completes Pivot From Bitcoin Miner to AI",
+      "source": "decrypt",
+      "url": "https://decrypt.co/367447/keel-infrastructure-posts-145-million-loss-pivot-bitcoin-miner-ai",
+      "sentiment": "neutral",
+      "summary": "Formerly known as Bitfarms, the newly rebranded Keel touted a $533 million war chest to fund AI infrastructure buildout."
+    },
+    {
+      "date": "2026-05-11",
+      "headline": "Keel Infrastructure posts $145 million net loss in Q1 as legacy mining business shrinks",
+      "source": "Blockspace",
+      "url": "https://blockspace.media/insight/keel-infrastructure-posts-145-million-net-loss-in-q1-as-legacy-mining-business-shrinks/",
+      "sentiment": "neutral",
+      "summary": "Keel Infrastructure reported a 22% revenue decline and a widening net loss in Q1 2026 while highlighting $533 million of liquidity to fund its North American AI/HPC pivot."
+    },
+    {
+      "date": "2026-05-08",
+      "headline": "Assessing Keel Infrastructure (KEEL) Valuation After Strong Share Price Momentum",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-keel-infrastructure-keel-valuation-221114562.html",
+      "sentiment": "neutral",
+      "summary": "Event overview and context for Keel Infrastructure Keel Infrastructure (KEEL) has recently drawn investor attention after a sharp move in the share price, with the stock showing strong gains over the month and the past 3 months from a relatively low base. See our latest analysis "
+    },
+    {
+      "date": "2026-05-07",
+      "headline": "Keel Infrastructure (KEEL) Is Up 50.4% After Pivoting From Bitcoin Mines To AI Data Centers - Has The Bull Case Changed?",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/keel-infrastructure-keel-50-4-182220133.html",
+      "sentiment": "neutral",
+      "summary": "In recent days, Keel Infrastructure Corp. has accelerated its shift away from bitcoin mining by selling its 70 MW Paso Pe site in Paraguay for about US$13 million and winning a major government-backed national highway PPP project, while also refocusing on high-performance computi"
+    },
+    {
+      "date": "2026-05-06",
+      "headline": "Stock Market Today, May 6: Keel Infrastructure Corp. Rises as Analyst Coverage Reframes Its Shift Toward Power-Backed AI Infrastructure",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/05/06/stock-market-today-may-6-keel-infrastructure-corp-rises-as-analyst-coverage-reframes-its-shift-toward-power-backed-ai-infrastructure/",
+      "sentiment": "neutral",
+      "summary": "Keel\u2019s rally followed new analyst coverage focused on its shift from bitcoin mining toward power-backed AI/HPC infrastructure, with the next test centered on turning North American sites into leased data center revenue."
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.4461,
+    "insiderPct": 0.046,
+    "shortInterest": 0.1231,
+    "topHolders": [
+      {
+        "name": "Jane Street Group, LLC",
+        "pct": 0.0345
+      },
+      {
+        "name": "Situational Awareness Partners LP",
+        "pct": 0.033
+      },
+      {
+        "name": "Situational Awareness LP",
+        "pct": 0.033
+      },
+      {
+        "name": "Citadel Advisors Llc",
+        "pct": 0.0225
+      },
+      {
+        "name": "Invesco Ltd.",
+        "pct": 0.0199
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

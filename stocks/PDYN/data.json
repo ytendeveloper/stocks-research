@@ -2,18 +2,18 @@
   "ticker": "PDYN",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Palladyne AI",
-    "exchange": "",
-    "sector": "Defense/AI",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Palladyne AI Corp.",
+    "exchange": "NGM",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "country": "United States",
+    "headquarters": "Salt Lake City, UT",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "AI autonomy stack for unmanned systems. Enables collaborative drone swarms.",
+    "ceo": "Mr. Benjamin G. Wolff J.D.",
+    "employees": 161,
+    "website": "https://www.palladyneai.com",
+    "description": "Palladyne AI Corp., a technology company, develops and offers embodied artificial intelligence software and collaborative autonomy solutions in the United States. Its Artificial Intelligence (AI)/ Machine Learning (ML) Foundational Technology enables robots to observe, learn, reason, and act in unstructured. In addition, the company's technologies enable robotic systems to perceive their environment and quickly adapt to changing circumstances by generalizing from their experience using dynamic real-time operations without extensive programming, training, or the latency associated with processing in the cloud. Further, it offers Palladyne IQ used with industrial robots and cobots, enabling them to learn multiple tasks and handle disruptions or obstacles; and develops Palladyne Pilot for use with unmanned platform, such as UAVs to enable persistent detection, identification, tracking, and classification of objects of interest by sharing situational awareness information across multiple drones that is derived by fusing multi-modal sensor data. It serves industrial manufacturing, defense, infrastructure maintenance, repair and surveillance, energy, and aerospace and aviation industries. The company was formerly known as Sarcos Technology and Robotics Corporation and changed its name to Palladyne AI Corp. in March 2024. Palladyne AI Corp. is headquartered in Salt Lake City, Utah.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,100 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$5.2M FY25",
-    "revenueGrowth": -4.15,
-    "pe": "N/A",
+    "asOf": "2026-05-23",
+    "revenue": "$7.1M",
+    "revenueGrowth": 1.069,
+    "pe": -9.01,
     "profitable": false,
     "backlog": "$17M"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$3.5M",
+      "grossMargin": 0.301,
+      "operatingIncome": "-$11.9M",
+      "netIncome": "-$12.6M",
+      "eps": -0.28,
+      "revenueYoY": 1.0588
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$1.7M",
+      "grossMargin": 0.1559,
+      "operatingIncome": "-$9.3M",
+      "netIncome": "-$1.5M",
+      "eps": -0.04
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$860K",
+      "grossMargin": 0.464,
+      "operatingIncome": "-$8.1M",
+      "netIncome": "-$3.7M",
+      "eps": -0.09
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$1.0M",
+      "grossMargin": 0.533,
+      "operatingIncome": "-$8.1M",
+      "netIncome": "-$7.5M",
+      "eps": -0.2
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$1.7M",
+      "grossMargin": 0.7936,
+      "operatingIncome": "-$6.9M",
+      "netIncome": "$22.8M",
+      "eps": 0.55
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31"
+    },
+    {
+      "period": "2024-Q3",
+      "reportDate": "2024-09-30"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$5.2M",
+      "grossMargin": 0.4872,
+      "operatingIncome": "-$32.4M",
+      "netIncome": "$10.0M",
+      "eps": 0.26,
+      "revenueYoY": -0.3333
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$7.8M",
+      "grossMargin": 0.552,
+      "operatingIncome": "-$27.1M",
+      "netIncome": "-$72.6M",
+      "eps": -2.71,
+      "revenueYoY": 0.2787
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$6.1M",
+      "grossMargin": 0.1798,
+      "operatingIncome": "-$83.0M",
+      "netIncome": "-$115.6M",
+      "eps": -4.51
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 3.5,
@@ -120,8 +205,116 @@
       "unprofitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-12",
+      "headline": "Datavault AI Installs Distributed Edge Network Ahead of CLARITY Act Senate Vote",
+      "source": "IPO-Edge.com",
+      "url": "https://finance.yahoo.com/news/datavault-ai-installs-distributed-edge-212751373.html",
+      "sentiment": "neutral",
+      "summary": "By Karen Roman Datavault AI Inc. (Nasdaq: DVLT) said it is deploying a distributed network of modular mini data centers across more than 100 metropolitan markets ahead of the U.S. [\u2026]"
+    },
+    {
+      "date": "2026-05-12",
+      "headline": "Palladyne AI Corp (PDYN) Stock Target Revised At Jefferies",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/palladyne-ai-corp-pdyn-stock-180459495.html",
+      "sentiment": "neutral",
+      "summary": "Palladyne AI Corp (NASDAQ:PDYN) is one of the best small cap robotics stocks to buy according to analysts. Palladyne stock is up about 30% year-to-date, and most analysts on the Street expect the stock to rise more. On May 7, Jefferies cut its price target on Palladyne AI Corp (N"
+    },
+    {
+      "date": "2026-05-09",
+      "headline": "Why Palladyne AI (PDYN) Is Gaining Ground in Defense and Industrial Autonomy",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-palladyne-ai-pdyn-gaining-094110933.html",
+      "sentiment": "neutral",
+      "summary": "Palladyne AI Corp. (NASDAQ:PDYN) is one of the best emerging technology stocks to invest in now. The latest emerging-tech story came on May 5, 2026, when Palladyne AI Corp. (NASDAQ:PDYN) reported first-quarter results for what it called its first full quarter as a vertically inte"
+    },
+    {
+      "date": "2026-05-09",
+      "headline": "A Look At Palladyne AI (PDYN) Valuation After Q1 2026 Revenue Surge And Backlog Growth",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/look-palladyne-ai-pdyn-valuation-022047007.html",
+      "sentiment": "neutral",
+      "summary": "Palladyne AI (PDYN) is back in focus after its Q1 2026 update, which paired more than doubled revenue and a larger contract backlog with wider losses, while management kept full year guidance unchanged. See our latest analysis for Palladyne AI. The Q1 update landed after a choppy"
+    },
+    {
+      "date": "2026-05-05",
+      "headline": "Palladyne AI Corp. Q1 2026 Earnings Call Summary",
+      "source": "Moby",
+      "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-palladyne-ai-corp-q1-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
+      "sentiment": "neutral",
+      "summary": "Moby summary of Palladyne AI Corp.'s Q1 2026 earnings call"
+    },
+    {
+      "date": "2026-05-05",
+      "headline": "Palladyne AI (PDYN) Q1 2026 Earnings Transcript",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/05/05/palladyne-ai-pdyn-q1-2026-earnings-transcript/",
+      "sentiment": "neutral",
+      "summary": "It is now my pleasure to introduce your host, Brian Siegel with Hayden IR.  Joining me on the call today are Ben Wolff, President and Chief Executive Officer; and Trevor Thatcher, Chief Financial Officer."
+    },
+    {
+      "date": "2026-05-05",
+      "headline": "Palladyne AI Q1 Earnings Call Highlights",
+      "source": "MarketBeat",
+      "url": "https://www.marketbeat.com/instant-alerts/palladyne-ai-q1-earnings-call-highlights-2026-05-05/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "sentiment": "neutral",
+      "summary": "Palladyne AI (NASDAQ:PDYN) reported first-quarter fiscal 2026 revenue of $3.5 million, up 107% year-over-year, and reiterated its full-year 2026 revenue guidance of $24 million to $27 million as management pointed to a growing contract backlog and increased defense program activi"
+    },
+    {
+      "date": "2026-05-01",
+      "headline": "Strong Investor Sentiment on Palladyne AI (PDYN) Amid New Patent and Bullish Analyst Coverage",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/strong-investor-sentiment-palladyne-ai-144616416.html",
+      "sentiment": "neutral",
+      "summary": "With a street-high upside potential of 121.9%, Palladyne AI Corp. (NASDAQ:PDYN) ranks among the 10 best robotics stocks to buy under $30. Palladyne AI Corp. (NASDAQ:PDYN) has been drawing attention from both the investment community and the patent office in recent weeks, with the"
+    },
+    {
+      "date": "2026-04-06",
+      "headline": "The Arms Race Has Gone Airborne: What Investors Need to Know",
+      "source": "MarketBeat",
+      "url": "https://www.marketbeat.com/originals/the-arms-race-has-gone-airborne-what-investors-need-to-know-about-drone-warfares-next-phase/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "sentiment": "neutral",
+      "summary": "Draganfly CEO Cameron Chell explains how edge AI, swarm technology, and rising global defense budgets are accelerating the autonomous drone sector into a policy-driven super cycle."
+    },
+    {
+      "date": "2026-04-06",
+      "headline": "Undiscovered Gems In The US Market For April 2026",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/undiscovered-gems-us-market-april-173332417.html",
+      "sentiment": "neutral",
+      "summary": "The United States market has shown impressive strength, rising 3.5% over the last week and climbing 31% over the past year, with earnings projected to grow by 16% annually. In such a robust environment, identifying lesser-known stocks with strong fundamentals and growth potential"
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.2404,
+    "insiderPct": 0.2488,
+    "shortInterest": 0.1635,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.0468
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0294
+      },
+      {
+        "name": "Raymond James Financial, Inc.",
+        "pct": 0.0253
+      },
+      {
+        "name": "Geode Capital Management, LLC",
+        "pct": 0.0166
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0134
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",

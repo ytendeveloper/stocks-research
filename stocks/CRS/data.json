@@ -2,18 +2,18 @@
   "ticker": "CRS",
   "schemaVersion": "1.0",
   "static": {
-    "name": "Carpenter Technology",
-    "exchange": "",
-    "sector": "Materials",
-    "industry": "",
-    "country": "USA",
-    "headquarters": "",
+    "name": "Carpenter Technology Corporation",
+    "exchange": "NYQ",
+    "sector": "Industrials",
+    "industry": "Metal Fabrication",
+    "country": "United States",
+    "headquarters": "Philadelphia, PA",
     "founded": null,
     "ipoDate": "",
-    "ceo": "",
-    "employees": null,
-    "website": "",
-    "description": "Directly in rocket engine supply chain. NASA partnership for next-gen propulsion alloys.",
+    "ceo": "Mr. Tony R. Thene CPA",
+    "employees": 4500,
+    "website": "https://www.carpentertechnology.com",
+    "description": "Carpenter Technology Corporation engages in the manufacture, fabrication, and distribution of specialty metals in the United States, Europe, the Asia Pacific, Mexico, Canada, and internationally. It operates in two segments, Specialty Alloys Operations and Performance Engineered Products. The company offers specialty alloys, including titanium alloys, powder metals, stainless steels, alloy steels, and tool steels, as well as metal powders and parts. It serves the aerospace, defense, medical, transportation, energy, industrial, and consumer markets. The company was founded in 1889 and is headquartered in Philadelphia, Pennsylvania.",
     "businessSegments": [],
     "tags": [
       "space"
@@ -85,15 +85,92 @@
     ]
   },
   "ttm": {
-    "asOf": "2026-05-22",
-    "revenue": "$3.03B TTM",
-    "revenueGrowth": 0.04,
-    "pe": "30",
+    "asOf": "2026-05-23",
+    "revenue": "$3.03B",
+    "revenueGrowth": 0.116,
+    "pe": 45.65,
     "profitable": true,
     "backlog": "N/A"
   },
-  "quarterly": [],
-  "annual": [],
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$811.5M",
+      "grossMargin": 0.3103,
+      "operatingIncome": "$186.5M",
+      "netIncome": "$139.6M",
+      "eps": 2.79,
+      "revenueYoY": 0.1162
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$728.0M",
+      "grossMargin": 0.2999,
+      "operatingIncome": "$155.2M",
+      "netIncome": "$105.3M",
+      "eps": 2.1
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$733.7M",
+      "grossMargin": 0.2949,
+      "operatingIncome": "$153.3M",
+      "netIncome": "$122.5M",
+      "eps": 2.45
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$755.6M",
+      "grossMargin": 0.2832,
+      "operatingIncome": "$151.4M",
+      "netIncome": "$111.7M",
+      "eps": 2.23
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$727.0M",
+      "grossMargin": 0.2762,
+      "operatingIncome": "$137.8M",
+      "netIncome": "$95.4M",
+      "eps": 1.9
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-06-30",
+      "revenue": "$2.88B",
+      "grossMargin": 0.2671,
+      "operatingIncome": "$525.4M",
+      "netIncome": "$376.0M",
+      "eps": 7.5,
+      "revenueYoY": 0.0435
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-06-30",
+      "revenue": "$2.76B",
+      "grossMargin": 0.2117,
+      "operatingIncome": "$354.1M",
+      "netIncome": "$186.5M",
+      "eps": 3.75,
+      "revenueYoY": 0.0824
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-06-30",
+      "revenue": "$2.55B",
+      "grossMargin": 0.1323,
+      "operatingIncome": "$133.1M",
+      "netIncome": "$56.4M",
+      "eps": 1.15
+    }
+  ],
   "claude": {
     "lastAnalyzedAt": "2026-05-22",
     "score": 3.5,
@@ -119,8 +196,116 @@
       "profitable"
     ]
   },
-  "news": [],
-  "ownership": {},
+  "news": [
+    {
+      "date": "2026-05-23",
+      "headline": "Carpenter Technology: This Stock Will Melt Up",
+      "source": "Barrons.com",
+      "url": "https://www.barrons.com/articles/carpenter-technology-stock-melt-up-b57d0b6e?siteid=yhoof2&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "Earnings momentum, pricing power, and barriers to entry can help the alloy manufacturer\u2019s stock advance 42% from here."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Is Carpenter Technology (CRS) Stock Outpacing Its Basic Materials Peers This Year?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/carpenter-technology-crs-stock-outpacing-134002381.html",
+      "sentiment": "neutral",
+      "summary": "Here is how Carpenter Technology (CRS) and Lithium Americas Corp. (LAC) have performed compared to their sector so far this year."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "What to Know About This Fund's $30 Million Sale of an AI Marketing Stock Now Up 37%",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/filings/2026/05/21/what-to-know-about-this-fund-s-usd30-million-sale-of-an-ai-marketing-stock-now-up-37/",
+      "sentiment": "neutral",
+      "summary": "Specializing in data-driven marketing automation, Zeta Global serves enterprise clients with cloud-based analytics and SaaS solutions."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "This Sports Tech Stock Is Down 50%. One Fund Just Cut Its Stake by Nearly $20 Million",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/filings/2026/05/21/this-sports-tech-stock-is-down-50-one-fund-just-cut-its-stake-by-nearly-usd20-million/",
+      "sentiment": "neutral",
+      "summary": "Genius Sports provides real-time data, streaming, and integrity solutions for sports leagues, betting operators, and media partners."
+    },
+    {
+      "date": "2026-05-19",
+      "headline": "Forest Avenue Capital Adds to Par Pacific Stake, According to Recent SEC Filing",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/filings/2026/05/18/forest-avenue-capital-adds-to-par-pacific-stake-according-to-recent-sec-filing/",
+      "sentiment": "neutral",
+      "summary": "Par Pacific\u2019s regional refining model gives investors a more nuanced question after its big run: whether Hawaii-led strength deserves confidence beyond the current margin cycle."
+    },
+    {
+      "date": "2026-05-18",
+      "headline": "Beat the Market Like Zacks: Acadian, Micron, UnitedHealth in Focus",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/beat-market-zacks-acadian-micron-130200713.html",
+      "sentiment": "neutral",
+      "summary": "MU, UNH and AAMI led standout gains as Zacks highlighted top-performing portfolios amid volatile markets and inflation worries."
+    },
+    {
+      "date": "2026-05-14",
+      "headline": "Russell 1000 Is Hiding Some Big AI Winners",
+      "source": "Barrons.com",
+      "url": "https://www.barrons.com/livecoverage/stock-market-news-today-051426/card/russell-1000-is-hiding-some-big-ai-winners-m7agggJx8Sir7Vd57iLs?siteid=yhoof2&yptr=yahoo",
+      "sentiment": "neutral",
+      "summary": "The Russell 1000--an index tracking the top 1,000 stocks with a small market value--has 16 members that have gained more than 1,000% since Oct. 12, 2022, when the broad market bottomed.  At the top of the list is Vertiv Holdings, a stock that has gained 3,307% in that period.  \"A"
+    },
+    {
+      "date": "2026-05-09",
+      "headline": "Is It Too Late To Consider Carpenter Technology (CRS) After Its 113% One Year Surge?",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/too-consider-carpenter-technology-crs-171247231.html",
+      "sentiment": "neutral",
+      "summary": "If you are wondering whether Carpenter Technology's strong run still leaves value on the table, it helps to step back and look at what the recent share price is actually implying. The stock recently closed at US$445.14, with returns of 4.0% over 7 days, 13.0% over 30 days, 31.6% "
+    },
+    {
+      "date": "2026-05-07",
+      "headline": "Why This Fund\u2019s $8 Million Patterson-UTI Bet Looks Like a Bullish Oil Recovery Trade",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/filings/2026/05/07/why-this-fund-s-usd8-million-patterson-uti-bet-looks-like-a-bullish-oil-recovery-trade/",
+      "sentiment": "neutral",
+      "summary": "Patterson-UTI Energy delivers contract drilling and pressure pumping services to oil and gas producers across North America."
+    },
+    {
+      "date": "2026-05-07",
+      "headline": "Lisanti Capital Dumps $5.4 Million Alphatec Stake as Medical Device Maker Struggles",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/filings/2026/05/07/lisanti-capital-dumps-usd5-4-million-alphatec-stake-as-medical-device-maker-struggles/",
+      "sentiment": "neutral",
+      "summary": "This medical technology company delivers advanced spinal surgery devices and biologics to U.S. hospitals and healthcare providers."
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-23",
+    "institutionalPct": 0.9767,
+    "insiderPct": 0.0241,
+    "shortInterest": 0.0354,
+    "topHolders": [
+      {
+        "name": "Blackrock Inc.",
+        "pct": 0.1172
+      },
+      {
+        "name": "FMR, LLC",
+        "pct": 0.0871
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0434
+      },
+      {
+        "name": "Vanguard Portfolio Management LLC",
+        "pct": 0.0414
+      },
+      {
+        "name": "State Street Corporation",
+        "pct": 0.0404
+      }
+    ]
+  },
   "links": {
     "investorRelations": "",
     "secFilings": "",
