@@ -346,7 +346,7 @@ function tickerChipHtml(t) {
     const colorOf = v => Math.abs(v) >= 5 ? (v >= 0 ? 'pos' : 'neg') : 'dim';
     indicator = `<span class="mom-pair"><span class="mom-badge ${colorOf(dT)}" title="5-day">${fmt(dT)}</span><span class="mom-badge ${colorOf(wT)}" title="5-week">${fmt(wT)}</span></span>`;
   }
-  return `<a href="stocks/${t}/index.html" class="${cls}" title="5d: ${dT.toFixed(1)}%  5w: ${wT.toFixed(1)}%" onclick="event.stopPropagation()">${t}${indicator}</a>`;
+  return `<a href="stock-detail.html?ticker=${t}" class="${cls}" title="5d: ${dT.toFixed(1)}%  5w: ${wT.toFixed(1)}%" onclick="event.stopPropagation()">${t}${indicator}</a>`;
 }
 
 // --- Render LISTS ---
@@ -484,7 +484,7 @@ function renderTable() {
     const dCls = dT>=0?'positive':'negative', wCls = wT>=0?'positive':'negative';
     const dSign = dT>=0?'+':'', wSign = wT>=0?'+':'';
     return `<tr>
-      <td><a href="stocks/${r.ticker}/index.html">${r.ticker}</a></td>
+      <td><a href="stock-detail.html?ticker=${r.ticker}">${r.ticker}</a></td>
       <td>${esc(r.name||'')}</td>
       <td class="rating-cell ${scCls}">${r.score != null ? r.score + '/' + scaleMax : '—'}</td>
       <td>${esc(r.sector||'—')}</td>
