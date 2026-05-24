@@ -1,0 +1,318 @@
+{
+  "ticker": "AXTI",
+  "schemaVersion": "1.0",
+  "static": {
+    "name": "AXT, Inc.",
+    "exchange": "NMS",
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "country": "United States",
+    "headquarters": "Fremont, CA",
+    "founded": null,
+    "ipoDate": "",
+    "ceo": "Dr. Morris S. Young Ph.D.",
+    "employees": 1541,
+    "website": "https://www.axt.com",
+    "description": "AXT, Inc. designs, develops, manufactures, and distributes compound and single element semiconductor substrates. The company provides indium phosphide for use in data center connectivity using light/lasers, high-speed data transfer in data centers, 5G communications, fiber optic lasers and detectors, consumer devices, passive optical networks, silicon photonics, photonic integrated circuits, thermo-photovoltaics, RF amplifier and switching, infrared light-emitting diode (LEDS) motion control, lidar for robotics and autonomous vehicles, and infrared thermal imaging. It also offers semi-insulating gallium arsenide (GaAs) substrates for use in Wi-Fi and IoT devices, transistors, direct broadcast television, power amplifiers, satellite communications, and solar cells; and semi-conducting GaAs substrates that are used in LEDs, screen displays using micro-LEDs, printer head lasers and LEDs, 3-D sensing using VCSELs, data center communication using VCSELs, sensors for industrial robotics/near-infrared sensors, laser machining, cutting and drilling, optical couplers, solar cells, night vision goggles, lidar for robotics and autonomous vehicles, and other lasers. In addition, the company provides germanium substrates for use in multi-junction solar cells for satellites, optical sensors and detectors, terrestrial concentrated photo voltaic cells, infrared detectors, and carrier wafer for LED. Further, it offers 6N+ and 7N+ purified gallium, boron trioxide, gallium-magnesium alloy, pyrolytic boron nitride (pBN) crucibles, and pBN insulating parts. It sells its products through direct salesforce in the United States, China, and Europe, as well as through independent sales representatives and distributors in Japan, Taiwan, Korea, and internationally. The company was formerly known as American Xtal Technology, Inc. and changed its name to AXT, Inc. in July 2000. AXT, Inc. was incorporated in 1986 and is headquartered in Fremont, California.",
+    "businessSegments": [],
+    "tags": [
+      "space"
+    ],
+    "themes": []
+  },
+  "userNotes": [],
+  "daily": {
+    "asOf": "2026-05-24",
+    "price": 140.83,
+    "change": 19.81,
+    "changePct": 16.37,
+    "volume": 10143900,
+    "avgVolume": 10680355,
+    "dayHigh": 141.37,
+    "dayLow": 116.01,
+    "fiftyTwoWeekHigh": 141.37,
+    "fiftyTwoWeekLow": 1.45,
+    "marketCap": "$9.2B",
+    "history": [
+      {
+        "date": "2026-05-22",
+        "close": 140.83,
+        "change": 16.37,
+        "volume": 10143900
+      },
+      {
+        "date": "2026-05-21",
+        "close": 121.02,
+        "change": 15.69,
+        "volume": 9054300
+      },
+      {
+        "date": "2026-05-20",
+        "close": 104.61,
+        "change": -7.33,
+        "volume": 7425200
+      },
+      {
+        "date": "2026-05-19",
+        "close": 112.88,
+        "change": 6.61,
+        "volume": 9585900
+      },
+      {
+        "date": "2026-05-18",
+        "close": 105.88,
+        "change": -14.46,
+        "volume": 11783800
+      }
+    ],
+    "fiveDayChangePct": 13.77,
+    "fiveWeekChangePct": 70.58,
+    "fiveDayChanges": [
+      -14.46,
+      6.61,
+      -7.33,
+      15.69,
+      16.37
+    ],
+    "fiveWeekChanges": [
+      -7.75,
+      26.05,
+      21.21,
+      6.38,
+      13.77
+    ]
+  },
+  "ttm": {
+    "asOf": "2026-05-24",
+    "revenue": "$95.9M",
+    "revenueGrowth": 0.391,
+    "pe": 187.27,
+    "profitable": false,
+    "backlog": null
+  },
+  "quarterly": [
+    {
+      "period": "2026-Q1",
+      "reportDate": "2026-03-31",
+      "revenue": "$26.9M",
+      "grossMargin": 0.2963,
+      "operatingIncome": "-$1.6M",
+      "netIncome": "-$1.6M",
+      "eps": -0.03,
+      "revenueYoY": 0.3866
+    },
+    {
+      "period": "2025-Q4",
+      "reportDate": "2025-12-31",
+      "revenue": "$23.0M",
+      "grossMargin": 0.2095,
+      "operatingIncome": "-$2.5M",
+      "netIncome": "-$3.5M",
+      "eps": -0.08
+    },
+    {
+      "period": "2025-Q3",
+      "reportDate": "2025-09-30",
+      "revenue": "$28.0M",
+      "grossMargin": 0.2226,
+      "operatingIncome": "-$1.1M",
+      "netIncome": "-$1.9M",
+      "eps": -0.04
+    },
+    {
+      "period": "2025-Q2",
+      "reportDate": "2025-06-30",
+      "revenue": "$18.0M",
+      "grossMargin": 0.0797,
+      "operatingIncome": "-$6.7M",
+      "netIncome": "-$7.0M",
+      "eps": -0.16
+    },
+    {
+      "period": "2025-Q1",
+      "reportDate": "2025-03-31",
+      "revenue": "$19.4M",
+      "grossMargin": -0.0641,
+      "operatingIncome": "-$10.3M",
+      "netIncome": "-$8.8M",
+      "eps": -0.2
+    },
+    {
+      "period": "2024-Q4",
+      "reportDate": "2024-12-31"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "reportDate": "2025-12-31",
+      "revenue": "$88.3M",
+      "grossMargin": 0.1273,
+      "operatingIncome": "-$20.6M",
+      "netIncome": "-$21.3M",
+      "eps": -0.49,
+      "revenueYoY": -0.1117
+    },
+    {
+      "year": 2024,
+      "reportDate": "2024-12-31",
+      "revenue": "$99.4M",
+      "grossMargin": 0.2399,
+      "operatingIncome": "-$12.6M",
+      "netIncome": "-$11.6M",
+      "eps": -0.27,
+      "revenueYoY": 0.3113
+    },
+    {
+      "year": 2023,
+      "reportDate": "2023-12-31",
+      "revenue": "$75.8M",
+      "grossMargin": 0.1757,
+      "operatingIncome": "-$19.0M",
+      "netIncome": "-$17.9M",
+      "eps": -0.42
+    }
+  ],
+  "claude": {
+    "lastAnalyzedAt": "2026-05-24",
+    "score": null,
+    "scoreScale": "1-5",
+    "conviction": "",
+    "stance": "",
+    "thesis": "",
+    "bullCase": [],
+    "bearCase": [],
+    "catalysts": [],
+    "risks": [],
+    "valuation": {},
+    "notes": [],
+    "derivedTags": [
+      "mid-cap",
+      "unprofitable"
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-05-23",
+      "headline": "AXT Inc. (AXTI) on All-Time High Ahead of Earnings Outcome on Thursday",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/axt-inc-axti-time-high-091727418.html",
+      "sentiment": "neutral",
+      "summary": "AXT Inc. (NASDAQ:AXTI) is one of the 10 Stocks Effortlessly Climbing Double-Digits. Dell Technologies climbed to a new all-time high on Friday, as investors loaded portfolios ahead of the results of its earnings performance for the first quarter of fiscal year 2027. In intra-day "
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "AXT Inc. (AXTI) Climbs to All-Time High Ahead of Investor Meeting",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/axt-inc-axti-climbs-time-091420389.html",
+      "sentiment": "neutral",
+      "summary": "AXT Inc. (NASDAQ:AXTI) is one of the 10 Stocks Effortlessly Climbing Double-Digits. AXT Inc. soared to a fresh all-time high on Friday, as investors resumed buying positions ahead of the company\u2019s annual shareholders\u2019 meeting in the next few weeks. After failing to hit the requir"
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "AXT Inc. (AXTI) Soars 15.7% Ahead of Key Updates",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/axt-inc-axti-soars-15-002607400.html",
+      "sentiment": "neutral",
+      "summary": "AXT Inc. (NASDAQ:AXTI) is one of the 10 Stocks With Shocking Overnight Gains. AXT Inc. climbed by 15.69 percent on Thursday to close at $121.02 apiece, in line with its participation at a conference during the day. Investors loaded portfolios in anticipation of business updates f"
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "Why AXT (AXTI) Is Down 14.2% After Betting Big On AI-Focused Indium Phosphide Expansion",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-axt-axti-down-14-231554413.html",
+      "sentiment": "neutral",
+      "summary": "AXT\u2019s recent results showed stronger demand for its indium phosphide substrates used in AI data centers, with revenue improving and net losses narrowing, supported by a US$632.5 million equity raise to expand capacity and fund research and development. The company\u2019s backlog tied "
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "Assessing AXT (AXTI) Valuation As Analyst Targets Diverge From Recent Share Price Moves",
+      "source": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-axt-axti-valuation-analyst-221132444.html",
+      "sentiment": "neutral",
+      "summary": "Why AXT (AXTI) is on investors\u2019 radar today AXT (AXTI) has drawn attention after recent trading, with the stock showing mixed short term moves but strong longer term returns, including a gain over the past month and past 3 months. See our latest analysis for AXT. At a share price"
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "Can AXTI's Margins Continue to Improve as AXTI Nears Profitability in 2026?",
+      "source": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/axtis-margins-continue-improve-axti-183300367.html",
+      "sentiment": "neutral",
+      "summary": "AXTI's margins surge in Q1 as AI-driven indium phosphide demand, pricing actions and factory leverage push the company toward profitability in 2026."
+    },
+    {
+      "date": "2026-05-20",
+      "headline": "AXT Inc. (AXTI) Jumps 6.6%, Investors Gear Up for Business Updates",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/axt-inc-axti-jumps-6-031336743.html",
+      "sentiment": "neutral",
+      "summary": "AXT Inc. (NASDAQ:AXTI) is one of the 10 Stocks With Powerful Gains. AXT saw its share prices jump by 6.61 percent on Tuesday to close at $112.88 apiece, as investors loaded portfolios ahead of expected business updates, with the company set to participate in three investor confer"
+    },
+    {
+      "date": "2026-05-16",
+      "headline": "AXT Turned the AI Data Center Boom Into an 8,436% 1-Year Return",
+      "source": "Barchart",
+      "url": "https://www.barchart.com/story/news/1976979/axt-turned-the-ai-data-center-boom-into-an-8-436-1-year-return",
+      "sentiment": "neutral",
+      "summary": "AI infrastructure spending is reshaping the semiconductor supply chain in unexpected ways. AXT emerged as one of the market\u2019s top performers by supplying materials essential to modern data centers."
+    },
+    {
+      "date": "2026-05-16",
+      "headline": "AXT Inc. (AXTI) Soars 7.6% on Bargain-Hunting",
+      "source": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/axt-inc-axti-soars-7-014732271.html",
+      "sentiment": "neutral",
+      "summary": "AXT Inc. (NASDAQ:AXTI) is one of the 10 Stocks Dominating With Powerful Gains. AXT Inc. bounced back by 7.65 percent on Friday to close at $123.78 apiece as investors resorted to bargain-hunting following three consecutive days of losses. The rally was primarily driven by continu"
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "Optical stocks are booming. Here\u2019s how to invest in one of the most explosive areas of tech.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/optical-stocks-are-booming-heres-how-to-invest-in-one-of-the-most-explosive-areas-of-tech-13374178",
+      "sentiment": "neutral",
+      "summary": "Investors are pouring money quickly into a new ETF that invests in companies involved with photonics and photolithography."
+    }
+  ],
+  "ownership": {
+    "asOf": "2026-05-24",
+    "institutionalPct": 0.5773,
+    "insiderPct": 0.0742,
+    "shortInterest": 0.1205,
+    "topHolders": [
+      {
+        "name": "Jane Street Group, LLC",
+        "pct": 0.0371
+      },
+      {
+        "name": "Vanguard Capital Management LLC",
+        "pct": 0.0348
+      },
+      {
+        "name": "E20 Capital Ltd",
+        "pct": 0.0316
+      },
+      {
+        "name": "Assenagon Asset Management S.A.",
+        "pct": 0.023
+      },
+      {
+        "name": "Morgan Stanley",
+        "pct": 0.0221
+      }
+    ]
+  },
+  "links": {
+    "investorRelations": "",
+    "secFilings": "",
+    "earningsCallTranscripts": "",
+    "researchPage": "stock-detail.html?ticker=AXTI"
+  },
+  "meta": {
+    "createdAt": "2026-05-24",
+    "updatedAt": "2026-05-24",
+    "schemaVersion": "1.0",
+    "dataSources": [
+      "manual"
+    ]
+  }
+}
